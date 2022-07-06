@@ -1,0 +1,17 @@
+;;; Work on Common Lisp
+
+;; test something quick, load a scratch buffer and slime later
+	M-x slime-scratch
+
+;; after writing a function, result show in the minibuffer
+	C-M-x		(to run it)
+
+;; compile the 
+
+;; after writing several functions
+;; in necessary to create and work in a file .lisp
+;; to compile and load the file
+	C-c C-k
+
+;; this let you run a function with values
+
