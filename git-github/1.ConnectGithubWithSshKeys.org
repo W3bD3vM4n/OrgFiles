@@ -1,0 +1,113 @@
+#+title:    Connect Github with SSH keys
+#+author:   h4ss4n
+#+date:     2022-07-06 mie
+
+* Using the Terminal
+
+1. Check for existing SSH keys.
+
+   With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit.
+
+   #+begin_src bash
+
+        ls -al ~/.ssh
+
+   #+end_src
+
+   List the files in your .ssh directory, if they exist:
+
+   - id_rsa.pub
+   - id_ecdsa.pub
+   - id_ed25519.pub
+
+2. Generate a new SSH key and adding it to the ssh-agent.
+
+   #+begin_src bash
+
+        ssh-keygen -t ed25519 -C "your_email@example.com"
+
+   #+end_src
+
+   This creates a new SSH key, using the provided email as a label:
+
+   a. When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
+   b. At the prompt when ask to type a secure passphrase, let it empty by press Enter.
+   c. When asked again, press Enter.
+
+3. Add your SSH key to the ssh-agent.
+
+   a. Start the agent in the background.
+
+      #+begin_src bash
+
+        eval "$(ssh-agent -s)"
+
+      #+end_src
+
+   Depending on your environment, you may need to use a different command. For example, you may need to use root access by running sudo -s -H before starting the ssh-agent, or you may need to use exec ssh-agent bash or exec ssh-agent zsh to run the ssh-agent.
+
+   b. Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_ed25519 in the command with the name of your private key file.
+
+      #+begin_src bash
+
+        ssh-add ~/.ssh/id_ed25519
+
+      #+end_src
+
+4. Add the SSH key to your account on GitHub.
+
+   a. Copy the SSH public key to your clipboard.
+
+      #+begin_src bash
+
+        cat ~/.ssh/id_ed25519.pub
+
+      #+end_src
+
+      Then select and copy the contents of the id_ed25519.pub file displayed in the terminal to your clipboard.
+
+   b. In the upper-right corner of any page, click your profile photo, then click *Settings*.
+
+   c. In the "Access" section of the sidebar, click *SSH and GPG keys*.
+
+   d. Click *New SSH key* and in the "Title" field, add a descriptive label for the new key.
+
+   e. Paste your key into the "Key" field and click *Add SSH key*.
+
+   f. If prompted, confirm your GitHub password.
+
+5. Test your SSH connection.
+
+   a. You'll need to authenticate this action using your password, which is the SSH key passphrase you created earlier.
+
+      #+begin_src bash
+
+        ssh -T git@github.com
+
+      #+end_src
+
+      You may see a warning like this:
+
+      > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+      > RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+      > Are you sure you want to continue connecting (yes/no)?
+
+   b. Verify that the fingerprint in the message you see matches.
+
+      These are GitHub's public key fingerprints:
+
+      - SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8 (RSA)
+      - SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM (ECDSA)
+      - SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU (Ed25519)
+
+   c. If it does, then type yes.
+
+      > Hi username! You've successfully authenticated, but GitHub does not
+      > provide shell access.
+
+*Source*:
+
+- [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys]]
+- [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent]]
+- [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account]]
+- [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection]]
