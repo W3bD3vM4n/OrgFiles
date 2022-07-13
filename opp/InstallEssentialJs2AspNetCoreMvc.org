@@ -1,0 +1,105 @@
+#+title:    Essential JS 2 for ASP.NET Core MVC in Visual Studio
+#+author:   h4ss4n
+#+date:     2022-07-13 mie
+
+* Using Visual Studio 2022
+
+** Prerequisites
+
+- .NET 6.0 SDK
+- Visual Studio 2022 17.0 or later
+
+** Steps
+
+- Create ASP.NET MVC web application
+
+- Configure Essential JS 2 in the application
+  1. Right-click on the project and select Manage NuGet Packages.
+
+  2. Search and install 'Syncfusion.EJ2.AspNet.Core'.
+     - The package has dependencies, Newtonsoft.Json for JSON serialization and Syncfusion.Licensing for validating Syncfusion license key.
+
+  3. Open ~/Views/_ViewImports.cshtml file and add the Syncfusion.EJ2 namespace.
+
+     #+begin_src csharp
+
+        @using WebApplication1
+        @using WebApplication1.Models
+
+        @using Syncfusion.EJ2
+
+        @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+     #+end_src
+
+- Add a style sheet and a script reference using CDN inside the <head> of ~/Views/Shared/_Layout.cshtml file.
+
+    #+begin_src html
+
+       <head>
+         ...
+         <!-- Syncfusion ASP.NET Core controls styles -->
+         <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/20.2.36/material.css" />
+         <!-- Syncfusion ASP.NET Core controls scripts -->
+         <script src="https://cdn.syncfusion.com/ej2/20.2.36/dist/ej2.min.js"></script>
+       </head>
+
+    #+end_src
+
+- Open ~/Views/Shared/_Layout.cshtml page and register the script manager at the end of <body> in the ASP.NET Core application.
+
+    #+begin_src html
+
+       <body>
+         ...
+         <!-- Syncfusion Script Manager -->
+         @Html.EJS().ScriptManager()
+       </body>
+
+    #+end_src
+
+- Add the Syncfusion ASP.NET Core Calendar Html helper in ~/Views/Home/Index.cshtml page.
+
+    #+begin_src html
+
+       <div>
+         @Html.EJS().Calendar("calendar").Render()
+       </div>
+
+    #+end_src
+
+    Don't run the application until the lincese key is added to the project.
+
+- Generate the License Key
+
+  1. License keys can be generated from the License & Downloads section of the Syncfusion website: [[https://www.syncfusion.com/account/downloads]]
+
+     In the Bottom of the page click the link 'Get License Key' and a window will pop up, fill the *Platform:* ASP.NET Core and *Version:* <Syncfusion.EJ2.AspNet.Core current package's version>
+
+     Copy the 'License Key' content for later.
+
+  2. Register the license key in the Program.cs file.
+     - Place the license key between double quotes.
+     - The license validation is done offline during application execution and does not require internet access.
+
+    #+begin_src csharp
+
+        var app = builder.Build();
+        //Register Syncfusion license
+        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
+
+        // Configure the HTTP request pipeline.
+        if (!app.Environment.IsDevelopment())
+        {
+            app.UseExceptionHandler("/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
+        }
+
+    #+end_src
+
+   3. Run the application and test if the Essential JS 2 calendar component will render in the web browser.
+
+*Source:*
+- [[https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/aspnet-core-mvc-htmlhelper]]
+- [[https://ej2.syncfusion.com/aspnetcore/documentation/licensing/how-to-register-in-an-application]]
