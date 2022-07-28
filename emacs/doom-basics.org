@@ -1,0 +1,155 @@
+#+title:    Doom Basics
+#+author:   h4ss4n
+#+date:     2022-07-26 mar
+
+* Inside Emacs GUI
+
+** General
+
+*** Check the current version
+
+#+begin_quote
+
+    SPC h d v = version of emacs & doom
+
+#+end_quote
+
+*** Check for crashes
+
+Provide by an uptime counter
+
+#+begin_quote
+
+   M-x emacs-uptime
+
+#+end_quote
+
+** Configuration
+
+*** Open your Doom configuration files
+
+- Let you access to the '.doom.d' folder and the files inside it.
+
+#+begin_quote
+
+    SPC f p = find/open private config
+
+#+end_quote
+
+*** Reload the configuration files
+
+- Once edited and saved the files, it's possible to reload it even with Emacs still open.
+  The equivalent of Doom Sync outside Emacs.
+
+#+begin_quote
+
+    SPC h r r = doom reload (plus RET to run it)
+
+#+end_quote
+
+** Managing Files and Directories
+
+*** Find/open a file
+
+- To create a new file select the location, type the name and file extension.
+
+- To create a new folder select the location, the name of the folder and a '/' at the end.
+  This will open a new scratch buffer if a file to be created is not especified.
+
+#+begin_quote
+
+    SPC f f = find/open a file
+    SPC f r = open recent file
+    SPC f s = save a file
+
+#+end_quote
+
+** Managing Buffers
+
+#+begin_quote
+
+    SPC b i = move through buffers (select with hjkl and RET)
+    SPC b k = kill buffers
+
+#+end_quote
+
+** Text Editor
+
+*** Evil commands
+
+Uses the Vim keybindings
+
+#+begin_quote
+
+    j = move cursor down
+    k = move cursor up
+    h = move cursor left
+    l = move cursor right
+
+    w = go to next word's beginning
+    b = go to previous word's beginning
+    e = go to next word's end
+    ge = go to previous word's end
+    [number] + [h/l] = go to letter/word number column
+
+    gg = go to page's top
+    G = go to page's bottom
+    [number] + G = go to page's number row
+    [number] + [j/k] = go to page's relative number row
+
+    zt = scroll line to screen's top
+    zz = scroll line to screen's middle
+    zb = scroll line to screen's bottom
+
+    C-y = move view pane up
+    C-e = move view pane down
+    { = move up every space of paragraphs
+    } = move down every space of paragraphs
+
+    0 = go to line's beginning
+    $ = go to line's end
+    O = create a new space above
+    o = create a new space below
+
+    x = delete
+    d = cut
+    dd = cut all the line
+    y = copy (for use inside Vim)
+    "*y = copy (for use outside Vim)
+    p = paste
+
+    u = undo
+    C-r = redo
+    gu = make all lower letters
+    gU = make all upper letters
+
+    c + [movement/operator] = change
+    c + i + [text object] = change inner word/sentence/paragraph/etc
+    c + a + [text object] = change around word/sentence/paragraph/etc
+    cc = change all the line
+    r = replace
+    . = repeat the last change
+
+    i = enter insert mode (before letter down cursor)
+    v = enter visual mode (to select text)
+    a = append after letter (down cursor)
+    A = apprend last word of the line
+
+    f + [letter] = find next
+    F + [letter] = find previous
+    t + [operator/text object] = until next
+    T + [operator/text object] = until previous
+    / = search word
+    n = go to next find
+    N = go to previous find
+    % = jump to matching brackets {} [] ()
+
+#+end_quote
+
+*** Emacs commands
+
+#+begin_quote
+
+    C-g = cancel enter command (get me out)
+
+#+end_quote
