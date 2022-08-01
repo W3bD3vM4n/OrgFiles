@@ -24,6 +24,24 @@ Provide by an uptime counter
 
 #+end_quote
 
+** Look for Help
+
+*** Access to info manuals
+
+#+begin_quote
+
+    SPC h i = show a list of avaliable manuals
+
+#+end_quote
+
+*** Describe a key
+
+#+begin_quote
+
+    SPC h k = describe functionality and keybindings
+
+#+end_quote
+
 ** Configuration
 
 *** Open your Doom configuration files
@@ -47,6 +65,10 @@ Provide by an uptime counter
 
 #+end_quote
 
+- To changes take effect, close all Emacs instances and open it again.
+
+**** TODO try this with Emacs client (closing the server and clients?)
+
 ** Managing Files and Directories
 
 *** Find/open a file
@@ -68,10 +90,25 @@ Provide by an uptime counter
 
 #+begin_quote
 
+    SPC b x = pop up scratch buffer
+    SPC b b = switch workspace buffer
     SPC b i = move through buffers (select with hjkl and RET)
     SPC b k = kill buffers
 
 #+end_quote
+
+** Managing Windows
+
+#+begin_quote
+
+    C-x 0 = close the current window
+    C-x 1 = current window fill the frame
+
+    C-x 2 = horizontal split
+    C-x 3 = vertical split
+
+#+end_quote
+
 
 ** Text Editor
 
@@ -79,7 +116,11 @@ Provide by an uptime counter
 
 Uses the Vim keybindings
 
+**** Move through text
+
 #+begin_quote
+
+    ESC = enter normal mode (to move)
 
     j = move cursor down
     k = move cursor up
@@ -92,6 +133,16 @@ Uses the Vim keybindings
     ge = go to previous word's end
     [number] + [h/l] = go to letter/word number column
 
+    0 = go to line's beginning
+    $ = go to line's end
+    % = jump to matching brackets {} [] ()
+
+#+end_quote
+
+**** Move through page
+
+#+begin_quote
+
     gg = go to page's top
     G = go to page's bottom
     [number] + G = go to page's number row
@@ -103,11 +154,23 @@ Uses the Vim keybindings
 
     C-y = move view pane up
     C-e = move view pane down
-    { = move up every space of paragraphs
-    } = move down every space of paragraphs
+    C-u = move half-page up
+    C-d = move half-page down
 
-    0 = go to line's beginning
-    $ = go to line's end
+    C-o = jump to last pointer position
+    C-i = jump to next pointer position
+
+#+end_quote
+
+**** Edit text
+
+#+begin_quote
+
+    i = enter insert mode (before letter down cursor)
+    v = enter visual mode (to select text)
+    a = append after letter (down cursor)
+    A = apprend last word of the line
+
     O = create a new space above
     o = create a new space below
 
@@ -120,8 +183,6 @@ Uses the Vim keybindings
 
     u = undo
     C-r = redo
-    gu = make all lower letters
-    gU = make all upper letters
 
     c + [movement/operator] = change
     c + i + [text object] = change inner word/sentence/paragraph/etc
@@ -130,10 +191,22 @@ Uses the Vim keybindings
     r = replace
     . = repeat the last change
 
-    i = enter insert mode (before letter down cursor)
-    v = enter visual mode (to select text)
-    a = append after letter (down cursor)
-    A = apprend last word of the line
+#+end_quote
+
+**** Increase/decrease letter case
+
+#+begin_quote
+
+    gu = make all line lower letters (RET to apply)
+    gU = make all line upper letters (RET to apply)
+    [select text] + u = make selection lower letters
+    [select text] + U = make selection upper letters
+
+#+end_quote
+
+**** Search through text
+
+#+begin_quote
 
     f + [letter] = find next
     F + [letter] = find previous
@@ -142,7 +215,6 @@ Uses the Vim keybindings
     / = search word
     n = go to next find
     N = go to previous find
-    % = jump to matching brackets {} [] ()
 
 #+end_quote
 
