@@ -119,30 +119,24 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 *** Apropos
 
-- Helps you narrow an area to search by pattern (name).
-- Accepts regular expressions in the query.
+- Helps you narrow an area to search by name (plus regular expressions).
+- Great for discover new commands.
 
 #+begin_quote
 
-    SPC h a + [command/variable] = display all matching results by name, keybinding and description
+    SPC h a + [command] + [query] = display a list of matching commands
+
+    SPC h a + [variable] = display a list of matching variables
 
 #+end_quote
 
-**** Example:
+- Useful for investigate new modes and package.
 
-- When the query is enter, by hitting RET shows it's documentation.
+  #+begin_quote
 
-#+begin_quote
+    M-x apropos-library + [query] = list all functions and variables in a library
 
-    ;; dispaly all the commands that end with 'eval'
-
-    SPC h a + M-x + -eval$
-
-    ;; display all the variables with the term 'eval'
-
-    SPC h a + eval
-
-#+end_quote
+  #+end_quote
 
 ** Configuration
 
