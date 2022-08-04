@@ -14,6 +14,15 @@
 
 #+end_quote
 
+*** Print the Working Directory
+
+#+begin_quote
+
+    M-x pwd = show the path
+
+#+end_quote
+
+
 *** Check for crashes
 
 Provide by an uptime counter
@@ -23,6 +32,36 @@ Provide by an uptime counter
    M-x emacs-uptime
 
 #+end_quote
+
+** Configuration
+
+Your private config is kept in =~/.doom.d/= and it's typically comprised of an =init.el=, =config.el= and =packages.el= file.
+
+- Put all your config in =config.el=
+- Install packages by adding ~package!~ declarations to =packages.el=
+- Enable/disable modules in your ~doom!~ block in your =init.el=
+
+*WARNING*: You shouldn't need to fork Doom or modify =~/.emacs.d=. If you have to do this to achieve something, it can be considered a bug.
+
+*** Switching to relative line numbers (permanently)
+
+To change the style of line numbers, change the value of the ~display-line-numbers-type~ variable.
+
+#+BEGIN_SRC elisp
+
+    ;;; add to ~/.doom.d/config.el
+    (setq display-line-numbers-type 'relative)
+
+#+END_SRC
+
+*** Add the Evil Tutor
+
+#+begin_src elisp
+
+    ;;; add to ~/.doom.d/packages.el
+    (package! evil-tutor)
+
+#+end_src
 
 ** Look for Help
 
@@ -34,11 +73,74 @@ Provide by an uptime counter
 
 #+end_quote
 
+**** TODO insert a link here with the org file 'InstallInfoManuals.org'
+
+**** Info Mode Keybindings
+
+- The letter 'g' act as a leader key in this mode (press it to display more options).
+- The nodes acts like pages on a book.
+
+#+begin_quote
+
+    gT = main table of content
+    gm = quick access to menu references (only works on top node)
+    gG = quick access to nodes by name
+
+    u = goes up one level to a parent node
+
+    gj = next node
+    gk = previous node
+
+    g] = next reference (link)
+    g[ = previous reference (link)
+
+#+end_quote
+
+*** Describe a function (command)
+
+Related to the M-x actions, once prompted enter the name to search.
+
+#+begin_quote
+
+    SPC h f = describe functionality
+
+#+end_quote
+
+
 *** Describe a key
+
+Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+begin_quote
 
     SPC h k = describe functionality and keybindings
+
+#+end_quote
+
+*** Apropos
+
+- Helps you narrow an area to search by pattern (name).
+- Accepts regular expressions in the query.
+
+#+begin_quote
+
+    SPC h a + [command/variable] = display all matching results by name, keybinding and description
+
+#+end_quote
+
+**** Example:
+
+- When the query is enter, by hitting RET shows it's documentation.
+
+#+begin_quote
+
+    ;; dispaly all the commands that end with 'eval'
+
+    SPC h a + M-x + -eval$
+
+    ;; display all the variables with the term 'eval'
+
+    SPC h a + eval
 
 #+end_quote
 
@@ -91,9 +193,14 @@ Provide by an uptime counter
 #+begin_quote
 
     SPC b x = pop up scratch buffer
-    SPC b b = switch workspace buffer
-    SPC b i = move through buffers (select with hjkl and RET)
-    SPC b k = kill buffers
+
+    SPC b b = switch buffers, show current ones (select with arrows)
+    SPC b i = switch buffers, show everything (select with hjkl/arrows)
+    SPC b p = switch to previous buffer
+    SPC b n = switch to next buffer
+
+    SPC b k = kill the current buffer
+    C-x k = kill buffers (show a list, select with arrows)
 
 #+end_quote
 
@@ -107,8 +214,13 @@ Provide by an uptime counter
     C-x 2 = horizontal split
     C-x 3 = vertical split
 
-#+end_quote
+    C-x o = go to next window
+    SPC w j = go to down window
+    SPC w k = go to up window
+    SPC w h = go to left window
+    SPC w l = go to right window
 
+#+end_quote
 
 ** Text Editor
 
@@ -215,6 +327,14 @@ Uses the Vim keybindings
     / = search word
     n = go to next find
     N = go to previous find
+
+#+end_quote
+
+**** Delete all the conent
+
+#+begin_quote
+
+    gg + dG = go to first line and delete everything
 
 #+end_quote
 
