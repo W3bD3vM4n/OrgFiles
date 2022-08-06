@@ -52,6 +52,40 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
 
   #+end_quote
 
+** Checklist
+
+1. Create a title
+2. Create subtopics with hyphens ‘-’
+3. After every hyphen add a [ ]
+4. In the line to mark as *done* press ~C-c C-c~
+
+   #+begin_quote
+
+    * Title
+
+    - [ ] Text 1
+   
+   #+end_quote
+
+5. To add additional status, it's necessary to have at least one checklist above and append to the title.
+
+    #+begin_quote
+
+    * Title [/] and press ~C-c C-c~ to get [1/1]
+
+    * Title [%] and press ~C-c C-c~ to get [100%]
+
+   #+end_quote
+
+** Block delimited text
+
+#+begin_quote
+
+    <q TAB = quote
+    <s TAB [languaje name] = code block
+
+#+end_quote
+
 ** Text format
 
 Write the text surrounding without the ‘’
@@ -67,11 +101,14 @@ Write the text surrounding without the ‘’
 
 #+end_quote
 
-** Block delimited text
+** Export the document
 
-#+begin_quote
+- Press ~C-c C-e~ to bring it up the options.
 
-    <q TAB = quote
-    <s TAB [languaje name] = code block
+- To navigate press ~C-n~ and ~C-p~
 
-#+end_quote
+- Hit the letter between [] to chose the format.
+
+- The exported file is saved in the same folder.
+
+- To exit the menu use ~q~

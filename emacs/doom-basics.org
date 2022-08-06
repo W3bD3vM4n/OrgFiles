@@ -209,6 +209,10 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+end_quote
 
+- To *save as* a file with another name, inside a existing saved file press ~SPC f S~ being the last a upper case letter.
+
+- To *save a scratch buffer* as a file with ~SPC f s~, first it's needs to have some content.
+
 ** Managing Buffers
 
 #+begin_quote
