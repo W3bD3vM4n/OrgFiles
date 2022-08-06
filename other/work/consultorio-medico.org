@@ -1,0 +1,73 @@
+#+TITLE:    Consultorio Médico
+#+author:   h4ss4n
+#+date:     2022-08-04 jue
+
+* Using Visual Studio 2022
+
+** 0. Base de aplicación
+
+*** Creación del Proyecto ASP.NET Core MVC [1/1] [100%]
+
+- [X] Creación del proyecto web
+
+*** Creación del proyecto de base de datos [4/4] [100%]
+
+- [X] Diseño del ERM (Modelo Entidad Relación)
+- [X] Creación de la base de datos
+- [X] Creación y configuración de las tablas
+- [X] Creación del diagrama y relación de tablas
+
+*** Creación de Repositorio en Azure [2/2] [100%]
+
+- [X] Configuración básica
+- [X] Creación tareas para Sprint
+
+*** Integración de librerias para Front-end [2/2] [100%]
+
+- [X] Integración de libreria de Syncfusion ASP.NET Core MVC
+- [X] Integración de Template de Bootstrap
+
+
+** 1. Módulo de Login
+
+*** Página de Login
+
+**** Diseño de la página [2/3] [66%]
+
+- [ ] Colocar logo de consultorio
+- [X] Input usuario, contraseña y botón
+- [X] Conexión con base de datos para verificación
+
+**** Integración de autenticación [1/2] [50%]
+
+- [X] Simple Cookie Authentication
+- [ ] Role-Based Authorization
+
+*** Página de Incio
+
+**** Acceso a otros modulos [1/1] [100%]
+
+- [X] Página para visualizar 'Usuarios existentes'
+
+*** Página de Roles y Usuarios
+
+**** Grid de Roles [1/2] [50%]
+
+- [X] Maquetear el Front-end con Bootstrap y Syncfusion
+- [ ] Conexión con la base de datos
+
+**** Grid de Usuarios [0/0] [0%]
+
+- [X] Maquetear el Front-end con Bootstrap y Syncfusion
+- [X] Agregar botones pop up para editar, eliminar y actualizar
+- [ ] Agregar funcionalidades a los botones
+- [X] Agregar boton para visualizar página 'Creación de usuarios'
+- [ ] Conexión con la base de datos
+
+***** Página Creación de Usuarios [3/5] [60%]
+
+- [X] Maquetear el Front-end con Bootstrap y Syncfusion
+- [X] Arreglar controles textbox
+- [ ] Arreglar controles dropdownlist
+- [X] Arreglar controles datetimepicker
+- [ ] Conexión con la base de datos

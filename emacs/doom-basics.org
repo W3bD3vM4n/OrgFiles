@@ -65,7 +65,9 @@ To change the style of line numbers, change the value of the ~display-line-numbe
 
 ** Look for Help
 
-*** Access to info manuals
+*** Info manuals
+
+For beginners, non technical background required.
 
 #+begin_quote
 
@@ -96,27 +98,6 @@ To change the style of line numbers, change the value of the ~display-line-numbe
 
 #+end_quote
 
-*** Describe a function (command)
-
-Related to the M-x actions, once prompted enter the name to search.
-
-#+begin_quote
-
-    SPC h f = describe functionality
-
-#+end_quote
-
-
-*** Describe a key
-
-Related to C-, M-x or SPC actions, once prompted enter the key combination.
-
-#+begin_quote
-
-    SPC h k = describe functionality and keybindings
-
-#+end_quote
-
 *** Apropos
 
 - Helps you narrow an area to search by name (plus regular expressions).
@@ -137,6 +118,52 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
     M-x apropos-library + [query] = list all functions and variables in a library
 
   #+end_quote
+
+*** The Describre System
+
+Some thecnical knowledge required.
+
+- Helps to double check the information acquired.
+- Describe your *personalized* Emacs.
+
+**** Describe a mode
+
+#+begin_quote
+
+    SPC h m = describe current major mode (plus minor modes and keybindings)
+
+#+end_quote
+
+**** Describe a function (command)
+
+Related to the M-x actions, once prompted enter the name to search.
+
+#+begin_quote
+
+    SPC h f = describe what a function does it
+
+#+end_quote
+
+**** Describe a variable
+
+#+begin_quote
+
+    SPC h v = describe what a variable does it
+
+#+end_quote
+
+**** Describe a key
+
+Related to C-, M-x or SPC actions, once prompted enter the key combination.
+
+- Some keys come from major and minor modes (are not global).
+- The info may vary depending on the buffer you're in.
+
+#+begin_quote
+
+    SPC h k = describe what a keybinding does it
+
+#+end_quote
 
 ** Configuration
 
@@ -294,7 +321,8 @@ Uses the Vim keybindings
     c + i + [text object] = change inner word/sentence/paragraph/etc
     c + a + [text object] = change around word/sentence/paragraph/etc
     cc = change all the line
-    r = replace
+    r = replace current word
+    R = replace various words
     . = repeat the last change
 
 #+end_quote

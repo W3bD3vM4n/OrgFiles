@@ -1,0 +1,77 @@
+#+title:    Org Basics
+#+author:   h4ss4n
+#+date:     2022-08-05 vie
+
+* Inside Emacs GUI -> Org Mode
+
+** File creation
+
+First create the .org file, then press ~C-x C-q~ to disable the read only state.
+
+** Bullets management
+
+- To create a bullet write an asterisk plus space and text.
+
+  #+begin_quote
+
+    * Level 1
+
+    ** Level 2
+
+    *** Level 3
+
+    **** Level 4
+
+  #+end_quote
+
+- To manage it, first you need to be in the *level's line*
+- To create sublevels quickly, press ~M-RET~ and ~M-l~
+
+  #+begin_quote
+
+    M-l = move down one level
+    M-h = move up one level
+
+  #+end_quote
+
+- To change the vertical positions of the levels.
+
+  #+begin_quote
+
+    M-j = down one level
+    M-k = move up one level
+
+  #+end_quote
+
+- To hide and unhide asterisks levels
+
+  #+begin_quote
+
+    TAB = hide/unhide one level
+    S-TAB = hide/unhide all the levels (globally)
+
+  #+end_quote
+
+** Text format
+
+Write the text surrounding without the ‘’
+
+#+begin_quote
+
+    *text* = ‘*bold*’
+    /text/ = ‘/italic/’
+    _text_ = ‘_underlined_’
+    =text= = ‘=verbatim=’
+    ~text~ = ‘~code~’
+    +text+ = ‘+strike-through+’
+
+#+end_quote
+
+** Block delimited text
+
+#+begin_quote
+
+    <q TAB = quote
+    <s TAB [languaje name] = code block
+
+#+end_quote
