@@ -1,0 +1,34 @@
+#+title:    Common Lisp Basics
+#+author:   h4ss4n
+#+date:     2022-08-07 dom
+
+* Inside Emacs GUI
+
+** Work on Common Lisp
+
+- Test something quick, load a scratch buffer and slime later.
+
+#+begin_quote
+
+    M-x slime-scratch
+
+#+end_quote
+
+
+- After writing a function, result show in the minibuffer.
+
+#+begin_quote
+
+    C-M-x = run it
+
+#+end_quote
+
+- After writing several functions is necessary to create and work in a file =.lisp=
+
+- Compile it, to run a function with values.
+
+  #+begin_quote
+
+    C-c C-k = compile and load the file
+
+  #+end_quote

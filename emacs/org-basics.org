@@ -1,8 +1,8 @@
-#+title:    Org Basics
+#+title:    Org Mode Basics
 #+author:   h4ss4n
 #+date:     2022-08-05 vie
 
-* Inside Emacs GUI -> Org Mode
+* Inside Emacs GUI
 
 ** File creation
 
@@ -25,7 +25,16 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
   #+end_quote
 
 - To manage it, first you need to be in the *level's line*
-- To create sublevels quickly, press ~M-RET~ and ~M-l~
+- To create a copy of the same level, put the pointer on the beginning/end of a line.
+
+#+begin_quote
+
+    0 M-RET = copy the same level above
+    $ M-RET = copy the same level below
+
+#+end_quote
+
+- To create sublevels quickly, with the pointer on the end line press ~M-RET~ and ~M-l~
 
   #+begin_quote
 
@@ -98,6 +107,39 @@ Write the text surrounding without the ‘’
     =text= = ‘=verbatim=’
     ~text~ = ‘~code~’
     +text+ = ‘+strike-through+’
+
+#+end_quote
+
+** Links
+
+Write the text surrounding without the ‘’
+
+*** Internal links
+
+#+begin_quote
+
+    [[link]] = [[bullet title]‘]’
+    [[link]] = [[bullet title][name to display]‘]’
+
+#+end_quote
+
+*** External links
+
+**** Local files
+
+#+begin_quote
+
+    [[link]] = [[file:~/path/of/the/file]‘]’
+    [[link]] = [[file:~/path/of/the/file][name to display]‘]’
+
+#+end_quote
+
+**** Hyperlinks
+
+#+begin_quote
+
+    [[link]] = [[https:://www.hyperlink.com]‘]’
+    [[link]] = [[https:://www.hyperlink.com][name to display]‘]’
 
 #+end_quote
 

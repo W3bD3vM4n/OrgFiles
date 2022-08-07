@@ -1,0 +1,46 @@
+#+title:    Dired Mode Basics
+#+author:   h4ss4n
+#+date:     2022-08-07 dom
+
+* Inside Emacs GUI
+
+- The Directory Editor (Dired) is the main mode for Emacs file-manager operations.
+- Look for the top mark *Dired (directory)* instead of *Find file*.
+- Open the *Evil Menu* by pressing ~g~ to display the key commands.
+
+** Enter Dired
+
+#+begin_quote
+
+    SPC o - = open dired buffer
+
+#+end_quote
+
+- Every file opened in Dired, even by the minibuffer generate more buffers in memory.
+
+** Movement
+
+#+begin_quote
+
+    C-j = move down (in mini-buffer)
+    C-k = move up (in mini-buffer)
+
+    j = move down
+    k = move up
+
+#+end_quote
+
+** Operations
+
+#+begin_quote
+
+    RET = enter a directory
+    - = exit a directory
+
+    m = mark/select a directory (or file)
+    u = unmark/unselect a directory (or file)
+
+    C = copy a folder/file (specify output path)
+    R = rename a folder/file (don't forget the file extension in the end)
+
+#+end_quote

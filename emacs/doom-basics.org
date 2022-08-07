@@ -22,16 +22,16 @@
 
 #+end_quote
 
-
 *** Check for crashes
 
-Provide by an uptime counter
+Provide by an uptime counter.
 
 #+begin_quote
 
    M-x emacs-uptime
 
 #+end_quote
+
 
 ** Configuration
 
@@ -63,6 +63,7 @@ To change the style of line numbers, change the value of the ~display-line-numbe
 
 #+end_src
 
+
 ** Look for Help
 
 *** Info manuals
@@ -75,7 +76,7 @@ For beginners, non technical background required.
 
 #+end_quote
 
-**** TODO insert a link here with the org file 'InstallInfoManuals.org'
+By default some manuals are not loaded, to know how to [[file:~/org/emacs/install-info-manuals.org][install them]].
 
 **** Info Mode Keybindings
 
@@ -165,6 +166,7 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+end_quote
 
+
 ** Configuration
 
 *** Open your Doom configuration files
@@ -190,7 +192,12 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 - To changes take effect, close all Emacs instances and open it again.
 
-**** TODO try this with Emacs client (closing the server and clients?)
+  #+begin_quote
+
+    SPC q K = kill emacs (and daemon)
+
+  #+end_quote
+
 
 ** Managing Files and Directories
 
@@ -213,6 +220,7 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 - To *save a scratch buffer* as a file with ~SPC f s~, first it's needs to have some content.
 
+
 ** Managing Buffers
 
 #+begin_quote
@@ -229,15 +237,26 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+end_quote
 
+
 ** Managing Windows
 
 #+begin_quote
 
-    C-x 0 = close the current window
-    C-x 1 = current window fill the frame
+    C-x 0 = delete current window
+    C-x 1 = delete other windows (current fill the spot)
 
     C-x 2 = horizontal split
     C-x 3 = vertical split
+
+    C-x 4 f = open file in new window
+    C-x 4 d = open dired in new window
+
+    ;;; for more monitors
+    C-x 5 0 = delete current frame
+    C-x 5 1 = delete other frames (current fill the spot)
+    C-x 5 2 = create a new frame
+    C-x 5 f = open file in new frame
+    C-x 5 d = open dired in new frame
 
     C-x o = go to next window
     SPC w j = go to down window
@@ -247,127 +266,30 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+end_quote
 
+
 ** Text Editor
 
-*** Evil commands
+Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
 
-Uses the Vim keybindings
 
-**** Move through text
+** Emacs commands
 
-#+begin_quote
-
-    ESC = enter normal mode (to move)
-
-    j = move cursor down
-    k = move cursor up
-    h = move cursor left
-    l = move cursor right
-
-    w = go to next word's beginning
-    b = go to previous word's beginning
-    e = go to next word's end
-    ge = go to previous word's end
-    [number] + [h/l] = go to letter/word number column
-
-    0 = go to line's beginning
-    $ = go to line's end
-    % = jump to matching brackets {} [] ()
-
-#+end_quote
-
-**** Move through page
-
-#+begin_quote
-
-    gg = go to page's top
-    G = go to page's bottom
-    [number] + G = go to page's number row
-    [number] + [j/k] = go to page's relative number row
-
-    zt = scroll line to screen's top
-    zz = scroll line to screen's middle
-    zb = scroll line to screen's bottom
-
-    C-y = move view pane up
-    C-e = move view pane down
-    C-u = move half-page up
-    C-d = move half-page down
-
-    C-o = jump to last pointer position
-    C-i = jump to next pointer position
-
-#+end_quote
-
-**** Edit text
-
-#+begin_quote
-
-    i = enter insert mode (before letter down cursor)
-    v = enter visual mode (to select text)
-    a = append after letter (down cursor)
-    A = apprend last word of the line
-
-    O = create a new space above
-    o = create a new space below
-
-    x = delete
-    d = cut
-    dd = cut all the line
-    y = copy (for use inside Vim)
-    "*y = copy (for use outside Vim)
-    p = paste
-
-    u = undo
-    C-r = redo
-
-    c + [movement/operator] = change
-    c + i + [text object] = change inner word/sentence/paragraph/etc
-    c + a + [text object] = change around word/sentence/paragraph/etc
-    cc = change all the line
-    r = replace current word
-    R = replace various words
-    . = repeat the last change
-
-#+end_quote
-
-**** Increase/decrease letter case
-
-#+begin_quote
-
-    gu = make all line lower letters (RET to apply)
-    gU = make all line upper letters (RET to apply)
-    [select text] + u = make selection lower letters
-    [select text] + U = make selection upper letters
-
-#+end_quote
-
-**** Search through text
-
-#+begin_quote
-
-    f + [letter] = find next
-    F + [letter] = find previous
-    t + [operator/text object] = until next
-    T + [operator/text object] = until previous
-    / = search word
-    n = go to next find
-    N = go to previous find
-
-#+end_quote
-
-**** Delete all the conent
-
-#+begin_quote
-
-    gg + dG = go to first line and delete everything
-
-#+end_quote
-
-*** Emacs commands
+*** Cancel commands
 
 #+begin_quote
 
     C-g = cancel enter command (get me out)
+
+#+end_quote
+
+*** Quit session
+
+#+begin_quote
+
+   SPC q q = quit Emacs
+   SPC q Q = quit Emacs without saving
+
+   SPC q r = restart and restore Emacs
+   SPC q R = restart Emacs
 
 #+end_quote

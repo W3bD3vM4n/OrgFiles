@@ -1,0 +1,137 @@
+#+title:    Evil Mode Basics
+#+author:   h4ss4n
+#+date:     2022-08-07 dom
+
+* Inside Emacs GUI
+
+Evil is an extensible vi layer for Emacs, it provides Vim features.
+
+** Evil commands
+
+*** Move through text
+
+#+begin_quote
+
+    ESC = enter normal mode (to move)
+
+    j = move cursor down
+    k = move cursor up
+    h = move cursor left
+    l = move cursor right
+
+    w = go to next word's beginning
+    W = go to next word's beginning (by set)
+    b = go to previous word's beginning
+    B = go to previous word's beginning (by set)
+    e = go to next word's end
+    E = go to next word's end (by set)
+    ge = go to previous word's end
+    [number] + [h/l] = go to letter/word number column
+
+    0 = go to line's beginning
+    $ = go to line's end
+    % = jump to matching brackets {} [] ()
+
+#+end_quote
+
+*** Move through page
+
+#+begin_quote
+
+    gg = go to page's top
+    G = go to page's bottom
+    [number] + G = go to page's number row
+    [number] + [j/k] = go to page's relative number row
+
+    zt = scroll line to screen's top
+    zz = scroll line to screen's middle
+    zb = scroll line to screen's bottom
+
+    C-y = move view pane up
+    C-e = move view pane down
+    C-u = move half-page up
+    C-d = move half-page down
+
+    C-o = jump to last pointer position
+    C-i = jump to next pointer position
+
+#+end_quote
+
+*** Edit text
+
+#+begin_quote
+
+    i = enter insert mode (before letter down cursor)
+    v = enter visual mode (to select text)
+    a = append after letter (down cursor)
+    A = apprend last word of the line
+
+    O = create a new space above
+    o = create a new space below
+
+    d = cut
+    dd = cut all the line
+    D = cut from the pointer to the end of the line
+
+    di( or da( = delete within/around parens
+    di[ or da[ = delete within/around brackets
+    di{ or da{ = delete within/around curly brackets
+    di" or da" = delete within/around quotes
+
+    y = copy
+    yy = copy all the line
+    Y = copy from the pointer to the end of the line
+
+    yi( or ya( = copy within/around parens
+    yi[ or ya[ = copy within/around brackets
+    yi{ or ya{ = copy within/around curly brackets
+    yi" or ya" = copy within/around quotes
+
+    x = delete
+    p = paste
+
+    u = undo
+    C-r = redo
+
+    c + [movement/operator] = change
+    c + i + [text object] = change inner word/sentence/paragraph/etc
+    c + a + [text object] = change around word/sentence/paragraph/etc
+    cc = change all the line
+    r = replace current word
+    R = replace various words
+    . = repeat the last change
+
+#+end_quote
+
+*** Increase/decrease letter case
+
+#+begin_quote
+
+    gu = make all line lower letters (RET to apply)
+    gU = make all line upper letters (RET to apply)
+    [select text] + u = make selection lower letters
+    [select text] + U = make selection upper letters
+
+#+end_quote
+
+*** Search through text
+
+#+begin_quote
+
+    f + [letter] = find next
+    F + [letter] = find previous
+    t + [operator/text object] = until next
+    T + [operator/text object] = until previous
+    / = search word
+    n = go to next find
+    N = go to previous find
+
+#+end_quote
+
+*** Delete all the conent
+
+#+begin_quote
+
+    gg + dG = go to first line and delete everything
+
+#+end_quote
