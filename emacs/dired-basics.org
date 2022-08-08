@@ -45,7 +45,17 @@
 
     C = copy a folder/file (specify output path)
     R = rename a folder/file (don't forget the file extension in the end)
+    D = delete a folder/file
 
     q = delete all dired windows (including the current one)
 
 #+end_quote
+
+- To *move* a folder/file don't specify a new name with ~R~, instead select the path to move and hit ~RET~.
+- By default dired delete the files permanently, to avoid issues move to the trash can by adding to the =config.el=
+
+  #+begin_src emacs-lisp
+
+    (setq delete-by-moving-to-trash t)
+
+  #+end_src
