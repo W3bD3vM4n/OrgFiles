@@ -76,7 +76,7 @@ For beginners, non technical background required.
 
 #+end_quote
 
-By default some manuals are not loaded, to know how to [[file:~/org/emacs/install-info-manuals.org][install them]].
+By default some manuals are not loaded, to know how to [[file:~/org/emacs/info-manuals.org][install them]].
 
 **** Info Mode Keybindings
 
