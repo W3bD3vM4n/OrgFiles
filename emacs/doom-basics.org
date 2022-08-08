@@ -233,6 +233,7 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
     SPC b n = switch to next buffer
 
     SPC b k = kill the current buffer
+    SPC b K = kill all buffers (prompt to welcome screen)
     C-x k = kill buffers (show a list, select with arrows)
 
 #+end_quote

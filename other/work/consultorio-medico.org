@@ -6,16 +6,16 @@
 
 ** 0. Base de aplicación
 
-*** Creación del Proyecto ASP.NET Core MVC [1/1] [100%]
-
-- [X] Creación del proyecto web
-
 *** Creación del proyecto de base de datos [4/4] [100%]
 
 - [X] Diseño del ERM (Modelo Entidad Relación)
 - [X] Creación de la base de datos
 - [X] Creación y configuración de las tablas
 - [X] Creación del diagrama y relación de tablas
+
+*** Creación del Proyecto ASP.NET Core MVC [1/1] [100%]
+
+- [X] Creación del proyecto web
 
 *** Creación de Repositorio en Azure [2/2] [100%]
 

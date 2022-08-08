@@ -32,6 +32,9 @@
 
 ** Operations
 
+- Use ~M-RET~ to display a preview of the file without exit dired, move to other file and press again to watch.
+- To delete the preview window press ~C-x 1~
+
 #+begin_quote
 
     RET = enter a directory
@@ -42,5 +45,7 @@
 
     C = copy a folder/file (specify output path)
     R = rename a folder/file (don't forget the file extension in the end)
+
+    q = delete all dired windows (including the current one)
 
 #+end_quote
