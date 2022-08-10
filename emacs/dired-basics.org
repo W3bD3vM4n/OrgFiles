@@ -4,19 +4,36 @@
 
 * Inside Emacs GUI
 
+** Index
+
+- [[General]]
+- [[Enter Dired]]
+- [[Movement]]
+- [[Operations]]
+
+
+** General
+
 - The Directory Editor (Dired) is the main mode for Emacs file-manager operations.
 - Look for the top mark *Dired (directory)* instead of *Find file*.
 - Open the *Evil Menu* by pressing ~g~ to display the key commands.
 
+
 ** Enter Dired
+
+- Enter the command *Find file* and press ~RET~ on a directory like *HOME*.
 
 #+begin_quote
 
-    SPC o - = open dired buffer
+    SPC . RET = open dired buffer
+
+    q = exit and delete all dired buffers
 
 #+end_quote
 
-- Every file opened in Dired, even by the minibuffer generate more buffers in memory.
+- Every new Dired view and file open, generate more buffers in memory.
+- Kill the Dired buffers that you're not using anymore to avoid an overflow.
+
 
 ** Movement
 
@@ -30,7 +47,10 @@
 
 #+end_quote
 
+
 ** Operations
+
+*** Access
 
 - Use ~M-RET~ to display a preview of the file without exit dired, move to other file and press again to watch.
 - To delete the preview window press ~C-x 1~
@@ -39,17 +59,33 @@
 
     RET = enter a directory
     - = exit a directory
+    / + [text] = jump to a folder/file by name
+
+
+
+
+#+end_quote
+
+*** Selection
+
+#+begin_quote
 
     m = mark/select a directory (or file)
     u = unmark/unselect a directory (or file)
+    U = unmark all
+
+#+end_quote
+
+*** Edition
+
+#+begin_quote
 
     C = copy a folder/file (specify output path)
     R = rename a folder/file (don't forget the file extension in the end)
     D = delete a folder/file
 
-    q = delete all dired windows (including the current one)
-
 #+end_quote
+
 
 - To *move* a folder/file don't specify a new name with ~R~, instead select the path to move and hit ~RET~.
 - By default dired delete the files permanently, to avoid issues move to the trash can by adding to the =config.el=
@@ -59,3 +95,7 @@
     (setq delete-by-moving-to-trash t)
 
   #+end_src
+
+- To avoid the confirmation of every deletion inside a folder (recursively), press ~!~ to delete all, instead of ~y~.
+
+- To create new folders type ~+~ and add the name.

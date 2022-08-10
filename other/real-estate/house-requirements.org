@@ -1,0 +1,42 @@
+#+title:    House Buying Requirements
+#+author:   h4ss4n
+#+date:     2022-08-10 mie
+
+* Minimum Requirements
+
+** Inner environment
+
+*** Mandatory
+- [ ] from 30k to 50k
+- [ ] in the limits of Quito
+- [X] near the city no countryside
+- [ ] a *house* not an apartment
+- [ ] no legal issues (one owner)
+- [X] water & electricity
+
+- [ ] 3 bedrooms
+- [ ] 2 toilets
+- [ ] kitchen, living room and laundry
+- [ ] parking lot
+
+*** Basics
+- [ ] no humidity
+- [ ] good level floors and ladders
+- [ ] ventilated areas
+- [ ] weather protection
+
+*** Secondary
+- [ ] noise protection
+- [ ] natural light access
+
+** Urban environment
+
+*** Basics
+- [ ] paved roads and easy access sidewalks
+- [ ] grocery store, drug store, hardware store
+- [ ] bus services (corredor, trole, etc)
+
+*** Secondary
+- [ ] nearby hospitals
+- [ ] market
+- [ ] supermarket

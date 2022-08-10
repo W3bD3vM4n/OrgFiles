@@ -4,6 +4,36 @@
 
 * Inside Emacs GUI
 
+** Index
+
+- [[General]]
+  - [[Check the current version]]
+  - [[Print the Working Directory]]
+  - [[Check for crashes]]
+- [[Configuration]]
+  - [[Open your Doom configuration files]]
+  - [[Reload the configuration files]]
+  - [[Switching to relative line numbers]]
+  - [[Add the Evil Tutor]]
+- [[Look for Help]]
+  - [[Info manuals]]
+    - [[Info Mode Keybindings]]
+  - [[Apropos]]
+  - [[The Describre System]]
+    - [[Describe a mode]]
+    - [[Describe a function]]
+    - [[Describe a variable]]
+    - [[Describe a key]]
+- [[Managing Files and Directories]]
+  - [[Find/open a file]]
+- [[Managing Buffers]]
+- [[Managing Windows]]
+- [[Text Editor]]
+- [[Emacs commands]]
+  - [[Cancel commands]]
+  - [[Quit session]]
+
+
 ** General
 
 *** Check the current version
@@ -43,7 +73,36 @@ Your private config is kept in =~/.doom.d/= and it's typically comprised of an =
 
 *WARNING*: You shouldn't need to fork Doom or modify =~/.emacs.d=. If you have to do this to achieve something, it can be considered a bug.
 
-*** Switching to relative line numbers (permanently)
+*** Open your Doom configuration files
+
+- Let you access to the '.doom.d' folder and the files inside it.
+
+#+begin_quote
+
+    SPC f p = find/open private config
+
+#+end_quote
+
+*** Reload the configuration files
+
+- Once edited and saved the files, it's possible to reload it even with Emacs still open.
+  The equivalent of Doom Sync outside Emacs.
+
+#+begin_quote
+
+    SPC h r r = doom reload (plus RET to run it)
+
+#+end_quote
+
+- To changes take effect, close all Emacs instances and open it again.
+
+  #+begin_quote
+
+    SPC q K = kill emacs (and daemon)
+
+  #+end_quote
+
+*** Switching to relative line numbers
 
 To change the style of line numbers, change the value of the ~display-line-numbers-type~ variable.
 
@@ -135,7 +194,7 @@ Some thecnical knowledge required.
 
 #+end_quote
 
-**** Describe a function (command)
+**** Describe a function
 
 Related to the M-x actions, once prompted enter the name to search.
 
@@ -165,38 +224,6 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
     SPC h k = describe what a keybinding does it
 
 #+end_quote
-
-
-** Configuration
-
-*** Open your Doom configuration files
-
-- Let you access to the '.doom.d' folder and the files inside it.
-
-#+begin_quote
-
-    SPC f p = find/open private config
-
-#+end_quote
-
-*** Reload the configuration files
-
-- Once edited and saved the files, it's possible to reload it even with Emacs still open.
-  The equivalent of Doom Sync outside Emacs.
-
-#+begin_quote
-
-    SPC h r r = doom reload (plus RET to run it)
-
-#+end_quote
-
-- To changes take effect, close all Emacs instances and open it again.
-
-  #+begin_quote
-
-    SPC q K = kill emacs (and daemon)
-
-  #+end_quote
 
 
 ** Managing Files and Directories

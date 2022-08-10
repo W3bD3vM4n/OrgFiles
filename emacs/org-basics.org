@@ -4,9 +4,23 @@
 
 * Inside Emacs GUI
 
+** Index
+
+- [[File creation]]
+- [[Bullets management]]
+- [[Checklist]]
+- [[Block delimited text]]
+- [[Text format]]
+- [[Links]]
+  - [[Internal links]]
+  - [[External links]]
+- [[Export the document]]
+
+
 ** File creation
 
 First create the .org file, then press ~C-x C-q~ to disable the read only state.
+
 
 ** Bullets management
 
@@ -34,6 +48,7 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
 
 #+end_quote
 
+- It also works when you put the pointer in any free space between the bullet level content and press ~M-RET~
 - To create sublevels quickly, with the pointer on the end line press ~M-RET~ and ~M-l~
 
   #+begin_quote
@@ -61,6 +76,7 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
 
   #+end_quote
 
+
 ** Checklist
 
 1. Create a title
@@ -86,6 +102,7 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
 
    #+end_quote
 
+
 ** Block delimited text
 
 #+begin_quote
@@ -94,6 +111,7 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
     <s TAB [languaje name] = code block
 
 #+end_quote
+
 
 ** Text format
 
@@ -109,6 +127,7 @@ Write the text surrounding without the ‘’
     +text+ = ‘+strike-through+’
 
 #+end_quote
+
 
 ** Links
 
@@ -142,6 +161,7 @@ Write the text surrounding without the ‘’
     [[link]] = [[https:://www.hyperlink.com][name to display]‘]’
 
 #+end_quote
+
 
 ** Export the document
 

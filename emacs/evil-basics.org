@@ -4,7 +4,22 @@
 
 * Inside Emacs GUI
 
+** Index
+
+- [[General]]
+- [[Evil commands]]
+  - [[Move through text]]
+  - [[Move through page]]
+  - [[Edit text]]
+  - [[Increase/decrease letter case]]
+  - [[Search through text]]
+  - [[Delete all the conent]]
+
+
+** General
+
 Evil is an extensible vi layer for Emacs, it provides Vim features.
+
 
 ** Evil commands
 
