@@ -35,6 +35,28 @@
 - Kill the Dired buffers that you're not using anymore to avoid an overflow.
 
 
+** Creation
+
+- To create a *new folder* type ~+~ and add the name.
+- To create a *new file*, press the command and add the name plus the extension.
+
+#+begin_quote
+
+    SPC . = create a new file
+
+#+end_quote
+
+- When a file/forlder doesn't appear in the buffer you need to refresh it.
+
+  #+begin_quote
+
+    SPC b r = refresh the buffer
+
+  #+end_quote
+
+- To open a file with a specific application, with the pointer over a file press ~!~ and enter the name of the program.
+
+
 ** Movement
 
 #+begin_quote
@@ -59,10 +81,6 @@
 
     RET = enter a directory
     - = exit a directory
-    / + [text] = jump to a folder/file by name
-
-
-
 
 #+end_quote
 
@@ -74,20 +92,59 @@
     u = unmark/unselect a directory (or file)
     U = unmark all
 
+    t = toggle between non selected elements
+
 #+end_quote
+
+- If any file is selected, by pressing ~t~ will select all, by pressing it again will unselect all.
+- To select all the directories press ~*/~.
+
+*** Search
+
+#+begin_quote
+
+    / + [text] = jump to a folder/file by name
+
+    A = search for a regular expression
+
+#+end_quote
+
+**** TODO search (keybindings in doom) how to move to the next regex
+**** TODO search (keybindings in doom) how to sort the order of Dired view (for name or date)
+
+**** Search & Replace
+
+1. In Dired press ~C-x C-q~ to allow the edition (unlock Read-Only mode).
+2. To search and replace type ~M-%~ entering first the file name/extension to change and then the desired output.
+3. Once finish, press ~C-x C-q~ to exit the edition (lock Read-Only mode).
 
 *** Edition
 
 #+begin_quote
 
     C = copy a folder/file (specify output path)
-    R = rename a folder/file (don't forget the file extension in the end)
-    D = delete a folder/file
 
 #+end_quote
 
-
 - To *move* a folder/file don't specify a new name with ~R~, instead select the path to move and hit ~RET~.
+- While renaming don't forget to add the file extension at the end.
+
+#+begin_quote
+
+    R = move/rename a folder/file
+
+#+end_quote
+
+- There are two ways of deleting a file, by selection or by command.
+
+#+begin_quote
+
+    d = delete by selecting various files (confirm with 'x')
+    D = delete directly a folder/file
+
+#+end_quote
+
+- To avoid the confirmation of every deletion inside a folder (recursively), press ~!~ to delete all, instead of ~y~.
 - By default dired delete the files permanently, to avoid issues move to the trash can by adding to the =config.el=
 
   #+begin_src emacs-lisp
@@ -95,7 +152,3 @@
     (setq delete-by-moving-to-trash t)
 
   #+end_src
-
-- To avoid the confirmation of every deletion inside a folder (recursively), press ~!~ to delete all, instead of ~y~.
-
-- To create new folders type ~+~ and add the name.
