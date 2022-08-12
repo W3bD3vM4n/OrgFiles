@@ -10,8 +10,8 @@
 - [ ] from 30k to 50k
 - [ ] in the limits of Quito
 - [X] near the city no countryside
+  - [X] better internet speed & connection
 - [ ] a *house* not an apartment
-- [ ] no legal issues (one owner)
 - [X] water & electricity
 
 - [ ] 3 bedrooms
@@ -40,3 +40,11 @@
 - [ ] nearby hospitals
 - [ ] market
 - [ ] supermarket
+
+* Question to the vendor
+
+The house has:
+- no legal issues?
+- only one owner?
+- all the papers in order?
+- energy & water bills payed?

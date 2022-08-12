@@ -1,0 +1,106 @@
+#+title:    Create a New Repository on Git
+#+author:   h4ss4n
+#+date:     2022-07-06 mie
+
+* Using the Terminal
+
+Open the terminal and enter the folder you want to create the repository.
+
+** Working area
+
+1. Create a new local repository.
+
+   #+begin_src bash
+
+    git init
+
+   #+end_src
+
+** Staging area
+
+2. Add to the staging area all the files.
+
+   #+begin_src bash
+
+    git add .
+
+   #+end_src
+
+** Local repository
+
+3. Commit to the local repository.
+
+   #+begin_src bash
+
+    git commit -m "descriptive message"
+
+   #+end_src
+
+   - Display the repository current status.
+
+   #+begin_src bash
+
+    git status
+
+   #+end_src
+
+** Remote repository
+
+4. Force to move to a branch for future commit.
+
+  #+begin_src bash
+
+    git branch -M master
+
+  #+end_src
+
+5. Add the <name> to the local repository and the <link> to the remote repository.
+
+  #+begin_src bash
+
+    git remote add origin git@github.com:ShadowInSoul/OrgFiles.git
+
+  #+end_src
+
+6. Commit to the remote repository.
+
+  #+begin_src bash
+
+    git push -u origin master
+
+  #+end_src
+
+7. Create a new branch in your local repository (also in Github with the GUI).
+
+  #+begin_src bash
+
+    git checkout -b dev
+
+  #+end_src
+
+   - AND check for the existing branches.
+
+  #+begin_src bash
+
+    git branch
+
+  #+end_src
+
+8. Add and commit from the dev branch before the push.
+
+  #+begin_src bash
+
+    git push --set-upstream origin dev
+
+  #+end_src
+
+9. Then push it normally.
+
+  #+begin_src bash
+
+    git push
+
+  #+end_src
+
+   - Check for changes in the dev branch on Github.
+   - Also you can use the "Compare & pull request" to put up to date the Master branch.

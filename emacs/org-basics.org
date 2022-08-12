@@ -8,12 +8,14 @@
 
 - [[File creation]]
 - [[Bullets management]]
+- [[List]]
 - [[Checklist]]
 - [[Block delimited text]]
 - [[Text format]]
 - [[Links]]
   - [[Internal links]]
   - [[External links]]
+- [[Agenda]]
 - [[Export the document]]
 
 
@@ -75,6 +77,43 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
     S-TAB = hide/unhide all the levels (globally)
 
   #+end_quote
+
+
+** List
+
+*** Ordered list
+
+Use numbers or the alphabet follow by a point.
+
+#+begin_quote
+
+    1. [text]
+    2. [text]
+    3. [text]
+
+    a. [text]
+    b. [text]
+    c. [text]
+
+#+end_quote
+
+*** Unordered list
+
+- Use symbols as hyphens ‘-’ to begin the list.
+- Change of symbols to indicate sublevels.
+
+#+begin_quote
+
+    - [text]
+    - [text]
+        + [text]
+        + [text]
+    - [text]
+
+#+end_quote
+
+**** TODO search (keybindings in doom) for change symbols (list prefix) in group easily.
+**** TODO search (keybindings in doom) sort the list (alphabetically?)
 
 
 ** Checklist
@@ -161,6 +200,11 @@ Write the text surrounding without the ‘’
     [[link]] = [[https:://www.hyperlink.com][name to display]‘]’
 
 #+end_quote
+
+
+** Agenda
+
+*** TODO search (keybindings in doom) how to insert current date.
 
 
 ** Export the document

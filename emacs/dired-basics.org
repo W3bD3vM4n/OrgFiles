@@ -8,8 +8,13 @@
 
 - [[General]]
 - [[Enter Dired]]
+- [[Creation]]
 - [[Movement]]
 - [[Operations]]
+  - [[Access]]
+  - [[Selection]]
+  - [[Search]]
+  - [[Edition]]
 
 
 ** General
@@ -109,8 +114,12 @@
 
 #+end_quote
 
-**** TODO search (keybindings in doom) how to move to the next regex
-**** TODO search (keybindings in doom) how to sort the order of Dired view (for name or date)
+- Order the files by name or date, put the pointer on the file and press ~o~
+
+**** TODO search (keybindings in doom) how to do Regex.
+- Select a file(s) and search inside it for a text?
+- How to move to the next match?
+**** TODO search (keybindings in doom) how to manage backup file(s)
 
 **** Search & Replace
 
@@ -152,3 +161,15 @@
     (setq delete-by-moving-to-trash t)
 
   #+end_src
+
+**** Modify modes
+
+- To modify file(s) mode, put the pointer on a file and press ~M~
+- There are commands to change the specs.
+
+#+begin_quote
+
+    u-w = remove the writing for the user
+    u+w = add the writing for the user
+
+#+end_quote

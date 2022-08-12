@@ -1,0 +1,90 @@
+#+title:    Usual Git Workflow
+#+author:   h4ss4n
+#+date:     2022-08-11 jue
+
+* Using the Terminal
+
+** Look for changes
+
+   #+begin_src bash
+
+    git status
+
+   #+end_src
+
+- Show full history of repositories.
+
+#+begin_src bash
+
+    git log
+
+#+end_src
+
+** Staging area
+
+- Add your changes to the staging.
+
+   #+begin_src bash
+
+    git add .
+
+   #+end_src
+
+- OR specific file(s).
+
+   #+begin_src bash
+
+    git add [file name]
+
+   #+end_src
+
+*** Unstage files
+
+#+begin_src bash
+
+    git restore [file/path/plus/name]
+
+#+end_src
+
+** Local repository
+
+- Commit to the local repository.
+
+   #+begin_src bash
+
+    git commit -m "descriptive message"
+
+   #+end_src
+
+*** Check for remote respository updates
+
+- To look for updates in the Main Branch (once created Master & Dev).
+- It will ask for a password unless the SSH key is previously activated.
+
+   #+begin_src bash
+
+    git pull -r
+
+   #+end_src
+
+** Remote repository
+
+- Then push your changes.
+- It will ask for a password unless the SSH key is previously activated.
+
+   #+begin_src bash
+
+    git push
+
+   #+end_src
+
+
+** Aditional Operations
+
+- To download an existing repository
+
+#+begin_src bash
+
+    git clone [url adress]
+
+#+end_src
