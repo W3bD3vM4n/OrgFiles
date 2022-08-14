@@ -53,11 +53,11 @@
 
 - When a file/forlder doesn't appear in the buffer you need to refresh it.
 
-  #+begin_quote
+#+begin_quote
 
     SPC b r = refresh the buffer
 
-  #+end_quote
+#+end_quote
 
 - To open a file with a specific application, with the pointer over a file press ~!~ and enter the name of the program.
 
@@ -156,20 +156,34 @@
 - To avoid the confirmation of every deletion inside a folder (recursively), press ~!~ to delete all, instead of ~y~.
 - By default dired delete the files permanently, to avoid issues move to the trash can by adding to the =config.el=
 
-  #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
     (setq delete-by-moving-to-trash t)
 
-  #+end_src
+#+end_src
 
 **** Modify modes
 
 - To modify file(s) mode, put the pointer on a file and press ~M~
-- There are commands to change the specs.
+- There are commands to change the file.
 
 #+begin_quote
 
-    u-w = remove the writing for the user
-    u+w = add the writing for the user
+    u-w = remove writing for the user
+    u+w = add writing for the user
+    g+w = add writing for the group
+    g-w = remove writing for the group
 
 #+end_quote
+
+- It's possible to do it all at once.
+
+#+begin_quote
+
+    u-w,g+w = remove writing for the user and add to the group
+
+#+end_quote
+
+**** Change the owner
+
+- To change the owner of the file(s), put the pointer on a file and press ~O~

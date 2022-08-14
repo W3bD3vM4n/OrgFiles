@@ -118,6 +118,8 @@ Evil is an extensible vi layer for Emacs, it provides Vim features.
 
 #+end_quote
 
+- For delete/copy text inside special symbols like: * + - = ~ / # move the pointer on the content and press the comand ~diw~ or ~yiw~.
+
 *** Increase/decrease letter case
 
 #+begin_quote

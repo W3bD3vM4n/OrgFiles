@@ -265,6 +265,10 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+end_quote
 
+- To test modes you can change from *Fundamental* mode of the scratch buffer, to *Org* mode with ~M-x org-mode~.
+- Any change/content on the scratch buffer will remain even when you exit Emacs.
+- You need to change it manually to it original state, press ~M-x fundamental-mode~.
+
 
 ** Managing Windows
 

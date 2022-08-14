@@ -15,6 +15,12 @@
 - [[Links]]
   - [[Internal links]]
   - [[External links]]
+    - [[Local files]]
+    - [[Hyperlinks]]
+    - [[Additional types]]
+      - [[Elisp]]
+      - [[Shell]]
+      - [[Other]]
 - [[Agenda]]
 - [[Export the document]]
 
@@ -100,7 +106,7 @@ Use numbers or the alphabet follow by a point.
 *** Unordered list
 
 - Use symbols as hyphens ‘-’ to begin the list.
-- Change of symbols to indicate sublevels.
+- Change the bullet symbols to indicate sublevels with ~SPC m +~.
 
 #+begin_quote
 
@@ -112,7 +118,6 @@ Use numbers or the alphabet follow by a point.
 
 #+end_quote
 
-**** TODO search (keybindings in doom) for change symbols (list prefix) in group easily.
 **** TODO search (keybindings in doom) sort the list (alphabetically?)
 
 
@@ -170,36 +175,56 @@ Write the text surrounding without the ‘’
 
 ** Links
 
-Write the text surrounding without the ‘’
-
 *** Internal links
 
-#+begin_quote
-
-    [[link]] = [[bullet title]‘]’
-    [[link]] = [[bullet title][name to display]‘]’
-
-#+end_quote
+1. Select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the title name to link and press ~RET~.
+3. Add a new name to display the link or just press ~RET~ with the default.
 
 *** External links
 
 **** Local files
 
-#+begin_quote
-
-    [[link]] = [[file:~/path/of/the/file]‘]’
-    [[link]] = [[file:~/path/of/the/file][name to display]‘]’
-
-#+end_quote
+1. Select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the word *file* and press ~RET~.
+3. Navigate until find the location and press ~RET~.
+   - To *jump* to a specific file's title add on the path's end ~::header-name~.
+4. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~.
+   - Change the desired location and press ~RET~.
 
 **** Hyperlinks
 
-#+begin_quote
+1. Select the word to link with ~viw~ and type ~SPC m l l~.
+2. Copy the web url and paste it in the mini buffer with ~C-v~ and ~RET~.
+3. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~ and ~RET~.
 
-    [[link]] = [[https:://www.hyperlink.com]‘]’
-    [[link]] = [[https:://www.hyperlink.com][name to display]‘]’
+**** Additional types
 
-#+end_quote
+***** Elisp
+
+1. To execute code with a link, select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the word *elisp* and press ~RET~.
+3. Write a function or the name of the function to run it and press ~RET~.
+   - For example: ~(+ 2 2)~ or ~elisp:org-agenda~
+   - Display the result in the mini buffer.
+4. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~.
+
+***** Shell
+
+1. To execute a shell script with a link, select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the word *shell* and press ~RET~.
+3. Write a script to run it and press ~RET~.
+   - For example: ~shell:ls *.org~
+   - Display the result in the mini buffer.
+4. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~.
+
+***** Other
+
+- To see a full list of the possibilities, check the this [[https://orgmode.org/manual/External-Links.html][link]].
 
 
 ** Agenda
