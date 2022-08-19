@@ -1,0 +1,35 @@
+#+title:    Org Mode Basics
+#+author:   h4ss4n
+#+date:     2022-08-05 vie
+
+* Facebook Marketplace
+
+** Source
+
++ [[https://www.facebook.com/marketplace/quito/propertyforsale?minPrice=30000&maxPrice=55000&sortBy=creation_time_descend][Filtered Link]]
+
+*** Main:
+
+https://www.facebook.com/marketplace/item/1028364874494804
+https://www.facebook.com/marketplace/item/541655131088213
+https://www.facebook.com/marketplace/item/2079380205576545
+
+
+*** Posible:
+
+https://www.facebook.com/marketplace/item/627202955275487 (humedad en lavanderia)
+https://www.facebook.com/marketplace/item/1879799648883336 (camino de tierra)
+https://www.facebook.com/marketplace/item/3275789022703365 (algo pequeño)
+
+
+*** Last Resource:
+
+https://www.facebook.com/marketplace/item/578097177287817
+https://www.facebook.com/marketplace/item/832657530971317
+
+
+* Remax Ecuador
+
+** Source
+
++ [[https://www.remax.com.ec/listings/buy?page=0&pageSize=24&sort=-createdAt&in:operationId=1&in:typeId=2&pricein=1:30000:55000&in:bathrooms=1,2&eq:bedrooms=3&eq:parkingSpaces=1&locations=in:::1701@<b>Quito<%2Fb>::::&filterCount=5&viewMode=list][Filtered Link]]

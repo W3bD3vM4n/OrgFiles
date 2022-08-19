@@ -4,6 +4,20 @@
 
 * Using the Terminal
 
+** Summary
+
+
+    ╔═════════════════╗ ╔═════════════════╗ ╔═════════════════╗
+    ║       add       ▼ ║     commit      ▼ ║      push       ▼
+ Working            Staging              Local              Remote
+Directory            Area             Repository          Repository
+  ▲▲▲      reset       ║                  ║ ▲      fetch      ║ ║
+  ║║╚══════════════════╝      merge       ║ ╚═════════════════╝ ║
+  ║╚══════════════════════════════════════╝                     ║
+  ╚═════════════════════════════════════════════════════════════╝
+                              pull
+
+
 ** Look for changes
 
    #+begin_src bash

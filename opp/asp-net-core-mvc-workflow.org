@@ -1,0 +1,76 @@
+#+title:    ASP.NET Core MVC Workflow
+#+author:   h4ss4n
+#+date:     2022-08-17 mie
+
+* Using Visual Studio 2022
+
+** Summary
+
+~ Solution                   ╗
+  ¬ Project.Data             ║ Access/interaction ◄═╗
+    - Models                 ╝      data base       ║
+                                                    ║
+  ¬ Project.Database         ╗                      ║
+    - dbo                    ║ Create and update    ║
+      + table                ║     data base        ║
+    - security               ║ (don't touch it)     ║
+      + table                ╝                      ║
+                                                    ║
+  ¬ Project.Service          ╗                      ║
+    - Dto         // Filter  ║                      ║
+      + Login                ║                      ║
+      + Usuario              ║ The business logic ══╝
+    - Services    // Logic   ║        (CRUD)
+      + Login                ║           ▲
+      + Usuario              ╝           ║
+                                         ║
+  ¬ Project.Web                          ║
+  ╔ - wwwrot                             ║
+  ║   + css                              ║
+╔═╣   + javascript                       ║
+║ ╚   + additional                       ║
+║   - Controllers  ◄═╗══╗ ═══════════════╝
+║   - Models         ║  ║
+╚═► - Views        ══╝◄═╝
+      + shared
+
+** Definitions
+
+*dto*      = data transfer object
+
+** Naming conventions
+
+- All related to *Login* it's named as *Security*.
+
+- Names as reference for files content utility/action (more used in APIs):
+  + *request*  = send data, create, update and delete from the DB
+  + *response* = retrieve data, display one or more objetcs (list)
+
+** Theory
+
+*** Controllers
+
+It's used only *one method for every action*
+
+**** HttpPost
+- It's used to send data by prepend to a method [HttpPost]
+
+**** HttpGet
+- It's used to retrieve data by prepend to a method [HttpGet]
+  + The methods wihtout any prepend label added by default are [HttpGet]
+
+*** Views
+
+The URL (path) should say to the developer *what action it's going to happen* and how it's the organization of the project.
+- If isn't clear is necesary to edit the project, until it specify it just by look.
+
+** Workflow
+
+In development the things work by layers, from top to bottom.
+- Independently from the layer you currently are, it's necessary to *follow the lead of the data's origin*.
+
+*** Step 1
+
+1. Watch for the objects in =Project.Service > Dto= as a mapping (representation) of the DB columns you need to manipulate in the application.
+
+2. Create new methods in =Project.Service > Services= to put the logic needed.

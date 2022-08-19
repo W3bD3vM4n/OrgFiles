@@ -304,6 +304,20 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
 
 
+** Bookmark
+
+- Jump to frequently used files and directories.
+- Set or delete a bookmark inside the referenced file or directly in Dired.
+
+#+begin_quote
+
+    SPC b m = set a bookmark
+    SPC b M = delete a bookmark
+    SPC RET = jump to bookmark (display a list)
+
+#+end_quote
+
+
 ** Emacs commands
 
 *** Cancel commands

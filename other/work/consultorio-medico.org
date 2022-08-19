@@ -13,9 +13,12 @@
 - [X] Creación y configuración de las tablas
 - [X] Creación del diagrama y relación de tablas
 
-*** Creación del Proyecto ASP.NET Core MVC [1/1] [100%]
+*** Creación del Proyecto ASP.NET Core MVC [1/4] [25%]
 
 - [X] Creación del proyecto web
+- [ ] Arquitectura del proyecto.
+- [ ] Implementación del 'proyecto de base de datos'.
+- [ ] Organización de los archivos y directorios.
 
 *** Creación de Repositorio en Azure [2/2] [100%]
 
@@ -32,9 +35,9 @@
 
 *** Página de Login
 
-**** Diseño de la página [2/3] [66%]
+**** Diseño de la página [3/3] [100%]
 
-- [ ] Colocar logo de consultorio
+- [X] Colocar logo de consultorio
 - [X] Input usuario, contraseña y botón
 - [X] Conexión con base de datos para verificación
 
@@ -56,18 +59,18 @@
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
 - [ ] Conexión con la base de datos
 
-**** Grid de Usuarios [0/0] [0%]
+**** Grid de Usuarios [4/5] [80%]
 
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
 - [X] Agregar botones pop up para editar, eliminar y actualizar
 - [ ] Agregar funcionalidades a los botones
 - [X] Agregar boton para visualizar página 'Creación de usuarios'
-- [ ] Conexión con la base de datos
+- [X] Conexión con la base de datos
 
-***** Página Creación de Usuarios [3/5] [60%]
+***** Página Creación de Usuarios [5/5] [100%]
 
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
 - [X] Arreglar controles textbox
-- [ ] Arreglar controles dropdownlist
+- [X] Arreglar controles dropdownlist
 - [X] Arreglar controles datetimepicker
-- [ ] Conexión con la base de datos
+- [X] Conexión con la base de datos

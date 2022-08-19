@@ -13,15 +13,21 @@
 - [[Block delimited text]]
 - [[Text format]]
 - [[Links]]
-  - [[Internal links]]
-  - [[External links]]
+  + [[Internal links]]
+  + [[External links]]
     - [[Local files]]
     - [[Hyperlinks]]
     - [[Additional types]]
-      - [[Elisp]]
-      - [[Shell]]
-      - [[Other]]
+      + [[Elisp]]
+      + [[Shell]]
+      + [[Other]]
 - [[Agenda]]
+  + [[Task]]
+  + [[Agenda List]]
+  + [[Priorities]]
+  + [[Tags]]
+  + [[Calendar]]
+    - [[Timestamp]]
 - [[Export the document]]
 
 
@@ -118,7 +124,8 @@ Use numbers or the alphabet follow by a point.
 
 #+end_quote
 
-**** TODO search (keybindings in doom) sort the list (alphabetically?)
+- To sort a list of items order by alphabet, numbers, time or functions, type ~M-x org-sort-list~ and choose a [key]
+  + The oposite order is done by pressing the *uppercase* [key].
 
 
 ** Checklist
@@ -152,25 +159,14 @@ Use numbers or the alphabet follow by a point.
 #+begin_quote
 
     <q TAB = quote
-    <s TAB [languaje name] = code block
+    <e TAB = example
+    <s TAB [languaje name] = code snippet
+    <c TAB = comment
+    <v TAV = verse
 
 #+end_quote
 
-
-** Text format
-
-Write the text surrounding without the ‘’
-
-#+begin_quote
-
-    *text* = ‘*bold*’
-    /text/ = ‘/italic/’
-    _text_ = ‘_underlined_’
-    =text= = ‘=verbatim=’
-    ~text~ = ‘~code~’
-    +text+ = ‘+strike-through+’
-
-#+end_quote
+- To execute a code snippet type ~C-c C-c~ it will display the last expression (line) in a code block called *RESULTS*.
 
 
 ** Links
@@ -229,7 +225,75 @@ Write the text surrounding without the ‘’
 
 ** Agenda
 
-*** TODO search (keybindings in doom) how to insert current date.
+*** Tasks
+
+- To create a task move the pointer to a bullet line.
+
+#+begin_quote
+
+    SPC m t [task] = insert org todo
+
+#+end_quote
+
+- To change the current status of a task press again ~SPC m t [task]~
+
+*** Agenda List
+
+- To display all the TODOs in a buffer, first create an *agenda file* while you're in a =.org= file.
+
+#+begin_quote
+
+    C-c [ = add current file to the list
+    C-c ] = remove current file to the list
+
+    SPC o A = display agenda commands
+    SPC o a t = display a global TODO list of files
+
+#+end_quote
+
+*** Priorities
+
+- A priority can be set and change from the task line.
+
+#+begin_quote
+
+    SPC m p [u/d] = insert priority from A to C
+
+#+end_quote
+
+*** Tags :sets:
+
+- To group by context add a tag from the task line.
+
+#+begin_quote
+
+    SPC m q [custom name] = insert a tag
+
+#+end_quote
+
+- Search on the file by enter the *org agenda* with ~SPC o a m~
+
+*** Calendar
+
+#+begin_quote
+
+    C-c > = display a calendar (3 months)
+
+#+end_quote
+
+- Move to other dates with ~[h/j/k/l]~, to other year with ~o~ and to the current date with ~.~
+
+**** Timestamp
+
+- To insert the current date in a org file.
+
+#+begin_quote
+
+    SPC m d t = org timestamp
+
+#+end_quote
+
+- Move to other dates with ~C-[h/j/k/l]~, the current date with ~.~ and insert with ~RET~.
 
 
 ** Export the document
