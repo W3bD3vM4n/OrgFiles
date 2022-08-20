@@ -294,6 +294,8 @@ Use numbers or the alphabet follow by a point.
 #+end_quote
 
 - Move to other dates with ~C-[h/j/k/l]~, the current date with ~.~ and insert with ~RET~.
+- To insert multiple timestamps use a new line for every new one.
+  + If the same line is used, it'll overwrite itself.
 
 
 ** Export the document
