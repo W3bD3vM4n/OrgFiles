@@ -7,31 +7,35 @@
 ** Index
 
 - [[General]]
-  - [[Check the current version]]
-  - [[Print the Working Directory]]
-  - [[Check for crashes]]
+  + [[Check the current version]]
+  + [[Print the Working Directory]]
+  + [[Check for crashes]]
 - [[Configuration]]
-  - [[Open your Doom configuration files]]
-  - [[Reload the configuration files]]
-  - [[Switching to relative line numbers]]
-  - [[Add the Evil Tutor]]
+  + [[Open your Doom configuration files]]
+  + [[Reload the configuration files]]
+  + [[Switching to relative line numbers]]
+  + [[Add the Evil Tutor]]
 - [[Look for Help]]
-  - [[Info manuals]]
+  + [[Info manuals]]
     - [[Info Mode Keybindings]]
-  - [[Apropos]]
-  - [[The Describre System]]
+  + [[Apropos]]
+  + [[The Describre System]]
     - [[Describe a mode]]
     - [[Describe a function]]
     - [[Describe a variable]]
     - [[Describe a key]]
 - [[Managing Files and Directories]]
-  - [[Find/open a file]]
+  + [[Find/open a file]]
 - [[Managing Buffers]]
 - [[Managing Windows]]
+- [[Bookmark][Bookmark]]
 - [[Text Editor]]
+- [[Integrated Development Environment][Integrated Development Environment]]
+  - [[Comments][Comments]]
+  - [[Search & Replace][Search & Replace]]
 - [[Emacs commands]]
-  - [[Cancel commands]]
-  - [[Quit session]]
+  + [[Cancel commands]]
+  + [[Quit session]]
 
 
 ** General
@@ -299,11 +303,6 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 #+end_quote
 
 
-** Text Editor
-
-Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
-
-
 ** Bookmark
 
 - Jump to frequently used files and directories.
@@ -316,6 +315,30 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
     SPC RET = jump to bookmark (display a list)
 
 #+end_quote
+
+
+** Text Editor
+
+Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
+
+
+** Integrated Development Environment
+
+*** Comments
+
+ #+begin_quote
+
+   C-x C-; = comment/uncomment a line or a selected region
+
+ #+end_quote
+
+*** Search & Replace
+
+- Search the word to be replaced with ~/~
+  - The last searched word it's keep in memory, to use it again type ~RET~.
+  - Use ~n~ to navigate to the next find and ~N~ for the previous find.
+- Type ~M-%~, write again the word to be replaced and the word to replace with.
+  + The last replaced word it's keep in memory, to use it again type ~RET~.
 
 
 ** Emacs commands

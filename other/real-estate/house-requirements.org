@@ -9,6 +9,7 @@
 *** Mandatory
 - [ ] from 30k to 50k
 - [ ] in the limits of Quito
+  - [ ] no Carapungo, Calderon, Otavalo, Sangolqui, Pedro Vicente Maldonado
 - [X] near the city no countryside
   - [X] better internet speed & connection
 - [ ] a *house* not an apartment
