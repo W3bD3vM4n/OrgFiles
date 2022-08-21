@@ -8,12 +8,12 @@
 
 - [[General]]
 - [[Evil commands]]
-  - [[Move through text]]
-  - [[Move through page]]
-  - [[Edit text]]
-  - [[Increase/decrease letter case]]
-  - [[Search through text]]
-  - [[Delete all the conent]]
+  + [[Move through text]]
+  + [[Move through page]]
+  + [[Edit text]]
+  + [[Increase/decrease letter case]]
+  + [[Search through text]]
+  + [[Delete all the conent]]
 
 
 ** General

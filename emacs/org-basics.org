@@ -63,6 +63,7 @@ First create the .org file, then press ~C-x C-q~ to disable the read only state.
 #+end_quote
 
 - It also works when you put the pointer in any free space between the bullet level content and press ~M-RET~
+  + If you use ~C-RET~ instead, it create a copy of the same level and enter in *Insert mode*.
 - To create sublevels quickly, with the pointer on the end line press ~M-RET~ and ~M-l~
 
   #+begin_quote

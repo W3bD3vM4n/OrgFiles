@@ -33,6 +33,7 @@
 - [[Integrated Development Environment][Integrated Development Environment]]
   - [[Comments][Comments]]
   - [[Search & Replace][Search & Replace]]
+  - [[Version Control System]]
 - [[Emacs commands]]
   + [[Cancel commands]]
   + [[Quit session]]
@@ -339,6 +340,10 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
   - Use ~n~ to navigate to the next find and ~N~ for the previous find.
 - Type ~M-%~, write again the word to be replaced and the word to replace with.
   + The last replaced word it's keep in memory, to use it again type ~RET~.
+
+*** Version Control System
+
+- UI for [[file:magit-basics.org][Git]].
 
 
 ** Emacs commands

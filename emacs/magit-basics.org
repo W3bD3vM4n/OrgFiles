@@ -1,0 +1,152 @@
+#+title:    Magit Basics
+#+author:   h4ss4n
+#+date:     <2022-08-21 dom.>
+
+* Inside Emacs GUI
+
+** Index
+
+- [[Summary]]
+- [[Enter in Magit]]
+- [[Look for changes]]
+- [[Staging area]]
+  + [[Unstage files]]
+- [[Local repository]]
+  + [[Check for remote respository updates][Check for updates]]
+- [[Remote repository]]
+- [[Aditional Operations]]
+
+
+** Summary
+
+
+    ╔═════════════════╗ ╔═════════════════╗ ╔═════════════════╗
+    ║       add       ▼ ║     commit      ▼ ║      push       ▼
+ Working            Staging              Local              Remote
+Directory            Area             Repository          Repository
+  ▲▲▲      reset       ║                  ║ ▲      fetch      ║ ║
+  ║║╚══════════════════╝      merge       ║ ╚═════════════════╝ ║
+  ║╚══════════════════════════════════════╝                     ║
+  ╚═════════════════════════════════════════════════════════════╝
+                              pull
+
+** Enter in Magit
+
+- Move to a directory with Dired where a git directory exist.
+
+** Look for changes
+
+- Enter the *Status Interface* to interact with Git.
+
+#+begin_quote
+
+   SPC g g = status interface for Magit
+
+#+end_quote
+
+- To watch the list of actions, press ~?~.
+- After any change of the files, to refresh it press ~g~.
+- To exit Magit press ~q~.
+
+*** Status section
+
+- Show information about the branch where changes are pulled/pushed to.
+  + only show merge or rebase depending or your previous actions.
+  + push doesn't show if not done yet.
+  + additional info: lastest tag created and errors during the pull/push.
+
+#+begin_quote
+
+    Head: [branch name] [last commit name]
+    Merge/Rebase: [branch name] [last commit name]
+    Push: [branch name] [last commit name]
+
+#+end_quote
+
+*** Untracked files
+
+- Show a list of files to be added to the commit or the =.gitignore= file.
+  + A number on the title indicate the total files.
+
+*** Unstaged changes
+
+- Show a list of tracked files which has been changed since the last commit.
+  + To expand and view the changes press ~TAB~.
+
+*** Staged changes
+
+- Show a list of staged files.
+  + To expand and view the changes press ~TAB~.
+
+*** Unpushed changes
+
+- Show a list of commits that haven't been pushed.
+
+*** Unmerged changes
+
+- Show changes from the remote branch which haven't been merged/rebased into the local branch.
+
+*** Unpulled changes
+
+- Show changes from the remote branch which haven't been pulled into the local branch.
+  + It can be done without merging.
+
+
+** Staging area
+
++ Add your changes to the staging, press ~s~ on the title.
+  + OR specific file(s) by going to their line and press ~s~.
+
+*** Unstage files
+
+- Quit your changes of the staging, press ~u~ on the title.
+  + OR specific file(s) by going to their line and press ~u~.
+
+
+** Local repository
+
+- Commit to the local repository, press ~c~ on the title.
+  + Additional arguments appear, just press ~c~ again.
+  + A new buffer pop up, write the message to commit and ~C-c C-c~.
+
+*** Change of branches
+
+- Press ~b~ on the title to access the menu, then ~b~ again to choose one of the branches.
+  + By pressing ~b~ then ~s~ a new branch spin-off of your current branch is created.
+
+*** Tag a commit
+
+- To reference a specific point in history, in the commit line press ~t~ two times, write the name and ~RET~.
+
+*** Check for remote respository updates
+
+- To look for updates in the Main Branch (once created Master & Dev).
+- It will ask for a password unless the SSH key is previously activated.
+
+   #+begin_src bash
+
+    git pull -r
+
+   #+end_src
+
+** Remote repository
+
+- Then push your changes.
+- It will ask for a password unless the SSH key is previously activated.
+
+   #+begin_src bash
+
+    git push
+
+   #+end_src
+
+
+** Aditional Operations
+
+- To download an existing repository
+
+#+begin_src bash
+
+    git clone [url adress]
+
+#+end_src
