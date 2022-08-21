@@ -22,7 +22,7 @@
       + [[Shell]]
       + [[Other]]
 - [[Agenda]]
-  + [[Task]]
+  + [[Tasks]]
   + [[Agenda List]]
   + [[Priorities]]
   + [[Tags]]
