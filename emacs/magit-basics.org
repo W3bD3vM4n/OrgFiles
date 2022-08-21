@@ -121,13 +121,10 @@ Directory            Area             Repository          Repository
 *** Check for remote respository updates
 
 - To look for updates in the Main Branch (once created Master & Dev).
-- It will ask for a password unless the SSH key is previously activated.
+  + It will ask for a password unless the SSH key is previously activated.
+- Press ~F~ on the title to *Pull* and activate the *rebase* option by typing ~-r~.
+-
 
-   #+begin_src bash
-
-    git pull -r
-
-   #+end_src
 
 ** Remote repository
 
