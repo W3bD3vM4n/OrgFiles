@@ -132,22 +132,7 @@ Directory            Area             Repository          Repository
 
 ** Remote repository
 
-- Then push your changes.
-- It will ask for a password unless the SSH key is previously activated.
-
-   #+begin_src bash
-
-    git push
-
-   #+end_src
 
 
 ** Aditional Operations
 
-- To download an existing repository
-
-#+begin_src bash
-
-    git clone [url adress]
-
-#+end_src
