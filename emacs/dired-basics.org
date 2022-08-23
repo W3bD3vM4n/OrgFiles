@@ -7,6 +7,7 @@
 ** Index
 
 - [[General]]
+- [[Configuration]]
 - [[Enter Dired]]
 - [[Creation]]
 - [[Movement]]
@@ -15,13 +16,31 @@
   + [[Selection]]
   + [[Search]]
   + [[Edition]]
+- [[Source]]
 
 
 ** General
 
 - The Directory Editor (Dired) is the main mode for Emacs file-manager operations.
-- Look for the top mark *Dired (directory)* instead of *Find file*.
-- Open the *Evil Menu* by pressing ~g~ to display the key commands.
+  + Look for the top mark *Dired (directory)* instead of *Find file*.
+  + Open the *Evil Menu* by pressing ~g~ to display the key commands.
+
+
+** Configuration
+
+- Add Icons and Ranger's features by editing a section in the =init.el= file in you private config.
+
+#+begin_quote
+
+    #before
+       :emacs
+       dired                              ; making dired pretty [functional]
+
+    #after
+       :emacs
+       (dired +icons +ranger)             ; making dired pretty [functional]
+
+#+end_quote
 
 
 ** Enter Dired
@@ -187,3 +206,7 @@
 **** Change the owner
 
 - To change the owner of the file(s), put the pointer on a file and press ~O~
+
+** Source
+
++ [[https://github.com/ralesi/ranger.el]]

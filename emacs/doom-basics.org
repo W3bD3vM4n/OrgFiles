@@ -84,28 +84,22 @@ Your private config is kept in =~/.doom.d/= and it's typically comprised of an =
 
 #+begin_quote
 
-    SPC f p = find/open private config
+    SPC f p = find/open private config                                      #less-used
 
 #+end_quote
 
 *** Reload the configuration files
 
 - Once edited and saved the files, it's possible to reload it even with Emacs still open.
-  The equivalent of Doom Sync outside Emacs.
+  + The equivalent of Doom Sync outside Emacs.
 
 #+begin_quote
 
-    SPC h r r = doom reload (plus RET to run it)
+    SPC h r r = doom reload (plus RET to run it)                            #less-used
 
 #+end_quote
 
-- To changes take effect, close all Emacs instances and open it again.
-
-  #+begin_quote
-
-    SPC q K = kill emacs (and daemon)
-
-  #+end_quote
+- To changes take effect, restart Emacs.
 
 *** Switching to relative line numbers
 
@@ -136,7 +130,7 @@ For beginners, non technical background required.
 
 #+begin_quote
 
-    SPC h i = show a list of avaliable manuals
+    SPC h i = show a list of avaliable manuals                               #less-used
 
 #+end_quote
 
@@ -205,7 +199,7 @@ Related to the M-x actions, once prompted enter the name to search.
 
 #+begin_quote
 
-    SPC h f = describe what a function does it
+    SPC h f = describe what a function does it                              #used
 
 #+end_quote
 
@@ -226,7 +220,7 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+begin_quote
 
-    SPC h k = describe what a keybinding does it
+    SPC h k = describe what a keybinding does it                            #used
 
 #+end_quote
 
@@ -236,36 +230,36 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 *** Find/open a file
 
 - To create a new file select the location, type the name and file extension.
-
 - To create a new folder select the location, the name of the folder and a '/' at the end.
-  This will open a new scratch buffer if a file to be created is not especified.
+  + This will open a new scratch buffer if a file to be created is not especified.
 
 #+begin_quote
 
-    SPC f f = find/open a file
-    SPC f r = open recent file
-    SPC f s = save a file
+    SPC . = find/open a file                                                #less-used
+    SPC f r = open recent file                                              #used
 
 #+end_quote
 
+- To *save* a file with more back up options press ~SPC f s~.
 - To *save as* a file with another name, inside a existing saved file press ~SPC f S~ being the last a upper case letter.
-
-- To *save a scratch buffer* as a file with ~SPC f s~, first it's needs to have some content.
+  + To *save a scratch buffer* as a file with ~SPC f s~, first it's needs to have some content.
 
 
 ** Managing Buffers
 
 #+begin_quote
 
-    SPC b x = pop up scratch buffer
+    SPC b x = pop up scratch buffer (keep data in temporary memory)             #less-used
+    SPC b N = new empty buffer (if not save it's all lose)                      #NEED-to-use
 
-    SPC b b = switch buffers, show current ones (select with arrows)
-    SPC b i = switch buffers, show everything (select with hjkl/arrows)
+    SPC b b = switch buffer, show current ones (select with arrows)             #NEED-to-use
+    SPC b i = switch buffer, show everything (select with hjkl/arrows)          #most-used
     SPC b p = switch to previous buffer
     SPC b n = switch to next buffer
 
-    SPC b k = kill the current buffer
-    SPC b K = kill all buffers (prompt to welcome screen)
+    SPC b s = save buffer's file                                                #most-used
+    SPC b k = kill the current buffer                                           #most-used
+    SPC b K = kill all buffers (prompt to welcome screen)                       #most-used
     C-x k = kill buffers (show a list, select with arrows)
 
 #+end_quote
@@ -279,16 +273,16 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+begin_quote
 
-    C-x 0 = delete current window
-    C-x 1 = delete other windows (current fill the spot)
+    C-x 0 = delete current window                                               #used
+    C-x 1 = delete other windows (current fill the spot)                        #most-used
 
-    C-x 2 = horizontal split
-    C-x 3 = vertical split
+    C-x 2 = horizontal split                                                    #used
+    C-x 3 = vertical split                                                      #used
 
+    #multiple-monitors
     C-x 4 f = open file in new window
     C-x 4 d = open dired in new window
 
-    ;;; for more monitors
     C-x 5 0 = delete current frame
     C-x 5 1 = delete other frames (current fill the spot)
     C-x 5 2 = create a new frame
@@ -296,10 +290,10 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
     C-x 5 d = open dired in new frame
 
     C-x o = go to next window
-    SPC w j = go to down window
-    SPC w k = go to up window
-    SPC w h = go to left window
-    SPC w l = go to right window
+    SPC w j = go to down window                                                 #used
+    SPC w k = go to up window                                                   #used
+    SPC w h = go to left window                                                 #used
+    SPC w l = go to right window                                                #used
 
 #+end_quote
 
@@ -311,9 +305,9 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+begin_quote
 
-    SPC b m = set a bookmark
-    SPC b M = delete a bookmark
-    SPC RET = jump to bookmark (display a list)
+    SPC b m = set a bookmark                                                    #less-used
+    SPC b M = delete a bookmark                                                 #less-used
+    SPC RET = jump to bookmark (display a list)                                 #most-used
 
 #+end_quote
 
@@ -329,7 +323,7 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
 
  #+begin_quote
 
-   C-x C-; = comment/uncomment a line or a selected region
+   C-x C-; = comment/uncomment a line or a selected region                  #NEED-to-use
 
  #+end_quote
 
@@ -348,11 +342,19 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
 
 ** Emacs commands
 
+*** Run command
+
+#+begin_quote
+
+    SPC : = it's equivalent to M-x                                         #NEED-to-use
+
+#+end_quote
+
 *** Cancel commands
 
 #+begin_quote
 
-    C-g = cancel enter command (get me out)
+    C-g = cancel enter command (get me out)                                 #most-used
 
 #+end_quote
 
@@ -360,10 +362,11 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
 
 #+begin_quote
 
-   SPC q q = quit Emacs
-   SPC q Q = quit Emacs without saving
+    SPC q q = quit Emacs                                                    #most-used
+    SPC q Q = quit Emacs without saving
+    SPC q K = kill emacs (and daemon)
 
-   SPC q r = restart and restore Emacs
-   SPC q R = restart Emacs
+    SPC q r = restart and restore Emacs
+    SPC q R = restart Emacs                                                 #less-used
 
 #+end_quote
