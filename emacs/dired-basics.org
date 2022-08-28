@@ -10,14 +10,14 @@
 - [[Configuration]]
 - [[Enter Dired]]
 - [[Ranger Minor Mode]]
-  + Basics
-  + Creation
-  + Navigation
-  + Search
-  + Edition
-  + Selection
-  + Sorting
-  + Toggles
+  + [[Ranger Basics][Ranger Basics]]
+  + [[Ranger Creation][Ranger Creation]]
+  + [[Ranger Navigation][Ranger Navigation]]
+  + [[Ranger Search][Ranger Search]]
+  + [[Ranger Edition][Ranger Edition]]
+  + [[Ranger Selection][Ranger Selection]]
+  + [[Ranger Sorting][Ranger Sorting]]
+  + [[Ranger Toggles][Ranger Toggles]]
 - [[Default Mode]]
   - [[Creation]]
   - [[Movement]]
@@ -25,10 +25,10 @@
     + [[Access]]
     + [[Selection]]
     + [[Search]]
-      + Search & Replace
+      + [[Search & Replace][Search & Replace]]
     + [[Edition]]
-      + Modify modes
-      + Change the owner
+      + [[Modify modes][Modify modes]]
+      + [[Change the owner][Change the owner]]
 - [[Source]]
 
 
@@ -74,7 +74,7 @@
 
 ** Ranger Minor Mode
 
-*** Basics
+*** Ranger Basics
 
 The main features:
 - Bindings to go up/down the next directory
@@ -82,7 +82,7 @@ The main features:
 - Multi-column display of parent directories
 - Toggle literal/fully formatted preview
 
-*** Creation
+*** Ranger Creation
 
 #+begin_quote
 
@@ -91,7 +91,7 @@ The main features:
 
 #+end_quote
 
-*** Navigation
+*** Ranger Navigation
 
 #+begin_quote
 
@@ -99,7 +99,7 @@ The main features:
 
 #+end_quote
 
-*** Search
+*** Ranger Search
 
 #+begin_quote
 
@@ -107,7 +107,7 @@ The main features:
 
 #+end_quote
 
-*** Edition
+*** Ranger Edition
 
 #+begin_quote
 
@@ -116,19 +116,19 @@ The main features:
 
 #+end_quote
 
-*** Selection
+*** Ranger Selection
 
 #+begin_quote
 
-    t = mark/select a directory (or file)
-    ;u = unmark/unselect a directory (or file)
-    ;U = unmark all
+    t = select a directory/file
+    ;u = unselect a directory/file
+    ;U = unselect all
 
     v = toggle between non selected elements
 
 #+end_quote
 
-*** Sorting
+*** Ranger Sorting
 
 #+begin_quote
 
@@ -140,7 +140,7 @@ The main features:
 
 #+end_quote
 
-*** Toggles
+*** Ranger Toggles
 
 To enter on a minimal view without the parent folders enter *deer* or minimal ranger mode.
 
@@ -205,8 +205,8 @@ To enter on a minimal view without the parent folders enter *deer* or minimal ra
 
 #+begin_quote
 
-    m = mark/select a directory (or file)
-    u = unmark/unselect a directory (or file)
+    m = mark a directory/file
+    u = unmark a directory/file
     U = unmark all
 
     t = toggle between non selected elements
