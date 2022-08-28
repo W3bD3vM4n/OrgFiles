@@ -37,6 +37,7 @@
 - [[Emacs commands]]
   + [[Cancel commands]]
   + [[Quit session]]
+- [[Source]]
 
 
 ** General
@@ -92,6 +93,8 @@ Your private config is kept in =~/.doom.d/= and it's typically comprised of an =
 
 - Once edited and saved the files, it's possible to reload it even with Emacs still open.
   + The equivalent of Doom Sync outside Emacs.
+- The =init.el= and =packages.el= file need ~doom sync~ and restart to change take effect.
+  + The =config.el= doesn't need ~doom sync~ because the code aren't package related.
 
 #+begin_quote
 
@@ -334,6 +337,7 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
   - Use ~n~ to navigate to the next find and ~N~ for the previous find.
 - Type ~M-%~, write again the word to be replaced and the word to replace with.
   + The last replaced word it's keep in memory, to use it again type ~RET~.
+- The are another modules for a more complete use, with interfaces and [[https://github.com/doomemacs/doomemacs/tree/master/modules/completion][frameworks completion]].
 
 *** Version Control System
 
@@ -370,3 +374,8 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
     SPC q R = restart Emacs                                                 #less-used
 
 #+end_quote
+
+** Source
+
++ [[https://github.com/doomemacs/doomemacs]]
++ [[https://github.com/doomemacs/doomemacs/tree/master/modules]]

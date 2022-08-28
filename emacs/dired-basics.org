@@ -9,13 +9,26 @@
 - [[General]]
 - [[Configuration]]
 - [[Enter Dired]]
-- [[Creation]]
-- [[Movement]]
-- [[Operations]]
-  + [[Access]]
-  + [[Selection]]
-  + [[Search]]
-  + [[Edition]]
+- [[Ranger Minor Mode]]
+  + Basics
+  + Creation
+  + Navigation
+  + Search
+  + Edition
+  + Selection
+  + Sorting
+  + Toggles
+- [[Default Mode]]
+  - [[Creation]]
+  - [[Movement]]
+  - [[Operations]]
+    + [[Access]]
+    + [[Selection]]
+    + [[Search]]
+      + Search & Replace
+    + [[Edition]]
+      + Modify modes
+      + Change the owner
 - [[Source]]
 
 
@@ -59,7 +72,89 @@
 - Kill the Dired buffers that you're not using anymore to avoid an overflow.
 
 
-** Creation
+** Ranger Minor Mode
+
+*** Basics
+
+The main features:
+- Bindings to go up/down the next directory
+- Preview the selected file/image/directory
+- Multi-column display of parent directories
+- Toggle literal/fully formatted preview
+
+*** Creation
+
+#+begin_quote
+
+    C-r = refresh buffer
+    + = create directory
+
+#+end_quote
+
+*** Navigation
+
+#+begin_quote
+
+    gh = home directory
+
+#+end_quote
+
+*** Search
+
+#+begin_quote
+
+    f = search file/directory
+
+#+end_quote
+
+*** Edition
+
+#+begin_quote
+
+    C = copy a folder/file (specify output path)
+    R = move/rename a folder/file
+
+#+end_quote
+
+*** Selection
+
+#+begin_quote
+
+    t = mark/select a directory (or file)
+    ;u = unmark/unselect a directory (or file)
+    ;U = unmark all
+
+    v = toggle between non selected elements
+
+#+end_quote
+
+*** Sorting
+
+#+begin_quote
+
+    on = name
+    oe = extension
+    os = size
+    ot = modified date
+    oc = created date
+
+#+end_quote
+
+*** Toggles
+
+To enter on a minimal view without the parent folders enter *deer* or minimal ranger mode.
+
+#+begin_quote
+
+    zh = toggle hidden files
+    zP = toggle full ranger/deer-mode
+
+#+end_quote
+
+
+** Default Mode
+
+*** Creation
 
 - To create a *new folder* type ~+~ and add the name.
 - To create a *new file*, press the command and add the name plus the extension.
@@ -80,8 +175,7 @@
 
 - To open a file with a specific application, with the pointer over a file press ~!~ and enter the name of the program.
 
-
-** Movement
+*** Movement
 
 #+begin_quote
 
@@ -93,10 +187,9 @@
 
 #+end_quote
 
+*** Operations
 
-** Operations
-
-*** Access
+**** Access
 
 - Use ~M-RET~ to display a preview of the file without exit dired, move to other file and press again to watch.
 - To delete the preview window press ~C-x 1~
@@ -108,7 +201,7 @@
 
 #+end_quote
 
-*** Selection
+**** Selection
 
 #+begin_quote
 
@@ -123,7 +216,7 @@
 - If any file is selected, by pressing ~t~ will select all, by pressing it again will unselect all.
 - To select all the directories press ~*/~.
 
-*** Search
+**** Search
 
 #+begin_quote
 
@@ -135,18 +228,18 @@
 
 - Order the files by name or date, put the pointer on the file and press ~o~
 
-**** TODO search (keybindings in doom) how to do Regex.
+***** TODO search (keybindings in doom) how to do Regex.
 - Select a file(s) and search inside it for a text?
 - How to move to the next match?
-**** TODO search (keybindings in doom) how to manage backup file(s)
+***** TODO search (keybindings in doom) how to manage backup file(s)
 
-**** Search & Replace
+***** Search & Replace
 
 1. In Dired press ~C-x C-q~ to allow the edition (unlock Read-Only mode).
 2. To search and replace type ~M-%~ entering first the file name/extension to change and then the desired output.
 3. Once finish, press ~C-x C-q~ to exit the edition (lock Read-Only mode).
 
-*** Edition
+**** Edition
 
 #+begin_quote
 
@@ -181,7 +274,7 @@
 
 #+end_src
 
-**** Modify modes
+***** Modify modes
 
 - To modify file(s) mode, put the pointer on a file and press ~M~
 - There are commands to change the file.
@@ -203,10 +296,12 @@
 
 #+end_quote
 
-**** Change the owner
+***** Change the owner
 
 - To change the owner of the file(s), put the pointer on a file and press ~O~
 
+
 ** Source
 
++ [[https://github.com/doomemacs/doomemacs/tree/master/modules/emacs/dired]]
 + [[https://github.com/ralesi/ranger.el]]
