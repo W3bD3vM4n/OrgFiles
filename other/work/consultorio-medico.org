@@ -59,7 +59,7 @@
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
 - [ ] Conexión con la base de datos
 
-**** Grid de Usuarios [4/5] [80%]
+**** Grid de Usuarios [0/0] [0%]
 
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
 - [X] Agregar botones pop up para editar, eliminar y actualizar
@@ -74,3 +74,19 @@
 - [X] Arreglar controles dropdownlist
 - [X] Arreglar controles datetimepicker
 - [X] Conexión con la base de datos
+
+
+** 2. Testing: Módulo de Login
+
+*** Bugs
+- Cuando se elimina el usuario, automaticamente debe borrar los roles que se le asignaron en *UsuarioRol*.
+  + Sino salta una excepción en donde hay que borrar primero el *Rol* y luego al *Usuario* que lo poseia.
+
+- El ~DateTimePicker~ necesita una validación que permita escoger hasta cierta fecha la *Fecha de Nacimiento*
+  + Bloquear si la fecha es muy antigua a la vida natural de una persona.
+  + Bloquear si es despues de la fecha actual.
+
+- En el *Registro del Usuario* los ~TextBoxes~ se mueven de lugar en el *View* debido a los mensajes de error de las validaciones.
+  + Cuando uno de los mensajes aparece y el otro no, se desnivela.
+  + Con el foco solo aparece un mensaje de error a la vez, al fin que todos los designados.
+    - Posible solución que se valide con el click y no con el foco.
