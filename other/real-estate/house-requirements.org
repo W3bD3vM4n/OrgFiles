@@ -1,6 +1,6 @@
 #+title:    House Buying Requirements
 #+author:   h4ss4n
-#+date:     2022-08-10 mie
+#+date:     <2022-08-10 mié.>
 
 * Minimum Requirements
 

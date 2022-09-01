@@ -1,0 +1,23 @@
+#+title:    Elisp Basics
+#+author:   h4ss4n
+#+date:     <2022-08-31 mié.>
+
+* Inside Emacs GUI
+
+** Index
+- [[Basics]]
+
+
+** Basics
+
+- Lists are the basis of Lisp.
+  + it handles _lists_
+    - mark their boundaries with parentheses
+    - separate elements with whitespace
+    - an apostrophea ‘'’ follow a list between another
+      + it tells Lisp to do nothing with the list
+
+  + any list is a program ready to run (evaluate)
+    1. do nothing except return to you the list itself
+    2. send you an error message
+    3. treat the first symbol in the list as a command to do something

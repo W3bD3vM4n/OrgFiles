@@ -1,6 +1,6 @@
 #+title:    Analisis de la Biblia
 #+author:   h4ss4n
-#+date:     2022-08-15 lun
+#+date:     <2022-08-15 lun.>
 
 * Antiguo Testamento
 
@@ -263,13 +263,33 @@ Desde el libro de Mateo hasta Apocalipsis
     + Referencia al RAPTO!?
 
 
-** Cap. 25 (por leer Cap. 26)
+** Cap. 25
 - Parábola de las diez vírgenes
 - Parábola de los talentos
   + a que se refiere con talentos? es dinero??
 - Habla de como se hara un juicio en las naciones, separando los buenos de los malos
   + y quienes ayudaron a los necesitados, como si se Jesús se tratara recibiran la gloria
   + mientras los que hicieron lo contrario, seran castigados
+
+
+** Cap. 26
+- Habla como aviso a sus discipulos como lo iban a aprehender en la epoca de pascuas y su muerte se acercaba.
+  + Menciono que este iba a ser negado por sus discipulos (3 veces por Pedro).
+  + Tambien proclamo que iba a ser traicionado por uno de ellos (Judas).
+- Tuvo su ultima cena (de pascuas), y más tarde fue a orar.
+  + "Velad y orad, para que no entréis en tentación; el espíritu a la verdad está dispuesto, pero la carne es débil."
+  + Advirtio que su captura es lo que tiene que pasar e dejo en claro que podia pedir ayuda divina, "¿Pero cómo entonces se cumplirían las Escrituras, de que es necesario que así se haga?"
+- Se cumplio su arresto.
+
+
+** Cap. 27 (por leer Cap. 28)
+- Judas se arrepintio de vender a Jesús y se mato, aun asi no cambio en nada lo que tenia que pasar.
+- Se realizo un juicio en donde los viejos, sacedotes y escribas estaban confabulados.
+  + Poncio Pilato como governador dirigio el juicio, pero al final fue el pueblo quien convencido decidio su muerte.
+  + "Y respondiendo todo el pueblo, dijo: Su sangre sea sobre nosotros, y sobre nuestros hijos."
+- Se cuenta la crucificción y muerte de Jesús.
+  + Durante este tiempo sucedieron cosas que se pueden describir como *misticas*.
+- Despues de su muerte, se dijo que recusitará en 3 dias.
 
 
 ** Adicional

@@ -1,6 +1,6 @@
 #+title:    Doom Basics
 #+author:   h4ss4n
-#+date:     2022-07-26 mar
+#+date:     <2022-07-26 mar.>
 
 * Inside Emacs GUI
 

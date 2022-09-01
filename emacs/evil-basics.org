@@ -1,6 +1,6 @@
 #+title:    Evil Mode Basics
 #+author:   h4ss4n
-#+date:     2022-08-07 dom
+#+date:     <2022-08-07 dom.>
 
 * Inside Emacs GUI
 

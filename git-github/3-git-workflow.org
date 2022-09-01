@@ -1,6 +1,6 @@
 #+title:    Usual Git Workflow
 #+author:   h4ss4n
-#+date:     2022-08-11 jue
+#+date:     <2022-08-11 jue.>
 
 * Using the Terminal
 

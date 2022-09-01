@@ -1,6 +1,6 @@
 #+title:    Create a New Repository on Git
 #+author:   h4ss4n
-#+date:     2022-07-06 mie
+#+date:     <2022-07-06 mié.>
 
 * Using the Terminal
 

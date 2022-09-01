@@ -1,6 +1,6 @@
 #+TITLE:    Consultorio Médico
 #+author:   h4ss4n
-#+date:     2022-08-04 jue
+#+date:     <2022-08-04 jue.>
 
 * Using Visual Studio 2022
 
@@ -54,16 +54,16 @@
 
 *** Página de Roles y Usuarios
 
-**** Grid de Roles [1/2] [50%]
+**** Grid de Roles [2/2] [100%]
 
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
-- [ ] Conexión con la base de datos
+- [X] Conexión con la base de datos
 
-**** Grid de Usuarios [0/0] [0%]
+**** Grid de Usuarios [5/5] [100%]
 
 - [X] Maquetear el Front-end con Bootstrap y Syncfusion
 - [X] Agregar botones pop up para editar, eliminar y actualizar
-- [ ] Agregar funcionalidades a los botones
+- [X] Agregar funcionalidades a los botones
 - [X] Agregar boton para visualizar página 'Creación de usuarios'
 - [X] Conexión con la base de datos
 
@@ -76,11 +76,17 @@
 - [X] Conexión con la base de datos
 
 
-** 2. Testing: Módulo de Login
+*** TESTING: Módulo de Login
 
-*** Bugs
-- Cuando se elimina el usuario, automaticamente debe borrar los roles que se le asignaron en *UsuarioRol*.
-  + Sino salta una excepción en donde hay que borrar primero el *Rol* y luego al *Usuario* que lo poseia.
+**** Bugs
+- [X] Cuando se elimina el usuario, automaticamente debe borrar los roles que se le asignaron en *UsuarioRol*.
+  + [X] Sino salta una excepción en donde hay que borrar primero el *Rol* y luego al *Usuario* que lo poseia.
+  + [X] Aumentar un paso adicional en la parte del Borrado, en donde busque UsuarioId y si tiene conectado un UsuarioRolId.
+    - [X] Si ese es el caso borrar primero los UsuarioRol conectados y luego el Usuario.
+
+**** Mejora
+- Incluir un ~CheckBox~ en la sección de *Usuario* para =Habilitado=.
+  - Analizar en que parte del programa colocar (registro y edición ) y como actua en la base de datos.
 
 - El ~DateTimePicker~ necesita una validación que permita escoger hasta cierta fecha la *Fecha de Nacimiento*
   + Bloquear si la fecha es muy antigua a la vida natural de una persona.
@@ -90,3 +96,42 @@
   + Cuando uno de los mensajes aparece y el otro no, se desnivela.
   + Con el foco solo aparece un mensaje de error a la vez, al fin que todos los designados.
     - Posible solución que se valide con el click y no con el foco.
+
+- La tabla de *Usuario* en Index es resposive, mientras que la *UsuarioRol* no (se sale del margen).
+  + Revisar el ~div~ que la contiene (con los tabs) vs como esta contenido la tabla en el otro ~View~.
+
+
+** 2. Módulo de historias clínicas
+- Incluye la selección de la sucursal y el consultorio.
+- Creación de la historia clínica del paciente.
+- Visualización de historias clínicas almacenadas.
+
+
+** 3. Modulo de agendamiento de citas
+- Depende del módulo de historias clínicas.
+- Agendamiento de citas.
+- Visualización de las citas agendadas.
+
+
+** 4. Modulo generación de recetas
+- Depende del módulo de historias clínicas.
+- Generación de recetas médicas en formato pdf.
+
+
+** 5. Modulo notificaciones
+- Envío de notificaciones vía email.
+
+
+** 6. Módulo extra (envío de consejos saludables)
+- Depende del módulo de notificaciones.
+- Depende del módulo de historias clínicas.
+- El módulo permitirá ingresar recetas saludables y ejercicios.
+- Se podrá configurar al tipo de paciente y la frecuencia para enviar los consejos vía mail.
+
+
+** 7. Módulo opcional (reportes)
+- Depende del módulo de historias clínicas y agendamiento de citas.
+- Generación de reportes
+  + Pacientes atendidos al mes
+  + Morbilidades
+  + Grupo etario atendido

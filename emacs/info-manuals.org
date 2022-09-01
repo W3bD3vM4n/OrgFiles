@@ -1,6 +1,6 @@
 #+title:    Install Info Manuals
 #+author:   h4ss4n
-#+date:     2022-07-09 sab
+#+date:     <2022-07-09 sáb.>
 
 * Inside Emacs GUI
 

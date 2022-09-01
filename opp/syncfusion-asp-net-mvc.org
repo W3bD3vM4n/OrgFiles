@@ -1,6 +1,6 @@
 #+title:    Essential JS 2 for ASP.NET MVC in Visual Studio
 #+author:   h4ss4n
-#+date:     2022-06-26 dom
+#+date:     <2022-06-26 dom.>
 
 * Using Visual Studio 2019
 

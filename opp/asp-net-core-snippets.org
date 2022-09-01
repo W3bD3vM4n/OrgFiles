@@ -1,0 +1,120 @@
+#+title:    ASP.NET Core Snippets
+#+author:   h4ss4n
+#+date:     <2022-08-31 mié.>
+
+* Using Visual Studio 2022
+
+** Index
+
+
+** Button
+
+#+begin_src html
+
+    <!-- Index.cshtml -->
+
+    <div>
+        <a href="/ControllerName/ActionResultName" class="btn btn-primary">Crear</a>
+    </div>
+
+#+end_src
+
+** Tables
+
+*** Table frame
+
+#+begin_src html
+
+    <!-- Index.cshtml -->
+
+    <div>
+        <div class="x_panel">
+            <div class="x_content">
+                <div class="form-label-left input_mask">
+
+                  <!-- Table code here -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+#+end_src
+
+#+begin_src html
+
+    <!-- Index.cshtml -->
+
+    <!-- Libraries -->
+    @using Syncfusion.EJ2.Inputs
+    @using Syncfusion.EJ2
+
+
+    <!-- Body -->
+
+    <div class="x_content">
+
+        <!-- Table Tabs -->
+        <ul class="nav nav-tabs justify-content-end bar_tabs" id="_myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="_tabOne" data-toggle="tab" href="#_tabOneContent" role="tab" aria-controls="_tableOne" aria-selected="true">TabOneName</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="_tabTwo" data-toggle="tab" href="#_tabTwoContent" role="tab" aria-controls="_tableTwo" aria-selected="false">TableTwoName</a>
+            </li>
+        </ul>
+
+
+        <!-- Table Content -->
+        <div class="tab-content" id="_myTabContent">
+
+            <div class="tab-pane fade show active" id="_tabOneContent" role="tabpanel" aria-labelledby="_tableOne-tab">
+
+                <!-- Table #1 Body -->
+                <ejs-grid id="_tableOneId" height="200">
+                    <!-- Data source -->
+                    <e-data-manager url="/ControllerName/ActionResultName" adaptor="UrlAdaptor"></e-data-manager>
+
+                    <!-- Allow table editing -->
+                    <e-grid-editSettings allowAdding="true" allowDeleting="true" allowEditing="true" mode="Dialog" showDeleteConfirmDialog="true"></e-grid-editSettings>
+
+                    <!-- Table content -->
+                    <e-grid-columns>
+                        <e-grid-column field="_objectNameKey" headerText="_columnName" isPrimaryKey="true" textAlign="Right" width="50"></e-grid-column>
+                        <e-grid-column field="_objectName1" headerText="_columnName" editType="booleanedit" displayAsCheckBox="true" textAlign="Center" type="boolean" width="100" visible=false></e-grid-column>
+                        <e-grid-column field="_objectName2" headerText="_columnName" textAlign="Center" width="125"></e-grid-column>
+                        <e-grid-column headerText="_columnName" template="#editarTemplate" textAlign="Center" width="100"></e-grid-column>
+                        <e-grid-column headerText="_columnName" template="#borrarTemplate" textAlign="Center" width="100"></e-grid-column>
+                    </e-grid-columns>
+                </ejs-grid>
+
+            </div>
+
+            <div class="tab-pane fade" id="_tabTwoContent" role="tabpanel" aria-labelledby="_tableTwo-tab">
+
+                <ejs-grid id="_tableTwoId">
+                    <e-data-manager url="/ControllerName/ActionResultName" adaptor="UrlAdaptor"></e-data-manager>
+                    <e-grid-columns>
+                        <e-grid-column field="Id" headerText="Id" textAlign="Center" width="80"></e-grid-column>
+                        <e-grid-column field="Nombre" headerText="Nombre" textAlign="Center" width="200"></e-grid-column>
+                    </e-grid-columns>
+                </ejs-grid>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Icons inside columns -->
+    @*Icon and link for edition*@
+    <script id="editarTemplate" type="text/x-template">
+      <a href="/ControllerName/ActionResultName/${Id}"> <i class="fa fa-pencil"></i></a>
+    </script>
+
+    @*Icon and link for deletion*@
+    <script id="borrarTemplate" type="text/x-template">
+      <a href="/ControllerName/ActionResultName/${Id}"> <i class="fa fa-ban"></i></a>
+    </script>
+
+#+end_src

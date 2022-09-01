@@ -1,6 +1,6 @@
 #+title:    Essential JS 2 for ASP.NET Core MVC in Visual Studio
 #+author:   h4ss4n
-#+date:     2022-07-13 mie
+#+date:     <2022-07-13 mié.>
 
 * Using Visual Studio 2022
 

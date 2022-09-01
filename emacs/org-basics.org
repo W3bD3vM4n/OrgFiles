@@ -1,6 +1,6 @@
 #+title:    Org Mode Basics
 #+author:   h4ss4n
-#+date:     2022-08-05 vie
+#+date:     <2022-08-05 vie.>
 
 * Inside Emacs GUI
 
@@ -9,6 +9,8 @@
 - [[File creation]]
 - [[Bullets management]]
 - [[List]]
+  + [[Ordered list]]
+  + [[Unordered list]]
 - [[Checklist]]
 - [[Block delimited text]]
 - [[Text format]]
@@ -168,6 +170,23 @@ Use numbers or the alphabet follow by a point.
 #+end_quote
 
 - To execute a code snippet type ~C-c C-c~ it will display the last expression (line) in a code block called *RESULTS*.
+
+
+** Text format
+
+- Miss the ‘’ to activate the format.
+  + code and verbatim is not processed for Org specific syntax.
+
+#+begin_quote
+
+    *text* = ‘*bold*’
+    /text/ = ‘/italic/’
+    _text_ = ‘_underlined_’
+    =text= = ‘=verbatim=’
+    ~text~ = ‘~code~’
+    +text+ = ‘+strike-through+’
+
+#+end_quote
 
 
 ** Links
