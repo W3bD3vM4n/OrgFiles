@@ -286,10 +286,10 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
     C-x 4 f = open file in new window
     C-x 4 d = open dired in new window
 
-    C-x 5 0 = delete current frame
+    C-x 5 0 = delete current frame                                              #used
     C-x 5 1 = delete other frames (current fill the spot)
-    C-x 5 2 = create a new frame
-    C-x 5 f = open file in new frame
+    C-x 5 2 = create a new frame                                                #used
+    C-x 5 f = open file in new frame                                            #used
     C-x 5 d = open dired in new frame
 
     C-x o = go to next window
@@ -374,6 +374,11 @@ Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
     SPC q R = restart Emacs                                                 #less-used
 
 #+end_quote
+
+*** TODO Macros (look for use)
+- The ~q~ key activate and desactivate a Macro command recording?
+- It appear as a circle highlighted in the bottom left corner in the *mode line*.
+
 
 ** Source
 

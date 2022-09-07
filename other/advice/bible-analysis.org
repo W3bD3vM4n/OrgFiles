@@ -10,13 +10,14 @@ Desde el libro de Genesis hasta Mateo
 
 Desde el libro de Mateo hasta Apocalipsis
 
-** Cap. 1-2
+** Evangelio S. Mateo
+
+*** Cap. 1-2
 - porque se recibia todo mensaje en sueños?
 - porque tomarse todo el trabajo de hacer las cosas de esa manera, si dios pudo proveer a jesus de un nacimiento mas tranquilo y menos tumultoso?
 - porque los judio no aceptaron al nuevo mesias? si sus textos tenian relacion con el antiguo testamento, eso no estaba predicho ahi?
 
-
-** Cap. 3-4
+*** Cap. 3-4
 - de los pecado pasados y limpiados por el bautismo, se aconseja hacer frutos dignos del arrepentimiento (del inicio de sus nuevas vidas, despeus de haber visto la verdad), y no pensar que podran engañar con ello a su creador (mostrando/diciendo una cosa y actuando de otra manera)
 - "todo árbol que no da buen fruto es cortado y echado en el fuego" (habla sobre el juicio final que vendra a todos)
   + incluso Jesús se bautizo por Juan, para mostrar que todos tenian que pasar por la ceremonia (nadie estaba excento)
@@ -26,8 +27,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + sobre solo adorar y servir al creador
 - habla sobre el arrepentimiento de los pecados (ya que el juicio se acerca)
 
-
-** Cap. 5-6
+*** Cap. 5-6
 - habla sobre quienes seran bienaventurados
   + personas buenas y que sufren distinta clase de males (incluso los pobres en espíritu)
   + comparacion que los que mas padecen por defender una posicion correcta, seran mejor recompensados al final
@@ -46,8 +46,7 @@ Desde el libro de Mateo hasta Apocalipsis
 - sobre que no es posible servir al creador y a las riquezas al mismo tiempo
 - sobre que no es bueno tener afan al por venir (comida, bebida, vestimenta, etc), concentrarse en el dia a dia (que el señor proveera)
 
-
-** Cap. 7
+*** Cap. 7
 - sobre no juzgar a los demas, porque se te juzgara de igual forma y antes de ver el mal en los demas, mirarse primero en un espejo
   - tambien de no desperdiciar algo valioso a quien no lo sabe apreciar (tiempo, conocimiento, etc)
 - duda sobre: "Pedid, y se os dará; buscad, y hallaréis; llamad, y se os abrirá."?
@@ -57,16 +56,14 @@ Desde el libro de Mateo hasta Apocalipsis
   + sobre los aduladores que solo hablan pero no actuan
 - Sobre saber escuchar consejos "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca."
 
-
-** Cap. 8
+*** Cap. 8
 - jesus curo a un leproso, y le dijo que no lo mencione a nadie, sino que vaya y lo muestre a un sacerdote y haga la ofrenda que hizo Moises?
 - sobre que paso con el criado del centurion que necesitaba ayuda?
 - sobre los que querian seguir a jesus?? (no queda muy claro lo que se referia con los muertos)
 - sobre ser hombres de poca fe (cuando calmo los vientos y el mar)
 - sobre los endemoniados gadarenos y como los espanto? (no es muy claro que significa eso)
 
-
-** Cap. 9
+*** Cap. 9
 - "¿Por qué pensáis mal en vuestros corazones? Porque, ¿qué es más fácil, decir: Los pecados te son perdonados, o decir: Levántate y anda?"
 - Pues para que sepáis que el Hijo del Hombre tiene potestad en la tierra para perdonar pecados"
 - Cuando se sentaron publicanos (¿?) y pecadores a comer en la mesus junto a jesus, fue criticado y dijo:
@@ -77,8 +74,7 @@ Desde el libro de Mateo hasta Apocalipsis
 - "Conforme a vuestra fe os sea hecho"
 - "Y al ver las multitudes, tuvo compasión de ellas; porque estaban desamparadas y dispersas como ovejas que no tienen pastor."
 
-
-** Cap. 10
+*** Cap. 10
 - "Entonces llamando a sus doce discípulos, les dio autoridad sobre los espíritus inmundos (¿?), para que los echasen fuera, y para sanar toda enfermedad y toda dolencia."
 - "Por camino de gentiles no vayáis, y en ciudad de samaritanos no entréis, sino id antes a las ovejas perdidas de la casa de Israel."
   + "Sanad enfermos, limpiad leprosos, resucitad muertos, echad fuera demonios; de gracia recibisteis, dad de gracia."
@@ -91,8 +87,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + "No penséis que he venido para traer paz a la tierra; no he venido para traer paz, sino espada."
   + "El que halla su vida, la perderá; y el que pierde su vida por causa de mí, la hallará."
 
-
-** Cap. 11
+*** Cap. 11
 - Mensaje a Juan el Bautista
   + se cura todos los malos a los enfermos, "y a los pobres es anunciado el evangelio"?
   + que relevenacia tenia Juan el Bautista, previo la aparición de Jesús?? (profeta? mensajero?)
@@ -102,8 +97,7 @@ Desde el libro de Mateo hasta Apocalipsis
 - "Te alabo, Padre, Señor del cielo y de la tierra, porque escondiste estas cosas de los sabios y de los entendidos, y las revelaste a los niños."??
   + "Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar. Llevad mi yugo sobre vosotros, y aprended de mí, que soy manso y humilde de corazón; y hallaréis descanso para vuestras almas; porque mi yugo es fácil, y ligera mi carga." (cual era su carga?)
 
-
-** Cap. 12
+*** Cap. 12
 - "hacen lo que no es lícito hacer en el día(s) de reposo"?? (ayunas?)
   + usar la logica sobre necesidades basicas
     - es lícito hacer el bien
@@ -116,8 +110,7 @@ Desde el libro de Mateo hasta Apocalipsis
 - "La generación perversa demanda señal" (algun indicativo que pruebe divino sendero? poder?)
 - "El espíritu inmundo que vuelve"
 
-
-** Cap. 13
+*** Cap. 13
 - Jesús hablabla a las personas que se reunian a escuharlo solo en *Párabolas*
   + les dio a entender a sus dicipulos que mientas ellos podian comprender el reino de los cielos
   + el resto de personas no tenias ese entendimiento
@@ -145,14 +138,12 @@ Desde el libro de Mateo hasta Apocalipsis
   Declararé cosas escondidas desde la fundación del mundo."
   + RELEER las parábolas para entender mejor
 
-
-** Cap. 14
+*** Cap. 14
 - Matan a Juan el Bautista
 - Jesús realiza el milagro de multiplicar la comida para 5000 y mas personas
 - Jesús realiza el milagro de caminar sobre el agua
 
-
-** Cap. 15
+*** Cap. 15
 - "Este pueblo de labios me honra;
   Mas su corazón está lejos de mí.
   Pues en vano me honran,
@@ -161,8 +152,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + Habla acerca del veneno que puede salir de la boca para hacer perder el camino de la gente, incluso cometer pecados (malos pensamientos, los homicidios, los adulterios, las fornicaciones, los hurtos, los falsos testimonios, las blasfemias, etc).
 - RELEER La fe de la mujer cananea
 
-
-** Cap. 16
+*** Cap. 16
 - La demanda de una señal??
   + "La generación mala y adúltera demanda señal; pero señal no le será dada, sino la señal del profeta Jonás."
 - Jesús habla sobre cuidarse de "la doctrina de los fariseos y de los saduceos."
@@ -170,14 +160,12 @@ Desde el libro de Mateo hasta Apocalipsis
 - Jesús anuncia su muerte, y les dice a sus dicipulos:
   "Si alguno quiere venir en pos de mí, niéguese a sí mismo, y tome su cruz, y sígame. Porque todo el que quiera salvar su vida, la perderá; y todo el que pierda su vida por causa de mí, la hallará. Porque ¿qué aprovechará al hombre, si ganare todo el mundo, y perdiere su alma? ¿O qué recompensa dará el hombre por su alma?"
 
-
-** Cap. 17
+*** Cap. 17
 - Jesús hablo en un monte con Moises y Elias (era Juan el bautista? un profeta que mataron sin saber)
   + les pidio a sus discipulos que no hablen de los visto hasta su resurreccion.
 - Con fe nada sera imposible? (se necesita oracion y ayuno)
 
-
-** Cap. 18
+*** Cap. 18
 - ¿Quien es el mayor en el reino de los cielos?
   + hace su comparacion con un niño (inocencia?) vs sus discipulos
 - Habla que es preferible perder un ojo, mano o pie, que estar completo, si estos te llevan a cometer pecados.
@@ -187,8 +175,7 @@ Desde el libro de Mateo hasta Apocalipsis
 - historia sobre el señor y la deuda del siervo y el consiervo (siervo del siervo)
   + "... perdonáis de todo corazón cada uno a su hermano sus ofensas"
 
-
-** Cap. 19
+*** Cap. 19
 - Jesús habla sobre el divorcio:
   "Por esto el hombre dejará padre y madre, y se unirá a su mujer, y los dos serán una sola carne?
   Así que no son ya más dos, sino una sola carne; por tanto, lo que Dios juntó, no lo separe el hombre."
@@ -204,15 +191,13 @@ Desde el libro de Mateo hasta Apocalipsis
   Amarás a tu prójimo como a ti mismo.
   + "es más fácil pasar un camello por el ojo de una aguja, que entrar un rico en el reino de Dios"
 
-
-** Cap. 20
+*** Cap. 20
 - Los obreros de la viña (comparación con el reino de los cielos)
   + se conviene pagar/recompensar de cierta forma y a las personas aceptar o no
 - Jesús anuncia su muerte por 3ra vez.
 - "Sabéis que los gobernantes de las naciones se enseñorean de ellas, y los que son grandes ejercen sobre ellas potestad. Mas entre vosotros no será así, sino que el que quiera hacerse grande entre vosotros será vuestro servidor, y el que quiera ser el primero entre vosotros será vuestro siervo; como el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos."
 
-
-** Cap. 21
+*** Cap. 21
 - Jesús sabia que le deparaba el futuro, es adelantaba a los acontecimientos.
 - Como fuente de sus milagros, revelaba "Y todo lo que pidiereis en oración, creyendo, lo recibiréis."
 - Parábola de los dos hijos
@@ -223,18 +208,16 @@ Desde el libro de Mateo hasta Apocalipsis
     "... Por tanto os digo, que el reino de Dios será quitado de vosotros,
     y será dado a gente que produzca los frutos de él."
 
-
-** Cap. 22
+*** Cap. 22
 - Parábola de la fiesta de bodas
   + "Las bodas a la verdad están preparadas; mas los que fueron convidados no eran dignos."
 - De Jesús era dicho que era amante de la verdad, y que enseñaba con la verdad el camino de Dios. Y con eso trataba a todos, ya que no juzgaba por la apariencia (alcurnia) de los hombres.
 - "... en la resurrección ni se casarán ni se darán en casamiento, sino serán como los ángeles de Dios en el cielo"
 - "Amarás al Señor tu Dios con todo tu corazón, y con toda tu alma, y con toda tu mente. Este es el primero y grande mandamiento. Y el segundo es semejante: Amarás a tu prójimo como a ti mismo. De estos dos mandamientos depende toda la ley y los profetas."
-*** ¿De quién es hijo el Cristo?
+**** ¿De quién es hijo el Cristo?
 - RELEER y ANALIZAR este verso.
 
-
-** Cap. 23
+*** Cap. 23
 - "... el que se enaltece será humillado, y el que se humilla será enaltecido."
   + los escribas y fariseos actuaban mal hace un buen tiempo??
   + los llamaba hipócritas, decia que: "cerráis el reino de los cielos delante de los hombres; pues ni entráis vosotros, ni dejáis entrar a los que están entrando."
@@ -243,8 +226,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + "¡Serpientes, generación de víboras!"
 - Decia "envío profetas y sabios y escribas; y de ellos, a unos mataréis y crucificaréis, y a otros azotaréis en vuestras sinagogas, y perseguiréis de ciudad en ciudad".
 
-
-** Cap. 24
+*** Cap. 24
 - "... y por haberse multiplicado la maldad, el amor de muchos se enfriará. Mas el que persevere hasta el fin, este será salvo."
   + Jesús habla sobre lo que vendra antes del fin, de las guerras y desastres venideros, asi como falsos profetas
   + Se necesita contexto para la frase "... cuando veáis en el lugar santo la abominación desoladora de que habló el profeta Daniel... "
@@ -262,8 +244,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + asi mismo tomaran por sorpresa a los que hacen el bien y el mal
     + Referencia al RAPTO!?
 
-
-** Cap. 25
+*** Cap. 25
 - Parábola de las diez vírgenes
 - Parábola de los talentos
   + a que se refiere con talentos? es dinero??
@@ -271,8 +252,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + y quienes ayudaron a los necesitados, como si se Jesús se tratara recibiran la gloria
   + mientras los que hicieron lo contrario, seran castigados
 
-
-** Cap. 26
+*** Cap. 26
 - Habla como aviso a sus discipulos como lo iban a aprehender en la epoca de pascuas y su muerte se acercaba.
   + Menciono que este iba a ser negado por sus discipulos (3 veces por Pedro).
   + Tambien proclamo que iba a ser traicionado por uno de ellos (Judas).
@@ -281,8 +261,7 @@ Desde el libro de Mateo hasta Apocalipsis
   + Advirtio que su captura es lo que tiene que pasar e dejo en claro que podia pedir ayuda divina, "¿Pero cómo entonces se cumplirían las Escrituras, de que es necesario que así se haga?"
 - Se cumplio su arresto.
 
-
-** Cap. 27 (por leer Cap. 28)
+*** Cap. 27
 - Judas se arrepintio de vender a Jesús y se mato, aun asi no cambio en nada lo que tenia que pasar.
 - Se realizo un juicio en donde los viejos, sacedotes y escribas estaban confabulados.
   + Poncio Pilato como governador dirigio el juicio, pero al final fue el pueblo quien convencido decidio su muerte.
@@ -291,8 +270,52 @@ Desde el libro de Mateo hasta Apocalipsis
   + Durante este tiempo sucedieron cosas que se pueden describir como *misticas*.
 - Despues de su muerte, se dijo que recusitará en 3 dias.
 
+*** Cap. 28 (por leer Cap. 29)
+- Jesús resucito, y un angel fue a anunciar (a las Marias) en el lugar de su sepulcro del milagro.
+  + Aviso que se encontraria con sus dicipulos en Galilea.
+  + Hay un comentario que dice que los guardias avisaron de los sucedido (a los ancianos y sacerdotes)
+    - pero fueron sobornados para decir que los dicipulos se llevaron el cuerpo en la noche (señalando que los judíos creen eso hasya el día de hoy).
+- En el monte del encuentro Jesús les dijo:
+  "Toda potestad me es dada en el cielo y en la tierra.
+  Por tanto, id, y haced discípulos a todas las naciones,
+  bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo;
+  enseñándoles que guarden todas las cosas que os he mandado;
+  y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo.
+  Amén."
+
+** Evangelio S. Marcos
+
+*** Cap. 1
+- Se remarca desde la intro (la afirmación) sobre el titulo de Jesús, como hijo de Dios.
+- "Como está escrito en Isaías el profeta:
+He aquí yo envío mi mensajero delante de tu faz,
+El cual preparará tu camino delante de ti.
+Voz del que clama en el desierto:
+Preparad el camino del Señor;
+Enderezad sus sendas."
+- Hay un resumen del bautizo, de como conseguia dicipulos y curaba enfermos.
+  + Visto desde una perspectiva diferente, agregando cosas a la historia.
+
+
+*** Cap. 2
+- Se recapitula como Jesús curo a un paralitico.
+  + queda la duda, tantas personas se acercaban a el para que los cure que ya no alcanzaban en su casa
+  + en el caso del paralitico sus amigos/familiares treparon el techo
+    - si fue igual su fe, acaso se reunieron asi cuando lo acusaron y crucificaron? o solo fue por interes??
+- Los publicanos y pecadores (a quien se refiere? rameras, asesinos?) eran mal visto incluso por los judios??
+- Analizar mejor *la pregunta sobre el ayuno*
+- La necesidad vence a la costumbre religiosa, sobre *el dia del reposo*.
+
+
+*** Cap. 3 (por leer Cap. 4)
+
+
 
 ** Adicional
+
+*** Conocimiento
+- La verdadera religión no se trata de ritos y costumbres, sino de seguir el camino el Dios (buscar la verdad).
+- Todo depende de la teoria y la prática que apliques (con tus habitos).
 
 *** Etapa llamada "el encuentro"
 - cambia tu vida, sucede una sola vez
@@ -303,7 +326,6 @@ Desde el libro de Mateo hasta Apocalipsis
   + tienes que ir de corazon y regresas con el corazon limpio
 
 - si tu guardas rencor te haces daño a ti mismo
-
 
 *** Canciones
 

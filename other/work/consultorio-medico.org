@@ -13,12 +13,12 @@
 - [X] Creación y configuración de las tablas
 - [X] Creación del diagrama y relación de tablas
 
-*** Creación del Proyecto ASP.NET Core MVC [1/4] [25%]
+*** Creación del Proyecto ASP.NET Core MVC [4/4] [100%]
 
 - [X] Creación del proyecto web
-- [ ] Arquitectura del proyecto.
-- [ ] Implementación del 'proyecto de base de datos'.
-- [ ] Organización de los archivos y directorios.
+- [X] Arquitectura del proyecto.
+- [X] Implementación del 'proyecto de base de datos'.
+- [X] Organización de los archivos y directorios.
 
 *** Creación de Repositorio en Azure [2/2] [100%]
 

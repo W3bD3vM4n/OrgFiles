@@ -6,18 +6,38 @@
 
 ** Index
 - [[Basics]]
+- [[Definitions]]
 
 
 ** Basics
 
-- Lists are the basis of Lisp.
-  + it handles _lists_
-    - mark their boundaries with parentheses
-    - separate elements with whitespace
-    - an apostrophea ‘'’ follow a list between another
-      + it tells Lisp to do nothing with the list
+- Lisp (LISt Processing) handles _lists_
+  + which represent data and programs in the same way
+    - one program may easily serve as data for another
 
-  + any list is a program ready to run (evaluate)
-    1. do nothing except return to you the list itself
-    2. send you an error message
-    3. treat the first symbol in the list as a command to do something
+- A list:
+  + is a program ready to run (evaluate with ~C-x C-e~)
+    - treat the first symbol as a command (function) to do something
+  + mark the boundaries with parentheses
+    - contain words, numbers, or other lists
+  + separate the elements (atoms) with whitespace
+
+#+begin_src emacs-lisp
+
+    (+ 2 2)
+
+#+end_src
+
+- An apostrophe ‘'’ (single-quote) ahead means, *do nothing*
+  + the evaluation display the content as it's written
+
+#+begin_src emacs-lisp
+
+    '(this is a quoted list)
+
+#+end_src
+
+
+** Definitions
+
+- *Process*, a series of actions or steps taken in order to achieve a particular end.
