@@ -1,0 +1,307 @@
+#+title:    Dired Mode Basics
+#+author:   h4ss4n
+#+date:     <2022-08-07 dom.>
+
+* Inside Emacs GUI
+
+** Index
+
+- [[General]]
+- [[Configuration]]
+- [[Enter Dired]]
+- [[Ranger Minor Mode]]
+  + [[Ranger Basics][Ranger Basics]]
+  + [[Ranger Creation][Ranger Creation]]
+  + [[Ranger Navigation][Ranger Navigation]]
+  + [[Ranger Search][Ranger Search]]
+  + [[Ranger Edition][Ranger Edition]]
+  + [[Ranger Selection][Ranger Selection]]
+  + [[Ranger Sorting][Ranger Sorting]]
+  + [[Ranger Toggles][Ranger Toggles]]
+- [[Default Mode]]
+  - [[Creation]]
+  - [[Movement]]
+  - [[Operations]]
+    + [[Access]]
+    + [[Selection]]
+    + [[Search]]
+      + [[Search & Replace][Search & Replace]]
+    + [[Edition]]
+      + [[Modify modes][Modify modes]]
+      + [[Change the owner][Change the owner]]
+- [[Source]]
+
+
+** General
+
+- The Directory Editor (Dired) is the main mode for Emacs file-manager operations.
+  + Look for the top mark *Dired (directory)* instead of *Find file*.
+  + Open the *Evil Menu* by pressing ~g~ to display the key commands.
+
+
+** Configuration
+
+- Add Icons and Ranger's features by editing a section in the =init.el= file in you private config.
+
+#+begin_quote
+
+    #before
+       :emacs
+       dired                              ; making dired pretty [functional]
+
+    #after
+       :emacs
+       (dired +icons +ranger)             ; making dired pretty [functional]
+
+#+end_quote
+
+
+** Enter Dired
+
+- Enter the command *Find file* and press ~RET~ on a directory like *HOME*.
+
+#+begin_quote
+
+    SPC . RET = open dired buffer
+
+    q = exit and delete all dired buffers
+
+#+end_quote
+
+- Every new Dired view and file open, generate more buffers in memory.
+- Kill the Dired buffers that you're not using anymore to avoid an overflow.
+
+
+** Ranger Minor Mode
+
+*** Ranger Basics
+
+The main features:
+- Bindings to go up/down the next directory
+- Preview the selected file/image/directory
+- Multi-column display of parent directories
+- Toggle literal/fully formatted preview
+
+*** Ranger Creation
+
+#+begin_quote
+
+    C-r = refresh buffer
+    + = create directory
+
+#+end_quote
+
+*** Ranger Navigation
+
+#+begin_quote
+
+    gh = home directory
+
+#+end_quote
+
+*** Ranger Search
+
+#+begin_quote
+
+    f = search file/directory
+
+#+end_quote
+
+*** Ranger Edition
+
+#+begin_quote
+
+    C = copy a folder/file (specify output path)
+    R = move/rename a folder/file
+
+#+end_quote
+
+*** Ranger Selection
+
+#+begin_quote
+
+    t = select a directory/file
+    ;u = unselect a directory/file
+    ;U = unselect all
+
+    v = toggle between non selected elements
+
+#+end_quote
+
+*** Ranger Sorting
+
+#+begin_quote
+
+    on = name
+    oe = extension
+    os = size
+    ot = modified date
+    oc = created date
+
+#+end_quote
+
+*** Ranger Toggles
+
+To enter on a minimal view without the parent folders enter *deer* or minimal ranger mode.
+
+#+begin_quote
+
+    zh = toggle hidden files
+    zP = toggle full ranger/deer-mode
+
+#+end_quote
+
+
+** Default Mode
+
+*** Creation
+
+- To create a *new folder* type ~+~ and add the name.
+- To create a *new file*, press the command and add the name plus the extension.
+
+#+begin_quote
+
+    SPC . = create a new file
+
+#+end_quote
+
+- When a file/forlder doesn't appear in the buffer you need to refresh it.
+
+#+begin_quote
+
+    SPC b r = refresh the buffer
+
+#+end_quote
+
+- To open a file with a specific application, with the pointer over a file press ~!~ and enter the name of the program.
+
+*** Movement
+
+#+begin_quote
+
+    C-j = move down (in mini-buffer)
+    C-k = move up (in mini-buffer)
+
+    j = move down
+    k = move up
+
+#+end_quote
+
+*** Operations
+
+**** Access
+
+- Use ~M-RET~ to display a preview of the file without exit dired, move to other file and press again to watch.
+- To delete the preview window press ~C-x 1~
+
+#+begin_quote
+
+    RET = enter a directory
+    - = exit a directory
+
+#+end_quote
+
+**** Selection
+
+#+begin_quote
+
+    m = mark a directory/file
+    u = unmark a directory/file
+    U = unmark all
+
+    t = toggle between non selected elements
+
+#+end_quote
+
+- If any file is selected, by pressing ~t~ will select all, by pressing it again will unselect all.
+- To select all the directories press ~*/~.
+
+**** Search
+
+#+begin_quote
+
+    / + [text] = jump to a folder/file by name
+
+    A = search for a regular expression
+
+#+end_quote
+
+- Order the files by name or date, put the pointer on the file and press ~o~
+
+***** TODO search (keybindings in doom) how to do Regex.
+- Select a file(s) and search inside it for a text?
+- How to move to the next match?
+***** TODO search (keybindings in doom) how to manage backup file(s)
+
+***** Search & Replace
+
+1. In Dired press ~C-x C-q~ to allow the edition (unlock Read-Only mode).
+2. To search and replace type ~M-%~ entering first the file name/extension to change and then the desired output.
+3. Once finish, press ~C-x C-q~ to exit the edition (lock Read-Only mode).
+
+**** Edition
+
+#+begin_quote
+
+    C = copy a folder/file (specify output path)
+
+#+end_quote
+
+- To *move* a folder/file don't specify a new name with ~R~, instead select the path to move and hit ~RET~.
+- While renaming don't forget to add the file extension at the end.
+
+#+begin_quote
+
+    R = move/rename a folder/file
+
+#+end_quote
+
+- There are two ways of deleting a file, by selection or by command.
+
+#+begin_quote
+
+    d = delete by selecting various files (confirm with 'x')
+    D = delete directly a folder/file
+
+#+end_quote
+
+- To avoid the confirmation of every deletion inside a folder (recursively), press ~!~ to delete all, instead of ~y~.
+- By default dired delete the files permanently, to avoid issues move to the trash can by adding to the =config.el=
+
+#+begin_src emacs-lisp
+
+    (setq delete-by-moving-to-trash t)
+
+#+end_src
+
+***** Modify modes
+
+- To modify file(s) mode, put the pointer on a file and press ~M~
+- There are commands to change the file.
+
+#+begin_quote
+
+    u-w = remove writing for the user
+    u+w = add writing for the user
+    g+w = add writing for the group
+    g-w = remove writing for the group
+
+#+end_quote
+
+- It's possible to do it all at once.
+
+#+begin_quote
+
+    u-w,g+w = remove writing for the user and add to the group
+
+#+end_quote
+
+***** Change the owner
+
+- To change the owner of the file(s), put the pointer on a file and press ~O~
+
+
+** Source
+
++ [[https://github.com/doomemacs/doomemacs/tree/master/modules/emacs/dired]]
++ [[https://github.com/ralesi/ranger.el]]

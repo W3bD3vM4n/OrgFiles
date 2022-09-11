@@ -1,0 +1,43 @@
+#+title:    Elisp Basics
+#+author:   h4ss4n
+#+date:     <2022-08-31 mié.>
+
+* Inside Emacs GUI
+
+** Index
+- [[Basics]]
+- [[Definitions]]
+
+
+** Basics
+
+- Lisp (LISt Processing) handles _lists_
+  + which represent data and programs in the same way
+    - one program may easily serve as data for another
+
+- A list:
+  + is a program ready to run (evaluate with ~C-x C-e~)
+    - treat the first symbol as a command (function) to do something
+  + mark the boundaries with parentheses
+    - contain words, numbers, or other lists
+  + separate the elements (atoms) with whitespace
+
+#+begin_src emacs-lisp
+
+    (+ 2 2)
+
+#+end_src
+
+- An apostrophe ‘'’ (single-quote) ahead means, *do nothing*
+  + the evaluation display the content as it's written
+
+#+begin_src emacs-lisp
+
+    '(this is a quoted list)
+
+#+end_src
+
+
+** Definitions
+
+- *Process*, a series of actions or steps taken in order to achieve a particular end.

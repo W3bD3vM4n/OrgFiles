@@ -1,0 +1,386 @@
+#+title:    Doom Basics
+#+author:   h4ss4n
+#+date:     <2022-07-26 mar.>
+
+* Inside Emacs GUI
+
+** Index
+
+- [[General]]
+  + [[Check the current version]]
+  + [[Print the Working Directory]]
+  + [[Check for crashes]]
+- [[Configuration]]
+  + [[Open your Doom configuration files]]
+  + [[Reload the configuration files]]
+  + [[Switching to relative line numbers]]
+  + [[Add the Evil Tutor]]
+- [[Look for Help]]
+  + [[Info manuals]]
+    - [[Info Mode Keybindings]]
+  + [[Apropos]]
+  + [[The Describre System]]
+    - [[Describe a mode]]
+    - [[Describe a function]]
+    - [[Describe a variable]]
+    - [[Describe a key]]
+- [[Managing Files and Directories]]
+  + [[Find/open a file]]
+- [[Managing Buffers]]
+- [[Managing Windows]]
+- [[Bookmark][Bookmark]]
+- [[Text Editor]]
+- [[Integrated Development Environment][Integrated Development Environment]]
+  - [[Comments][Comments]]
+  - [[Search & Replace][Search & Replace]]
+  - [[Version Control System]]
+- [[Emacs commands]]
+  + [[Cancel commands]]
+  + [[Quit session]]
+- [[Source]]
+
+
+** General
+
+*** Check the current version
+
+#+begin_quote
+
+    SPC h d v = version of emacs & doom
+
+#+end_quote
+
+*** Print the Working Directory
+
+#+begin_quote
+
+    M-x pwd = show the path
+
+#+end_quote
+
+*** Check for crashes
+
+Provide by an uptime counter.
+
+#+begin_quote
+
+   M-x emacs-uptime
+
+#+end_quote
+
+
+** Configuration
+
+Your private config is kept in =~/.doom.d/= and it's typically comprised of an =init.el=, =config.el= and =packages.el= file.
+
+- Put all your config in =config.el=
+- Install packages by adding ~package!~ declarations to =packages.el=
+- Enable/disable modules in your ~doom!~ block in your =init.el=
+
+*WARNING*: You shouldn't need to fork Doom or modify =~/.emacs.d=. If you have to do this to achieve something, it can be considered a bug.
+
+*** Open your Doom configuration files
+
+- Let you access to the '.doom.d' folder and the files inside it.
+
+#+begin_quote
+
+    SPC f p = find/open private config                                      #less-used
+
+#+end_quote
+
+*** Reload the configuration files
+
+- Once edited and saved the files, it's possible to reload it even with Emacs still open.
+  + The equivalent of Doom Sync outside Emacs.
+- The =init.el= and =packages.el= file need ~doom sync~ and restart to change take effect.
+  + The =config.el= doesn't need ~doom sync~ because the code aren't package related.
+
+#+begin_quote
+
+    SPC h r r = doom reload (plus RET to run it)                            #less-used
+
+#+end_quote
+
+- To changes take effect, restart Emacs.
+
+*** Switching to relative line numbers
+
+To change the style of line numbers, change the value of the ~display-line-numbers-type~ variable.
+
+#+BEGIN_SRC elisp
+
+    ;;; add to ~/.doom.d/config.el
+    (setq display-line-numbers-type 'relative)
+
+#+END_SRC
+
+*** Add the Evil Tutor
+
+#+begin_src elisp
+
+    ;;; add to ~/.doom.d/packages.el
+    (package! evil-tutor)
+
+#+end_src
+
+
+** Look for Help
+
+*** Info manuals
+
+For beginners, non technical background required.
+
+#+begin_quote
+
+    SPC h i = show a list of avaliable manuals                               #less-used
+
+#+end_quote
+
+By default some manuals are not loaded, to know how to [[file:~/org/emacs/info-manuals.org][install them]].
+
+**** Info Mode Keybindings
+
+- The letter 'g' act as a leader key in this mode (press it to display more options).
+- The nodes acts like pages on a book.
+
+#+begin_quote
+
+    gT = main table of content
+    gm = quick access to menu references (only works on top node)
+    gG = quick access to nodes by name
+
+    u = goes up one level to a parent node
+
+    gj = next node
+    gk = previous node
+
+    g] = next reference (link)
+    g[ = previous reference (link)
+
+#+end_quote
+
+*** Apropos
+
+- Helps you narrow an area to search by name (plus regular expressions).
+- Great for discover new commands.
+
+#+begin_quote
+
+    SPC h a + [command] + [query] = display a list of matching commands
+
+    SPC h a + [variable] = display a list of matching variables
+
+#+end_quote
+
+- Useful for investigate new modes and package.
+
+  #+begin_quote
+
+    M-x apropos-library + [query] = list all functions and variables in a library
+
+  #+end_quote
+
+*** The Describre System
+
+Some thecnical knowledge required.
+
+- Helps to double check the information acquired.
+- Describe your *personalized* Emacs.
+
+**** Describe a mode
+
+#+begin_quote
+
+    SPC h m = describe current major mode (plus minor modes and keybindings)
+
+#+end_quote
+
+**** Describe a function
+
+Related to the M-x actions, once prompted enter the name to search.
+
+#+begin_quote
+
+    SPC h f = describe what a function does it                              #used
+
+#+end_quote
+
+**** Describe a variable
+
+#+begin_quote
+
+    SPC h v = describe what a variable does it
+
+#+end_quote
+
+**** Describe a key
+
+Related to C-, M-x or SPC actions, once prompted enter the key combination.
+
+- Some keys come from major and minor modes (are not global).
+- The info may vary depending on the buffer you're in.
+
+#+begin_quote
+
+    SPC h k = describe what a keybinding does it                            #used
+
+#+end_quote
+
+
+** Managing Files and Directories
+
+*** Find/open a file
+
+- To create a new file select the location, type the name and file extension.
+- To create a new folder select the location, the name of the folder and a '/' at the end.
+  + This will open a new scratch buffer if a file to be created is not especified.
+
+#+begin_quote
+
+    SPC . = find/open a file                                                #less-used
+    SPC f r = open recent file                                              #used
+
+#+end_quote
+
+- To *save* a file with more back up options press ~SPC f s~.
+- To *save as* a file with another name, inside a existing saved file press ~SPC f S~ being the last a upper case letter.
+  + To *save a scratch buffer* as a file with ~SPC f s~, first it's needs to have some content.
+
+
+** Managing Buffers
+
+#+begin_quote
+
+    SPC b x = pop up scratch buffer (keep data in temporary memory)             #less-used
+    SPC b N = new empty buffer (if not save it's all lose)                      #NEED-to-use
+
+    SPC b b = switch buffer, show current ones (select with arrows)             #NEED-to-use
+    SPC b i = switch buffer, show everything (select with hjkl/arrows)          #most-used
+    SPC b p = switch to previous buffer
+    SPC b n = switch to next buffer
+
+    SPC b s = save buffer's file                                                #most-used
+    SPC b k = kill the current buffer                                           #most-used
+    SPC b K = kill all buffers (prompt to welcome screen)                       #most-used
+    C-x k = kill buffers (show a list, select with arrows)
+
+#+end_quote
+
+- To test modes you can change from *Fundamental* mode of the scratch buffer, to *Org* mode with ~M-x org-mode~.
+- Any change/content on the scratch buffer will remain even when you exit Emacs.
+- You need to change it manually to it original state, press ~M-x fundamental-mode~.
+
+
+** Managing Windows
+
+#+begin_quote
+
+    C-x 0 = delete current window                                               #used
+    C-x 1 = delete other windows (current fill the spot)                        #most-used
+
+    C-x 2 = horizontal split                                                    #used
+    C-x 3 = vertical split                                                      #used
+
+    #multiple-monitors
+    C-x 4 f = open file in new window
+    C-x 4 d = open dired in new window
+
+    C-x 5 0 = delete current frame                                              #used
+    C-x 5 1 = delete other frames (current fill the spot)
+    C-x 5 2 = create a new frame                                                #used
+    C-x 5 f = open file in new frame                                            #used
+    C-x 5 d = open dired in new frame
+
+    C-x o = go to next window
+    SPC w j = go to down window                                                 #used
+    SPC w k = go to up window                                                   #used
+    SPC w h = go to left window                                                 #used
+    SPC w l = go to right window                                                #used
+
+#+end_quote
+
+
+** Bookmark
+
+- Jump to frequently used files and directories.
+- Set or delete a bookmark inside the referenced file or directly in Dired.
+
+#+begin_quote
+
+    SPC b m = set a bookmark                                                    #less-used
+    SPC b M = delete a bookmark                                                 #less-used
+    SPC RET = jump to bookmark (display a list)                                 #most-used
+
+#+end_quote
+
+
+** Text Editor
+
+Uses the Vim [[~/org/emacs/evil-basics.org][keybindings]].
+
+
+** Integrated Development Environment
+
+*** Comments
+
+ #+begin_quote
+
+   C-x C-; = comment/uncomment a line or a selected region                  #NEED-to-use
+
+ #+end_quote
+
+*** Search & Replace
+
+- Search the word to be replaced with ~/~
+  - The last searched word it's keep in memory, to use it again type ~RET~.
+  - Use ~n~ to navigate to the next find and ~N~ for the previous find.
+- Type ~M-%~, write again the word to be replaced and the word to replace with.
+  + The last replaced word it's keep in memory, to use it again type ~RET~.
+- The are another modules for a more complete use, with interfaces and [[https://github.com/doomemacs/doomemacs/tree/master/modules/completion][frameworks completion]].
+
+*** Version Control System
+
+- UI for [[file:magit-basics.org][Git]].
+
+
+** Emacs commands
+
+*** Run command
+
+#+begin_quote
+
+    SPC : = it's equivalent to M-x                                         #NEED-to-use
+
+#+end_quote
+
+*** Cancel commands
+
+#+begin_quote
+
+    C-g = cancel enter command (get me out)                                 #most-used
+
+#+end_quote
+
+*** Quit session
+
+#+begin_quote
+
+    SPC q q = quit Emacs                                                    #most-used
+    SPC q Q = quit Emacs without saving
+    SPC q K = kill emacs (and daemon)
+
+    SPC q r = restart and restore Emacs
+    SPC q R = restart Emacs                                                 #less-used
+
+#+end_quote
+
+*** TODO Macros (look for use)
+- The ~q~ key activate and desactivate a Macro command recording?
+- It appear as a circle highlighted in the bottom left corner in the *mode line*.
+
+
+** Source
+
++ [[https://github.com/doomemacs/doomemacs]]
++ [[https://github.com/doomemacs/doomemacs/tree/master/modules]]

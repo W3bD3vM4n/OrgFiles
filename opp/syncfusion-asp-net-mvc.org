@@ -1,6 +1,6 @@
 #+title:    Essential JS 2 for ASP.NET MVC in Visual Studio
 #+author:   h4ss4n
-#+date:     2022-06-26 dom
+#+date:     <2022-06-26 dom.>
 
 * Using Visual Studio 2019
 
@@ -20,34 +20,34 @@
   2. Search and install 'Syncfusion.EJ2.MVC5'.
      - Additionally 'Syncfusion.EJ2.JavaScript' and 'Syncfusion.Licensing' will be installed automatically with the package.
 
-  3. Open ~/Views/Web.config file and add the Syncfusion.EJ2 namesapce reference to the <system.web.webPages.razor> element and Syncfusion.EJ2 assembly reference to <system.web> element.
+  3. Open ~/Views/Web.config file and add the Syncfusion.EJ2 namespace reference to the <system.web.webPages.razor> block and Syncfusion.EJ2 assembly reference to <system.web> block.
 
      #+begin_src html
 
-      <configuration>
-     ...
-     <system.web.webPages.razor>
-         ...
-         ...
-         <pages pageBaseType="System.Web.Mvc.WebViewPage">
-             <namespaces>
-                 ...
-                 ...
-                 <add namespace="Syncfusion.EJ2"/>
-             </namespaces>
-         </pages>
-     </system.web.webPages.razor>
-     ...
-     <system.web>
-         <compilation>
-             <assemblies>
-                 ...
-                 ...
-                 <add assembly="Syncfusion.EJ2, Culture=neutral" />
-             </assemblies>
-         </compilation>
-     </system.web>
- </configuration>
+        <configuration>
+          ...
+          <system.web.webPages.razor>
+            ...
+            ...
+            <pages pageBaseType="System.Web.Mvc.WebViewPage">
+              <namespaces>
+                ...
+                ...
+                <add namespace="Syncfusion.EJ2"/>
+              </namespaces>
+            </pages>
+          </system.web.webPages.razor>
+          ...
+          <system.web>
+            <compilation>
+              <assemblies>
+                ...
+                ...
+                <add assembly="Syncfusion.EJ2, Culture=neutral" />
+              </assemblies>
+            </compilation>
+          </system.web>
+        </configuration>
 
      #+end_src
 
@@ -55,15 +55,15 @@
 
      #+begin_src html
 
- <head>
-     ...
+        <head>
+          ...
 
-     <!-- Syncfusion Essential JS 2 Styles -->
-     <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/material.css" />
+          <!-- Syncfusion Essential JS 2 Styles -->
+          <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/material.css" />
 
-     <!-- Syncfusion Essential JS 2 Scripts -->
-     <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
- </head>
+          <!-- Syncfusion Essential JS 2 Scripts -->
+          <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+        </head>
 
      #+end_src
 
@@ -71,11 +71,11 @@
 
      #+begin_src html
 
- <body>
-     ...
-     <!-- Syncfusion Essential JS 2 ScriptManager -->
-     @Html.EJS().ScriptManager()
- </body>
+        <body>
+          ...
+          <!-- Syncfusion Essential JS 2 ScriptManager -->
+          @Html.EJS().ScriptManager()
+        </body>
 
      #+end_src
 
@@ -85,9 +85,9 @@
 
      #+begin_src html
 
- <div>
-     @Html.EJS().Calendar("calendar").Render()
- </div>
+        <div>
+          @Html.EJS().Calendar("calendar").Render()
+        </div>
 
      #+end_src
 
@@ -105,7 +105,7 @@
 
      #+begin_src csharp
 
-protected void Application_Start(object sender, EventArgs e)
+        protected void Application_Start(object sender, EventArgs e)
         {
             //Register Syncfusion License
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("<paste license key here>");
@@ -113,7 +113,7 @@ protected void Application_Start(object sender, EventArgs e)
             // Default code that runs on application startup
             ...
             ...
-       }
+        }
 
      #+end_src
 
@@ -128,13 +128,13 @@ protected void Application_Start(object sender, EventArgs e)
 
     #+begin_src csharp
 
-{
-     "compilerOptions": {
-     ...
-     "target": "ES2015"
-     },
-     ...
-     }
+        {
+            "compilerOptions": {
+                ...
+                "target": "ES2015"
+            },
+            ...
+        }
 
     #+end_src
      

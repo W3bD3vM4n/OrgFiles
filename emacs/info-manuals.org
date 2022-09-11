@@ -1,0 +1,56 @@
+#+title:    Install Info Manuals
+#+author:   h4ss4n
+#+date:     <2022-07-09 sáb.>
+
+* Inside Emacs GUI
+
+1. Type C-h i to enter to the Info buffer and then type C-x C-f to locate the *dir* file, select it and click enter.
+
+2. The dir file is itself an Info file, it contains the top-level menu for all the Info files in the system.
+
+**** Info File Format
+
+   #+begin_quote
+
+    * Menu:
+
+    * <manual name>: (<path of the info file>).        <Short description of the manual>
+
+   #+end_quote
+
+**** Example:
+
+#+begin_quote
+
+    * Menu:
+
+    * ELisp: (C:\Users\hr-aw\scoop\apps\emacs\28.1\share\info\elisp.info).          GNU Emacs Lisp Reference Manual.
+
+#+end_quote
+
+**** Note:
+
+If you need to add more manuals the file needs to be in *.info* extension and it's has to be in the path:
+
+   #+begin_quote
+
+    C:\Users\hr-aw\scoop\apps\emacs\28.1\share\info
+
+   #+end_quote
+
+The dir location is in the path:
+
+#+begin_quote
+
+    C:\Users\hr-aw\.emacs.d\.local\elpa\sly-20220603.843
+
+#+end_quote
+
+The check the oficial manuals to check their description, visit:
+[[https://www.gnu.org/software/emacs/manual/index.html][GNU emacs manuals online]]
+
+** Source
+
++ https://www.gnu.org/software/emacs/manual/html_node/efaq/Installing-Texinfo-documentation.html
++ https://www.gnu.org/software/texinfo/manual/texinfo/html_node/Directory-File.html
++ https://www.gnu.org/software/texinfo/manual/texinfo/html_node/Other-Info-Files.html

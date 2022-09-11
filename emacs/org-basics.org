@@ -1,0 +1,331 @@
+#+title:    Org Mode Basics
+#+author:   h4ss4n
+#+date:     <2022-08-05 vie.>
+
+* Inside Emacs GUI
+
+** Index
+
+- [[File creation]]
+- [[Bullets management]]
+- [[List]]
+  + [[Ordered list]]
+  + [[Unordered list]]
+- [[Checklist]]
+- [[Block delimited text]]
+- [[Text format]]
+- [[Links]]
+  + [[Internal links]]
+  + [[External links]]
+    - [[Local files]]
+    - [[Hyperlinks]]
+    - [[Additional types]]
+      + [[Elisp]]
+      + [[Shell]]
+      + [[Other]]
+- [[Agenda]]
+  + [[Tasks]]
+  + [[Agenda List]]
+  + [[Priorities]]
+  + [[Tags]]
+  + [[Calendar]]
+    - [[Timestamp]]
+- [[Export the document]]
+
+
+** File creation
+
+First create the .org file, then press ~C-x C-q~ to disable the read only state.
+
+
+** Bullets management
+
+- To create a bullet write an asterisk plus space and text.
+
+  #+begin_quote
+
+    * Level 1
+
+    ** Level 2
+
+    *** Level 3
+
+    **** Level 4
+
+  #+end_quote
+
+- To manage it, first you need to be in the *level's line*
+- To create a copy of the same level, put the pointer on the beginning/end of a line.
+
+#+begin_quote
+
+    0 M-RET = copy the same level above
+    $ M-RET = copy the same level below
+
+#+end_quote
+
+- It also works when you put the pointer in any free space between the bullet level content and press ~M-RET~
+  + If you use ~C-RET~ instead, it create a copy of the same level and enter in *Insert mode*.
+- To create sublevels quickly, with the pointer on the end line press ~M-RET~ and ~M-l~
+
+  #+begin_quote
+
+    M-l = move down one level
+    M-h = move up one level
+
+  #+end_quote
+
+- To change the vertical positions of the levels.
+
+  #+begin_quote
+
+    M-j = down one level
+    M-k = move up one level
+
+  #+end_quote
+
+- To hide and unhide asterisks levels
+
+  #+begin_quote
+
+    TAB = hide/unhide one level
+    S-TAB = hide/unhide all the levels (globally)
+
+  #+end_quote
+
+
+** List
+
+*** Ordered list
+
+Use numbers or the alphabet follow by a point.
+
+#+begin_quote
+
+    1. [text]
+    2. [text]
+    3. [text]
+
+    a. [text]
+    b. [text]
+    c. [text]
+
+#+end_quote
+
+*** Unordered list
+
+- Use symbols as hyphens ‘-’ to begin the list.
+- Change the bullet symbols to indicate sublevels with ~SPC m +~.
+
+#+begin_quote
+
+    - [text]
+    - [text]
+        + [text]
+        + [text]
+    - [text]
+
+#+end_quote
+
+- To sort a list of items order by alphabet, numbers, time or functions, type ~M-x org-sort-list~ and choose a [key]
+  + The oposite order is done by pressing the *uppercase* [key].
+
+
+** Checklist
+
+1. Create a title
+2. Create subtopics with hyphens ‘-’
+3. After every hyphen add a [ ]
+4. In the line to mark as *done* press ~C-c C-c~
+
+   #+begin_quote
+
+    * Title
+
+    - [ ] Text 1
+   
+   #+end_quote
+
+5. To add additional status, it's necessary to have at least one checklist above and append to the title.
+
+    #+begin_quote
+
+    * Title [/] and press ~C-c C-c~ to get [1/1]
+
+    * Title [%] and press ~C-c C-c~ to get [100%]
+
+   #+end_quote
+
+
+** Block delimited text
+
+#+begin_quote
+
+    <q TAB = quote
+    <e TAB = example
+    <s TAB [languaje name] = code snippet
+    <c TAB = comment
+    <v TAV = verse
+
+#+end_quote
+
+- To execute a code snippet type ~C-c C-c~ it will display the last expression (line) in a code block called *RESULTS*.
+
+
+** Text format
+
+- Miss the ‘’ to activate the format.
+  + code and verbatim is not processed for Org specific syntax.
+
+#+begin_quote
+
+    *text* = ‘*bold*’
+    /text/ = ‘/italic/’
+    _text_ = ‘_underlined_’
+    =text= = ‘=verbatim=’
+    ~text~ = ‘~code~’
+    +text+ = ‘+strike-through+’
+
+#+end_quote
+
+
+** Links
+
+*** Internal links
+
+1. Select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the title name to link and press ~RET~.
+3. Add a new name to display the link or just press ~RET~ with the default.
+
+*** External links
+
+**** Local files
+
+1. Select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the word *file* and press ~RET~.
+3. Navigate until find the location and press ~RET~.
+   - To *jump* to a specific file's title add on the path's end ~::header-name~.
+4. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~.
+   - Change the desired location and press ~RET~.
+
+**** Hyperlinks
+
+1. Select the word to link with ~viw~ and type ~SPC m l l~.
+2. Copy the web url and paste it in the mini buffer with ~C-v~ and ~RET~.
+3. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~ and ~RET~.
+
+**** Additional types
+
+***** Elisp
+
+1. To execute code with a link, select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the word *elisp* and press ~RET~.
+3. Write a function or the name of the function to run it and press ~RET~.
+   - For example: ~(+ 2 2)~ or ~elisp:org-agenda~
+   - Display the result in the mini buffer.
+4. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~.
+
+***** Shell
+
+1. To execute a shell script with a link, select the word to link with ~viw~ and type ~SPC m l l~.
+2. Type the word *shell* and press ~RET~.
+3. Write a script to run it and press ~RET~.
+   - For example: ~shell:ls *.org~
+   - Display the result in the mini buffer.
+4. Add a new name to display the link or just press ~RET~ with the default.
+   - To *edit* a link just type over the selected link ~SPC m l l~.
+
+***** Other
+
+- To see a full list of the possibilities, check the this [[https://orgmode.org/manual/External-Links.html][link]].
+
+
+** Agenda
+
+*** Tasks
+
+- To create a task move the pointer to a bullet line.
+
+#+begin_quote
+
+    SPC m t [task] = insert org todo
+
+#+end_quote
+
+- To change the current status of a task press again ~SPC m t [task]~
+
+*** Agenda List
+
+- To display all the TODOs in a buffer, first create an *agenda file* while you're in a =.org= file.
+
+#+begin_quote
+
+    C-c [ = add current file to the list
+    C-c ] = remove current file to the list
+
+    SPC o A = display agenda commands
+    SPC o a t = display a global TODO list of files
+
+#+end_quote
+
+*** Priorities
+
+- A priority can be set and change from the task line.
+
+#+begin_quote
+
+    SPC m p [u/d] = insert priority from A to C
+
+#+end_quote
+
+*** Tags :sets:
+
+- To group by context add a tag from the task line.
+
+#+begin_quote
+
+    SPC m q [custom name] = insert a tag
+
+#+end_quote
+
+- Search on the file by enter the *org agenda* with ~SPC o a m~
+
+*** Calendar
+
+#+begin_quote
+
+    C-c > = display a calendar (3 months)
+
+#+end_quote
+
+- Move to other dates with ~[h/j/k/l]~, to other year with ~o~ and to the current date with ~.~
+
+**** Timestamp
+
+- To insert the current date in a org file.
+
+#+begin_quote
+
+    SPC m d t = org timestamp
+
+#+end_quote
+
+- Move to other dates with ~C-[h/j/k/l]~, the current date with ~.~ and insert with ~RET~.
+- To insert multiple timestamps use a new line for every new one.
+  + If the same line is used, it'll overwrite itself.
+
+
+** Export the document
+
+- Press ~C-c C-e~ to bring it up the options.
+
+- To navigate press ~C-n~ and ~C-p~
+
+- Hit the letter between [] to chose the format.
+
+- The exported file is saved in the same folder.
+
+- To exit the menu use ~q~
