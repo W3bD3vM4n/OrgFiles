@@ -283,6 +283,7 @@ Desde el libro de Mateo hasta Apocalipsis
   y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo.
   Amén."
 
+
 ** Evangelio S. Marcos
 
 *** Cap. 1
@@ -296,7 +297,6 @@ Enderezad sus sendas."
 - Hay un resumen del bautizo, de como conseguia dicipulos y curaba enfermos.
   + Visto desde una perspectiva diferente, agregando cosas a la historia.
 
-
 *** Cap. 2
 - Se recapitula como Jesús curo a un paralitico.
   + queda la duda, tantas personas se acercaban a el para que los cure que ya no alcanzaban en su casa
@@ -305,7 +305,6 @@ Enderezad sus sendas."
 - Los publicanos y pecadores (a quien se refiere? rameras, asesinos?) eran mal visto incluso por los judios??
 - Analizar mejor *la pregunta sobre el ayuno*
 - La necesidad vence a la costumbre religiosa, sobre *el dia del reposo*.
-
 
 *** Cap. 3
 - La historia de *el hombre de la mano seca* es una buena reflexión sobre el bien y el mal, sobre la tradición.
@@ -320,7 +319,6 @@ Enderezad sus sendas."
   + les respondia en parábolas "¿Cómo puede Satanás echar fuera a Satanás?"
 - "... todo aquel que hace la voluntad de Dios,
   ese es mi hermano, y mi hermana, y mi madre."
-
 
 *** Cap. 4
 - Con las parábolas posiblemente se queria evitar que solo vinieran creyentes dudoso.
@@ -339,12 +337,10 @@ Enderezad sus sendas."
     ni escondido, que no haya de salir a luz.
   + Habia algunas comparaciones a semillas con el Reino de Dios.
 
-
 *** Cap. 5
 - Las personas que actuaban sin cordura (hablando solos, lastimandose, etc) eran considerados poseidos por demonios.
   + A los que Jesús podía sacar sin el menor problema.
 - Tenia el poder de sanar e incluso revivir a los muertos.
-
 
 *** Cap. 6
 - Es un poco confuso la explicación de la muerte de Juan el Bautista, comparada a la anterior.
@@ -353,7 +349,6 @@ Enderezad sus sendas."
 - Jesús realizó el milagro de multiplicar los panes y pescados
   + al realizar posteriormente el milágro de caminar sobre el mar asustó a sus discipulos
   + dice que se debió a que "estában endurecidos sus corazónes"
-
 
 *** Cap. 7
 - Al criticar los escribas y fariseos el que los discipulos de Jesús no se lavaron las manos para comer.
@@ -373,10 +368,8 @@ Enderezad sus sendas."
        los hurtos, las avaricias, las maldades, el engaño, la lascivia, la envidia,
        la maledicencia, la soberbia, la insensatez."
 
-
 *** Cap. 8
 - "¿No entendéis ni comprendéis? ¿Aún tenéis endurecido vuestro corazón? ¿Teniendo ojos no veis, y teniendo oídos no oís?"
-
 
 *** Cap. 9
 - "Si alguno quiere ser el primero (discipulo en importancia de Jesús), será el postrero de todos, y el servidor de todos."
@@ -385,7 +378,6 @@ Enderezad sus sendas."
 - "Si tu mano te fuere ocasión de caer, córtala; mejor te es entrar en la vida manco, que teniendo dos manos ir al infierno ...
   Y si tu pie te fuere ocasión de caer, córtalo; mejor te es entrar a la vida cojo, que teniendo dos pies ser echado en el infierno ...
   Y si tu ojo te fuere ocasión de caer, sácalo; mejor te es entrar en el reino de Dios con un ojo, que teniendo dos ojos ser echado al infierno, donde el gusano de ellos no muere, y el fuego nunca se apaga."
-
 
 *** Cap. 10
 - Jesús habla sobre el divorcio:
@@ -400,13 +392,11 @@ Enderezad sus sendas."
   + estan muy atados a sus posesiones materiales
 - "... el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos."
 
-
 *** Cap. 11
 - "... todo lo que pidiereis orando, creed que lo recibiréis, y os vendrá.
   Y cuando estéis orando, perdonad, si tenéis algo contra alguno,
   para que también vuestro Padre que está en los cielos os perdone a vosotros vuestras ofensas.
   Porque si vosotros no perdonáis, tampoco vuestro Padre que está en los cielos os perdonará vuestras ofensas."
-
 
 *** Cap. 12
 - Cuando no sepas si algo es correcto, recuerda que puedes errar al actuar por *ignorar las escrituras y el poder de Dios*.
@@ -414,13 +404,24 @@ Enderezad sus sendas."
     con todo el entendimiento, con toda el alma, y con todas las fuerzas,
     y amar al prójimo como a uno mismo, es más que todos los holocaustos y sacrificios."
 
-
 *** Cap. 13
 - Jesús habla de las señales del fin, y aconseja:
   "Mirad, velad y orad; porque no sabéis cuándo será el tiempo."
 
+*** Cap. 14
+- Nos da otra perspectiva de la última cena.
+- "Velad y orad, para que no entréis en tentación; el espíritu a la verdad está dispuesto, pero la carne es débil."
 
-*** Cap. 14 (por leer Cap. 15)
+*** Cap. 15
+- Recapitula lo visto en Mateo sobre la aprensión y muerte de Jesús, desde otra perspectiva.
+
+*** Cap. 16
+- Recapitula lo visto en Mateo sobre la resurrección y asención al cielo de Jesús, desde otra perspectiva.
+
+
+** Evangelio S. Lucas
+
+*** Cap. 1 (por leer Cap. 2)
 
 
 ** Adicional
