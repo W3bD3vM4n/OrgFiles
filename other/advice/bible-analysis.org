@@ -2,6 +2,13 @@
 #+author:   h4ss4n
 #+date:     <2022-08-15 lun.>
 
+* Index
+- [[Antiguo Testamento]]
+- [[Nuevo Testamento]]
+  + [[Evangelio S. Mateo]]
+  + [[Evangelio S. Marcos]]
+  + [[Evangelio S. Lucas]]
+
 * Antiguo Testamento
 
 Desde el libro de Genesis hasta Mateo
@@ -421,36 +428,156 @@ Enderezad sus sendas."
 
 ** Evangelio S. Lucas
 
-*** Cap. 1 (por leer Cap. 2)
+*** Cap. 1
+- En el intro se señala que Lucas no fue contemporaneo de Jesús, pero escribio sobre el.
+  + que a pesar de redactar como historiador, y lucir como bibliografia, se busco hacerlo envagelio.
+  + se vuelve a recalcar el mensaje que queria transmitir el autor, sobre Jesús como *hijo de Dios*.
+- Recapitula con más detalle el nacimiento de *Juan el Bautista* y de *Jesús*.
+  + en ambos casos fue enviado el angel Gabriel, primero para anunciar la concepción de Juan
+  + 6 meses después fue enviado para avisar a maria sobre su destino y la concepción de Jesús
+    - *BUSCAR* la comparación de este envento en otros libros religiosos, sobre ser llamado el _Hijo del Altísimo_ o _Hijo de Dios_
+    - *BUSCAR* la comparación de este envento en otros libros religiosos, a que consideran _Espíritu Santo_
+  + el dialogo de Maria sobre Dios es interesante para *RELEER*
 
 
-** Adicional
+*** Cap. 2
+- Se relata el nacimiento de Jesús, sobre un censo, viajes y pastores que fueron avisados por un angel sobre este evento.
+- Tambien se habla de su presentación en el templo, de su crecimiento y su comportamiento temprano.
+  + se maravillaban de su inteligencia y respuestas para su corta edad
 
-*** Conocimiento
-- La verdadera religión no se trata de ritos y costumbres, sino de seguir el camino el Dios (buscar la verdad).
-- Todo depende de la teoria y la prática que apliques (con tus habitos).
 
-*** Etapa llamada "el encuentro"
-- cambia tu vida, sucede una sola vez
-- vas a una lugar apartado (tipo retiro espiritual un fin de semana)
-- te desconectas de todo trabajo, estudio, etc
-- "vi a dios cara a cara y cambio mi alma", sientes su presencia
-  + siempre que tu estes dispuesto a ir, no hay problema (cuesta $25)
-  + tienes que ir de corazon y regresas con el corazon limpio
+*** Cap. 3
+- Juan predicaba el *bautismo del arrepentimiento* para el perdón de los pecados.
+  + se hace referencia a las palabras del profeta Isaías:
+    "Preparad el camino del Señor;
+    Enderezad sus sendas.
+    Todo valle se rellenará,
+    Y se bajará todo monte y collado;
+    Los caminos torcidos serán enderezados,
+    Y los caminos ásperos allanados;
+    Y verá toda carne la salvación de Dios."
+- Decía a las multitudes:
+  "¡Oh generación de víboras! ¿Quién os enseñó a huir de la ira venidera?
+  *Haced, pues, frutos dignos de arrepentimiento*,
+  y no comencéis a decir dentro de vosotros mismos:
+  Tenemos a Abraham por padre;
+  porque os digo que Dios puede levantar hijos a Abraham aun de estas piedras.
+  Y ya también el hacha está puesta a la raíz de los árboles; por tanto,
+  *todo árbol que no da buen fruto se corta y se echa en el fuego*."
+- Enseñaba a la personas:
+  + si se tiene más (vestimenta, comida, etc), dar al que no tiene/necesita
+  + si tienen oficio/poder ser honestos y no abusar de ello
+- Menciona que mientras el bautizaba en agua, vendrá alguien más poderoso que el (refiriendose a Jesús)
+  + quien los bautizará en Espíritu Santo y fuego
+  + este salvara a los justos y enviara al tormento a los pecadores
+- Mientras lleva a cavo el bautismo de Jesús, se menciona que "orando, el cielo se abrió,
+  y descendió el Espíritu Santo sobre él en forma corporal, como paloma,
+  y vino una voz del cielo que decía:
+  Tú eres mi Hijo amado; en ti tengo complacencia."
 
-- si tu guardas rencor te haces daño a ti mismo
 
-*** Canciones
+*** Cap. 4
+- Cuando Jesús fue a Nazaret y leyo en una sinagoga el libro del profeta Isaías, reflexiono en sus palabras.
+  + comparo que hizo varias de las cosas que mencionaba
+  + al mencionar que otros antes que el no fueron aceptados en sus lugares de origen
+    - y que de igual manera no pudieron desempeñar milagros de la misma forma
+    - provoco la ira de los presentes, quienes lo sacáron de ahi
+- Jesús recorrio Galilea predicando, decia:
+  "Es necesario que también a otras ciudades anuncie el evangelio del reino de Dios;
+  porque para esto he sido enviado."
 
-**** Cantante:
-Jesús Adrián Romero
 
-**** Canción:
-- El aire de tu casa
-  + querer percibir su presencia al estar cerca y ser su amigo
+*** Cap. 5
+- Jesús tambien se reuinía con pecadores pasando tiempo con ellos, y cuando preguntaban porque decia:
+  "Los que están sanos no tienen necesidad de médico, sino los enfermos.
+  No he venido a llamar a justos, sino a pecadores al arrepentimiento."
 
-- Que seas mi universo
-  + buscar que el señor sea parte de tu vida/existencia (agape)
+
+*** Cap. 6
+- Cuando le preguntaron en una ocasión, porque sus discipulos comían en día de reposo:
+  "¿Ni aun esto habéis leído, lo que hizo David cuando tuvo hambre él, y los que con él estaban;
+  cómo entró en la casa de Dios, y tomó los panes de la proposición,
+  de los cuales no es lícito comer sino solo a los sacerdotes,
+  y comió, y dio también a los que estaban con él?"
+- Les decia a sus discípulos:
+  "Bienaventurados vosotros los pobres, porque vuestro es el reino de Dios.
+  Bienaventurados los que ahora tenéis hambre, porque seréis saciados.
+  Bienaventurados los que ahora lloráis, porque reiréis.
+  Bienaventurados seréis cuando los hombres os aborrezcan, y cuando os aparten de sí,
+  y os vituperen, y desechen vuestro nombre como malo, por causa del Hijo del Hombre.
+  Gozaos en aquel día, y alegraos, porque he aquí vuestro galardón es grande en los cielos;
+  porque así hacían sus padres con los profetas.
+  Mas ¡ay de vosotros, ricos! porque ya tenéis vuestro consuelo.
+  ¡Ay de vosotros, los que ahora estáis saciados! porque tendréis hambre.
+  ¡Ay de vosotros, los que ahora reís! porque lamentaréis y lloraréis.
+  ¡Ay de vosotros, cuando todos los hombres hablen bien de vosotros!
+  porque así hacían sus padres con los falsos profetas."
+- Tambien les dijo:
+  "Amad a vuestros enemigos, haced bien a los que os aborrecen;
+  bendecid a los que os maldicen, y orad por los que os calumnian.
+  Al que te hiera en una mejilla, preséntale también la otra;
+  y al que te quite la capa, ni aun la túnica le niegues.
+  A cualquiera que te pida, dale; y al que tome lo que es tuyo,
+  no pidas que te lo devuelva.
+  Y como queréis que hagan los hombres con vosotros,
+  así también haced vosotros con ellos.
+  Porque si amáis a los que os aman, ¿qué mérito tenéis? ...
+  ... Amad, pues, a vuestros enemigos, y haced bien, y prestad,
+  no esperando de ello nada; y será vuestro galardón grande,
+  y seréis hijos del Altísimo;
+  porque él es benigno para con los ingratos y malos.
+  Sed, pues, misericordiosos,
+  como también vuestro Padre es misericordioso."
+- De igual manera:
+  "*No juzguéis, y no seréis juzgados*;
+  no condenéis, y no seréis condenados;
+  perdonad, y seréis perdonados.
+  Dad, y se os dará; medida buena, apretada,
+  remecida y rebosando darán en vuestro regazo;
+  porque con la misma medida con que medís,
+  os volverán a medir."
+- Sobre el reflejo de las acciones:
+  "... *cada árbol se conoce por su fruto*;
+  pues no se cosechan higos de los espinos,
+  ni de las zarzas se vendimian uvas.
+  El hombre bueno, del buen tesoro de su corazón saca lo bueno;
+  y el hombre malo, del mal tesoro de su corazón saca lo malo;
+  porque *de la abundancia del corazón habla la boca*."
+- La reflexión sobre "los dos cimientos" es una buena analogía sobre saber o no,
+  escuchar consejos.
+
+
+*** Cap. 7
+- Existian los discipulos de Juan el Bautista y de Jesús.
+  + Juan no sabia de Jesús mas que por historias de otros
+  + mando a preguntar a dos de sus discipulos, si *el era el enviado (de Dios) o si iba a venir otro más?*
+  + Jesús demostro quien era por sus milagros (acciones), mas que por sus palabras
+- Jesús conocia de Juan el Bautista, y lo referia como un profeta:
+  "He aquí, envío mi mensajero delante de tu faz,
+  El cual preparará tu camino delante de ti."
+  + ubieron quienes se bautizaron con él y ubieron quienes eligieron no hacerlo
+  + Jesús menciono que sin importar quien viene pata predicar la palabra,
+    hay personas que todo lo juzgan (sea recatado o no)
+    y negaran la verdad aunque este presente frente a ellos
+- Jesús fue invitado a la casa de un fariseo (de los no creyentes)
+  + una mujer pecadora (prostituta) hecho lagrimas sobre sus pies y las limpio con sus cabellos,
+  ademas de besarlos y ungirlos en perfume
+  + se comparo con una parábola sobre dos deudóres y el perdon de sus deudas, y se pregunto ¿quien estaria más agradecido?
+    - una buena alegoria sobre el arrepentimiento y el perdón de los pecados
+
+
+*** Cap. 8
+- Se menciona que aparte de los 12 discipulos, habían mujeres que habían sido sanadas que seguían a Jesús.
+  + por ejemplo María Magdalena
+- Habla sobre lo que las personas "ocultan" y cómo al final, todo sale a la luz.
+  + asi mismo como el bien se premiara (dándole), el mal se castigará (quitándole).
+- Jesús consideraba su familia, no solo por la sangre sino a quien *oye la palabra de Dios y la aplica*.
+- Jesús al calmar una tempestad en el lago solo con sus palabras, a sus discipulos sorprendidos les pregunto:
+  "¿Dónde está vuestra fe?", al no creer que algo asi era posible o que podia hacerse.
+  + una buena reflexión sobre *creer* en el poder de Dios y a quienes da su gracia.
+
+
+*** Cap. 9 (por leer Cap. 10)
 
 
 ** Fuentes

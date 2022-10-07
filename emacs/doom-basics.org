@@ -7,6 +7,7 @@
 ** Index
 
 - [[General]]
+  + [[Installation]]
   + [[Check the current version]]
   + [[Print the Working Directory]]
   + [[Check for crashes]]
@@ -41,6 +42,40 @@
 
 
 ** General
+
+*** Installation
+
+**** For Windows
+
+- Using *Scoop* package manager install the base programs required.
+  + git (2.23+)
+  + emacs (28.1 is recommended, 29+ isn't supported <2022-09-28 mié.>)
+  + ripgrep (11.0+)
+  + fd (7.3.0+)
+
+- Install Doom
+
+  #+begin_src bash
+
+    git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d
+    ~/.emacs.d/bin/doom install
+
+  #+end_src
+
+- Add =~/.emacs.d/bin= to your PATH for configuration and maintenance
+- Commands to know about:
+  + *doom sync* synchronize your private config with Doom.
+    - run when modify the ~init.el~ or ~packages.el~ files, or install/remove an Emacs package through package manager
+  + *doom upgrade* update Doom to the latest release & all installed packages.
+  + *doom doctor* diagnose common issues with your system and config.
+  + *doom env* dump a snapshot of your shell environment to a file that Doom will load at startup.
+    - allows Emacs to inherit your PATH, among other things
+  + *doom build* recompile all installed packages (use it if up/downgrade Emacs).
+
+- *NOTE*: when you update _Emacs_ by Scoop, run the command =~/.emacs.d/bin/doom install= to rebuild the Doom framework.
+  + avoid framework issues and keep configuration files intact (keep a copy anyways)
+
+**** For Linux
 
 *** Check the current version
 
@@ -252,7 +287,7 @@ Related to C-, M-x or SPC actions, once prompted enter the key combination.
 
 #+begin_quote
 
-    SPC b x = pop up scratch buffer (keep data in temporary memory)             #less-used
+    SPC x = pop up scratch buffer (keep data in temporary memory)               #used
     SPC b N = new empty buffer (if not save it's all lose)                      #NEED-to-use
 
     SPC b b = switch buffer, show current ones (select with arrows)             #NEED-to-use

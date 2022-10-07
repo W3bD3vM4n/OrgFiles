@@ -1,0 +1,30 @@
+#+title:    ASP.NET Core Mvc Frontend
+#+author:   h4ss4n
+#+date:     <2022-10-06 jue.>
+
+* Using Visual Studio 2022
+
+** Index
+
+- [[View]]
+  + [[DropDownList]]
+
+** View
+
+*** DropDownList
+
+- To load the database information to the control, the ~dataSource~ it's the link the process.
+  + the ~ViewBag.dataUsuarios~ can be found in the *Controller* to access the methods in =Project.Service.Services.PacienteService.cs=
+- The ~id~ and ~name~ properties need to have the same _name_ as the Object where the ~id~ it's extracted, in the ~UsuarioResponse.cs~ in =Project.Service.Dto.Usuario.UsuarioResponse.cs=
+  + if not do it rigth the content information will load in the control, but when send the input data to process, the ~id~ will be zero causing and *Unhandled Exception*.
+
+#+begin_src html
+
+    <div class="col-md-6 col-sm-6  form-group has-feedback">
+        <label for="UsuarioId">Usuarios</label>
+            <ejs-dropdownlist id="UsuarioId" cssClass="e-outline" name="UsuarioId" dataSource="@ViewBag.dataUsuarios">
+                <e-dropdownlist-fields text="Nombre" value="Id"></e-dropdownlist-fields>
+            </ejs-dropdownlist>
+    </div>
+
+#+end_src

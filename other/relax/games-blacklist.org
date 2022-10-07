@@ -1,0 +1,58 @@
+#+title:    Video Games Blacklist
+#+author:   h4ss4n
+#+date:     <2022-10-02 dom.>
+
+* Index
+- [[Games][Games]]
+  + [[Action][Action]]
+  + [[Action RPG][Action RPG]]
+  + [[Adventure][Adventure]]
+  + [[Management][Management]]
+  + [[Plataform][Plataform]]
+  + [[Puzzles][Puzzles]]
+  + [[Racing][Racing]]
+  + [[Relax][Relax]]
+  + [[Roguelike][Roguelike]]
+  + [[RTS][RTS]]
+  + [[Shooter][Shooter]]
+  + [[Sports][Sports]]
+  + [[Strategy][Strategy]]
+  + [[Terror][Terror]]
+
+
+* Games
+
+** 4X
+- *Warhammer 40,000: Gladius - Relics of War*: opens launcher, feels unfinished, dlc support needed, clumsy AI, repetitive.
+- *Endless Space 2*: left by devs, no current updates, dlc break the game, unbalance AI, buggy, minus 500 players online.
+- *Endless Legend*: no current updates, let down by devs, dlc break the game, slow, clunky combat, lack good story.
+
+** Action
+
+** Action RPG
+
+** Adventure
+
+** Management
+- *Timberborn*: middle micro-managing, clumsy AI, feels like wasted time, lacks main story.
+
+** Plataform
+
+** Puzzles
+
+** Racing
+
+** Relax
+
+** Roguelike
+
+** RTS
+
+** Shooter
+
+** Sports
+
+** Strategy
+- *Battle Brothers*: perma death, tun-based, lacks main story, unbalance AI, big amount of text, lack translations.
+
+** Terror

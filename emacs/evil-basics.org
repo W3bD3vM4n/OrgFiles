@@ -54,6 +54,7 @@ Evil is an extensible vi layer for Emacs, it provides Vim features.
 #+begin_quote
 
     gg = go to page's top
+    N% = go to the Nth percentage (50% go to the middle)
     G = go to page's bottom
     [number] + G = go to page's number row
     [number] + [j/k] = go to page's relative number row

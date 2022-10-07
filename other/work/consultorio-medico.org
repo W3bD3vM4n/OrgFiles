@@ -4,6 +4,25 @@
 
 * Using Visual Studio 2022
 
+** Index
+
+- [[0. Base de aplicación]]
+  + [[Creación del proyecto de base de datos]]
+  + [[Creación del Proyecto ASP.NET Core MVC]]
+  + [[Creación de Repositorio en Azure]]
+  + [[Integración de librerias para Front-end]]
+- [[1. Módulo de Login]]
+  + [[Página de Login]]
+  + [[Página de Incio]]
+  + [[Página de Roles y Usuarios]]
+  + [[TESTING: Módulo de Login]]
+- [[2. Módulo de historias clínicas]]
+- [[3. Modulo de agendamiento de citas]]
+- [[4. Modulo generación de recetas]]
+- [[5. Modulo notificaciones]]
+- [[6. Módulo extra (envío de consejos saludables)]]
+- [[7. Módulo opcional (reportes)]]
+
 ** 0. Base de aplicación
 
 *** Creación del proyecto de base de datos [4/4] [100%]
@@ -17,7 +36,7 @@
 
 - [X] Creación del proyecto web
 - [X] Arquitectura del proyecto.
-- [X] Implementación del 'proyecto de base de datos'.
+- [X] Implementación del 'proyecto de base de datos'. <<Insert Link Here-EF Core>>
 - [X] Organización de los archivos y directorios.
 
 *** Creación de Repositorio en Azure [2/2] [100%]
@@ -44,13 +63,16 @@
 **** Integración de autenticación [1/2] [50%]
 
 - [X] Simple Cookie Authentication
+  + El usuario y *clave* para el ingreso de login al sistema se colocó de forma temporal en =Proyecto.Web.Controllers.LoginController=
 - [ ] Role-Based Authorization
+
 
 *** Página de Incio
 
 **** Acceso a otros modulos [1/1] [100%]
 
 - [X] Página para visualizar 'Usuarios existentes'
+
 
 *** Página de Roles y Usuarios
 
@@ -135,3 +157,8 @@
   + Pacientes atendidos al mes
   + Morbilidades
   + Grupo etario atendido
+
+
+** Fuentes:
+
+- [[https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx]]

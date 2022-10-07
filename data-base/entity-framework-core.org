@@ -1,0 +1,64 @@
+#+TITLE:    Entity Framework Core
+#+author:   h4ss4n
+#+date:     <2022-09-28 mié.>
+
+* Using Visual Studio 2022
+
+** Index
+
+- [[Entity Framework]]
+- [[Database Project]]
+
+** Entity Framework
+
+- In ~Proyecto.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
+  + The *Scaffold-DbContext* it's used by input the command to the Package Manager Console:
+
+      #+begin_quote
+
+        PM> Scaffold-DbContext "Server=localhost;Database=DatabaseName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+      #+end_quote
+
+    - In the OutputDir it's useful to change the name of the *Models* folder, to avoid affecting the existing files.
+    - For cleaning and organization purpose the obsolete files are deleted and all it's saved in the original Model folder.
+    - The ~DatabaseNameContext.cs~ file inside models it's used to configure the tables like Objects for later use.
+
+      #+begin_src csharp
+
+        using Microsoft.EntityFrameworkCore;
+
+        namespace Project.Data.Models
+        {
+            public partial class DatabaseNameContext : DbContext
+            {
+                public DatabaseNameContext()
+                {
+                }
+
+                public DatabaseNameContext(DbContextOptions<DatabaseNameContext> options)
+                    : base(options)
+                {
+                }
+
+                public virtual DbSet<Table1> Table1s { get; set; } = null!;
+                public virtual DbSet<Table2> Table2s { get; set; } = null!;
+
+                protected override void OnModelCreating(ModelBuilder modelBuilder)
+                {
+                    modelBuilder.Entity<Table1>().ToTable("Table1", "SchemaName1");
+                    modelBuilder.Entity<Table2>().ToTable("Table2", "SchemaName2");
+                }
+            }
+        }
+
+      #+end_src
+
+** Database Project
+
+- In ~Proyecto.Database~ create a ~SqlSchemaCompare.scmp~ for version control and database generation.
+  + The interface shows where it's gonna be send (server): *localhost/DatabaseName* and who catch it (receiver): *Ruta/Solucion/Proyecto.Database/Proyecto.Database.sqlproj*
+  + There are two buttons, the *Compare* and if changes exist in the database the *Update* it's used.
+  + This generates folders with their respected tables, group by the *Esquema*
+- Allow to share the database inside the solution to be used for other developers.
+  + It's a good profesional practice.
