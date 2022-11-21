@@ -42,6 +42,7 @@
   + [[file:backend/asp-net-core-mvc-identity.org][ASP.NET Core MVC Identity]]
   + [[file:backend/syncfusion-asp-net-core-mvc.org][Syncfusion ASP.NET Core MVC]]
     - [[file:backend/asp-net-core-snippets.org][ASP.NET Core Snippets]]
+  + [[file:backend/syncfusion-blazor.org][Syncfusion Blazor]]
 
 
 *** Database
@@ -77,7 +78,7 @@
 - IDE: Emacs
 - Framework: [[https://ericnormand.me/mini-guide/what-web-framework-should-i-use-in-clojure][Recommended]]
 - Programming Language: Clojure
-  + Emacs Lisp -> Scheme (review) -> Common Lisp -> Clojure
+  + Emacs Lisp -> Clojure
 
 **** Documentation Order:
 

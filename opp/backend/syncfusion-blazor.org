@@ -1,0 +1,145 @@
+#+title:    Blazor Server Side for Visual Studio
+#+author:   h4ss4n
+#+date:     <2022-11-01 mar.>
+
+* Using Visual Studio 2022
+
+** Prerequisites
+
+- .NET 6.0 SDK
+- Visual Studio 2022 17.0 or later
+
+** Steps
+
+- Create a Blazor Server application
+
+- Install Syncfusion Blazor Packages
+  1. Right-click on the project and select Manage NuGet Packages.
+
+  2. Search and install 'Syncfusion.Blazor' for a complete package or for individual packages
+     - Complete package:
+       + Syncfusion.Blazor.Core
+         (SfBaseComponent)
+     - Individual packages (common use):
+       + Syncfusion.Blazor.Buttons
+         (SfButton, SfCheckBox, SfChip, SfRadioButton, SfSwitch, SfIcon)
+       + Syncfusion.Blazor.Calendars
+         (SfCalendar, SfDatePicker, SfDateRangePicker, SfDateTimePicker, SfTimePicker)
+       + Syncfusion.Blazor.DropDowns
+         (SfAutoComplete, SfComboBox, SfDropDownList, SfListBox, SfMultiSelect)
+       + Syncfusion.Blazor.Grid
+         (SfGrid)
+       + Syncfusion.Blazor.Inputs
+         (SfColorPicker, SfMaskedTextBox, SfNumericTextBox, SfSlider, SfTextBox, SfUploader, SfSignature)
+       + Syncfusion.Blazor.Navigations
+         (SfAccordion, SfBreadcrumb, SfContextMenu, SfMenu, SfSidebar, SfTab, SfToolbar, SfTreeView)
+     - The individual packages can reduce the application deployment size in production.
+       + For a list of individual packages and their components: [[https://blazor.syncfusion.com/documentation/nuget-packages]]
+
+  3. Open ~/_Imports.razor file and add the Syncfusion.Blazor namespace.
+
+     #+begin_src csharp
+
+        @using Syncfusion.Blazor
+
+     #+end_src
+
+- For .NET 6 app, open the ~/Program.cs file and register the Syncfusion Blazor Service.
+
+    #+begin_src csharp
+
+        using Microsoft.AspNetCore.Components;
+        using Microsoft.AspNetCore.Components.Web;
+        using Syncfusion.Blazor;
+
+        var builder = WebApplication.CreateBuilder(args);
+
+        // Add services to the container.
+        builder.Services.AddRazorPages();
+        builder.Services.AddServerSideBlazor();
+        builder.Services.AddSyncfusionBlazor();
+
+        var app = builder.Build();
+        ....
+
+    #+end_src
+
+- Search for Syncfusion.Blazor.Themes and then install it.
+  + The theme style sheet from NuGet can be referred inside the <head> as follows in ~/Pages/_Layout.cshtml for .NET 6
+
+    #+begin_src html
+
+    <head>
+      ...
+      <link href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" rel="stylesheet" />
+      <!--Refer theme style sheet as below if you are using Syncfusion.Blazor Single NuGet-->
+      <!--<link href="_content/Syncfusion.Blazor/styles/bootstrap5.css" rel="stylesheet" />-->
+    </head>
+
+    #+end_src
+
+- Add script reference inside the <head> as follows in ~/Pages/_Layout.cshtml for .NET 6
+
+    #+begin_src html
+
+    <head>
+        ...
+        <script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
+        <!--Use below script reference if you are using Syncfusion.Blazor Single NuGet-->
+        <!--<script  src="_content/Syncfusion.Blazor/scripts/syncfusion-blazor.min.js"  type="text/javascript"></script>-->
+    </head>
+
+    #+end_src
+
+- Add Syncfusion Blazor component open ~/_Imports.razor and import the Syncfusion.Blazor.Calendars namespace.
+
+    #+begin_src csharp
+
+        @using Syncfusion.Blazor
+        @using Syncfusion.Blazor.Calendars
+
+    #+end_src
+
+- Add the Syncfusion Calendar component in the ~/Pages/Index.razor
+
+    #+begin_src html
+
+        <SfCalendar TValue="DateTime" />
+
+    #+end_src
+
+    Don't run the application until the lincese key is added to the project.
+
+- Generate the License Key
+
+  1. License keys can be generated from the License & Downloads section of the Syncfusion website: [[https://www.syncfusion.com/account/downloads]]
+
+     In the Bottom of the page click the link 'Get License Key' and a window will pop up, fill the *Platform:* Blazor and *Version:* <Blazor current package's version>
+
+     Copy the 'License Key' content for later.
+
+  2. Register the license key in the Program.cs file (for server side application using .NET 6.0)
+     - Place the license key between double quotes.
+     - The license validation is done offline during application execution and does not require internet access.
+
+     #+begin_src csharp
+
+        var app = builder.Build();
+        //Register Syncfusion license
+        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("YOUR LICENSE KEY");
+
+        // Configure the HTTP request pipeline.
+        if (!app.Environment.IsDevelopment())
+        {
+            app.UseExceptionHandler("/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
+        }
+
+     #+end_src
+
+  3. Run the application and test if the calendar component will render in the web browser.
+
+*Source:*
+- [[https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-visual-studio]]
+- [[https://blazor.syncfusion.com/documentation/getting-started/license-key/how-to-register-in-an-application]]
