@@ -33,6 +33,10 @@
          (SfColorPicker, SfMaskedTextBox, SfNumericTextBox, SfSlider, SfTextBox, SfUploader, SfSignature)
        + Syncfusion.Blazor.Navigations
          (SfAccordion, SfBreadcrumb, SfContextMenu, SfMenu, SfSidebar, SfTab, SfToolbar, SfTreeView)
+       + Syncfusion.Blazor.Popups
+         (SfDialog, SfTooltip)
+       + Syncfusion.Blazor.Schedule
+         (SfRecurrenceEditor, SfSchedule)
      - The individual packages can reduce the application deployment size in production.
        + For a list of individual packages and their components: [[https://blazor.syncfusion.com/documentation/nuget-packages]]
 

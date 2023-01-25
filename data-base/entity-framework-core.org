@@ -21,6 +21,9 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
       - Microsoft.EntityFrameworkCore.Proxies
       - Microsoft.EntityFrameworkCore.SqlServer
       - Microsoft.EntityFrameworkCore.Tools
+
+      *IMPORTANT:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
+
    b. Open the Package Manager Console, select in the top right for "Default project" the ~Project.Data~, then input the *Scaffold-DbContext* command:
 
         #+begin_quote
