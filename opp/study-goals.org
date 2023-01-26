@@ -1,0 +1,72 @@
+#+title:    Study Goals
+#+author:   h4ss4n
+#+date:     <2023-01-26 jue.>
+
+* Development
+
+** Index
+
+- [[Goals]]
+- [[Work week][Work week]]
+- [[Next week][Next week]]
+
+** Goals
+
+- Conseguir un trabajo estable
+  + Crear mi portafolio y enviar hojas de vida
+  + Estar capacitado para poder reemplazar a Hussein
+    - en Canada
+    - con los Chinos
+
+** Work week
+
+SEMANA DEL 23 A 29 DE ENERO DEL 2023
+
+*** Programación
+
+- práctica #1: ASP.Net Core Blazor (*Hussein*) [active]
+  + terminar la aplicación del Consultorio Médico
+- documentación:
+  + revisión del libro "The C# Workshop" [active]
+
+- practica #3: Clojure [active]
+  + experimentacion con el REPL
+- documentación:
+  + revisión de la documentación de [[https://clojure.org/guides/learn/syntax][Clojure.org]] [active]
+
+- eficiencia
+  + hacer que funcione de *cualquier forma* el programa
+    - luego aplicar el principio SOLID (al trabajar)
+  + sandbox #1: Visual Studio [pause]
+    - todas sus herramientas
+  + sandbox #2: Doom Emacs [active]
+    - como IDE y demas capacidades
+
+*** Progeso
+
+- pesimo (--/10)
+  + falta de delimitación y cumplimiento del horario
+    - socializar queda para el fin de semana
+  + salir más de 2 veces por semana, cansan cuerpo y mente
+    - limpieza del cuarto para fin de semana
+  + se esta avanzando lentamente, hay que mejorar eso
+    - importancia de práctica sobre teoría
+    - si el material es muy teórico se deja de lado
+    - se olvida cuando no tiene aplicación al mundo real
+
+*** Hobbies
+
+- obligatorios
+  + gym       [25%]
+  + biblia    [23%]
+- activos
+  + go        [2%]
+- en pausa
+  + rubik
+  + linux
+
+** Next week
+
+SEMANA DEL 30 DE ENERO A 05 DE FEBRERO DEL 2023
+
+- darle prioridad a los temas enseñados por Hussein y su práctica

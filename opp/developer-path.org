@@ -11,6 +11,12 @@
 - [[Future Path]]
   + [[Functional]]
 
+** Self Evaluation
+
+- [[file:self-evaluation.org][Evaluation]]
+- [[file:study-goals.org][Goals]]
+
+
 ** Actual Path
 
 *** OOP

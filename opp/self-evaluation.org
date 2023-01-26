@@ -1,0 +1,60 @@
+#+title:    Self Evaluation
+#+author:   h4ss4n
+#+date:     <2023-01-26 jue.>
+
+* Development
+
+** Index
+
+- [[Aprendizaje]]
+- [[Contenido]]
+
+
+** Aprendizaje
+
+| TEMAS                  | Junio | Julio | Agosto | Septiembre | Octubre | Noviembre | Diciembre | Enero | *REQUERIDO* |
+|------------------------+-------+-------+--------+------------+---------+-----------+-----------+-------+-------------|
+| C# (OOP)               |     2 |     2 |      2 |          2 |       2 |         2 |         2 |     2 |           4 |
+| ASP.NET                |       |       |        |            |         |           |           |       |             |
+| - Webform              |     * |     * |      * |          * |       * |         * |         * |     * |           * |
+| - MVC                  |     1 |     1 |      2 |          2 |       1 |         1 |         * |     * |           * |
+| - Blazor               |     * |     * |      * |          * |       1 |         1 |         2 |     2 |           4 |
+| Entity Framework (ORM) |     1 |     1 |      1 |          * |       * |         1 |         1 |     1 |           3 |
+| LINQ                   |     1 |     1 |      * |          1 |       1 |         1 |         * |     1 |           3 |
+| SQL Server             |     2 |     1 |      1 |          * |       * |         * |         1 |     1 |           3 |
+| HTML                   |     2 |     2 |      2 |          1 |       1 |         1 |         2 |     2 |           3 |
+| CSS                    |     2 |     2 |      2 |          1 |       1 |         1 |         2 |     2 |           3 |
+| JavaScript             |     1 |     * |      * |          * |       * |         1 |         * |     1 |           3 |
+| Git                    |     2 |     2 |      1 |          1 |       1 |         1 |         1 |     2 |           3 |
+
+
+** Contenido
+
+*** C#
+- Sintaxis
+  + Variables y condicionales [x]
+  + Loops y sets [x]
+  + Métodos y wrap up [x]
+
+- Debugging
+  + Básico [x]
+  + Avanzado
+
+- OOP
+  + Tipos de clase [x]
+  + Opciones de clase
+  + Interfaces y herencia
+  + Modificadores, abstracción, y anulaciones
+  + Sobrecargas y extensiones
+  + Genericos y eventos
+
+- Tipos comunes de proyectos
+  + Librerias de clases
+    - crear librearias y llamarlas entre proyectos (.dll -> proyecto)
+  + Pruebas unitarias
+  + WinForm [x]
+  + WPF [x]
+  + Páginas Razor
+  + MVC [x]
+  + API
+  + Blazor
