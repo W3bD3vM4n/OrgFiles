@@ -7,40 +7,40 @@
 ** Inner environment
 
 *** Mandatory
-- [ ] from 30k to 50k
-- [ ] in the limits of Quito
-  - [ ] no Carapungo, Calderon, Otavalo, Sangolqui, Pedro Vicente Maldonado
+- [X] from 30k to 50k
+- [X] in the limits of Quito
+  - [X] no Otavalo, Sangolqui, Pedro Vicente Maldonado
 - [X] near the city no countryside
   - [X] better internet speed & connection
-- [ ] a *house* not an apartment
+- [X] a *house* not an apartment
 - [X] water & electricity
 
-- [ ] 3 bedrooms
-- [ ] 2 toilets
-- [ ] kitchen, living room and laundry
-- [ ] parking lot
+- [X] 3 bedrooms
+- [X] 2+ toilets
+- [X] kitchen, living room and laundry
+- [X] parking lot
 
 *** Basics
-- [ ] no humidity
-- [ ] good level floors and ladders
-- [ ] ventilated areas
-- [ ] weather protection
+- [X] no humidity
+- [X] good level floors and ladders
+- [X] ventilated areas
+- [X] weather protection
 
 *** Secondary
-- [ ] noise protection
-- [ ] natural light access
+- [X] noise protection
+- [X] natural light access
 
 ** Urban environment
 
 *** Basics
-- [ ] paved roads and easy access sidewalks
-- [ ] grocery store, drug store, hardware store
-- [ ] bus services (corredor, trole, etc)
+- [X] paved roads and easy access sidewalks
+- [X] grocery store, drug store, hardware store
+- [X] bus services (corredor, trole, etc)
 
 *** Secondary
-- [ ] nearby hospitals
-- [ ] market
-- [ ] supermarket
+- [X] nearby hospitals
+- [X] market
+- [X] supermarket
 
 * Question to the vendor
 
@@ -49,3 +49,19 @@ The house has:
 - only one owner?
 - all the papers in order?
 - energy & water bills payed?
+
+* Houses
+
+Buenas noches, puede ayudarme con la ubicación en Google Maps por favor. Mi whatsapp: 0998308241
+
+- https://www.facebook.com/marketplace/item/565443045459912/ [x]
+- https://www.facebook.com/marketplace/item/3107708952852581/
+- https://www.facebook.com/marketplace/item/546900670480908/
+- https://www.facebook.com/marketplace/item/1113270649357160/
+- https://www.facebook.com/marketplace/item/2027246077472475/ [x]
+- https://www.facebook.com/marketplace/item/887335356038252/
+- https://www.facebook.com/marketplace/item/3169446526660766/
+- https://www.facebook.com/marketplace/item/1329332911218770/
+- https://www.facebook.com/marketplace/item/718058336197279/ [x]
+- https://www.facebook.com/marketplace/item/1044790643139368/ [x]
+- https://www.facebook.com/marketplace/item/1166369877602668/ [x]

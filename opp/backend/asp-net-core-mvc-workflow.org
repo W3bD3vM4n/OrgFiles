@@ -74,3 +74,14 @@ In development the things work by layers, from top to bottom.
 1. Watch for the objects in =Project.Service > Dto= as a mapping (representation) of the DB columns you need to manipulate in the application.
 
 2. Create new methods in =Project.Service > Services= to put the logic needed.
+
+
+----------------------
+TO ADD:
+
+In Project.Service > Dto
+
+The sections of the application are group by folders.
+- the *Create Request* classes are for set the information (record in the View controls) to the database tables.
+- the *Update Request* classes are for update the information to be save.
+- the *Response* classes are for get the information (custom columns to your needs, even FK) from the database tables.

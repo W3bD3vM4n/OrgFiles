@@ -1,0 +1,79 @@
+#+title:    Video Games Blacklist
+#+author:   h4ss4n
+#+date:     <2022-10-02 dom.>
+
+* Index
+- [[Games][Games]]
+  + [[Action][Action]]
+  + [[Action RPG][Action RPG]]
+  + [[Adventure][Adventure]]
+  + [[Management][Management]]
+  + [[Plataform][Plataform]]
+  + [[Puzzles][Puzzles]]
+  + [[Racing][Racing]]
+  + [[Relax][Relax]]
+  + [[Roguelike][Roguelike]]
+  + [[RTS][RTS]]
+  + [[Shooter][Shooter]]
+  + [[Sports][Sports]]
+  + [[Strategy][Strategy]]
+  + [[Terror][Terror]]
+
+
+* Games
+
+** 4X
+- *Warhammer 40,000: Gladius - Relics of War*: opens launcher, feels unfinished, dlc support needed, clumsy AI, repetitive.
+- *Endless Space 2*: left by devs, no current updates, dlc break the game, unbalance AI, buggy, minus 500 players online.
+- *Endless Legend*: no current updates, let down by devs, dlc break the game, slow, clunky combat, lack good story.
+
+** Action
+
+** Action RPG
+- *Elden Ring*: open world, souls-like, everything is your enemy, repetitive, requires much time.
+- *Grim Dawn*: lack good story, lack relevant goals, errand boy, repetitive, boring, everything is your enemy, just level up.
+
+** Adventure
+
+** CRPG
+- *Baldur's Gate*: old school, bad modern adaptation, regular graphics, old gameplay.
+- *Baldur's Gate 2*: old school, bad modern adaptation, regular graphics, old gameplay.
+- *Pathfinder: Kingmaker*: regular graphics, limited scenarios, map travel, limited world interaction, unorganized battles, clumsy characters menu.
+- *Pillars of Eternity*: buggy gameplay, clumsy AI, regular graphics, limited scenarios, map travel, limited world interaction, unorganized battles, font size customization.
+- *Solasta: Crown of the Magister*: short game, buggy, boring, dull gameplay, normal graphics.
+- *Tower of Time*: repetitive combat, repetitive strategies, poor item system, player decision wasted.
+- *Tyranny*: short game, boring, dull gameplay, bad UI scaling.
+
+** Management
+- *Factorio*:
+- *Timberborn*: middle micro-managing, clumsy AI, feels like wasted time, lacks main story.
+
+** Plataform
+
+** Puzzles
+ - *SpaceChem*: lack good explanation, teach yourself, requires much time, boring.
+ - *TIS-100*: assembler language, complex knowlege, teach yourself, requires much time, bad tutorial, lack translations.
+ - *SHENZHEN I/O*: assembler language, complex knowlege, teach yourself, requires much time, bad tutorial, lack translations.
+ - *Opus Magnum*: lack good explanation, teach yourself, requires much time, boring.
+ - *EXAPUNKS*: assembler language, complex knowlege, teach yourself, requires much time, bad tutorial, lack translations.
+ - *MOLEK-SYNTEZ*: complex knowlege, teach yourself, requires much time, bad tutorial, lack translations.
+
+ - *Turing Complete*: new complex knowlege, teach yourself, requires much time, bad tutorial.
+ - *Virtual Circuit Board*: assembler language, new complex knowlege, teach yourself, requires much time, regular tutorial.
+
+** Racing
+
+** Relax
+
+** Roguelike
+
+** RTS
+
+** Shooter
+
+** Sports
+
+** Strategy
+- *Battle Brothers*: perma death, tun-based, lacks main story, unbalance AI, big amount of text, lack translations.
+
+** Terror

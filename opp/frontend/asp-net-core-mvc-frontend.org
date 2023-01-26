@@ -1,0 +1,71 @@
+#+title:    ASP.NET Core Mvc Frontend
+#+author:   h4ss4n
+#+date:     <2022-10-06 jue.>
+
+* Using Visual Studio 2022
+
+** Index
+
+- [[View]]
+  + [[DropDownList]]
+
+** View
+
+- The *View* depends of the *Controller*, so the first thing to do is create the Controller.
+  + Right click on *Index* from the default method ~public IActionResult Index()~ and chose =Add view...=
+  + Automatically generates a folder with the a view file.
+- *WARNING*: If a method from the respective View is not put in the Controller file, an empty page is display.
+  + Basic method for visualization.
+
+    #+begin_src csharp
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+    #+end_src
+
+*** DropDownList
+
+- To load the database information to the control, the ~dataSource~ it's the link the process.
+  + the ~ViewBag.dataUsuarios~ can be found in the *Controller* to access the methods in =Project.Service.Services.PacienteService.cs=
+- *WARNING*: The ~id~ and ~name~ properties need to have the same _name_ as the Object where the ~id~ it's extracted, in the ~UsuarioResponse.cs~ in =Project.Service.Dto.Usuario.UsuarioResponse.cs=
+  + if not do it rigth the content information will load in the control, but when send the input data to process, the ~id~ will be zero causing and *Unhandled Exception*.
+
+#+begin_src html
+
+    <div class="col-md-6 col-sm-6  form-group has-feedback">
+        <label for="UsuarioId">Usuarios</label>
+            <ejs-dropdownlist id="UsuarioId" cssClass="e-outline" name="UsuarioId" dataSource="@ViewBag.dataUsuarios">
+                <e-dropdownlist-fields text="Nombre" value="Id"></e-dropdownlist-fields>
+            </ejs-dropdownlist>
+    </div>
+
+#+end_src
+
+*** Javascript
+
+- To run certain actions, put the logic on ~script~ tags in the end of the html document.
+
+  #+begin_src javascript
+
+    @section Scripts{
+
+    <script>
+        // Run the code between brackets (after the page load)
+        $(document).ready(function () {
+            // function call #1
+            // function call #2
+            // function call #3
+        });
+
+        // Independent function
+        function functionName() {
+            // logic here
+        }
+
+    </script>
+}
+
+  #+end_src

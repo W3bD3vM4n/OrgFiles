@@ -1,0 +1,25 @@
+#+title:    Planification of the Day
+#+author:   h4ss4n
+#+date:     <2022-11-07 lun.>
+
+* App Consultorio Médico
+
+** Tarea pasada <2022-11-07 lun.>
+
+*** 1. Crear documento de requerimientos funcionales y no funcionales [100%]
+- [X] Buscas en google un ejemplo básico
+- [X] Redactar
+  + [X] TIEMPO ESPERADO: 1h, TIEMPO GASTADO: 3h30min
+
+
+** Tarea actual <2022-11-08 mar.>
+
+*** 2. Revisar y practicar [0%]
+- [ ] Lista de objetos con métodos: Add y Remove
+- [ ] Mostrar ejercicio práctico al final del día
+  + [ ] TIEMPO ESPERADO: 2h, TIEMPO GASTADO: XhXXmin
+
+*** 3. Revisar y practicar [0%]
+- [ ] Frontend de Blazor a fondo, acceso a Database no necesario
+- [ ] Mostrar ejercicio práctico al final del día
+  + [ ] TIEMPO ESPERADO: 2h, TIEMPO GASTADO: XhXXmin

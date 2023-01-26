@@ -2,54 +2,65 @@
 #+author:   h4ss4n
 #+date:     <2022-08-15 lun.>
 
+* Index
+- [[Antiguo Testamento]]
+- [[Nuevo Testamento]]
+  + [[S. Mateo]]
+  + [[S. Marcos]]
+  + [[S. Lucas]]
+  + [[S. Juan][S. Juan]]
+  + [[Hechos][Hechos]]
+  + [[Romanos][Romanos]]
+
 * Antiguo Testamento
 
-Desde el libro de Genesis hasta Mateo
+Desde el libro de Génesis hasta Mateo.
 
 * Nuevo Testamento
 
-Desde el libro de Mateo hasta Apocalipsis
+Desde el libro de Mateo hasta Apocalipsis.
 
-** Evangelio S. Mateo
+** S. Mateo
 
 *** Cap. 1-2
-- porque se recibia todo mensaje en sueños?
-- porque tomarse todo el trabajo de hacer las cosas de esa manera, si dios pudo proveer a jesus de un nacimiento mas tranquilo y menos tumultoso?
-- porque los judio no aceptaron al nuevo mesias? si sus textos tenian relacion con el antiguo testamento, eso no estaba predicho ahi?
+- Por qué todos los mensajes eran recibidos mediante sueños?
+- Por qué tomarse todo el trabajo de hacer las cosas de esa manera, si Dios pudo proveer a Jesús de un nacimiento mas tranquilo y menos tumultoso?
+- Por qué los judío no aceptaron al nuevo mesias? si sus textos tenian relación con el antiguo testamento, eso no estaba predicho ahi?
 
 *** Cap. 3-4
-- de los pecado pasados y limpiados por el bautismo, se aconseja hacer frutos dignos del arrepentimiento (del inicio de sus nuevas vidas, despeus de haber visto la verdad), y no pensar que podran engañar con ello a su creador (mostrando/diciendo una cosa y actuando de otra manera)
-- "todo árbol que no da buen fruto es cortado y echado en el fuego" (habla sobre el juicio final que vendra a todos)
+- De los pecado pasados y limpiados por el bautismo, se aconseja hacer frutos dignos del arrepentimiento (del inicio de sus nuevas vidas, despeus de haber visto la verdad), y no pensar que podran engañar con ello a su creador (mostrando/diciendo una cosa y actuando de otra manera)
+- Jesús dice:
+  "todo árbol que no da buen fruto es cortado y echado en el fuego" (habla sobre el juicio final que vendra a todos)
   + incluso Jesús se bautizo por Juan, para mostrar que todos tenian que pasar por la ceremonia (nadie estaba excento)
-- habla sobre la tentacion
+- Habla sobre la tentación
   + el hombre no solo vive de sustento fisico, sino espiritual
   + no es correcto hacer duda sobre la existencia del creador mediante pruebas
   + sobre solo adorar y servir al creador
-- habla sobre el arrepentimiento de los pecados (ya que el juicio se acerca)
+- Habla sobre el arrepentimiento de los pecados (ya que el juicio se acerca)
 
 *** Cap. 5-6
-- habla sobre quienes seran bienaventurados
+- Habla sobre quienes seran bienaventurados
   + personas buenas y que sufren distinta clase de males (incluso los pobres en espíritu)
   + comparacion que los que mas padecen por defender una posicion correcta, seran mejor recompensados al final
-- sobre la luz propia que alumbra a los demas, reflejadas por las obras propias, como una representación de su creador
+- Sobre la luz propia que alumbra a los demas, reflejadas por las obras propias, como una representación de su creador
   + y el cumplimiento de todas las leyes por muy pequeñas que parezcan
-- coinciliar la paz propia antes de entablar contacto con el señor
-- el pecado (ejm: adulterio) se comete primero con la mente antes de la acción
+- Coinciliar la paz propia antes de entablar contacto con el señor
+- El pecado (ejm: adulterio) se comete primero con la mente antes de la acción
   + explicacion mejor sobre el divorcio?
-- sobre no hacer juramentos en vano
+- Sobre no hacer juramentos en vano
   + preferiblemente no hacerlos
-- poner la otra mejilla (aplica en la practica)
+- Poner la otra mejilla (aplica en la practica)
   + habla sobre el poco esfuerzo que es amar a quienes te aman, pero distinto hacerlo por tus enemigos
-- sobre ayudar (ejm: dar limosna), ayunar u orar en secreto, ya que tiene mas valor
-- sobre hacer tesoro en el cielo, mas que en la tierra (alegoria a las acciones)
+- Sobre ayudar (ejm: dar limosna), ayunar u orar en secreto, ya que tiene mas valor
+- Sobre hacer tesoro en el cielo, mas que en la tierra (alegoria a las acciones)
   + "Porque donde esté vuestro tesoro, allí estará también vuestro corazón."
-- sobre que no es posible servir al creador y a las riquezas al mismo tiempo
-- sobre que no es bueno tener afan al por venir (comida, bebida, vestimenta, etc), concentrarse en el dia a dia (que el señor proveera)
+- Sobre que no es posible servir al creador y a las riquezas al mismo tiempo
+- Sobre que no es bueno tener afan al por venir (comida, bebida, vestimenta, etc), concentrarse en el dia a dia (que el señor proveera)
 
 *** Cap. 7
-- sobre no juzgar a los demas, porque se te juzgara de igual forma y antes de ver el mal en los demas, mirarse primero en un espejo
-  - tambien de no desperdiciar algo valioso a quien no lo sabe apreciar (tiempo, conocimiento, etc)
-- duda sobre: "Pedid, y se os dará; buscad, y hallaréis; llamad, y se os abrirá."?
+- Sobre no juzgar a los demas, porque se te juzgara de igual forma y antes de ver el mal en los demas, mirarse primero en un espejo
+  + tambien de no desperdiciar algo valioso a quien no lo sabe apreciar (tiempo, conocimiento, etc)
+- Duda sobre: "Pedid, y se os dará; buscad, y hallaréis; llamad, y se os abrirá."?
 - Sobre el concepto de la 'puerta estrecha'
   + "Entrad por la puerta estrecha; porque ancha es la puerta, y espacioso el camino que lleva a la perdición, y muchos son los que entran por ella; porque estrecha es la puerta, y angosto el camino que lleva a la vida, y pocos son los que la hallan."
 - "Guardaos de los falsos profetas, que vienen a vosotros con vestidos de ovejas, pero por dentro son lobos rapaces. Por sus frutos los conoceréis." a que se refiere a falsos profetas? (mentirosos? estafadores?)
@@ -57,16 +68,16 @@ Desde el libro de Mateo hasta Apocalipsis
 - Sobre saber escuchar consejos "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca."
 
 *** Cap. 8
-- jesus curo a un leproso, y le dijo que no lo mencione a nadie, sino que vaya y lo muestre a un sacerdote y haga la ofrenda que hizo Moises?
+- Jesús curo a un leproso, y le dijo que no lo mencione a nadie, sino que vaya y lo muestre a un sacerdote y haga la ofrenda que hizo Moises?
 - sobre que paso con el criado del centurion que necesitaba ayuda?
-- sobre los que querian seguir a jesus?? (no queda muy claro lo que se referia con los muertos)
+- sobre los que querian seguir a Jesús?? (no queda muy claro lo que se referia con los muertos)
 - sobre ser hombres de poca fe (cuando calmo los vientos y el mar)
 - sobre los endemoniados gadarenos y como los espanto? (no es muy claro que significa eso)
 
 *** Cap. 9
 - "¿Por qué pensáis mal en vuestros corazones? Porque, ¿qué es más fácil, decir: Los pecados te son perdonados, o decir: Levántate y anda?"
 - Pues para que sepáis que el Hijo del Hombre tiene potestad en la tierra para perdonar pecados"
-- Cuando se sentaron publicanos (¿?) y pecadores a comer en la mesus junto a jesus, fue criticado y dijo:
+- Cuando se sentaron publicanos (¿?) y pecadores a comer en la mesus junto a Jesús, fue criticado y dijo:
   + "Los sanos no tienen necesidad de médico, sino los enfermos"
   + "Misericordia quiero, y no sacrificio. Porque no he venido a llamar a justos, sino a pecadores, al arrepentimiento."
 - sobre el ayuno
@@ -101,7 +112,7 @@ Desde el libro de Mateo hasta Apocalipsis
 - "hacen lo que no es lícito hacer en el día(s) de reposo"?? (ayunas?)
   + usar la logica sobre necesidades basicas
     - es lícito hacer el bien
-- porque se menciona que pasara desapercibido y jesus sera discreto? en cuanto a su labor/estatus?
+- Por qué se menciona que pasara desapercibido y Jesús sera discreto? en cuanto a su labor/estatus?
 - "Todo reino dividido contra sí mismo, es asolado, y toda ciudad o casa dividida contra sí misma, no permanecerá.
   + "El que no es conmigo, contra mí es; y el que conmigo no recoge, desparrama."
   + "Todo pecado y blasfemia será perdonado a los hombres; mas la blasfemia contra el Espíritu no les será perdonada."
@@ -111,9 +122,9 @@ Desde el libro de Mateo hasta Apocalipsis
 - "El espíritu inmundo que vuelve"
 
 *** Cap. 13
-- Jesús hablabla a las personas que se reunian a escuharlo solo en *Párabolas*
-  + les dio a entender a sus dicipulos que mientas ellos podian comprender el reino de los cielos
-  + el resto de personas no tenias ese entendimiento
+- Jesús hablabla a las personas (fuera de su circulo) que se reunian a escuharlo solo en *Párabolas*
+  + a sus dicipulos dijo, que se les concedio el entendimiento del misterio del reino de los cielos
+  + el resto de personas no tenian ese entendimiento
     - "porque viendo no ven, y oyendo no oyen, ni entienden"
     - De manera que se cumple en ellos la profecía de Isaías, que dijo:
       "De oído oiréis, y no entenderéis;
@@ -283,7 +294,8 @@ Desde el libro de Mateo hasta Apocalipsis
   y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo.
   Amén."
 
-** Evangelio S. Marcos
+
+** S. Marcos
 
 *** Cap. 1
 - Se remarca desde la intro (la afirmación) sobre el titulo de Jesús, como hijo de Dios.
@@ -296,50 +308,1358 @@ Enderezad sus sendas."
 - Hay un resumen del bautizo, de como conseguia dicipulos y curaba enfermos.
   + Visto desde una perspectiva diferente, agregando cosas a la historia.
 
-
 *** Cap. 2
 - Se recapitula como Jesús curo a un paralitico.
   + queda la duda, tantas personas se acercaban a el para que los cure que ya no alcanzaban en su casa
   + en el caso del paralitico sus amigos/familiares treparon el techo
     - si fue igual su fe, acaso se reunieron asi cuando lo acusaron y crucificaron? o solo fue por interes??
-- Los publicanos y pecadores (a quien se refiere? rameras, asesinos?) eran mal visto incluso por los judios??
+- Los publicanos y pecadores (a quien se refiere? rameras, asesinos?) eran mal visto incluso por los judíos??
 - Analizar mejor *la pregunta sobre el ayuno*
 - La necesidad vence a la costumbre religiosa, sobre *el dia del reposo*.
 
+*** Cap. 3
+- La historia de *el hombre de la mano seca* es una buena reflexión sobre el bien y el mal, sobre la tradición.
+  + "¿Es lícito en los días de reposo hacer bien,
+    o hacer mal; salvar la vida, o quitarla?
+    Pero ellos callaban.
+    Entonces, mirándolos alrededor con enojo,
+    entristecido por la dureza de sus corazones"
+    - los fariseos y herodianos mostraban soberbia, querian probar los /milagros/ que Jesús podia realizar
+    - no les importaba si lo hacia o no, sino el hecha de que ponia a prueba su juicio y creencias
+- Trataban de acusar la fuente de sus milagros calumniando el /Espíritu Santo/
+  + les respondia en parábolas "¿Cómo puede Satanás echar fuera a Satanás?"
+- "... todo aquel que hace la voluntad de Dios,
+  ese es mi hermano, y mi hermana, y mi madre."
+
+*** Cap. 4
+- Con las parábolas posiblemente se queria evitar que solo vinieran creyentes dudoso.
+  + siempre y cuando ganen el paraiso prometido, diran o apoyaran lo que sea
+  + "... para que no se conviertan, y les sean perdonados los pecados."
+- Parábolas referidas:
+  + P. del sembrador
+    - El sembrador es el que siembra la palabra.
+    Las semillas que caen en distintos lugares,
+    es en quienes se siembra la palabra.
+    - Hay quienes pierden la palabra por Satanás,
+      los que en momentos que se ponen a prueba la dejan
+      los que se ven influenciados por el medio y la dejan
+      y finalmente los que la reciben y rinde frutos.
+  + No hay nada oculto que no haya de ser manifestado;
+    ni escondido, que no haya de salir a luz.
+  + Habia algunas comparaciones a semillas con el Reino de Dios.
+
+*** Cap. 5
+- Las personas que actuaban sin cordura (hablando solos, lastimandose, etc) eran considerados poseidos por demonios.
+  + A los que Jesús podía sacar sin el menor problema.
+- Tenia el poder de sanar e incluso revivir a los muertos.
+
+*** Cap. 6
+- Es un poco confuso la explicación de la muerte de Juan el Bautista, comparada a la anterior.
+  + parece que el rey Herodes habla que lo revivieron (debido a los milagros que los dicipulos de Jesús podían hacer)
+  + pero después se menciona la historia de como lo decapitaron
+- Jesús realizó el milagro de multiplicar los panes y pescados
+  + al realizar posteriormente el milágro de caminar sobre el mar asustó a sus discipulos
+  + dice que se debió a que "estában endurecidos sus corazónes"
+
+*** Cap. 7
+- Al criticar los escribas y fariseos el que los discipulos de Jesús no se lavaron las manos para comer.
+  + les respondia llamandolos hipócritas, citando a Isaías:
+    "Este pueblo de labios me honra,
+     Mas su corazón está lejos de mí.
+     Pues en vano me honran,
+     Enseñando como doctrinas mandamientos de hombres."
+  + Refiriendose a que ellos tambien invalidaban mandamientos al anteponer sus tradiciones primero.
+  + a la multitud que estába presente les hablo al respecto en forma de parábola:
+    "Nada hay fuera del hombre que entre en él,
+     que le pueda contaminar; pero lo que sale de él,
+     eso es lo que contamina al hombre."
+    - habla de lo que se ingiere y termina en la letrina
+    - explicando que en cambio al salir del corazón salen
+      "los malos pensamientos, los adulterios, las fornicaciones, los homicidios,
+       los hurtos, las avaricias, las maldades, el engaño, la lascivia, la envidia,
+       la maledicencia, la soberbia, la insensatez."
+
+*** Cap. 8
+- "¿No entendéis ni comprendéis? ¿Aún tenéis endurecido vuestro corazón? ¿Teniendo ojos no veis, y teniendo oídos no oís?"
+
+*** Cap. 9
+- "Si alguno quiere ser el primero (discipulo en importancia de Jesús), será el postrero de todos, y el servidor de todos."
+  + "Y tomó a un niño, y lo puso en medio de ellos; y tomándole en sus brazos, les dijo:
+    El que reciba en mi nombre a un niño como este, me recibe a mí; y el que a mí me recibe, no me recibe a mí sino al que me envió."
+- "Si tu mano te fuere ocasión de caer, córtala; mejor te es entrar en la vida manco, que teniendo dos manos ir al infierno ...
+  Y si tu pie te fuere ocasión de caer, córtalo; mejor te es entrar a la vida cojo, que teniendo dos pies ser echado en el infierno ...
+  Y si tu ojo te fuere ocasión de caer, sácalo; mejor te es entrar en el reino de Dios con un ojo, que teniendo dos ojos ser echado al infierno, donde el gusano de ellos no muere, y el fuego nunca se apaga."
+
+*** Cap. 10
+- Jesús habla sobre el divorcio:
+  + dice que debido a la *dureza de corazón* de las personas se escribrio ese mandmiento
+  + "... al principio de la creación, varón y hembra los hizo Dios.
+    Por esto dejará el hombre a su padre y a su madre, y se unirá a su mujer,
+    y los dos serán una sola carne; así que no son ya más dos, sino uno.
+    Por tanto, lo que Dios juntó, no lo separe el hombre."
+    - que aque el que repudia a su pareja, para casarse con otra persona comete adulterio
+- "el que no reciba el reino de Dios como un niño, no entrará en él."
+- Jesús menciona como es dificil a los ricos entrar en el reino de los cielos
+  + estan muy atados a sus posesiones materiales
+- "... el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos."
+
+*** Cap. 11
+- "... todo lo que pidiereis orando, creed que lo recibiréis, y os vendrá.
+  Y cuando estéis orando, perdonad, si tenéis algo contra alguno,
+  para que también vuestro Padre que está en los cielos os perdone a vosotros vuestras ofensas.
+  Porque si vosotros no perdonáis, tampoco vuestro Padre que está en los cielos os perdonará vuestras ofensas."
+
+*** Cap. 12
+- Cuando no sepas si algo es correcto, recuerda que puedes errar al actuar por *ignorar las escrituras y el poder de Dios*.
+  + "... que uno es Dios, y no hay otro fuera de él y el amarle con todo el corazón,
+    con todo el entendimiento, con toda el alma, y con todas las fuerzas,
+    y amar al prójimo como a uno mismo, es más que todos los holocaustos y sacrificios."
+
+*** Cap. 13
+- Jesús habla de las señales del fin, y aconseja:
+  "Mirad, velad y orad; porque no sabéis cuándo será el tiempo."
+
+*** Cap. 14
+- Nos da otra perspectiva de la última cena.
+- "Velad y orad, para que no entréis en tentación; el espíritu a la verdad está dispuesto, pero la carne es débil."
+
+*** Cap. 15
+- Recapitula lo visto en Mateo sobre la aprensión y muerte de Jesús, desde otra perspectiva.
+
+*** Cap. 16
+- Recapitula lo visto en Mateo sobre la resurrección y asención al cielo de Jesús, desde otra perspectiva.
+
+
+** S. Lucas
+
+*** Cap. 1
+- En el intro se señala que Lucas no fue contemporaneo de Jesús, pero escribio sobre el.
+  + que a pesar de redactar como historiador, y lucir como bibliografia, se busco hacerlo envagelio.
+  + se vuelve a recalcar el mensaje que queria transmitir el autor, sobre Jesús como *hijo de Dios*.
+- Recapitula con más detalle el nacimiento de *Juan el Bautista* y de *Jesús*.
+  + en ambos casos fue enviado el angel Gabriel, primero para anunciar la concepción de Juan
+  + 6 meses después fue enviado para avisar a maria sobre su destino y la concepción de Jesús
+    - *BUSCAR* la comparación de este envento en otros libros religiosos, sobre ser llamado el _Hijo del Altísimo_ o _Hijo de Dios_
+    - *BUSCAR* la comparación de este envento en otros libros religiosos, a que consideran _Espíritu Santo_
+  + el dialogo de Maria sobre Dios es interesante para *RELEER*
+
+*** Cap. 2
+- Se relata el nacimiento de Jesús, sobre un censo, viajes y pastores que fueron avisados por un angel sobre este evento.
+- Tambien se habla de su presentación en el templo, de su crecimiento y su comportamiento temprano.
+  + se maravillaban de su inteligencia y respuestas para su corta edad
+
+*** Cap. 3
+- Juan predicaba el *bautismo del arrepentimiento* para el perdón de los pecados.
+  + se hace referencia a las palabras del profeta Isaías:
+    "Preparad el camino del Señor;
+    Enderezad sus sendas.
+    Todo valle se rellenará,
+    Y se bajará todo monte y collado;
+    Los caminos torcidos serán enderezados,
+    Y los caminos ásperos allanados;
+    Y verá toda carne la salvación de Dios."
+- Decía a las multitudes:
+  "¡Oh generación de víboras! ¿Quién os enseñó a huir de la ira venidera?
+  *Haced, pues, frutos dignos de arrepentimiento*,
+  y no comencéis a decir dentro de vosotros mismos:
+  Tenemos a Abraham por padre;
+  porque os digo que Dios puede levantar hijos a Abraham aun de estas piedras.
+  Y ya también el hacha está puesta a la raíz de los árboles; por tanto,
+  *todo árbol que no da buen fruto se corta y se echa en el fuego*."
+- Enseñaba a la personas:
+  + si se tiene más (vestimenta, comida, etc), dar al que no tiene/necesita
+  + si tienen oficio/poder ser honestos y no abusar de ello
+- Menciona que mientras el bautizaba en agua, vendrá alguien más poderoso que el (refiriendose a Jesús)
+  + quien los bautizará en Espíritu Santo y fuego
+  + este salvara a los justos y enviara al tormento a los pecadores
+- Mientras lleva a cavo el bautismo de Jesús, se menciona que "orando, el cielo se abrió,
+  y descendió el Espíritu Santo sobre él en forma corporal, como paloma,
+  y vino una voz del cielo que decía:
+  Tú eres mi Hijo amado; en ti tengo complacencia."
+
+*** Cap. 4
+- Cuando Jesús fue a Nazaret y leyo en una sinagoga el libro del profeta Isaías, reflexiono en sus palabras.
+  + comparo que hizo varias de las cosas que mencionaba
+  + al mencionar que otros antes que el no fueron aceptados en sus lugares de origen
+    - y que de igual manera no pudieron desempeñar milagros de la misma forma
+    - provoco la ira de los presentes, quienes lo sacáron de ahi
+- Jesús recorrio Galilea predicando, decia:
+  "Es necesario que también a otras ciudades anuncie el evangelio del reino de Dios;
+  porque para esto he sido enviado."
+
+*** Cap. 5
+- Jesús tambien se reuinía con pecadores pasando tiempo con ellos, y cuando preguntaban porque decia:
+  "Los que están sanos no tienen necesidad de médico, sino los enfermos.
+  No he venido a llamar a justos, sino a pecadores al arrepentimiento."
+
+*** Cap. 6
+- Cuando le preguntaron en una ocasión, porque sus discipulos comían en día de reposo:
+  "¿Ni aun esto habéis leído, lo que hizo David cuando tuvo hambre él, y los que con él estaban;
+  cómo entró en la casa de Dios, y tomó los panes de la proposición,
+  de los cuales no es lícito comer sino solo a los sacerdotes,
+  y comió, y dio también a los que estaban con él?"
+- Les decia a sus discípulos:
+  "Bienaventurados vosotros los pobres, porque vuestro es el reino de Dios.
+  Bienaventurados los que ahora tenéis hambre, porque seréis saciados.
+  Bienaventurados los que ahora lloráis, porque reiréis.
+  Bienaventurados seréis cuando los hombres os aborrezcan, y cuando os aparten de sí,
+  y os vituperen, y desechen vuestro nombre como malo, por causa del Hijo del Hombre.
+  Gozaos en aquel día, y alegraos, porque he aquí vuestro galardón es grande en los cielos;
+  porque así hacían sus padres con los profetas.
+  Mas ¡ay de vosotros, ricos! porque ya tenéis vuestro consuelo.
+  ¡Ay de vosotros, los que ahora estáis saciados! porque tendréis hambre.
+  ¡Ay de vosotros, los que ahora reís! porque lamentaréis y lloraréis.
+  ¡Ay de vosotros, cuando todos los hombres hablen bien de vosotros!
+  porque así hacían sus padres con los falsos profetas."
+- Tambien les dijo:
+  "Amad a vuestros enemigos, haced bien a los que os aborrecen;
+  bendecid a los que os maldicen, y orad por los que os calumnian.
+  Al que te hiera en una mejilla, preséntale también la otra;
+  y al que te quite la capa, ni aun la túnica le niegues.
+  A cualquiera que te pida, dale; y al que tome lo que es tuyo,
+  no pidas que te lo devuelva.
+  Y como queréis que hagan los hombres con vosotros,
+  así también haced vosotros con ellos.
+  Porque si amáis a los que os aman, ¿qué mérito tenéis? ...
+  ... Amad, pues, a vuestros enemigos, y haced bien, y prestad,
+  no esperando de ello nada; y será vuestro galardón grande,
+  y seréis hijos del Altísimo;
+  porque él es benigno para con los ingratos y malos.
+  Sed, pues, misericordiosos,
+  como también vuestro Padre es misericordioso."
+- De igual manera:
+  "*No juzguéis, y no seréis juzgados*;
+  no condenéis, y no seréis condenados;
+  perdonad, y seréis perdonados.
+  Dad, y se os dará; medida buena, apretada,
+  remecida y rebosando darán en vuestro regazo;
+  porque con la misma medida con que medís,
+  os volverán a medir."
+- Sobre el reflejo de las acciones:
+  "... *cada árbol se conoce por su fruto*;
+  pues no se cosechan higos de los espinos,
+  ni de las zarzas se vendimian uvas.
+  El hombre bueno, del buen tesoro de su corazón saca lo bueno;
+  y el hombre malo, del mal tesoro de su corazón saca lo malo;
+  porque *de la abundancia del corazón habla la boca*."
+- La reflexión sobre "los dos cimientos" es una buena analogía sobre saber o no,
+  escuchar consejos.
+
+*** Cap. 7
+- Existian los discipulos de Juan el Bautista y de Jesús.
+  + Juan no sabia de Jesús mas que por historias de otros
+  + mando a preguntar a dos de sus discipulos, si *el era el enviado (de Dios) o si iba a venir otro más?*
+  + Jesús demostro quien era por sus milagros (acciones), mas que por sus palabras
+- Jesús conocia de Juan el Bautista, y lo referia como un profeta:
+  "He aquí, envío mi mensajero delante de tu faz,
+  El cual preparará tu camino delante de ti."
+  + ubieron quienes se bautizaron con él y ubieron quienes eligieron no hacerlo
+  + Jesús menciono que sin importar quien viene pata predicar la palabra,
+    hay personas que todo lo juzgan (sea recatado o no)
+    y negaran la verdad aunque este presente frente a ellos
+- Jesús fue invitado a la casa de un fariseo (de los no creyentes)
+  + una mujer pecadora (prostituta) hecho lagrimas sobre sus pies y las limpio con sus cabellos,
+  ademas de besarlos y ungirlos en perfume
+  + se comparo con una parábola sobre dos deudóres y el perdon de sus deudas, y se pregunto ¿quien estaria más agradecido?
+    - una buena alegoria sobre el arrepentimiento y el perdón de los pecados
+
+*** Cap. 8
+- Se menciona que aparte de los 12 discipulos, habían mujeres que habían sido sanadas que seguían a Jesús.
+  + por ejemplo María Magdalena
+- Habla sobre lo que las personas "ocultan" y cómo al final, todo sale a la luz.
+  + asi mismo como el bien se premiara (dándole), el mal se castigará (quitándole).
+- Jesús consideraba su familia, no solo por la sangre sino a quien *oye la palabra de Dios y la aplica*.
+- Jesús al calmar una tempestad en el lago solo con sus palabras, a sus discipulos sorprendidos les pregunto:
+  "¿Dónde está vuestra fe?", al no creer que algo asi era posible o que podia hacerse.
+  + una buena reflexión sobre *creer* en el poder de Dios y a quienes da su gracia.
+
+*** Cap. 9
+- Jesús dijo a sus discipulos:
+  "Porque todo el que quiera salvar su vida, la perderá;
+  y todo el que pierda su vida por causa de mí, este la salvará.
+  Pues *¿qué aprovecha al hombre, si gana todo el mundo,*
+  *y se destruye o se pierde a sí mismo?*
+  Porque el que se avergonzare de mí y de mis palabras,
+  de este se avergonzará el Hijo del Hombre cuando venga en su gloria,
+  y en la del Padre, y de los santos ángeles."
+  + reflexión interesante sobre el camino a escoger,
+    sobre la salvación vs un amor vano.
+- Cuando no fue recibido en una aldea, sus discipulos sugirieron su destrucción, más el respondio:
+  "... el Hijo del Hombre no ha venido para perder las almas de los hombres, sino para salvarlas."
+
+*** Cap. 10
+- Hablando de la palabra que difundian sus discipulos:
+  "El que a vosotros oye, a mí me oye; y el que a vosotros desecha,
+  a mí me desecha; y el que me desecha a mí, desecha al que me envió."
+- Les recordaba a sus discipulos que más que estar felices por sacar demonios (tener ese poder)
+  + deben estar felices porque por sus acciones iran al cielo
+- Una buena referencia sobre *amar al prójimo como a ti mismo*
+  + da un ejemplo con la historia del buen samaritano
+
+*** Cap. 11
+- Jesús les enseña a sus discipulos a orar, diciendo:
+  "Padre nuestro que estás en los cielos, santificado sea tu nombre.
+  Venga tu reino. Hágase tu voluntad, como en el cielo, así también en la tierra.
+  El pan nuestro de cada día, dánoslo hoy.
+  Y perdónanos nuestros pecados, porque también nosotros perdonamos a todos los que nos deben.
+  Y no nos metas en tentación, mas líbranos del mal."
+- Hablando de Dios les dijo:
+  "Pedid, y se os dará;
+  buscad, y hallaréis;
+  llamad, y se os abrirá.
+  Porque todo aquel que pide, recibe;
+  y el que busca, halla;
+  y al que llama, se le abrirá."
+- Sobre la posición que se encuentran muchos:
+  "El que no es conmigo, contra mí es; y el que conmigo no recoge, desparrama."
+  + "... bienaventurados los que oyen la palabra de Dios, y la guardan."
+- Hay un referencia al profeta (¿?) Jonas aqui y Ninive (buscar referencia).
+- Aqui se mencion tambien como "La lámpara del cuerpo es el ojo"
+  + si el ojo es bueno el cuerpo está lleno de luz
+  + si el ojo es maligo el cuerpo está en tinieblas
+    - posible referencia a como el *ojo es ventana del corazón* y muestra tu ser.
+
+*** Cap. 12
+- Una reflexión sobre "La levadura de los fariseos" y como hay que cuidarse de la hipocresía.
+  + tanto ser victima de gente hipocrita, como perpetrarla uno
+  + siendo algo que aparenta ser bueno (a los sentidos), en palabras o acciones
+  + pero en realidad es todo lo contrario
+    - aunque se oculte este comportamiento ahora, en el juicio todo se sabrá
+- Que hay que temer más que a los que matan el cuerpo, al que quita la vida y condena al infierno.
+  + se refiere a Dios y su poder
+  + una referencia con pajaros o la cantidad de cabello que uno tiene
+    - como Dios lo sabe todo, y *es a él a quien rendiremos cuentas*
+- Mientras la confesión puede ser de ti hacia Jesús, Jesús confesara delante de Dios.
+  + aunque puede excusarse palabras contra Jesús, no sera el caso cuando sean palabras contra Dios
+- Jesús hizo una buena reflexión sobre la herencia de unos hermanos:
+  "Mirad, y guardaos de toda avaricia;
+  porque *la vida del hombre no consiste en la abundancia de los bienes que posee.*"
+  + un hombre puede ser rico en la tierra, pero no en igual medida a los ojos de Dios
+- Les dijo a sus discipulos:
+  "No os afanéis por vuestra vida, qué comeréis;
+  ni por el cuerpo, qué vestiréis.
+  La vida es más que la comida,
+  y el cuerpo que el vestido."
+  + dar una jerarquía de importancia a las cosas en la vida
+    - no perder la compostura/caracter por cosas que no valen la pena
+  + analizar la reflexión sobre los lirios y Salomón
+    - buscar las cosas de necesidad primero en el Reino de Dios (y lo demás se los dará como añadidúra)
+- Analizar la reflexión sobre el ciervo vigilante.
+
+*** Cap. 13
+- Jesús menciona, que tanto los que pecan más o menos, sino se arrepienten antes no se salvaran.
+- Primero es necesario abonar la mente (la palabra), para luego recoger la cosechar.
+- No se trata de "conocer" solamente, o de relacionarse con personas que hacen el bien.
+  + tienes que llevarlo a cabo, ser participe en el cambio
+  + es la única manera de pasar por las puertas del cielo
+- *IMPORTANTE*: Jesús se refiere a el como un profeta en "Lamento de Jesús sobre Jerusalén".
+
+*** Cap. 14
+- Jesús enseña sobre humildad en la parábola de "Los convidados a las bodas".
+  + no buscando mostrar su importancia frente a otros:
+    "... cualquiera que se enaltece, será humillado;
+    y el que se humilla, será enaltecido."
+  + igualmente recomienda cuando se hace un banquete, al fin de invitar a seres queridos o personas pudientes, invitar a los necesitados.
+    - ya que los primeros te pueden recompensar, mas los segundos no.
+    - la recompensa es en el reino de los cielos.
+- En la parábola de "La gran cena" parece hacer referencia a cuando se prepara algo bueno para la gente pero esta lo rechaza.
+  + ya sea por ocupaciones, distracciones o situaciones terrenales que merman el buen juicio
+  + sera bienvenido a la salvación cualquiera que la acepte, empezando por los más humildes
+- Un dialogo de *Lo que cuesta seguir a Cristo* cuando incluso las personas cercanas a ti se oponen.
+  - hay que tomar en cuenta los sacrificios y la meta final
+
+*** Cap. 15
+- Se habla sobre el gozo de salvar a 1 pecador que se arrepiente,
+  sobre 99 personas que no necesitan arrepentirse.
+  + compara cuando se pierde una moneda y uno se esfuerza en encontrarla.
+  + el ejemplo de 2 hermanos, mientras el menor fue por el mal camino y se arrepintio, el mayor nunca peco.
+    - sin embargo se ayudo y celebro al segundo
+    - porque ya se lo consideraba muerto, y ahora había recusitado
+
+*** Cap. 16
+- Una interesante historia de como un mayordomo al ser descubierto malgastando los bienes de su amo
+  + antes de ser despedido trato de hacer un jugarreta con los deudores de este
+    - al no verse de capaz de hacer otros trabajos fisicos, incluso mendigar
+  + rebajando su deuda y cobrandoles menos para beneficiarles
+    - queriendo quedar bien con ellos para que alguno lo contrate posteriormente
+  + se advierte que si no paga en esta vida, pagara en la siguiente
+    - recalca la "fidelidad" que este tuvo para quien le tendio la mano
+    - de como su comportamiento de fidelidad o infidelidad se puede reflejar cuando se tiene mucho o poco
+    - ademas *¿si trato asi a su anterior amo, quien dice que no hará lo mismo con el siguiente?*
+  + "Ningún siervo puede servir a dos señores; porque o aborrecerá al uno y amará al otro ... No podéis servir a Dios y a las riquezas."
+    - de nada sirve justificar la avaricia delante de los demás (o de uno mismo)
+    - ya que Dios al conocer nuestros corazónes, puede ver la verdad de algo que tildamos de sublime (siendo todo lo contrario).
+- Tambien se hace una referencia al Antiguo Testamento:
+  "La ley y los profetas eran hasta Juan;
+  desde entonces el reino de Dios es anunciado,
+  y todos se esfuerzan por entrar en él."
+- Se habla del divorcio y como casarse despues de repudiar a una mujer, o casarse con esta es "adulterio".
+  + la palabra *repudio* toma una connotación grande aqui, y merece ser revisa.
+- Otra historia tratáda es la de un hombre rico y Lazaro, y sus destinos finales en la otra vida.
+
+*** Cap. 17
+- "Dijo Jesús a sus discípulos: Imposible es que no vengan tropiezos; mas ¡ay de aquel por quien vienen!"
+  + reflexión sobre los *obstáculos* que uno encuentra en la vida
+  + especial enfasis a la persona por la que vienen
+    - posiblemente por su actuar, ya fuere bueno y peor aun si fuera malo
+  + comenta tambien el mal destino de quien provocase un obstáculo a alguien bueno
+  + se habla también del *perdón*:
+    "Si tu hermano pecare contra ti, repréndele; y si se arrepintiere, perdónale.
+    Y si siete veces al día pecare contra ti, y siete veces al día volviere a ti,
+    diciendo: Me arrepiento; perdónale."
+- Muesta que la cantidad de *fe* necesaria para hacer grandes cosas, es de un tamaño ínfimo.
+  + aun asi, es importante que este ahi
+- Con una metáfora sobre "El *deber* del siervo" trata
+  + de como es nuestro deber ante el Señor es hacer las cosas que se nos ha asignado
+  + sin esperar algun tipo de reconocimiento, más porque es nuestra obligación
+    - después vendra la recompensa
+  + no hay necesidad de regodiarse, "hicimos lo que _debíamos hacer_"
+- En la historia sobre "Diez leprosos son limpiados" recalca la importancia del agradecimiento
+  + cuando se nos concede su gloria, a travez de una petición
+  + siempre glorificando a Dios (a gran voz y postrándose)
+- Trata el tema del día del juicio, que vendra sin aviso.
+  + con el consejo de seguir adelante, al fin de mirar para atras (aferrandose a lo material)
+  + se habla sobre el *Rapto*
+
+*** Cap. 18
+- Habla como Dios hará justicia a los escogidos (dignos de su reino).
+  + deja una pregunta abierta, si cuando vuelva Jesús hallará fe en nuestro mundo?
+- Señala sobre quien se enaltece y quien se humilla, funciona inversamente prorporcional.
+  + quien se enaltece será humillado, y quien se humilla será enaltecido
+  + enaltecerse nucho puede terminar perjudicandonos, se convierte en soberbia
+
+*** Cap. 19
+- Se recalca en una historia, que Jesús daba importancia en salvar primero a los pecadores,
+  ya que eran ellos quien más lo necesitaban.
+- En la parábola de "las diez minas" cuenta como un hombre pudiente dio 10 monedas de alto valor a 10 siervos,
+  para que negociaran con estas e hicieran crecer su fortuna.
+  Se puede entender que:
+  + los que lo hicieron les recompenso grandemente con más riqueza
+  + los que no lo hicieron (fueron temerosos u holgazanes) se les quito todo
+  + los que estan en su contra, encontron el fin
+- En su entrada a Jerusalén, se entristecio al conocer el futuro que le esperaba a la ciudad y su pueblo.
+  + *NOTA*: revisar archivo historio sobre este eventro
+
+*** Cap. 20
+- La parábola de "los labradores malvados" hace una referencia interesante al mundo que habitamos.
+  + siendo este creado por Dios, nosotros (los labradores) somos simplemente ocupantes de paso
+  + al prestarnosla para que cultivemos sus frutos, se espera una retribución por nuestra parte
+    - posiblemente nuestras buenas acciones hacia este y los demás
+  + los siervos enviados hacen referencia a profetas relevantes
+    - que no fueron escuchados sino castigados
+  + el hijo enviado posiblemente se refiere a Jesús
+    - y el destino fatal que le esperaba
+  + y el futuro que les esperaba a estos labradores cuando llegue el juicio
+    - destruyendo a los pecadores y dandoles las tierras (el reino) a quienes lo merecen
+  + sobre la piedra y los edificadores, puede hacer referencia hacia la palabra
+    - como piedra base para edificar nuestro futuro
+    - puede darnos la guia hacia la salvación
+    - o mostrarnos la ruta a la destrucción
+    - todo depende de quien se cruce en su verdad
+- En "la cuestión del tributo" trata el tema sobre las leyes terrenales.
+  + se respetaran refiriendose a sus obligaciones terrenales
+  + asi mismo las que sean celestiales de manera correspondiente
+
+*** Cap. 21
+- Mientras Jesús predecia lo que iba a suceder en el futuro cercano,
+  igualmente predecia que para el fin de los tiempos su generación,
+  ni las siguientes sabrian cuando llegaria.
+  + es algo que sucedera sin aviso
+  + aun asi, habrá señales claras de esto
+
+*** Cap. 22
+- El versículo sobre "La grandeza en el servicio" requiere mayor análisis, Jesús señala que:
+  + A pesar que hay reyes que se enaltecen por tener autoridad sobre sus dominios, ellos deben hacer lo contrario.
+  + Ni por la edad (avanzada o prematura), ni liderazgo... sino por la diligencia en servir a los demás.
+  + Porque aunque sus discipulos recibirían un reino (en los cielos?) por estar a su lado,
+    el deseaba que su ser se mantuviera humilde.
+- Indicaba a sus discipulos que *oren para no entrar en tentación* posiblemente ante eventos (pecados) que pudieran suceder.
+
+*** Cap. 23
+- Aunque fue aprendido por falsas calumnias, fueron los ancianos, sacerdotes y escribas judíos de alta alcurnia,
+  quien terminaron condenandole.
+  + Incluso más que las autoridades Romanas que querian soltarlo, porque no encontraban crimen para sentenciarlo.
+  + Hace pensar, si lo que les pasaría en el futuro a los judíos tuviera que ver algo con este incidente?
+- Jesús señala durante el proceso de su crucifixión a unas mujeres, que al fin de llorar por el debieran hacerlo por ellas y sus hijos, ya que si eso hacian a alguien inocente, solo era de esperarse el destino que le aguardaba al pueblo.
+  + Incluso en sus ultimos momentos clamo que su pueblo fuera perdonado, debido a que cometían ese acto por ignorancia.
+
+*** Cap. 24
+- Se recalco que entre los libros de Mateo, Marcos, Lucas, etc hay ciertas variaciones en la descripción de los eventos.
+  + la cantidad de mujeres que va al sepulcro de Jesús
+  + la cantidad de angeles que se encuentran ahi
+  + se relata a mator detalle como Jesús se aparacio a dos de los discipulos
+
+
+** S. Juan
+
+*** Cap. 01
+- El evangelio de Juan muestra un enfoque y forma de expresarse diferente a los 3 anteriores.
+  + En el "El Verbo hecho carne" se puede apreciar, la reflexión que el evangelista quiere provocar en nosotros.
+    "En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios.
+    Este era en el principio con Dios. Todas las cosas por él fueron hechas,
+    y sin él nada de lo que ha sido hecho, fue hecho. En él estaba la vida,
+    y la vida era la luz de los hombres. La luz en las tinieblas resplandece,
+    y las tinieblas no prevalecieron contra ella."
+    - habla sobre nuestra enlace con Dios
+    - vale la pena varias lecturas, para entender la profundidad de sus palabras
+  + Se menciona que Juan (el autor, posiblemente hijo de Zebedeo) queria dar testimonio sobre los hecho que acontecieron.
+- Menciona las palabras de Juan el bautista:
+  "Enderezad el camino del Señor, como dijo el profeta Isaías."
+  + menciona como para que fuese conocido por Israel, vino el primero a bautizar con agua
+
+*** Cap. 02
+- Jesús saca de un templo a comerciantes que ejercian su oficio ahi, diciendo:
+  "Quitad de aquí esto, y no hagáis de la casa de mi Padre casa de mercado."
+  + es ahi que sus discípulos recordaron de las escrituras: "El celo de tu casa me consume."
+  + posteriormente le dijo a los judios que lo criticaban: "Destruid este templo, y en tres días lo levantaré."
+    - se acordaron de esta frase tras su muerte y resurrección
+    - que no se referia al templo físico sino al corporeo
+- A pesar que muchos hombres creian quien era, no se fiaba ya que conocia lo que había en sus corazónes.
+
+*** Cap. 03
+- Relata la historia de Nicodemo, tratando temas nuevos para sus creencias judias.
+  + el hecho de renacer (espiritualmente) para poder entrar al reino de los cielos.
+  + al no entender el concepto de espiritu se hizo la comparación con el viento.
+  + se hace una alegoria a su resurrección futuru, pero aun no se podia entender.
+- Se menciona sobre la salvación por el hecho de creer en Jesús y su descendencia/parentesco con el Señor.
+  + hay una distinción sobre los creyentes que siguen la luz
+  + y los pecadores que siguen la oscuridad
+- Tambien se habla que no creer en Jesús y su parentesco con el Señor, sería causa de ira del Señor mismo.
+
+*** Cap. 04
+- En la historia de la mujer samaritana y el pozo, hay una alusión al "agua viva".
+  + la cual a diferencia del agua normal no provocara sed despues
+  + sino que sera de una fuente para *vida eterna*
+  + mención a que ahi adoraban desconocido, mientras del lado de Jesús adoraban lo conocido
+- Dios es *Espiritu*, y para adorarlo hay que hacerlo en espiritu y verdad
+  + Jesús menciona que lo que lo nutria era hacer "la voluntad del que me envió, y que acabe su obra"
+- Comparación labrar y cosechar, el fruto para la vida eterna
+  + de como Jesús envio a sus discipulos para cosechar algo que no labraron
+  + lo hicieron otros, aun asi ahora ellas entraron en sus labores
+    - se entiende como las vivencias (de profetas) y escritos del viejo testamento
+    - asi como el seguir lo proclamado en el pasado, para tener ese futuro esperado
+
+*** Cap. 05
+- Al haber curado a un paralitico en dia de reposo y al mencionar su razón de hacerlo:
+  "Mi Padre hasta ahora trabaja, y yo trabajo"
+  + provocaba a los maestros y escribas judios querer matarle por herejía
+- Habla igualmente de las acciones, enseñanzas y potestas que "tiene el Hijo debido al Padre"
+  + dando la potestad al Hijo, deben honrarlo como lo hacen con el Padre
+  + "El que no honra al Hijo, no honra al Padre que le envió."
+    - "El que oye mi palabra, y cree al que me envió, tiene vida eterna;
+      y no vendrá a condenación, mas ha pasado de muerte a vida."
+  + "Porque como el Padre tiene vida en sí mismo,
+    así también ha dado al Hijo el tener vida en sí mismo;
+    y también le dio autoridad de hacer juicio,
+    por cuanto es el *Hijo del Hombre*."
+    - los resultados de haber creido y seguido a Jesús afectara tanto a los vivos,
+      como a los que murieron anteriormente a la hora del juicio
+    - en cuanto decidira quien será salvado o quien será condenado en la resurrección
+  + de como su juicio (justo) se basa en la voluntad del Padre
+    - que dar testimonio sobre uno mismo no es verdadero (porque es subjetivo),
+      sino es otro quien lo da, aunque Jesús no recibe testimonio de hombre alguno
+    - de igual manera que Juan el Bautista dio su testimonio, el testimonio de Jesús es mayor,
+      ya que las obras que su Padre le dio para hacer, son su testimonio (sus acciones y milagros)
+    - tambien menciona que su Padre dio testimonio de el en las escrituras,
+      sin embargo a los enviados previos no se les creyo
+    - "Gloria de los hombres no recibo.
+      Mas yo os conozco, que no tenéis amor de Dios en vosotros.
+      Yo he venido en nombre de mi Padre, y no me recibís;
+      si otro viniere en su propio nombre, a ese recibiréis.
+      ¿Cómo podéis vosotros creer, pues recibís gloria los unos de los otros,
+      y no buscáis la gloria que viene del Dios único?"
+
+*** Cap. 06
+- Se habla sobre el pan de vida que el "Hijo del Hombre" nos dara para saciar nuestra hambre.
+  + el cual resultara más que simple comida, alimento para la vida eterna el cual es permanente
+    - "... el pan de Dios es aquel que descendió del cielo y da vida al mundo"
+  + para ello tenemos que trabajar para conseguirla
+    - creer quien Dios a enviado
+    - Jesús es el pan de vida, el que viene a el no tendrá hambre
+      y el que cree en el no tendra sed
+  + a pesar de eso habia gente que no creia a pesar de haber visto las señales
+    - señala como "Todo lo que el Padre me da, vendrá a mí; y al que a mí viene, no le echo fuera."
+    - dice que no fue enviado del cielo para hacer su voluntad sino la de Dios
+    - tambien dice que el sera quien resucite quien crea en él
+    - que solo el que ha venido de Dios lo ha visto
+  + el pan que Jesús dio es su carne, la cual dio por la vida del mundo
+    - asi mismo habla de su sangre como bebida
+- "El espíritu es el que da vida; la carne para nada aprovecha;
+  las palabras que yo os he hablado son espíritu y son vida."
+  + menciona que nadie puede venir a el, sino le fuere dado del "Padre"
+  + eso hizo que muchos de sus discipulos retrocedieran, más lo doce se quedaron
+  + Simón Pedro dice que ellos han creído y saben que es el Cristo, el *Hijo del Dios viviente*
+  + Jesús tambien les habla de que uno de ellos es el diablo (refiriendose a Judas Iscariote)
+
+*** Cap. 07
+- Incluso los hermanos biológicos de Jesús no creian en sus obras.
+- Había una persecución por parte de los judios hacia el, ya que le acusaban de herejía y querian poner fin a su vida.
+  + aunque el indicaba que se debía ya que señalaba las obras malas de las personas (el mundo)
+  + los fariseos eran muy señidos a su ley, ignorando incluso lo que estaba frente de ellos
+  + como no había llegado aun su tiempo, este se ocultaba
+- A pesar de eso se revelo cuando fue el momento oportuno para compartir su doctrina.
+  + cuando le preguntaban como sabia tanto, este decia:
+    "Mi doctrina no es mía, sino de aquel que me envió.
+    El que quiera hacer la voluntad de Dios,
+    conocerá si la doctrina es de Dios,
+    o si yo hablo por mi propia cuenta.
+    *El que habla por su propia cuenta, su propia gloria busca*;
+    pero el que busca la gloria del que le envió, este es verdadero,
+    y no hay en él injusticia."
+  + compara como a pesar de que Moisés les dio la circuncisión,
+    la practicában en el día de reposo, y sin embargo,
+    por curar a un hombre en ese día querian acabar con él.
+    *"No juzguéis según las apariencias, sino juzgad con justo juicio."*
+- Como aun le quedaba tiempo en la tierra les hablaba sobre su destino,
+  pero no le entendian aún:
+  "Todavía un poco de tiempo estaré con vosotros, e iré al que me envió.
+  Me buscaréis, y no me hallaréis; y a donde yo estaré, vosotros no podréis venir."
+- Indica que los que creyeren en el, de su interior correrian "ríos de agua viva"
+  + se referia al Espíritu Santo, porque al no haber sido glorificado, aun no sucedia.
+
+*** Cap. 08
+- Relata la conocida historia de la mujer adultera, y como Jesús les dijo a quienes pretendían apedriarle:
+  "El que de vosotros esté sin pecado sea el primero en arrojar la piedra contra ella."
+  + provoco que los agresores se retiraran, al comparar sus pecados
+  + Jesús no la condeno, más bien le dijo que se marche de ese lugar y no peque más
+- Jesús dijo sobre si mismo:
+  "Yo soy la luz del mundo; el que me sigue, no andará en tinieblas,
+  sino que tendrá la luz de la vida."
+  + es un buen recordatorio de su mención anterior sobre como era el agua y pan de la vida
+  + respondiendo ante la critica de los fariseos que su testimonio no era verdadero:
+    "Vosotros juzgáis según la carne; *yo no juzgo a nadie*. Y si yo juzgo, mi juicio es verdadero;
+    porque no soy yo solo, sino yo y el que me envió, el Padre."
+- Recalca también que si no creen quien es, las personas comúnes moriran en sus pecados.
+  + "Si vosotros permaneciereis en mi palabra, seréis verdaderamente mis discípulos;
+    y conoceréis la verdad, y la verdad os hará libres."
+  + menciona como todo aquel que hace pecado, es esclavo de este
+- Les dice que a pesar de afirmar ser hijos de Abraham, no hacen sus obras
+  + se dicen hijos de Dios pero aman a otro que de Dios proviene
+  + del diablo les dice que provienen, porque se comparan con él al querer matar y mentir negando la verdad
+    - "Vosotros sois de vuestro padre el diablo, y los deseos de vuestro padre queréis hacer.
+      Él ha sido homicida desde el principio, y no ha permanecido en la verdad, porque no hay verdad en él.
+      Cuando habla mentira, de suyo habla; porque es mentiroso, y padre de mentira."
+    - "El que es de Dios, las palabras de Dios oye"
+- Tambien dice que no busca su propia gloria, y que no se glorifica a si mismo sino que esta viene de Dios.
+
+*** Cap. 09
+- Al encontrarse Jesús con un hombre de nacimiento sus discipulos se preguntaban la causa
+  + si el o sus padres pecaron? y por ende sucedio como castigo
+  + más la causa era para que las obras de Dios se manifiesten a través de él
+    - no conocemos el porque (razón) del actuar de nuestro creador
+    - es posible que la vida de eso persona impacte a otros como consecuencia de su discapacidad
+    - asi mismo es posible que esa persona sea la que ocasiones el cambio
+    - o que le traiga alguna clase de evento/encuentro, que no ubiera sido posible de otra manera
+  + se menciona que sus milagros debáin hacerse alrededor del día, en la noche es para descanso
+    - "Entre tanto que estoy en el mundo, luz soy del mundo."
+    - le curo al untarle lodo hecho con su saliva y decirle que se vaya a lavar a un estanque
+  + los fariseos lo interrogaron y a sus padres, al final terminaron expulsándolo
+    - decian que era un hombre pecador (por las cosas que habia hecho, y sus actos en días de reposo)
+    - sin emabrgo no ayuda a los pecadores, pero si alguien es temeroso y cumple su voluntad a este oye
+  + se habla de la "ceguera espiritual", mientras Jesús se revela ante el como el *Hijo del Hombre*
+    - "Para juicio he venido yo a este mundo; para que los que no ven, vean, y los que ven, sean cegados."
+    - se entendio como los fariseos estaban ciegos a pesar de poder ver
+    - si este fuera el caso al menos estarian libre de pecados, pero su pecado permanecia
+
+*** Cap. 10
+- En la parábola del redil (corral), Jesús habla sobre varias comparaciones.
+  + primero el habla de si mismo cómo la puerta del corral del ovejas
+    - señala que los que pasan por ahí son buenos y los que se cuelan subiendo por otro lado son malos
+    - que no solo entrarán (seguridad/salvación) con otras ovejas sino que encontrarán pastos (vida/abundancia)
+  + tambien habla de si como "buen pastor", de aquel que da su vida por las ovejas
+    - a diferencia de aquellos que guian (enseñan) solo por beneficio personal
+    - sus ovejas tambien lo conocen, por lo que vuelcan su confianza en él
+    - asi tambien tiene ovejas en otro corral que debe traer (nuevos creyentes)
+    - sobre su sacrificio voluntario, y como puede poner o tomar su vida nuevamente
+- Los judíos pedían más señales, a pesar que este (y por sus mismas palabras) ya lo hacía.
+  + muchos no le querían creer, incluso despues de haber realizado sus obras milagrosas (en el nombre de su Padre)
+  + los compara con la parábola del redil diciendo que ellos no son de sus ovejas
+  + que quien lo siguen le dará vida eterna y nadie sera arrebatado de su mano
+  + menciona "Yo y el Padre uno somos"
+    - le querían apedrear, y les recalcó que incluso estaba escrito en su ley:
+      "Yo dije, dioses sois?
+      Si llamó dioses a aquellos a quienes vino la palabra de Dios ..."
+
+*** Cap. 11
+- Se relata la famosa historia de la "Muerte de Lázaro"
+  + las hermanas de Lázaro enviaron a decirle que estaba enfermo
+  + y el dijo:
+    "Esta enfermedad no es para muerte,
+    sino para la gloria de Dios,
+    para que el Hijo de Dios sea glorificado por ella."
+  + se menciona como el amaba a los tres, por lo que viajo a su aldea
+  + aunque habían judios que querian atraparle, el dijo ante la preocupación de sus discípulos:
+    "¿No tiene el día doce horas?
+    El que anda de día, no tropieza, porque ve la luz de este mundo;
+    pero el que anda de noche, tropieza, porque no hay luz en él."
+  + Jesús les aviso que Lázaro dormia (que había muerto), incluso asi viajaron
+  + este ya se encontraba en un sepulcro sellado con una piedra, y le dijo a una de sus hermanas que resucitará:
+    "Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá."
+  + se menciona que ya llevaba 4 dias muerto, y le dijo:
+    "¡Lázaro, ven fuera!" reviviéndolo de inmediato
+- Tambien se cuenta como se reunio un concilio judio para matar a Jesús
+  + Jesús ya no andaba abiertamente enre los judíos para evitar ser aprendido
+
+*** Cap. 12
+- Sucede el incidente de la mujer (hermana de Lázaro) que ungio los pies de Jesús con perfume.
+  + asi tambien se formaba un complot para matar a Lázaro para que no quedara prueba de ser recusitado
+  + ya que habían judíos que se apartaban porque empezaban a ceer en Jesús
+- Jesús entro a Jerusalén encima de un asnillo, mientras las multitues lo recibian con ramas de palmera.
+  + era un evento que estába escrito en las escrituras (antiguo testamento)
+- Habían varios quien creyeron en Jesús pero no lo confesaban, por miedo a sus gobernantes.
+  + no querian ser expulsados de la sinagoga
+  + "... amaban más la gloria de los hombres que la gloria de Dios"
+
+*** Cap. 13
+- Se señala como Jesús conocia que su hora de partir de este mundo había llegado.
+  + de como Dios le había dado todo lo necesario hasta ese momento y que a él iba
+  + lavo los pies de sus discipulos (como Simon Pedro) ante su sorpresa, ellos no sabían porque
+    - les pidio que asi como el lo hizo debían hacerlo los unos a los otros
+    - "El siervo no es mayor que su señor,
+      ni el enviado es mayor que el que le envió.
+      Si sabéis estas cosas,
+      bienaventurados seréis si las hiciereis."
+  + les decia mensajes proféticos de cosas que iban a pasar
+    - "El que recibe al que yo enviare,
+      me recibe a mí;
+      y el que me recibe a mí,
+      recibe al que me envió."
+  + tambien del conocimiento de Jesús sobre la traición de Judas Iscariote
+- "Ahora es glorificado el Hijo del Hombre,
+  y Dios es glorificado en él.
+  Si Dios es glorificado en él,
+  Dios también le glorificará en sí mismo,
+  y en seguida le glorificará."
+  + les dijo tambien lo de "amarse los unos a los otros" y como,
+    se los reconocería como sus discípulos a travez de este distintivo
+
+*** Cap. 14
+- Jesús afirma ser el *camino al Padre* (Dios), mientras crean en el.
+  + asi tambien que él es la verdad y la vida, por eso se lo débe conocer
+    - "yo soy en el Padre y el Padre en mí ..."
+    - "Las palabras que yo os hablo, no las hablo por mi propia cuenta,
+      sino que el Padre que mora en mí, él hace las obras."
+    - "El que en mí cree, las obras que yo hago, él las hará también;
+      y aun mayores hará, porque yo voy al Padre.
+      Y todo lo que pidiereis al Padre en mi nombre, lo haré,
+      para que el Padre sea glorificado en el Hijo.
+      Si algo pidiereis en mi nombre, yo lo haré."
+  + cuenta como en el reino de los cielos hay suficiente lugar para los demás
+  + que a pesar de dejarlos por el momento (morir), volverá dejando listo el lugar para cuando se los lleve
+- "*Si me amáis, guardad mis mandamientos.*
+  Y yo rogaré al Padre, y os dará otro Consolador,
+  para que esté con vosotros para siempre ..."
+  + habla sobre el *Espíritu Santo*, describiendo que el mundo no lo ve ni conoce (por lo que no puede recibirlo)
+    - pero que ellos lo conocen, porque vive en su interior y estará con ellos
+  + el que ama al Hijo sera tambien amado por el Padre,
+    lo que le permitirá a Jesús manifestarse,
+    al poder hacer ambos morada en nosotros
+  + dice que no dejará "huérfanos" a sus discipulos, sino que vendrá momentaneamento a ellos
+    - "porque yo vivo, vosotros también viviréis ..." como promesa de vida eterna
+    - el día de su resurrección, menciona que:
+      "conoceréis que yo estoy en mi Padre, y vosotros en mí, y yo en vosotros."
+  + la palabra que les dijo a sus discipulos no es del Hijo,
+    sino del Padre quien lo envia
+  + el Espíritu Santo quien Jesús describe "a quien el Padre enviará en mi nombre",
+    sera este quien sirva como enseñanza y recordatorio de sus palabras
+    - nos dejó su paz para que no se turbe nuestro corazón, ni tengamos miedo
+    - *PREGUNTAR* a que se refería cuando dijo:
+      "No hablaré ya mucho con vosotros; porque viene el príncipe de este mundo, y él nada tiene en mí.
+      Mas para que el mundo conozca que amo al Padre, y como el Padre me mandó, así hago."
+
+*** Cap. 15
+- Jesús hace otra parábola con el ejemplo de "la vid verdadera"
+  + en donde Dios es el labrador, el la vid y nosotros el pampano que da fruto
+    - estando con Jesús dara el pampano sera limpiado (purificado) y llevara más fruto (bienestar)
+    - el pampano que no da fruto (por pecado) es hechado al fuego (infierno)
+  + teniendo en cuenta el orden ascendente, el pampano depende de la vid, y la vid del labrador
+    - nosotros dependemos de Jesús porque solos no podemos lograr ese fin
+  + "Como el Padre me ha amado, así también yo os he amado; permaneced en mi amor."
+    - "Si guardareis mis mandamientos, permaneceréis en mi amor;
+      así como yo he guardado los mandamientos de mi Padre,
+      y permanezco en su amor."
+    - de aqui se deriba uno de sus mandamiento más conocidos:
+      "*Que os améis unos a otros, como yo os he amado.*
+      Nadie tiene mayor amor que este, que uno ponga su vida por sus amigos."
+    - señala que a partir de ese momento no llamara a sus discipulos como siervos,
+      sino como amigos (debido a que ahora conocen su fin)
+    - el amor depende de un acuerdo estipulado por las partes, cumpliendo un/unos requrimiento/s
+- Les avisa que el mundo los aborrecera, asi como a el le paso antes que a ellos.
+  + debido a que se sale de las normas y que no conocen quien lo envia
+    - "El que me aborrece a mí, también a mi Padre aborrece."
+  + les recuerda las palabras: "El siervo no es mayor que su señor."
+  + que asi como han guardado su palabras, tambien guarden la de ellos (cumplan sus promesas)
+  + debido a su aparición definio el pecado (lo que no se debe hacer)
+    - he incluso despues de ver sus obras lo siguieron aborreciendo
+  + que cuando el Espíritu Santo sea dispensado, es el quien dará testomonio de él (en nosotros)
+    - asi como sus discipulos al haber estado con el desde el principio (con el evangelio posteriormente)
+
+*** Cap. 16
+- Jesús les advierte a sus discipulos en anticipo lo que les espera.
+  + su expulsión de las sinagogas
+  + incluso su posible muerte
+    - por personas que piensan que al hacerlo estan sirviendo a Dios
+- Habla de como al partir de este mundo el Espiritu Santo sera enviado
+  + convenciendo de pecado, justicia y juicio
+  + sera él quien nos guie a la verdad
+  + que a pesar de su tristeza por su partida, esta se volvera gozo para su corazón
+    - nos dice que pidamos en su nombre (Jesús) para que nuestro gozo sea cumplido
+- Tambien les dice que ya no hablará más en alegorias, sino claramente.
+  + ante su percepción del futuro, ascentian que el sabia todo
+  + que a pesar de parecer estar solo, no lo esta ya que el Padre estaba con él
+
+*** Cap. 17
+- Jesús ora por sus discipulos ya que la hora de su aprehensión y muerte había llegado.
+  + levantaba los ojos al cielo para hablar con el Padre
+  + "Padre, la hora ha llegado; glorifica a tu Hijo, para que también tu Hijo te glorifique a ti;
+    como le has dado potestad sobre toda carne, para que dé vida eterna a todos los que le diste ..."
+  + la vida eterna es conocer "el único Dios verdadero" y a Jesús como su enviado
+    - habla tambien como llevo a cabo la obra que se le encomendo
+  + hace hincapié en su ruego por aquellos que Dios dio a Jesús como suyos, los "elegidos"
+    - no ruega por el mundo en general
+    - tambien habla de como "todo lo mío es tuyo, y lo tuyo mío" en su relación Padre/Hijo
+  + pide a Dios que a los elegidos, los *guarde en su nombre* para que sean uno (igual que el Padre y el Hijo)
+    - para que de esta manera no se pierdan
+    - que durante la estadia de Jesús en la tierra el los guardo en el nombre del Padre
+    - y ninguno de ellos desvio su camino, a excepción de Judas (menciona algo del hijo de perdición)
+  + menciona sobre sus discipulos que "tengan mi gozo cumplido en si mismos"
+    - que a pesar de ser aborrecidos por el mundo, pide a Dios los guarde del mal
+    - "Santifícalos en tu verdad; tu palabra es verdad."
+  + "Mas no ruego solamente por estos, sino también por los que han de creer en mí por la palabra de ellos"
+    - se refiere a los creyentes que vendran a partir de sus discipulos
+    - para que nos volvamos una unidad (como el Padre y el Hijo) y seamos uno en ellos
+    - que se conozoca como el Padre nos ha amado asi como ha amado al hijo
+
+*** Cap. 18
+- Se relata nuevamente la aprehensión de Jesús, la triple negación de Simon Pedro y la intervención judía
+  + las autoridades judías no querían lidíar con su muerte (porque es pecado) asi que se lo dejaron a los romanos
+    - incluso hacerlo indirectamente sigue siendo asesinato
+    - las autoridades romanas no encontraban causa del arresto de Jesús
+
+*** Cap. 19
+- Despues de su tortura y crucifixión, los romanos pusieron el letrero en la cruz "JESÚS NAZARENO, REY DE LOS JUDÍOS"
+- Se detalle como varios de los acontecimientos fueron previamente profetizados
+  + los detalles tienen algo de variaciones, en perspectivas y algunos elementos entre libros
+  + finalmente despues de su muerte, se lo deposito en un sepulcro con una gran roca cubriendo la entrada
+
+*** Cap. 20
+- Varia un poco el detalle de quien(es) encontraron el sepulcro vacio levemente
+- María Magdalena en este caso aviso a Simon Pedro y al otro discipulo que amaba Jesús
+- Al volver Jesús ante sus discipulos, falto Tómas lo que causo la incredulidad cuando le contaron
+  + Jesús tuvo que aparecer de nuevo mostrando sus heridas de las manos y del costado para que le crean
+  + en ese momento todo creyeron
+- Se relata que tambien se hizo muchas otras señales frente a sus discipulos, pero no se cuenta en este libro
+
+*** Cap. 21
+- Jesús aparece frente a siete discipulos, nuevamente
+  + esto cuenta como la tercera vez que se les aparece
+  + ayudandoles a pescar a Simon Pedro y compañia haciendo aparecer el pescado
+- Cuando estaban comiendo le pregunto a Simon Pedro si lo amaba (repitio la pregunta 3 veces)
+  + despues de cada afirmación le hablaba sobre apacentar y pastorear sus ovejas
+  + ademas de una reflexión:
+    "Cuando eras más joven, te ceñías, e ibas a donde querías; mas cuando ya seas viejo,
+    extenderás tus manos, y te ceñirá otro, y te llevará a donde no quieras."
+- Dice que el "discipulo amado por Jesús" es aquel que escribio estas cosas, dando su testimonio verdadero
+
+
+** Hechos
+
+*** Cap. 1
+- Conocido como los "Hechos de los Apostoles", relata los sucesos ocurridos a los discipulos de Jesús despues de su ascensión.
+  + aun existia la pregunta de cuando se restauraría el reino de Israel
+    - la liberación de los Judíos contra los Romános y la recuperación de sus tierras
+    - la respuesta fue que a ellos no les correspondía saberlo, solo Dios sabía cuando lo haría
+  + se le aviso de la llegada del Espíritu Santo una vez que Jesús halla ascendido
+    - este seria la fuente de su poder
+  + sucedio la elección del sucesor de Judas (el cual acabo con su vida luego de su traición)
+    - se escogio a uno llamado Matías el cual estuvo cuando Jesús estába vivo
+
+
+*** Cap. 2
+- El día de Pentecostés, un estruendo y viento fuerte entró en la casa donde estaban los discipulos
+  + provoco que empezarán a hablar en otras lenguas (idiomas)
+  + estos fueron embebidos con el Espíritu Santo
+  + llamo la atención de los pobladores judíos de otras naciones, los cuales reconocieron sus distintas lenguas
+    - mientras unos se maravillaban otros se burlaban
+  + Simon Pedro, tomo la palabra y les dijo, referenciando al profeta Joel:
+    "Y en los postreros días, dice Dios,
+    Derramaré de mi Espíritu sobre toda carne,
+    Y vuestros hijos y vuestras hijas profetizarán;
+    Vuestros jóvenes verán visiones,
+    Y vuestros ancianos soñarán sueños;
+    Y de cierto sobre mis siervos y sobre mis siervas en aquellos días
+    Derramaré de mi Espíritu, y profetizarán.
+    Y daré prodigios arriba en el cielo,
+    Y señales abajo en la tierra,
+    Sangre y fuego y vapor de humo;
+    El sol se convertirá en tinieblas,
+    Y la luna en sangre,
+    Antes que venga el día del Señor,
+    Grande y manifiesto;
+    Y todo aquel que invocare el nombre del Señor, será salvo."
+    - habló sobre la potestad de Jesús y los eventos pasados, sus milagros, su muerte y resurrección,
+      haciendo referencia al profeta David:
+      "Veía al Señor siempre delante de mí;
+      Porque está a mi diestra, no seré conmovido.
+      Por lo cual mi corazón se alegró, y se gozó mi lengua,
+      Y aun mi carne descansará en esperanza;
+      Porque no dejarás mi alma en el Hades,
+      Ni permitirás que tu Santo vea corrupción.
+      Me hiciste conocer los caminos de la vida;
+      Me llenarás de gozo con tu presencia."
+    - ganaron 3 mil adeptos, los cuales se arrepintieron y fueron bautizados en el nombre de Jesús
+    - los promeros cristianos vivían en comunión, compartiendo sus cosas, vendiendo bienes y propiedades,
+      las que repartían según sus necesidades
+
+
+*** Cap. 3
+- Pedro (en compañia de Juan) curo a un cojo de nacimiento que pedía limosna en la entrada de un templo, le pidio que los mirara directamente a los ojos y dijo:
+  "No tengo plata ni oro, pero lo que tengo te doy; en el nombre de Jesucristo de Nazaret, levántate y anda."
+  + este hecho fue atestiguado por las personas que estaban dentro de el templo
+  + Pedro dio un discurso en el pórtico de Salomón, hablando de los profetas y de las señales que fueron dadas,
+    de la potestad de Jesús y de los eventos que ocurrieron
+    - recalcaba su muerte y sus causantes, asi como su resurrección
+  + el lugar de estos eventos era Jerusalén
+
+
+*** Cap. 4
+- Pedro y Juan fueron llevados a la carcel por orden de los sacerdotes, por proclamar a Jesús como recusitado y varias enseñanzas que iban en contra de sus costumbres.
+  + sin embargo no tenian suficientes motivos para dejarlos presos
+  + habían logrado acrecentar su número de creyentes a 5 mil
+  + pidieron a Dios mediante oración les diera confianza y valor, este los lleno aun más del Espíritu Santo
+
+
+*** Cap. 5
+- A pesar que compartían todo, vendiendo y dando como ofrenda lo que obtenian, un hombre llamado Ananías y su mujer trataron de quedarse con parte de la ganancia
+  + el resultado fue trágico para ambos ya que Dios les quito la vida
+  + esto sucedio mientras Pedro les hecho en cara su pecado
+  + el número de creyentes aumento, asi como el número de personas que buscaban cura para sus males
+- Intentaron apresarlos nuevamente pero un angel los dejo en libertad, y enseñaban en el templo
+  + nuevamente los mandaron a traer para reclamarles
+  + su respuesta era del tipo "Es necesario obedecer a Dios antes que a los hombres."
+  + se menciona como el Espíritu Santo es dado por Dios a los que le obedecen
+  + aunque querían matarlos, del concilio un fariseo llamado Gamaliel les hizo caer en cuenta a los demás del concilio que:
+    "Apartaos de estos hombres, y dejadlos; porque si este consejo o esta obra es de los hombres, se desvanecerá;
+    mas si es de Dios, no la podréis destruir; no seáis tal vez hallados luchando contra Dios."
+    - les azotaron e intimidaron, pero terminaron soltandolos, los aposoles seguian enseñando y predicando sobre Jesús
+
+
+*** Cap. 6
+- Los doce apostoles, tuvieron que delegar varios de sus oficios y para esto escogieron a siete diáconos
+  + entre estos constaban: Esteban, Felipe, Prócoro, Nicanor, Timón, Parmenas y Nicolás
+  + debido a que Esteban hacía grandes actos en el pueblo, levantaron falsos testimonios para arrestarlo
+    - tipo hablar palabras blasfemas contra Moisés y contra Dios
+
+
+*** Cap. 7
+- Esteban les hizo un recordatorio de la historia de su pueblo frente a las autoridades que los acusaban
+  + y de como sus antepasados mataron a los profetas que representaban a Dios
+  + eso provoco aun más la ira de en sus corazones, los cuales lo sacaron de la ciudad y apedrearon hasta su muerte
+    - pusieron las ropas de este ante los pies de un joven llamado Saulo
+    - esto no impidio que Esteban pidiera a Jesús que lo reciba y les perdone ese pecado
+
+
+*** Cap. 8
+- Saulo se dedico a perseguir a los miembros de la iglesia, entrando a casa de hombres y mujeres y entregandoles en la cárcel.
+  + la persecución causo que los integrantes se esparcieran por Judea y Samaria
+- Felipe, uno de los diáconos se dedico a curar y a anunciar el evangelgio en Samaria
+  + conocio a un hombre llamado Simón que solía estafar a la gente, seguir su camino al atestiguar los milagros
+  + intento ofrecer dinero para obtener el poder del Espíritu Santo (se lo pasaban por las manos)
+    - sin embargo no le dieron nada, por pensar que el don de Dios se obtiene de esa manera
+    - más bien le dijeron que se arrepienta de su maldad y ruegue a Dios el pensamiento de su corazón
+- Felipe tambien fue guiado por un ángel hacia Gaza, en donde conocio en el camino a un etíope eunuco
+  + termino ayudandole a leer algo del profeta Isaías y contandole sobre Jesús
+  + se detuvieron en una parte del camino ya que este acepto a Jesús y se hizo bautizar
+  + cada uno siguio su camino hasta que llegó a Cesarea
+
+
+*** Cap. 9
+- Saulo fue a Damasco para apresar a más creyentes, pero en el camino una luz lo rodeo y escucho la voz de Jesús preguntadole porque lo perseguia?
+  + este cayo a tierra y su vista fue quitada, se le dijo que vaya a la ciudad y se le dira que hacer
+  + paso tres días sin ver, ni comer, ni beber
+- En Damasco un disicípulo llamado Ananías tuvo una visión en donde el Señor le hablo sobre lo ocurrido
+  + además de pedirle que busque a Saulo y le regrese la vista
+  + ya que tenía un plan para que Saulo lleve su nombre a los gentiles, reyes y demas hijos de Israel
+    - este le regrese la vista y lo lleno del Espíritu Santo, siendo bautizado
+- Saulo se dedico a predicar sobre Jesús como Hijo de Dios, asombrando el cambio que tuvo por su pasado
+  + los judíos decidieron matarle, y fue ayudado por otros discípulos para escapar de la ciudad
+  + este viajo a Jerusalén, y aunque desconfiado al principio fue llevado donde los apostoles
+    - la iglesia se siguio fortaleciendo con el tiempo en Judea, Galilea y Samaria
+- Pedro cura a un hombre paraítico llamado Eneas
+- Pedro fue a Lida y revivio a una discípula llamada Tabita (abundante en buenas obras y limosnas)
+
+
+*** Cap. 10
+- Se relata como un gentil llamado Cornelio (centurión) debido a su caracter piadoso y temeroso de Dios (con toda su casa).
+  + hacia muchas limosnas y oraba siempre
+  + recibio la visión de un ángel de que hiciera traer a Simón Pedro
+  + envio a dos criados y un guardia devoto a que lo asistan
+- Simón Pedro por su parte subio a la azotea de donde se hospedaba para orar
+  + cuando el hambre le llego y se preparaba para bajar, tuvo una visión
+  + un lienzo con distintos tipos de animales terrestres, reptiles y aves
+    - se le pidio que los consuma, más el rechazo al llamarlas inmundas
+    - le replico deciendo "Lo que Dios limpió, no lo llames tú común."
+    - sucedio tres veces hasta que la visión del lienzo volvio al cielo
+  + en eso llegaron los enviados de Cornelio y Simón Pedro los acepto guiado por el Espíritu
+  + el día siguiente fue a donde Cornelio, el cual lo esperaba con sus parientes y amigos intimos
+    - este les hablo sobre lo abominable que es para un judío juntarse a un extranjero
+    - sin embargo Dios le mostro que a "ningún hombre llame común o inmundo"
+    - Simón Pedro compartio el evangelio de Jesús con ellos
+  + mientras hablaba, el Espíritu Santo cayó sobre todos los gentiles presentes
+    - se los oía hablar en lenguas y magnificaban a Dios
+    - Simón Pedro mando a traer agua para que sean bautizados en nombre de Jesús
+
+
+*** Cap. 11
+- Simón Pedro informo a los demas apóstoles lo sucedido con los gentiles
+  + aunque al principio estaban molestos, despues de escuchar los hecho no tuvieron más nada que decir
+- Despues de ser esparcidos debido a la persecución que se dio a causa de Esteban se esparcio la palabra
+  + al principio solo compartian la palabra con judíos (en Fenicia, Chipre y Antioquía)
+  + dos hombres uno de Chipre y otro de Cirene compartieron con gentiles griegos
+  + una gran multitud creyo y fue agregada al Señor
+  + Bernabé y Saulo se congregaron allí todo un año enseñando
+    - a los discípulos se les llamó cristianos por primera vez
+  + determinaron una hambruna gracias a unos profetas agraciados por el Espíritu
+    - los discípulos enviaron socorro a Judea
+
+
+*** Cap. 12
+- El rey Herodes mató a algunos de la iglesia, como Jacobo hermano de Juan.
+  + ante el agrado de los judíos metio tambien a Pedro en la carcel
+  + estaba bien custodiado, iba a expulsarlo del pueblo después de la pascua
+  + la iglesia oraba por el a Dios sin cesar
+- Un ángel aparece ante Pedro para liberarlo
+  + este siguio sus instrucciones, pensando que estaba teniendo una visión
+  + tras su escape fue a casa de María madre de Juan (Marcos) en donde estaban muchos reunidos orando
+  + el siguiente día hubo un gran alboroto en la carcel ante su fuga
+- Herodes murio posteriormente al ser herido por un ángel del Señor
+  + ya existían ciertos conflictos en su reinado
+  + la palabra del Señor seguia creciendo
+  + Bernabé y Saulo volvieron a Jerusalén con Juan (Marcos)
+
+
+*** Cap. 13
+- Bernabé y Saulo empiezan su primer viaje misionero
+  + enviados por el Espíritu Santo fueron hacia Chipre
+  + Saulo se cambia el nombre a Pablo
+  + se encontraron a un falso profeta (mago) que intentaba apartar de la fe al precónsul Sergio Paulo
+  + Pablo a travez del Espíritu Santo quito la vista al mago
+  + ante este hecho el precónsul creyó en la doctrina del Señor
+- Terminaron arribando en Antioquía de Pisidia
+  + un día de reposo Pablo dio como un anuncio la palabra del Señor
+  + terminado los gentiles les pidieron que volvieran el siguiente día de reposo
+  + acontecio que el siguiente día de reposo se junto casi toda la ciudad
+  + llenos de envidia los judíos los rebatían, ante este rechazo se volvieron hacia los gentiles
+  + los judíos instigaron a personas influyentes para que los expulsen de la ciudad
+
+
+*** Cap. 14
+- Bernabé y Pablo viajaron hasta Iconio
+  + hablaron de tal manera en la sinagoga que creyo un gran multitud de judíos y gentiles
+  + causo división en la ciudad, quienes estaban con los judíos y otros con los apóstoles
+  + cuando la oposición se levanto a apedrearlos huyeron a Listra y Derbe
+  + Pablo sano a un cojo de nacimiento que nunca había andado
+  + el pueblo ante este milagro les confundio con dioses como Júpiter y Mercurio
+    - al escuchar esto Bernabé y Pablo rasgaron sus ropas y frente a la multitud intentaron aclarar las cosas
+    - explicaban sobre el Señor pero no les escuchaban y querian hacer un sacrificio como ofrenda
+    - unos judíos los convencieron que apedrearan a Pablo y lo sacaran fuera de la ciudad
+    - lo dieron por muerto, pero los discipulos lo curaron
+  + Bernabé fue a Derbe haciendo varios discipulos, asi como a las ciudades pasadas
+    - exhortaron a permanecer en la fé, diciendo:
+      "Es necesario que a través de muchas tribulaciones entremos en el reino de Dios."
+    - constituyeron ancianos en cada iglesia
+  + volvieron a Anioquía en donde refirieron cuán grandes cosas había hecho Dios con ellos
+
+
+*** Cap. 15
+- En el concilio en Jerusalén, Bernabé, Pablo, los apóstoles y ancianos se encontraron debatiendo el tema de la circuncisión.
+  + rito realizado por los judios de acuerdo a Moisés
+  + representaba una carga para los nuevos conversos (gentiles)
+  + despues de contar como el Espíritu Santo habia descendido sobre los gentiles y los hechos ocurridos en su viaje
+  + se dispuso que no es algo que se impondria, sin embargo tendrían que guardar solo lo necesario:
+    "que os abstengáis de lo sacrificado a ídolos, de sangre, de ahogado y de fornicación;
+    de las cuales cosas si os guardareis, bien haréis."
+  + escribieron cartas a las ciudades y congregraciones para compartir su decisión
+- Pablo tiene un desacuerdo con Bernabé y separan sus caminos
+  + Bernabé y Marcos van a Chipre
+  + Pablo y Silas van a Siria y Cilicia
+
+
+*** Cap. 16
+- Pablo gano un nuevo discipulo llamado Timoteo
+  + debido a ser mestizo de padre griego y madre judía, tuvo que ser circuncidado por causa de los judíos
+  + a pesar de eso entregaban el mensaje con la ordenanza que acordaron en no circuncidar a los gentiles
+- El Espíritu Santo les prohibio hablar la palabra en Asia, ni en algunas ciudades cercanas
+  + en una visión se le mostro a Pablo que vaya a Macedonia
+  + compartieron la palabra con unas mujeres junto al río, y una de ellas llamada Lidia se convirtio
+  + encontraron tambien una muchacha que tenía espíritu de adivinación
+    - al perturbar los planes de Pablo este expulso al espíritu quitandole su poder
+    - los amos de esta chica al ver perdida su ganancia, prendieron a Pablo y Silas
+    - levantaron falsos contra ellos y por orden de los magistrados fueron azotados con varas
+    - los mandaron a la cárcel, pero orando sobrevino un terremoto que abrio puertas y cadenas
+    - el carcelero pensando que escaparon se quizo quitar la vida pero lo detuvieron y se convirtio
+    - siendo de día se los mando a liberar, consiguieron disculpas y se fueron
+
+
+*** Cap. 17
+- Llegaron a Tesalónica y como era usual Pablo fue en días de reposo para devatir en la sinagoga
+  + declaro por medio de las Escrituras que era necesario que el Cristo padeciese y resucitase
+  + algunos creyeron, incluidos griegos y mujeres nobles
+  + los que no creyeron por celos alborotaron la ciudad
+  + los buscaron, pero al no encontrarlos intentaron meter a algunos hermanos presos
+  + sin embargo obtuvieron fianza y fueron liberados
+- De noche enviaron a Pablo y Silas hasta Berea
+  + estos entraron a la sinagoga del lugar
+  + encontraron a judios más nobles los cuales recibieron la palabra mejor
+  + los judíos de Tesalónica escucharon lo que sucedia y fueron alla para alboratar nuevamente
+  + Pablo fue enviado a Atenas separandose de Silas y Timoteo, los cuales los siguieron más tarde
+- En Atenas Pablo se enojo al ver la idolatria que tenian en la ciudad
+  + discutía en la sinagoga con los judíos
+  + y en la plaza con los que concurrían (algunos fílosofos epicúreos y estoicos)
+  + fue llevado al Areópago por estos últimos para escuchar mejor sus enseñanzas
+  + Pablo compartio la Palabra pero al oir sobre la resurrección unos se burlaban, pero algunos si creyeron
+
+
+*** Cap. 18
+- Pablo fue a Corintio donde halló a un judío llamado Aquila (y su mujer Priscila), hospedandose ahí
+  + compartian el mismo oficio haciendo tiendas
+  + mientras discutía en los días de reposo en las sinagogas
+  + cuando Silas y Timoteo lo alcanzaron, este cansado de los necios fue a los gentiles
+  + creyeron muchos los cuales eran bautizados
+  + el Señor le dijo en una visión de noche:
+    "No temas, sino habla, y no calles; porque yo estoy contigo,
+    y ninguno pondrá sobre ti la mano para hacerte mal,
+    porque yo tengo mucho pueblo en esta ciudad."
+  + fue llevado al tribunal con el procónsul, pero al no encontrar un crimen los echó de ahi
+  + Pablo navego a Siria y llegó a Éfeso, donde fue a la sinagoga
+    - gano mejor aceptación pero partio avisando que iba a Jerusalén por festividad
+- Pablo regresa a Antioquia y comienza su tercer viaje misionero
+- En Éfeso conocieron a un judío elocuente llamado Apolos el cual solo conocía sobre el bautismo de Juan
+  + al escucharlo hablar en la sinagoga, Priscila y Aquila le enseñaron el camino de Dios
+  + los hermanos ganaron un nuevo discipulo que refutaba públicamente a los judíos
+
+
+*** Cap. 19
+- Pablo llego a Éfeso, encontrando discípulos que solo habian sido buatizados por Juan.
+  + este les compartio la Palabra y fueron bautizados en el Espíritu Santo
+  + ganaron la habilidad de hablar en lenguas y profetizar, eran doce hombres
+  + siguio su senda hacia la sinagoga para debatir y persuadir
+    - hubieron quienes creyeron y quienes no
+    - paso como dos años discutiendo en una escuela
+  + su mensaje se esparcio de tal forma que se conocio la palabra en Asia, igual que para judíos y griegos
+  + seguia haciendo milagros por la gracia de Dios
+    - judíos exorcistas intentaron imitarlo pero no acabo bien
+- Artesanos de plata dedicados a hacer figuras para idolatria se reunieron debido a la perdida de clientes
+  + prendieron a Pablo, alborotando al pueblo lo lleváron al teatro para enjuiciarlo
+  + al final al no tener suficiente sostén para sus acciones tuvieron que soltarle
+
+
+*** Cap. 20
+- Pablo viajo de Grecia a Macedonia después de una corta estadia, por el acecho de los judíos
+  + lo acompañaron hasta Asia:
+    Sópater de Berea, Aristarco y Segundo de Tesalónica, Gayo de Derbe, y Timoteo; y de Asia, Tíquico y Trófimo
+  + en Troas mientras enseñaba largo y tendido un joven llamado Eutico cayo por sueño del tercer piso
+    - Pablo lo resucito y calmó a todos
+    - se extendio hasta el alba y se despidio para iniciar su próximo viaje
+  + viajo de Troas a Mileto apresurandose para estar el día de Pentecostés
+    - llamo a los ancianos y se depidio contandoles sobre su viaje a Jerusalén
+    - revivio algunos acontecimientos pasados y hablo sobre el acecho, prisiones y tribulaciones que le esperan
+    - debido a que ya no lo verian más les pidio que cuidaran de ellos y su rebalo, siendo obispos de la iglesia
+    - hablo con ellos todo esto:
+      "Porque yo sé que después de mi partida entrarán en medio de vosotros lobos rapaces, que no perdonarán al rebaño.
+      Y de vosotros mismos se levantarán hombres que hablen cosas perversas para arrastrar tras sí a los discípulos."
+    - menciono tambien que no ha codiciado lo material más lo básico que necesitaba
+    - "En todo os he enseñado que, trabajando así, se debe ayudar a los necesitados, y recordar las palabras del Señor Jesús,
+      que dijo: Más bienaventurado es dar que recibir."
+    - de rodillas oró con ellos y corrieron lágrimas lamentando su partida
+
+
+*** Cap. 21
+- En el viaje de Pablo a Jerusalén, zarpando en barco termino en Tiro en donde encontro al resto de discipulos
+  + estos le pedían por el Espíritu que no suba a Jerusalén
+  + se separarón de sus familias y se pusieron en marcha
+  + pasaron por Tolemaida y en Cesarea se hospedaron donde Felipe el evangelista
+  + un profeta llamado Agabo le dijo que el Espíritu Santo profesaba su encarcelamiento
+  + a pesar de las suplicas del resto, este dijo:
+    "¿Qué hacéis llorando y quebrantándome el corazón?
+    Porque yo estoy dispuesto no solo a ser atado,
+    mas aun a morir en Jerusalén por el nombre del Señor Jesús."
+- Cuando llegaron a Jerusalén se reunio con los ancianos contandoles su ministerio entre los gentiles
+  + estos le felicitaron por los judios convertidos que seguian la ley
+  + escucharón sobre los gentiles que no circunciden a sus hijos no observen las costumbres
+    - esto le traería problemas cuando se reuna la multitud
+    - le dijeron que vaya con unos hombres que ibán a cumplir voto y se purifique tambien
+    - de esa manera desmentiria los rumores
+  + pero cuando entro al templo unos judíos de Asia lo reconocieron y alborotaron la multitud
+    - le prendieron y pretendian matarle
+    - se le aviso al tribuno de la compañia el cual arribo con soldados y centuriores
+    - detuvieron la golpiza e interrogaron por sus crimenes a la multitud
+    - al hablar todo al mismo tiempo, no entendio nada se le llevo a la foraleza
+    - le pidio al tribuno hablar con su pueblo para defenderse
+
+
+*** Cap. 22
+- Pablo relata su conversión
+  + conto un poco sobre su pasado y cuando le fue quitada la vista
+  + asi tambien conto de como fue enviado a los gentiles
+    - al momento de mencionar a los gentiles se volvieron a enfurecer y lo querian matar nuevamente
+  + otra vez fue metido en la fortaleza por el tribuno
+    - iba a ser azotado y castigado hasta que menciono su ciudadanía romana
+  + le soltaron las cadenas y mandaron a traer a los principales sacerdotes con todo el concilio
+    - querían llegar al fondo de porque lo acusaban los judíos
+
+
+*** Cap. 23
+- Defendia su posición al hablar como ha vivido en el camino de Dios hasta ese día
+  + lo golpearon y reprocho su actuar
+  + al notar que habían saduceos y fariseos, apelo a estos ultimos al decir:
+    "... acerca de la esperanza y de la resurrección de los muertos se me juzga"
+  + hubo conflicto entre ambos bandos, porque unos le hallaban culpable y otro no
+  + el tribuno lo saco de ahi con los soldados y lo mando a la fortaleza nuevamente
+  + el Señor se le presento en la noche a Pablo diciendo que no se desanimara,
+    que tendría que testificar en Roma tambien
+- más de 40 judíos planearon un complot para dar muerte a Pablo
+  + hicieron juramento de ayuno y además se aliaron con los principales sacerdotes y ancianos
+  + el hijo de la hermana de Pablo lo oyo todo y fue a contarle,
+    este le pidio que se lo dijera tambien al tribuno
+- Pablo fue enviado al gobernador Félix siendo reguardado y transportado en la madrugada
+  + le envio una carta contandole lo sucedido y la nacionalidad romana del acusado
+  + el gobernador le dijo que escucharia su caso cuando llegaran sus acusadores
+
+
+*** Cap. 24
+- En la defensa de Pablo ante Félix, se presentaron ambas partes.
+  + los judíos fueron usaron a un orador llamado Tértulo exponiendo su caso
+    - lo acuso de promover sediciones entre su pueblo
+    - ser cabecilla de una secta, llamado nazarenos
+    - y de profanar el templo
+  + Pablo se defendio el mismo y relato sobre su estadia en Jerusalén
+    - en donde no disputo con nadie
+    - ni amotino multitudes, en el templo, sinagoga o ciudad
+    - y la falta de pruebas con lo que se le acusa
+    - defendio su postura de defender a Dios, segun la ley y escrituras
+    - concluyo que los judíos de Asia que lo acusan deberian comparecer
+  + Félix concluyo que cuando descendiere el tribuno Lisias terminara de informarse mejor
+    - Pablo quedo de vuelta bajo custodia
+    - Félix y su mujer llamaron a Pablo para saber más sobre su fe
+    - no quedo convencido del todo, pero hacia que viniera por si conseguia dinero para que lo soltara
+    - despues de dos años Félix fue sucedido por Porcio Festo
+
+
+*** Cap. 25
+- Pablo apelo a César (emperador) regente
+  + aunque lo judios querian que trajeran a Pablo a Jerusalén para matarle no lo lograron
+  + una vez en Cesarea intentaron acusarle de graves cosas que no pudieron probar
+  + Pablo apelo que esta en el tribunal del César y ahi debe ser juzgado
+    - se le dijo que ahi iria entonces
+- El rey Agripa y Berenice visitaron a Poncio, el cual les conto lo sucedido
+  + se mando al día siguiente traer a Pablo para conocer más del asunto
+
+
+*** Cap. 26
+- Pablo se presento ante Agripa, ya que conocia a los judíos y relato su historia
+  + sobre su vida anterior como perseguidor
+  + su conversión, fé y misión de evangelizar
+  + aunque Festo lo considero un loco, casi convence a Agripa
+  + terminaron retirandose sin encontrarle ningún cargo
+
+
+*** Cap. 27
+- Pablo es enviado a Roma, tuvo un viaje tumultoso en barco
+  + hubo tormenta, perdida de rumbo y ayuno
+  + un angel le aviso a Pablo que iba a tener su juicio, y aunque la nave se destruya ninguna vida se perderia
+  + llegaron naufragando hasta una playa y en efecto asi sucedio
+
+
+*** Cap. 28
+- Terminaron en una isla llamada Malta
+  + los habitantes no los trataban bien al principio
+  + al querer prender una fogata, una serpiente mordio a Pablo pero no le sucedio nada
+  + pensaron de el como si fuera una divinidad
+  + durante ese tiempo sano a varias personas las cuales les honraron con atenciones
+- Pasado tres meses y algunos dias arrivaron a Roma
+  + se entregó a los presos pero a Pablo se le permitió vivir aparte, custodiado por un soldado
+- Pablo predicó en Roma hablando con los principales judíos contándoles su situación
+  + ubieron quienes creyeron y otro no
+  + como estaban en desacuerdo entre si les recito una frase del profeta Isaías
+    "De oído oiréis, y no entenderéis;
+    Y viendo veréis, y no percibiréis;
+    Porque el corazón de este pueblo se ha engrosado,
+    Y con los oídos oyeron pesadamente,
+    Y sus ojos han cerrado,
+    Para que no vean con los ojos,
+    Y oigan con los oídos,
+    Y entiendan de corazón,
+    Y se conviertan,
+    Y yo los sane."
+  + comentando que esa salvación de Dios sera enviada también a los gentiles
+  + Pablo permanecio dos años enteros predicando en una casa alquilada
+
+
+** Romanos
+
+*** Cap. 1
+- En Romanos, se lee a Pablo por su correspondencia con los creyentes mientras permanece bajo custodia.
+  + La primera parte es de caracter teológico
+  + La segunda parte es la ejecución práctica
+  + Y al final hay un prefacio (o resumen)
+- La salutación, de caracter introductorio cuenta un poco de él, la fé y a quien se dirige.
+  + tambien cuenta brevemente acerca de Jesús como Hijo de Dios, según se predijo en las escrituras
+  + del como se confirmo esto por los eventos sucitados
+  + de como recibieron por el la gracia y el apostolado
+    - cuya obediencia a la fe abarca todas las naciones (incluyendo gentiles)
+- Pablo agradece a Dios de que la fe se distribuya gracias a ellso
+  + desea que algun momento pueda comincarse con ellos libremente
+  + quiere poder pasarles el Espiritu Santo para que este les reconforte
+- Dice que el evangelio es "poder de Dios para salvación a todo aquel que cree"
+- Habla sobre la culpabilidad del hombre
+  + "Porque la ira de Dios se revela desde el cielo contra toda impiedad e injusticia de los hombres que detienen con injusticia la verdad;"
+  + Explica como su poder y deidad aunque invisibles se entienden por las cosas visibles.
+    - a pesar de esto la humanidad por soberbia se enfoco en sus razonamientos y su corazón necio se nublo
+      + razón por la cual fabricaron idolos
+    - asi tambien Dios los entregó (libre albedrio) a esa inmundicia, deshonrando sus propios cuerpos
+      + sobre relaciones fisicas homosexuales entre hombres y mujeres
+      + estos recibieron consecuencias debido a esto tambien
+    - asi como corrompieron sus cuerpos sus mentes les siguieron
+      + se reunio toda:
+        "injusticia, fornicación, perversidad, avaricia, maldad;
+        llenos de envidia, homicidios, contiendas, engaños y malignidades;
+        murmuradores, detractores, aborrecedores de Dios, injuriosos, soberbios,
+        altivos, inventores de males, desobedientes a los padres, necios,
+        desleales, sin afecto natural, implacables, sin misericordia;"
+      + son penados también los que "se complacen con los que las practican"
+
+
+*** Cap. 2
+- Pablo expresa que aquel que juzga se condena a si mismo ya que puede tener pecados similares.
+  + sin embargo Dios juzga conforme a la verdad
+  + su paciencia hacia ti guia al arrepentimiento
+    - más por necedad y dureza de corázon no se acepta
+  + en el día de juicio se juzgaras por esas obras
+    - vida eterna para los buenos y castigo para los malos
+  + hace la distinción al juicio de aquellos que pecan sin y con ley
+    - de los que no tienen ley actuan, si lo hacen bien es por conciencia y razonamiento
+    - al final de acuerdo a eso serán juzgados
+- Hace incapie en los judíos y la ley
+  + de como estos son instruidos en la ley y la glorificación a Dios de antemano
+  + reclama si acaso hay hipocresia en sus palabras vs sus acciones
+    - si este peca de ignorancia, hurto, adulterio, idolatria, infracción de la ley
+    - y que el nombre de Dios es blasfemado entre los gentiles por causa de ellos (por su mal ejemplo)
+  + que a pesar de tener marca de la circuncisión esta no significa nada sino guarda las ordenanzas
+    - comparando con los que son incircunsisos y no infringen la ley
+    - recalca que al final eso no determina quien hace bien o no
+    - de que más que un simbolos exterior debe ser algo interior de corazón
+
 
 *** Cap. 3 (por leer Cap. 4)
-
-
-
-** Adicional
-
-*** Conocimiento
-- La verdadera religión no se trata de ritos y costumbres, sino de seguir el camino el Dios (buscar la verdad).
-- Todo depende de la teoria y la prática que apliques (con tus habitos).
-
-*** Etapa llamada "el encuentro"
-- cambia tu vida, sucede una sola vez
-- vas a una lugar apartado (tipo retiro espiritual un fin de semana)
-- te desconectas de todo trabajo, estudio, etc
-- "vi a dios cara a cara y cambio mi alma", sientes su presencia
-  + siempre que tu estes dispuesto a ir, no hay problema (cuesta $25)
-  + tienes que ir de corazon y regresas con el corazon limpio
-
-- si tu guardas rencor te haces daño a ti mismo
-
-*** Canciones
-
-**** Cantante:
-Jesús Adrián Romero
-
-**** Canción:
-- El aire de tu casa
-  + querer percibir su presencia al estar cerca y ser su amigo
-
-- Que seas mi universo
-  + buscar que el señor sea parte de tu vida/existencia (agape)
+-
 
 
 ** Fuentes
 
-+ [[https://my.bible.com/es/bible/149/MAT.3.RVR1960]]
++ [[https://my.bible.com/es/bible/149/MAT.1.RVR1960]]
++ [[https://my.bible.com/es/bible/149/MRK.1.RVR1960]]
++ [[https://my.bible.com/es/bible/149/LUK.1.RVR1960]]
++ [[https://my.bible.com/es/bible/149/JHN.1.RVR1960]]
++ [[https://my.bible.com/es/bible/149/ACT.1.RVR1960]]
++ [[https://my.bible.com/es/bible/149/ROM.1.RVR1960]]

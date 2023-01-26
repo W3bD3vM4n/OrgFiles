@@ -109,9 +109,14 @@ The main features:
 
 *** Ranger Edition
 
+- To copy and paste, you need to activate the edition by ~C-x C-q~.
+  + select the folders/files if needed
+
 #+begin_quote
 
-    C = copy a folder/file (specify output path)
+    yy = copy a folder/file (specify output path)
+    pp = paste a folder/file (specify output path)
+
     R = move/rename a folder/file
 
 #+end_quote

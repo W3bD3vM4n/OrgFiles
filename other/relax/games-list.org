@@ -1,0 +1,59 @@
+#+title:    Video Games List
+#+author:   h4ss4n
+#+date:     <2022-10-02 dom.>
+
+* Index
+- [[Games][Games]]
+  + [[Action][Action]]
+  + [[Action RPG][Action RPG]]
+  + [[Adventure][Adventure]]
+  + [[Management][Management]]
+  + [[Plataform][Plataform]]
+  + [[Puzzles][Puzzles]]
+  + [[Racing][Racing]]
+  + [[Relax][Relax]]
+  + [[Roguelike][Roguelike]]
+  + [[RTS][RTS]]
+  + [[Shooter][Shooter]]
+  + [[Sports][Sports]]
+  + [[Strategy][Strategy]]
+  + [[Terror][Terror]]
+
+
+* Games
+
+** 4X
+
+** Action
+- *Dishonored GOTY*: good story, inmersive, exploration, adventure. (on-hold)
+
+** Action RPG
+- *Dark Souls I Remastered*: everything is your enemy, different bosses, depressing at times, exploration. (on-hold)
+- *Tails of Iron*: fluent controls, simple story, intuitive interface, platform. (on-hold)
+- *TUNIC*: pretty interface, exploration, zelda type of game. (on-hold)
+
+** Adventure
+
+** Management
+
+** Plataform
+
+** Puzzles
+- *Infinifactory*: logic, simple story, simple interface. (on-hold)
+- *Human Resource Machine*: logic, simple story, simple interface, programming. (on-hold)
+
+** Racing
+
+** Relax
+
+** Roguelike
+
+** RTS
+
+** Shooter
+
+** Sports
+
+** Strategy
+
+** Terror

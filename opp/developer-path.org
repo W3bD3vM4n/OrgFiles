@@ -1,0 +1,92 @@
+#+title:    Developer Path
+#+author:   h4ss4n
+#+date:     <2022-10-06 jue.>
+
+* Development
+
+** Index
+- [[Actual Path]]
+  + [[OOP]]
+  + [[Database]]
+- [[Future Path]]
+  + [[Functional]]
+
+** Self Evaluation
+
+- [[file:self-evaluation.org][Evaluation]]
+- [[file:study-goals.org][Goals]]
+
+
+** Actual Path
+
+*** OOP
+
+- OS: Windows
+- IDE: Visual Studio
+- Framework: .NET Framework (ASP.NET) & .NET Core (LINQ, Enitity Framework)
+- Programming Language: C#
+
+**** Frontend
+
+- Languages: Razor, HTML, CSS, and JavaScript
+
+***** Documentation Order:
+
+- [[file:frontend/asp-net-core-mvc-frontend.org][ASP.NET Core MVC Frontend]]
+
+**** Backend
+
+- Languages: C#
+
+***** Documentation Order:
+
+- ASP.NET
+  + ASP.NET MVC Workflow <<create one>>
+  + [[file:backend/syncfusion-asp-net-mvc.org][Syncfusion ASP.NET MVC]]
+- ASP.NET Core
+  + [[file:backend/asp-net-core-mvc-workflow.org][ASP.NET Core MVC Workflow]]
+  + [[file:backend/asp-net-core-mvc-identity.org][ASP.NET Core MVC Identity]]
+  + [[file:backend/syncfusion-asp-net-core-mvc.org][Syncfusion ASP.NET Core MVC]]
+    - [[file:backend/asp-net-core-snippets.org][ASP.NET Core Snippets]]
+  + [[file:backend/syncfusion-blazor.org][Syncfusion Blazor]]
+
+
+*** Database
+
+- OS: Windows
+- Database: Relational
+- Management System: Microsoft SQL Server
+- IDE: Microsoft SQL Server Management Studio Express
+- Programming Language: Transact-SQL
+
+**** Documentation Order:
+
+- [[file:~/org/data-base/1-entity-relationship-diagram.org][Entity Relationship Diagram]]
+- [[file:~/org/data-base/entity-framework-core.org][Entity Framework Core]]
+
+*** Version Control
+
+- OS: Anyone
+- Software: Git
+
+**** Documentation Order:
+
+- [[file:~/org/git-github/1-connect-ssh-keys.org][Connect SSH keys]]
+- [[file:~/org/git-github/2-create-new-repository.org][Create new repository]]
+- [[file:~/org/git-github/3-git-workflow.org][Git workflow]]
+
+
+** Future Path
+
+*** Functional
+
+- OS: Linux
+- IDE: Emacs
+- Framework: [[https://ericnormand.me/mini-guide/what-web-framework-should-i-use-in-clojure][Recommended]]
+- Programming Language: Clojure
+  + Emacs Lisp -> Clojure
+
+**** Documentation Order:
+
+- [[file:~/org/emacs/elisp-basics.org][Elisp basics]]
+- [[file:~/org/functional/common-lisp.org][Common Lisp]]

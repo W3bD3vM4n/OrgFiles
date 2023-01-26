@@ -1,0 +1,74 @@
+#+TITLE:    Requerimientos Consultorio Médico
+#+author:   h4ss4n
+#+date:     <2022-11-07 lun.>
+
+* Aplicación MVC + Blazor
+
+** Requisitos Funcionales
+
+Declaración de los servicios que prestará el sistema (punto de vista del usuario).
+
+*** 1. Módulo de login
+- Mostrar la página para ingresar a la aplicación a traves de email y contraseña.
+  + Ingresar como administrador, me da acceso a todas las funcionalidades
+  + Ingresar como enfermera, me da acceso a funcionalidades limitadas
+- En la parte superior me permite desloguearme de la sesión actual.
+- Mostrar una página en blanco (temporalmente) que tenga un menu lateral con acceso a otros módulos.
+
+**** 2.1. Sub-módulo de roles y usuarios
+- Mostrar una tabla de Roles existentes, con botones adicionales de edición y borrado.
+  + En la parte superior me permite asignar Roles a los usuarios mediante controles
+- Mostrar una tabla de Usuarios existentes, con botones de edición y borrado.
+  + En la parte superior un botón me permite agregar nuevos usuarios, accediendo a una página de creación.
+
+*** 3. Módulo de historias clínicas
+
+**** 3.1. Sub-módulo de paciente
+- Mostrar una página con una tabla de Pacientes existentes, con botones de edición y borrado.
+  + En la parte superior un botón me permite agregar nuevos Pacientes, accediendo a una página de creación.
+
+**** 3.2. Sub-módulo de historia clínica
+- Historia clínica llenada por Enfermera
+  + Abre una página previa para buscar/seleccionar el paciente
+  + Muestra una cabezera con los datos del paciente
+  + Muestra un wizard con las siguientes páginas:
+    1. Antecedentes personales
+    2. Antecedentes familiares
+    3. Signos vitales y antroprometria
+    4. Revisión actual de órganos y sistemas
+- Historia clínica llenada por Doctor
+  + Abre una página previa para buscar/seleccionar el paciente
+  + Muestra una cabezera con los datos del paciente
+  + Muestra un wizard con las siguientes páginas:
+    1. Motivo de consulta
+    2. Antecedentes personales <<solo lectura>>
+    3. Antecedentes familiares <<solo lectura>>
+    4. Enfermedad o problema actual
+    5. Signos vitales y antroprometria <<solo lectura>>
+    6. Examen físico regional
+    7. Revisión actual de órganos y sistemas <<solo lectura>>
+    8. Diagnostico
+    9. Prescripción
+
+** Requisitos no funcionales
+
+Declaración de las propiedades que posee el sistema (punto de vista del desarrollador).
+
+*** 1. Publicación de la aplicación
+- Los datos de conexión a la base de datos, deben estar guardados en un secreto en un AppConfiguration de Azure.
+- Se deben incluir certificacos a SSL para utilizar el protocolo seguro HTTPS.
+
+*** 2. Módulo de login
+- Los datos sensibles de la aplicación deben estar cifrados, utilizando el algoritmo MD5.
+- Los controladores deben poseer validación de autenticación para el ingreso de los datos.
+
+**** 2.1. Sub-módulo de roles y usuarios
+- Los controladores deben poseer validación de autenticación para el ingreso de los datos.
+
+*** 3. Módulo de historias clínicas
+
+**** 3.1. Sub-módulo de paciente
+- Los controladores poseen validación para el ingreso de los datos.
+
+**** 3.2. Sub-módulo de historia clínica
+- Los controladores del wizard deben poseer validación de autenticación para el ingreso de los datos.

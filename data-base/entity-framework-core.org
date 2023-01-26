@@ -1,0 +1,124 @@
+#+TITLE:    Entity Framework Core
+#+author:   h4ss4n
+#+date:     <2022-09-28 mié.>
+
+* Using Visual Studio 2022
+
+** Index
+
+- [[Entity Framework]]
+- [[Database Project]]
+
+** Entity Framework
+
+To *bind the database* to the application (MVC, Blazor, etc) with the Database-First approach:
+
+1. Create a ERD and the database in SQL Server (or other).
+2. With your .NET solution created, add a new project file (type Class Library) named ~Project.Data~ and delete the ~Class1.cs~.
+3. There are two alternatives in this point, by Package Manager Console using the *command-line scaffolding*:
+   a. Right click in the project and choose "Manage NuGet Packages", install the following:
+      - Microsoft.EntityFrameworkCore
+      - Microsoft.EntityFrameworkCore.Proxies
+      - Microsoft.EntityFrameworkCore.SqlServer
+      - Microsoft.EntityFrameworkCore.Tools
+
+      *IMPORTANT:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
+
+   b. Open the Package Manager Console, select in the top right for "Default project" the ~Project.Data~, then input the *Scaffold-DbContext* command:
+
+        #+begin_quote
+
+            PM> Scaffold-DbContext "Server=localhost;Database=DatabaseName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+        #+end_quote
+
+      - In ~Project.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
+        + In the OutputDir it's useful to change the name of the *Models* folder, to avoid affecting the existing files.
+        + For cleaning and organization purpose the obsolete files are deleted and all it's saved in the original Model folder.
+      - The ~DatabaseNameContext.cs~ file inside models it's used to configure the tables like Objects for later use.
+
+        #+begin_src csharp
+
+          using Microsoft.EntityFrameworkCore;
+
+          namespace Project.Data.Models
+          {
+              public partial class DatabaseNameContext : DbContext
+              {
+                  public DatabaseNameContext()
+                  {
+                  }
+
+                  public DatabaseNameContext(DbContextOptions<DatabaseNameContext> options)
+                      : base(options)
+                  {
+                  }
+
+                  public virtual DbSet<Table1> Table1s { get; set; } = null!;
+                  public virtual DbSet<Table2> Table2s { get; set; } = null!;
+
+                  protected override void OnModelCreating(ModelBuilder modelBuilder)
+                  {
+                      modelBuilder.Entity<Table1>().ToTable("Table1", "SchemaName1");
+                      modelBuilder.Entity<Table2>().ToTable("Table2", "SchemaName2");
+                  }
+              }
+          }
+
+        #+end_src
+
+4. Install the Visual Studio extension *EF Core Power Tools*:
+   a. Right click on the project, a EF Core Power Tools option appear then choose *Reverse Engineer*.
+      - It generates POCO classes, derived DbContext and mappings for an existing database.
+   b. A window appear then choose the button "Add".
+      - Server name: localhost
+      - Select o enter database name: databaseName
+        + Press the button "Test Connection", if everything is ok a message is display.
+   c. The previous window appear, select the EF Core version and click "OK".
+   d. Select the database tables to load and click "OK".
+   e. In the next window fill the blank spaces.
+      - EntityTypes path: Models
+      - [x] Include connection string in generated code
+      - [x] Install the EF Core provider package in the project
+      - Click "OK" and wait for the files generation.
+        + It creates a *Models* folder, inside are the classes with the database tables.
+        + The file ~databaseNameContext.cs~ is the one to configure for new tables adding.
+   f. After the creation of the Entity Model classes and DbContext some configuration is needed.
+      - Register your data context class in ~MainProjectName~, inside the ~Program.cs~ file.
+
+       #+begin_src csharp
+
+        builder.Services.AddSqlServer<CrudMvcContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+
+       #+end_src
+
+      - If the "Include connection string in generated code" option was not selected in the Reverse Engineer setup, in ~MainProjectName~, add inside the ~appsettings~ file.
+
+        #+begin_src javascript
+
+        {
+            "Logging": {
+                "LogLevel": {
+                    "Default": "Information",
+                    "Microsoft.AspNetCore": "Warning"
+                }
+            },
+            "AllowedHosts": "*",
+
+            "ConnectionStrings": {
+                "DefaultConnection": "Data Source=localhost;Initial Catalog=CrudMvc;Integrated Security=True"
+            }
+        }
+
+        #+end_src
+
+** Database Project
+
+1. With your .NET solution created, add a new project file (type SQL Server Database Project) named ~Project.Database~.
+2. Then create a ~SqlSchemaCompare.scmp~ for version control and database generation.
+   - The interface shows where it's gonna be send (server): *localhost/DatabaseName* and who catch it (receiver): *Ruta/Solucion/Proyecto.Database/Proyecto.Database.sqlproj*
+   - There are two buttons, the *Compare* and if changes exist in the database the *Update* it's used.
+   - This generates folders with their respected tables, group by the *Esquema*
+
+*NOTE*: It allow to share the database inside the solution to be used for other developers.
+        - It's a good profesional practice.

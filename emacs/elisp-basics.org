@@ -37,6 +37,9 @@
 
 #+end_src
 
+- A command to properly *indent-region* of the code is ~M-C-\~.
+  + it's use to see which elements of a list belong to which list—elements
+
 
 ** Definitions
 

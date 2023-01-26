@@ -1,0 +1,23 @@
+#+title:    Radeon RX 570 Games Optimization
+#+author:   h4ss4n
+#+date:     <2022-10-10 lun.>
+
+* Index
+
+- [[Configuration]]
+
+* Configuration
+
+1. In the Windows 10's icon tray, right click in the *Radeon* icon and select the option =Open AMD Software: Adrenalin Edition=
+
+2. Click on *Performance* tab and in the *Tuning* sub tab.
+
+3. Chose the right top button *Add Game Profile* for selecting a specific game.
+
+   - Above the Add Game Profile button, select the icon with a back arrow the *Load Profile*.
+     + Look for the path =C:\Users\hr-aw\AppData\Local\AMD\Radeonsoftware= to the file "customGpu3.xml".
+     + Create a file with the wanted customization if required, the one with the forward arrow *Save Profile*.
+     + To delete the configuration click on the trash icon *Delete Profile*.
+
+   - As an option in the left DropDownList selected Global Tuning, and Load Profile to make the configuration available all the time.
+     + To delete the configuration click on the below button *Default*.

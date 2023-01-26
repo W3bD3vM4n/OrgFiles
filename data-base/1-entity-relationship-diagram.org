@@ -1,0 +1,50 @@
+#+title:    Entity Relationship Diagram (ERD)
+#+author:   h4ss4n
+#+date:     <2022-09-07 mié.>
+
+* Data base design phase
+
+** Basics
+
+ERD is a graphical representation of the data requirements.
+- Acts like blueprints for a building (the data base)
+
+- It's recommended for entities with large columns to create new entities
+
+- There's a difference between columns and data.
+  + Columns are the entity's attribute, it's a constant
+  + Data is the column's content, it's a variable
+
+*** Crow's foot notation
+The easiest way to represent cardinality in a diagram.
+
+| Symbol | Meaning              |
+|--------+----------------------|
+| ----┼- | One                  |
+|        |                      |
+| -----< | Many                 |
+|        |                      |
+| ----╫- | Only One (mandatory) |
+|        |                      |
+| ----┼< | One/Many (mandatory) |
+|        |                      |
+| ---o┼- | Zero/One (optional)  |
+|        |                      |
+| ----o< | Zero/Many (optional) |
+
+- The mandatory/optional refers to the minimum.
+- The one/many refers to the maximum.
+
+
+** Definitions
+
+- *Entity*: represents a person, place, or thing to track in the data base (the table).
+- *Attribute*: describes various characteristics about an individual entity (the columns).
+- *Primary Key*: an attribute that uniquely identifies an instance of the entity.
+- *Relationship*: describe how an entity interact with each other.
+- *Cardinality*: the count (minimum/maximum) of necessary instances.
+
+- *One mandatory*: it must have at least one instance (only).
+- *Many mandatory*: it must have at least one but you can have several.
+- *One optional*: an instance is optional but only one.
+- *Many optional*: an instance is optional but there's not limit.
