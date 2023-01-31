@@ -5,13 +5,17 @@
 * Development
 
 ** Index
+- [[Self Evaluation]]
 - [[Actual Path]]
   + [[OOP]]
   + [[Database]]
 - [[Future Path]]
   + [[Functional]]
 
+
 ** Self Evaluation
+
+The schedule's fulfillment is the corner stone of your path, plus:
 
 - [[file:self-evaluation.org][Evaluation]]
 - [[file:study-goals.org][Goals]]
