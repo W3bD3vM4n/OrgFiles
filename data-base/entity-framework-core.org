@@ -114,6 +114,8 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
 ** Database Project
 
+*** Compare
+
 1. With your .NET solution created, add a new project file (type SQL Server Database Project) named ~Project.Database~.
 2. Then create a ~SqlSchemaCompare.scmp~ for version control and database generation.
    - The interface shows where it's gonna be send (server): *localhost/DatabaseName* and who catch it (receiver): *Ruta/Solucion/Proyecto.Database/Proyecto.Database.sqlproj*
@@ -122,3 +124,15 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
 *NOTE*: It allow to share the database inside the solution to be used for other developers.
         - It's a good profesional practice.
+
+*** Update
+
+When you update by "pulling changes" from the remote repository, it can bring changes from the database project too and it's need to be reflected on your application.
+1. Look in the Solution Explorer for the ~Project.Database~ then right click and chose "Publish".
+2. A new window is displayed, select the *Edit* button and in the new window in the Browse Tab look for "Local" to chose a database.
+   - Select the Server Name, Authentication, User Name, Password and Database Name to finally click the "Test Connection" and "OK"
+3. When you're back to the first window, select the *Advanced...* button.
+   - Uncheck the "Block incremental deployment if data loss might occur" then "OK"
+   - The final step is to select the "Publish" button
+4. If everything is ok, it will be presented in a "Data Tools Operations" window.
+   - We use this way to update data when we want to ignore any warning from the *Compare* way above.
