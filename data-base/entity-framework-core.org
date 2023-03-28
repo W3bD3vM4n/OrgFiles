@@ -6,23 +6,25 @@
 
 ** Index
 
-- [[Entity Framework]]
-- [[Database Project]]
+- [[Bind the database]]
+- [[Back-up the database]]
 
-** Entity Framework
 
-To *bind the database* to the application (MVC, Blazor, etc) with the Database-First approach:
+** Bind the database
+
+To bind the database to the application (MVC, Blazor, etc) with the Database-First approach:
 
 1. Create a ERD and the database in SQL Server (or other).
 2. With your .NET solution created, add a new project file (type Class Library) named ~Project.Data~ and delete the ~Class1.cs~.
-3. There are two alternatives in this point, by Package Manager Console using the *command-line scaffolding*:
+3. There are two alternatives in this point.
+   The _First Option_ by *Package Manager Console* using the command-line scaffolding.
    a. Right click in the project and choose "Manage NuGet Packages", install the following:
       - Microsoft.EntityFrameworkCore
       - Microsoft.EntityFrameworkCore.Proxies
       - Microsoft.EntityFrameworkCore.SqlServer
       - Microsoft.EntityFrameworkCore.Tools
 
-      *IMPORTANT:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
+      *IMPORTANT 1:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
 
    b. Open the Package Manager Console, select in the top right for "Default project" the ~Project.Data~, then input the *Scaffold-DbContext* command:
 
@@ -32,7 +34,9 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
         #+end_quote
 
-      - In ~Project.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
+      *IMPORTANT 2:* Only use it to update and add new tables when you have more than 2 or 3, ELSE is better no manually create the table class files and add the new propiertes inside.
+
+      - Otherwise in ~Project.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
         + In the OutputDir it's useful to change the name of the *Models* folder, to avoid affecting the existing files.
         + For cleaning and organization purpose the obsolete files are deleted and all it's saved in the original Model folder.
       - The ~DatabaseNameContext.cs~ file inside models it's used to configure the tables like Objects for later use.
@@ -67,7 +71,20 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
         #+end_src
 
-4. Install the Visual Studio extension *EF Core Power Tools*:
+        c. *IMPORTANT:* After generating the Models files, review the "ConnectionStrings" in the ~MainProjectName~, inside the ~appsettings~ file.
+           - The first line show us the connection with other servers and the last with the one in our computer.
+           - It's important to have this configuration right to avoid "Unhandled Exceptions" with new columns added.
+
+           #+begin_src csharp
+
+             "ConnectionStrings": {
+                 //"ConsultorioConnection": "Data Source=ServerName;Initial Catalog=TableName;User Id=UserName;Password=Example1234"
+                 "ConsultorioConnection": "Server=localhost;Database=ConsultorioDb;Integrated Security=true;MultipleActiveResultSets=true"
+             }
+
+           #+end_src
+
+4. The _Second Option_ is the Visual Studio extension *EF Core Power Tools*:
    a. Right click on the project, a EF Core Power Tools option appear then choose *Reverse Engineer*.
       - It generates POCO classes, derived DbContext and mappings for an existing database.
    b. A window appear then choose the button "Add".
@@ -112,7 +129,10 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
         #+end_src
 
-** Database Project
+
+** Back-up the database
+
+To back-up the database with all the tables for team work, use the Database Project.
 
 *** Compare
 
