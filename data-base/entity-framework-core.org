@@ -26,15 +26,21 @@ To bind the database to the application (MVC, Blazor, etc) with the Database-Fir
 
       *IMPORTANT 1:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
 
+      *IMPORTANT 2:* Ensure that ~Project.AppMain~ has a reference for ~Project.Data~ by Right Click > Add > Project Reference
+
    b. Open the Package Manager Console, select in the top right for "Default project" the ~Project.Data~, then input the *Scaffold-DbContext* command:
 
         #+begin_quote
 
-            PM> Scaffold-DbContext "Server=localhost;Database=DatabaseName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+            PM> Scaffold-DbContext "Server=localhost;Database=DatabaseName;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
         #+end_quote
 
-      *IMPORTANT 2:* Only use it to update and add new tables when you have more than 2 or 3, ELSE is better no manually create the table class files and add the new propiertes inside.
+      *IMPORTANT 3:* Since 2022 by the new features in 5.1 in [[https://learn.microsoft.com/en-us/sql/connect/ado-net/introduction-microsoft-data-sqlclient-namespace?view=sql-server-ver15#new-features-in-51][Microsoft.Data.SqlClient]] the ServerCertificate is mandatory, so for local use add the "TrustServerCertificate=True" a practice not recommended for production a remote servers.
+      In the latest cases you need to use [[https://letsencrypt.org][Let’s Encrypt]] and [[https://certbot.eff.org][Certbot]] to get a free certificate to enable HTTPS on your project (a detail [[https://stackoverflow.com/a/17658821/12044740][explanation]]).
+
+      *IMPORTANT 4:* Only use it for connection with a Database First approach, for test or a big data base with a lot of tables (more than 2 or 3).
+      ELSE to update and add just a few tables, is better to manually create the table class files and add the new propiertes inside.
 
       - Otherwise in ~Project.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
         + In the OutputDir it's useful to change the name of the *Models* folder, to avoid affecting the existing files.

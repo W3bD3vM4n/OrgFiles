@@ -12,6 +12,7 @@
   + [[Hechos][Hechos]]
   + [[Romanos][Romanos]]
   + [[1 Corintios][1 Corintios]]
+  + [[2 Corintios]]
 
 * Antiguo Testamento
 
@@ -1818,7 +1819,6 @@ Enderezad sus sendas."
       + dejando de lado las obras oscuras y acercandonos a la luz
       + andando honestamente y no provocar los deseos de la carne
 
-
 *** Cap. 14
 - Se habla sobre el trato a la persona que es débil de fe.
   + tenemos que recibirlo pero no para debatir sobre opiniones
@@ -1852,7 +1852,6 @@ Enderezad sus sendas."
     - sin saber aún el destino que Dios tenia para el,
       les pide su oración a sus hermanos en fe
 
-
 *** Cap. 16
 - El discipulo que realizaba las cartas, lleva a cabo un profundo saludo a sus colaboradores
 - Pablo advierte a los demas tener cuidado con aquellos quienes causen divisiones y tropiezos en la doctrina
@@ -1879,7 +1878,6 @@ Enderezad sus sendas."
     - para deshacer el orgullo y traer lo humilde a su presencia (por justificación, santificación y redención)
     - "El que se gloría, gloríese en el Señor."
 
-
 *** Cap. 2
 - Pablo comenta en su carta como no fue a ellos con sabiduria, sino con el testimonio de Dios
   + incluso admitiendo su humanidad por debilidad y temor
@@ -1887,7 +1885,6 @@ Enderezad sus sendas."
   + este es el único capaz de conocer las cosas de Dios
   + nosotros (los creyentes) hemos recibido ese Espíritu
   + el entendimiento no es carnal sino espiritual
-
 
 *** Cap. 3
 - Se refiere a los hermanos de fe de esa iglesia como inmaduros aún (enfocados en su carne y no en espíritu)
@@ -1898,7 +1895,6 @@ Enderezad sus sendas."
   + son el templo de Dios porque su Espíritu mora en ellos
     - y si alguno lo destruye solo se estan destruyendo a ellos mismos
     - son de Cristo asi como el del Padre
-
 
 *** Cap. 4
 - Pablo habla sobre los apóstoles como administradores de los ministerios (creyentes)
@@ -1912,7 +1908,6 @@ Enderezad sus sendas."
     - les habla como un padre que se preocupa de sus hijos (alegoricamente)
     - y envia a Timoteo, pero espera verlos pronto para reprender si es necesario
 
-
 *** Cap. 5
 - Se trata el tema de la fornicación existente.
   + incluso un caso escandaloso de un hombre que se acosto con su madrastra
@@ -1923,7 +1918,6 @@ Enderezad sus sendas."
   + les esta permitido llevarse con pecadores del mundo para mostrarles el camino
     - más no asi de aquellos creyentes que son fornicadores, avaras, idolatras, maldicientes o borrachos
     - a los pecadores del mundo Dios juzgara pero ellos deben hacerlos de quien esta adentro
-
 
 *** Cap. 6 (por leer Cap. 7)
 - Les pregunta porque llevan sus litigios frente a las personas del mundo al fin que con ellos mismos?
@@ -1956,7 +1950,6 @@ Enderezad sus sendas."
     - resultando en hijos santos por este hecho
   + a su parecer aquel sin esposo/a puede dedicarse más a agradar al señor que a su conyugue
 
-
 *** Cap. 8
 - Pablo habla sobre la comida ofrecida a creados por el hombre ídolos
   + mientras el conocimiento se convierte en vanidad, el amor infunde piedad y virtud
@@ -1973,7 +1966,6 @@ Enderezad sus sendas."
     - "Por lo cual, si la comida le es a mi hermano ocasión de caer, no comeré carne jamás,
       para no poner tropiezo a mi hermano."
 
-
 *** Cap. 9
 - En los derechos de un apóstol se habla sobre la norma para la cual se rigen
   + en comidas, matrimonio, y trabajo
@@ -1989,7 +1981,6 @@ Enderezad sus sendas."
   + siendo libre Pablo se hizo siervo de todo para ganar a mayor número
     - tanto judios, con ley, sin ley, débiles, etc
     - de esta manera salvar a algunos por causa del evangelio
-
 
 *** Cap. 10
 - Se recuerda una vez más el castigo de Dios frente a los idolatras
@@ -2013,8 +2004,231 @@ Enderezad sus sendas."
     - pero si se lo hace concientemente ahi recae el problema, hay que negarse
     - "Si, pues, coméis o bebéis, o hacéis otra cosa, hacedlo todo para la gloria de Dios."
 
+*** Cap. 11
+- Señala una jerarquía al tratar el tema de las mujeres.
+  + Dios Padre -> Jesús -> Hombre -> Mujer
+    + el arreglo personal de los hombres con la cabeza descubierta y las mujeres cubierta
+      - se muestra como señal de autoridad
+      - igualmente el hombre con pelo corto y la mujer con largo
+    + a pesar de eso les recuerda:
+      "Pero en el Señor, ni el varón es sin la mujer, ni la mujer sin el varón;"
+    + y que si alguno quiere seguir sus propios deseos, no es costumbre de las iglesias de Dios
+- Habla sobre las divisiones que se causan durante las cenas dedicadas al Señor
+  + estas tienen que ser como grupo y no cada cual por su lado
+  + y que si quieren hacerlo asi, mejor lo hagan en su casa
+  + que si se ubieran examinado a si mismo no se les juzgaria
+    - aunque es util, ya que los desacuerdos separan los buenos de los malos
+    - sin embargo es necesario para corregir su camino y ser condenados
 
-*** Cap. 11 (por leer Cap. 12)
+*** Cap. 12
+- De los "Dones espirituales" y su diversidad, aunque el Espíritu es el mismo.
+  + sabiduría, ciencia, fe, sanidad, milagros, profecía, discernimiento de espíritus, lenguas e interpretación
+  + son repartidas a cada uno como sean consideradas
+    - y aunque el cuerpo es uno, los miembros de este son varios
+    - que no todos pueden ser lo mismo y que necesitan uno del otro
+      + incluso los que parecen ser los más débiles, dignos o decorosos
+      + Dios le da más honor al que le falta
+  + "De manera que si un miembro padece, todos los miembros se duelen con él,
+     y si un miembro recibe honra, todos los miembros con él se gozan."
+  + puestos son en la iglesia en orden:
+    apóstoles -> profetas -> maestros -> hacedores de milagros -> sanadores -> ayudantes -> administradores -> don de lenguas
+
+*** Cap. 13
+- Que todos esos dones sin amor, provocan que uno se vuelve defectuoso, vacio e inutil.
+  + "El amor es sufrido, es benigno;
+     el amor no tiene envidia, el amor no es jactancioso, no se envanece;
+     no hace nada indebido, no busca lo suyo, no se irrita, no guarda rencor;
+     no se goza de la injusticia, mas se goza de la verdad.
+     Todo lo sufre, todo lo cree, todo lo espera, todo lo soporta."
+  + tambien trata sobre el paso del tiempo, el cambio y como estos quedan de lado
+    "Cuando yo era niño, hablaba como niño, pensaba como niño, juzgaba como niño;
+     mas cuando ya fui hombre, dejé lo que era de niño."
+  + y como entre la fe, esperanza y amor, este último es el mayor
+
+
+*** Cap. 14
+- Pablo continua alentando a seguir el amor y da una importancia significativa al don de la profecia.
+  + señala que aunque las lenguas edifican el espiritu de quien posee el don
+  + no sirve de mucho para los demás sin alguien que lo interprete
+    - y hace creer a personas incrédulas que se ha enloquecido
+    - los dones tienen que ser para edificar a la iglesia
+  + es preferible hablar pocas palabras que se entiendan, que muchas incomprensibles
+    - en cambio con la profecia se puede llegar a lo que oculta el corazón
+    - pudiendo abrir el paso a Dios
+  + recomienda que se evite usar varios dones a la vez, sino pocos y por turnos
+    - ya que puede causar confusión y se pierde el proposito de estos
+      + con lenguas sino hay intérprete, mejor callar y hablar para sí mismo
+    - aprender y ser exhortados, ya que Dios no busca confundirnos
+  + tambien habla de un punto que puede ser controversial sobre que las "mujeres callen en las congregaciones"
+    - ya que están sujetas de acuerdo a la ley
+    - y si desean aprender algo que pregunten en su casa a los esposos
+
+
+*** Cap. 15
+- Anima a perseverar en el evangelio y guardar en la palabra
+  + que este les transmitio todo lo que el mismo recibio
+    - la muerte de Jesús por los pecados de todos, su sepulcro y resurrección
+    - sobre las personas a las que se mostro, a sus apóstoles y 500 personas más
+  + el se incluye en este relato señalando que es el menor de ellos
+    - cuenta sus pecados pasados al perseguir a la iglesia
+    - y que incluso asi, Dios lo redimio
+  + al decir que no hay resurrección de los muertos se niega el acto de Jesús
+    - si esto fuera verdad la fe que tienen es vana
+    - porque sus pecados no fueron perdonados
+    - y deberian verse con pena ante los demás hombres
+  + pero este no es el caso, y hay un orden en la resurrección
+    - Jesús y luego aquellos que creyeron en él
+    - posteriormente el fin cuando este entre el reino a Dios Padre
+    - este destruira todo dominio, autoridad y potencia
+  + les pide que no corrompan sus buenas costumbres y no pequen
+  + y que el cuerpo con que se volverá no es terrenal sino celestial
+    - ya que el terrenal lleva corrupción aún
+    - la corrupción se volvera incorrupción como lo mortal se hará inmortal
+
+
+*** Cap. 16
+- Habla sobre la ofrenda que se da en la iglesia
+  + "Cada primer día de la semana cada uno de vosotros ponga aparte algo,
+     según haya prosperado, guardándolo"
+- Relata sus planes de viaje y su deseo de quedarse con ellos por un tiempo
+  + porque sus adversarios son muchos
+  + que reciban igual de bien a Timoteo
+- Se despide pidiendoles que se guarden y esten firmes en la fe
+  + que se comporten bien y se esfuercen igualmente
+  + tambien que se sujeten a personas que ayudan y trabajan con los santos
+
+
+** 2 Corintios
+
+*** Cap. 1
+- Pablo cuenta que es Dios Padre quien nos consuela en nuestras tribulaciones.
+  + asi nosotros podemos consolar a los demás
+  + de la consolación se llega a la salvación
+    - en momentos dificiles se confia en Dios más que en uno mismo
+  + acompañandonos unos a otros en buenos como malos tiempo
+  + era necesario que los demás creyentes vieran las dificultades de los apóstoles y discipulos,
+    de como eran superadas por intervención divina
+- Conducimos nuestra conciencia no por nuestra sabiduria, sino por la gracia de Dios
+  + asi mismo el modo de actuar, siendo unos la gloria de otros
+  + Pablo queria viajar nuevamente a Corintios teniendo esto en mente
+    - pasando por algo de duda en su descisión
+    - sin embargo para Jesús no hay tal duda solo un SI en su actuar
+    - más por indulgencia se abstuvo para no pisar sobre ellos
+
+
+*** Cap. 2
+- Pablo no queria ir a ellos con tristeza y lágrimas por el amor que les tiene.
+  + por las acciones que tuvieron lugar, deberia ser más una tristeza colectiva
+  + Pablo perdona a quien les ha ofendido, pidiendoles que despues de la reprensión le presten consuelo
+  + que no le gane la tristeza sino que sea firme su amor por él
+    - de esa manera no se lo pierda con el maligno
+
+
+*** Cap. 3
+- Cada uno es una muestra del poder de Jesús en nuestra carne, espíritu y corazón
+  + siendo competente en nuestro ministerio por medio de Dios en *el nuevo pacto*
+  + el ministerio del espíritu es por justificación
+  + compara *el antiguo pacto* de Moises para su pueblo el cual revelo solo ciertas cosas
+    - lo que provoco un estancamiento en Israel en conocer la verdad
+    - este velo fue quitado por Cristo proveyendo libertad
+
+
+*** Cap. 4
+- Teniendo ese ministerio les alienta a no desmayar, dejando el mal y no adulterando el mensaje.
+  + porque si su evangelio queda oculto asi tambien para los que se pierden
+    - permaneciendo oculto el entendimiento para los incrédulos
+  + no es la predica de cada persona como individuo sino el enfoque debe ser en Jesús
+    - y los predicadores como siervos de quienes predican
+    - es por su amor que este conocimiento ilumina nuestros corazones
+- Todo ese conocimiento y poder se los despliega con humildad
+  + porque es Dios como la fuente a quien se alaba más que a quien lo porta
+  + nosotros en nuestra humanidad pasamos por varios momentos
+    "que estamos atribulados en todo, mas no angustiados;
+    en apuros, mas no desesperados;
+    perseguidos, mas no desamparados;
+    derribados, pero no destruidos;
+    llevando en el cuerpo siempre por todas partes la muerte de Jesús,
+    para que también la vida de Jesús se manifieste en nuestros cuerpos."
+  + aunque externamente nuestro cuuerpo se desgaste, internamente nos renovamos cada día
+    - es la tribulación momentanea la que produce gloria
+    - "no mirando nosotros las cosas que se ven,
+      sino las que no se ven;
+      pues las cosas que se ven son temporales,
+      pero las que no se ven son eternas."
+
+
+*** Cap. 5
+- Pablo habla de nuestra morada en el cielo cuando la terrenal acabe.
+  + de como es un anhelo llegar ahi y estar cerca del Señor
+  + que aunque presentes o ausentes seamos agradables a él
+    - se nos juzgara de acuerdo a lo que hicimos en cuerpo
+- La persuación a los hombres se hace pensando con respeto hacia el Señor
+  + no viviendo para nosotros sino para él, gloriandonos en el corazón
+  + en este ministerio de reconciliación
+    "si alguno está en Cristo,
+    nueva criatura es;
+    las cosas viejas pasaron;
+    he aquí todas son hechas nuevas"
+    - Dios nos reconcilió consigo mismo por Cristo
+    - se nos pide que nos reconciliemos con Dios por nuestros pecados
+
+
+*** Cap. 6
+- De no aceptar en vano la gracia de Dios
+  + que como ministros de Dios no se busca causar tropiezo a los demás
+    - "en mucha paciencia, en tribulaciones, en necesidades, en angustias;
+      en azotes, en cárceles, en tumultos, en trabajos, en desvelos, en ayunos;
+      en pureza, en ciencia, en longanimidad, en bondad, en el Espíritu Santo,
+      en amor sincero, en palabra de verdad, en poder de Dios,
+      con armas de justicia a diestra y a siniestra;
+      por honra y por deshonra, por mala fama y por buena fama;
+      como engañadores, pero veraces; como desconocidos, pero bien conocidos;
+      como moribundos, mas he aquí vivimos; como castigados, mas no muertos;
+      como entristecidos, mas siempre gozosos; como pobres,
+      mas enriqueciendo a muchos; como no teniendo nada, mas poseyéndolo todo."
+  + que no solo abrán su corazón a los disicipulos de Jesús sino a ellos mismos
+- Que eviten casarse con no creyentes pues causara muchos problemas con su fé
+  + compara el compañerismo y concordancia inexistentes entre opuestos
+  + ya que nosotros somos el templo del Dios viviente
+
+
+*** Cap. 7
+- Pablo les pide que ante las promesas dadas por el Señor busquemos una pureza física como espiritual.
+  + a travez del perfeccionamiento de la santidad basada en el respeto a Dios
+- Este testifica que sus intenciones para el reproche fueron puras
+  + sin agravio, corrupción o engaño
+  + que sus palabras fueron dichas con amor y verdad
+    - estando lleno de consolación ante las tribulaciones
+  + recordando las tribulaciones que el y sus hermanos tuvieron en su arrivo
+    - sin embargo Dios los consoló con la venida de Tito
+    - más aun con el mensaje que traía sobre los miembros de la iglesia
+      + estos mostraron afecto, llanto y ante lo pedido enmendaron su camino
+  + a pesar de la tristeza de la primera carta de Pablo esta tuvo efecto
+    - resalta que la tristeza por Dios produce arrepentimiento y salvación
+    - más la tristeza del mundo produce muerte (por sus consecuencias)
+  + asi tambien se goza del cariño, obediencia y temor con que recibieron a Tito
+    - mostrando una verdadera solicitud hacia Dios
+
+
+*** Cap. 8
+- Tambien les informan de la gracia de Dios demostrada en las iglesias de Macedonia
+  + que ante tribulación abundaron en gozo y a pesar de su pobreza abundaron en generosidad
+  + ofrendando para los necesitados incluso más alla de sus capacidades
+    - solicitando que se les permita ofrendar a pesar de su situación
+  + mostrandoles que asi como abundaban en otros dones (fe, palabra, ciencia, etc)
+    - tambien lo hagan con sus ofrendas, no por obligación sino por amor
+    - que algo que empezo como un deseo se convierta en acción
+    - cumpliendo conforme a las capacidades de cada uno
+  + de esa manera cuando otros necesiten ellos lo suplan y viceversa (en igualdad)
+  + y que por la voluntad de Tito asi como partio para los Corintios asi lo hará para las iglesias
+    - este lo hará acompañado por otro hermano como compañero de peregrinación
+    - de esa manera se encargaran del envio del donativo previniendo cualquier censura de terceros
+      + por transparencia en cuanto al dinero recibido y entregado
+      + mostrando honradez frente al Señor como a los hombres
+  + les pide que muestren ese amor por los hermanos, mensajeros, asi como por las iglesias
+
+
+*** Cap. 9 (por leer Cap. 10)
 -
 
 
