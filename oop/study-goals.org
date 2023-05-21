@@ -20,31 +20,29 @@
 
 ** Work week
 
-SEMANA DEL 23 A 29 DE ENERO DEL 2023
+SEMANA DEL 15 A 21 DE MAYO DEL 2023
 
 *** Programación
 
-- práctica #1: ASP.Net Core Blazor (*Hussein*) [active]
-  + terminar la aplicación del Consultorio Médico
+- práctica #1: ASP.Net Core MVC (*Hussein*) [active]
+  + terminar la aplicación CRUD que consuma la API
+- tutorial:
+  + revisión de playlist de Kudvenkat [active]
 - documentación:
-  + revisión del libro "The C# Workshop" [active]
+  + revisión del libro "The C# Workshop" [pause]
 
-- practica #3: Clojure [active]
-  + experimentacion con el REPL
+- practica #2: DevOps [active]
+  + formar el roadmap llenando el contenido y practicando
 - documentación:
-  + revisión de la documentación de [[https://clojure.org/guides/learn/syntax][Clojure.org]] [active]
+  + revisión de la documentación online [active]
 
 - eficiencia
   + hacer que funcione de *cualquier forma* el programa
     - luego aplicar el principio SOLID (al trabajar)
-  + sandbox #1: Visual Studio [pause]
-    - todas sus herramientas
-  + sandbox #2: Doom Emacs [active]
-    - como IDE y demas capacidades
 
 *** Progeso
 
-- pesimo (--/10)
+- calificación (--/10)
   + falta de delimitación y cumplimiento del horario
     - socializar queda para el fin de semana
   + salir más de 2 veces por semana, cansan cuerpo y mente
@@ -57,16 +55,13 @@ SEMANA DEL 23 A 29 DE ENERO DEL 2023
 *** Hobbies
 
 - obligatorios
-  + gym       [25%]
-  + biblia    [23%]
+  + biblia         [25%]
+  + gym            [25%]
 - activos
-  + go        [2%]
-- en pausa
-  + rubik
-  + linux
+  + videojuegos    [5%]
 
 ** Next week
 
-SEMANA DEL 30 DE ENERO A 05 DE FEBRERO DEL 2023
+SEMANA DEL 22 DE MAYO A 28 DE MAYO DEL 2023
 
 - darle prioridad a los temas enseñados por Hussein y su práctica

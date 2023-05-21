@@ -93,4 +93,3 @@ The schedule's fulfillment is the corner stone of your path, plus:
 **** Documentation Order:
 
 - [[file:~/org/emacs/elisp-basics.org][Elisp basics]]
-- [[file:~/org/functional/common-lisp.org][Common Lisp]]
