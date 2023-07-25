@@ -1,0 +1,195 @@
+#+title:    Operating Systems & Linux Basics
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 1 (Essentials)
+
+** Week 02
+
+  - *Introduction to Operating Systems*
+    + /What is an OS and how does it work?/
+       It's a system software that manages interactions between software and hardware.
+
+    + /Tasks of an OS/
+      - Processor management
+      - Memory management
+      - File and backing storage management
+      - Inputs, outputs, and interrupts
+      - Device drivers
+      - Security
+      - User interfaces
+
+    + /How an OS is constructed/
+      Consist of two main parts:
+
+      - The kernel, the first program loaded when the computer starts up (the heart of the OS).
+      - System programs, it connect the kernel to user applications and peripheral devices.
+
+    + /How different OSs, like Unix, Linux, Windows and MacOS differ from each other/
+
+      - Unix: is a family of open-source/propietary operating systems, derived from AT&T Unix, since 1969.
+      - Linux: is a family of open-source operating systems, similar to Unix with a Linux kernel, since 1991.
+      - Windows: is a family of propietary operating systems, based on Xenix (Unix) and MS-DOS/OS2/Windows 9x, since 1993.
+      - MacOs: is a family of propietary operating systems, based on NeXTSTEP/BSD (Unix), since 2001.
+
+
+  - *Virtualization*
+    + /Introduction to Virtual Machine/
+      It's a virtual representation (guest) of a physical computer (host), using the resources of the latter.
+
+    + /Setup a Linux Virtual Machine/
+      1. Download and install a Linux distribution (Ubuntu)
+      2. Install a VM software in your PC
+      3. Create a VM assigning the OS, storage and memory
+      4. Start the VM with the OS selected
+      5. Try or install the OS
+
+
+  - *Package Manager - Installing Software*
+    + /What is a Package Manager and what are Software Repositories?/
+      - Package Manager: Is a tool that allows users to manage software packages on an OS.
+      - Software Repositories: is a storage location for software packages.
+
+    + /Learn all the options of installing software on Linux and how it all actually works in the background:/
+      - =APT=
+        Advanced Package Tool, works with core libraries to manage software on Debian-based Linux distributions (.deb files). It automate the retrieval, configuration and installation of software packages, either from precompiled files or by compiling source code.
+
+      - =APT vs APT-GET=
+        Apt is the modern equivalent to older tools like Apt-get and Dpkg, offering more features and functions with increased flexibility and power. But because of compatibility issues, Apt-get is still widely used in current Ubuntu releases.
+
+      - =SNAP=
+        It's a software packaging and deployment system. The self-contained packages (.snap files) work across a range of Linux distributions (not only for a specific one).
+
+      - =Ubuntu Software Center=
+        It's a discontinued high-level graphical front end for the APT/dpkg package management system.
+        GNOME Software (the current one) is used to manage software repositories, it doesn't provide snap support.
+
+      - =YUM=
+        It's a front-end for the RPM package manager, working through the use of software repositories (.rpm files).
+
+
+  - *Working with Vim Editor*
+    + /What is Vim?/
+      It's is an advanced text editor that provides the power of the de-facto Unix editor 'Vi', with a more complete feature set.
+
+    + /Learn most important Vim Commands to work with Vim efficiently/
+      [[file:~/org/emacs/evil-basics.org][Vim Commands]]
+
+  - *Users & Permissions*
+    + /Linux Accounts/
+      Accounts help you to manage access control and security on the system, there are four main types:
+      1. Superuser Account, or root has unlimited access and control.
+      2. Regular Accounts, have limited access and control.
+      3. System Accounts, are created when an OS is installed, to run its components. (It doesn't have superuser privileges, a home directory or shell)
+      4. Service Accounts, are created when a service/app is installed, to manage its activities. (It doesn't have superuser privileges, a home directory or shell)
+
+    + /Users, Groups & Permissions/
+      - User, created for access and permissions, there are two types: human and system.
+      - Group, is a collection of users with the same permissions (they can belong to more than one group).
+      - Permission, fall in three categories: read, write, and execute.
+
+    + /User Management in Practice/
+
+
+    + /File Ownership & Permissions/
+
+
+    + /Modifying Permissions/
+
+
+
+  - *Linux File System*
+
+
+
+  - *Basic Linux Commands*
+    + /Introduction to Command Line Interface/
+
+
+    + /Learn all the essential Linux Commands like/
+      - =Directory Operations=
+
+
+      - =Navigating the Files System=
+
+
+      - =Work with the File System (Create folders, list files, rename, remove files etc.)=
+
+
+      - =Execute Commands as Superuser=
+
+
+      - =Pipes, Redirects, Less, Grep=
+
+
+
+  - *Shell Scripting*
+    + /Shell vs sh vs Bash/
+
+
+    + /Write & execute a simple script/
+
+
+    + /Learn how to write Bash Scripts/
+      - =Variables=
+
+
+      - =Conditional Statements=
+
+
+      - =Basic Operators=
+
+
+      - =Passing Arguments to a Script to make it customizable and reusable=
+
+
+      - =Read user input=
+
+
+      - =Repeating code with shell loops=
+
+
+      - =Functions=
+
+
+
+  - *Environment Variables*
+    + /What are environment variables and how to access them/
+
+
+    + /Create, Delete and Persist Env Variables/
+
+
+    + /Understand what the PATH env variables is/
+
+
+
+  - *Networking*
+    + /How computer networks work?/
+
+
+    + /What is LAN, Switch, Router, Subnet, Firewall, Gateway/
+
+
+    + /What is an IP address and port?/
+
+
+    + /What is a DNS and how does DNS resolution work?/
+
+
+    + /Useful Networking Commands/
+
+
+
+  - *SSH - Secure Shell*
+    + /What is SSH and how it works/
+
+
+    + /SSH in Action:/
+      - =Create Remote Server on Cloud=
+
+
+      - =Generate SSH Key Pair=
+
+
+      - =Execute a bash script on a remote machine=

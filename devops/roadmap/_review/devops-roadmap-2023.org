@@ -1,0 +1,89 @@
+#+title:    DevOps Roadmap 2023
+#+author:   h4ss4n
+#+date:     <2023-06-12 lun.>
+
+* Design by Milan Milanovic
+
+** Index
+
+- [[Roadmap][Roadmap]]
+
+** Roadmap
+
+*** 1.GIT
+- Base commands
+- Pull request
+- Branching
+- Merging
+
+*** 2.Programming Language
+- Python [x]
+- Go
+- JavaScript [x]
+
+*** 3.Linux
+- Shell commands
+- File System
+- Networking
+- Virtualization
+- POSIX
+
+*** 4.Networking & Security
+- OSI Model
+- DNS
+- HTTP
+- SSH
+- Security tools
+
+*** 5.Server management
+- Reverse Proxy
+- Caching Server
+- Firewall
+- Web Server
+
+*** 6.Containers
+- Running containers
+- Docker files
+- Networking
+- Docker-Compose
+
+*** 7.Orchestration
+- Components
+- CLI
+- Namespaces
+- Administer
+- Deployment
+
+*** 8.Infrastructure as a code
+- Infrastructure provisioning
+- Configuration management
+- Servicie Mesh
+
+*** 9.CI/CD
+- Setup server
+- Integration
+- Pipeline tools
+
+*** 10.Monitoring & Observability
+- Infrastructure monitoring
+- Application monitoring
+- Logs management
+- OpenTelemetry
+
+*** 11.Cloud provider
+- IAAS, PAAS, SAAS
+- Availability
+- Design and implementation
+- Management
+
+*** 12.Software Engineering Practices
+- Scrum
+- Backlog management
+- Built-In Quality
+- Communication
+- Troubleshooting
+
+
+** Source
+
++ https://github.com/milanm/DevOps-Roadmap

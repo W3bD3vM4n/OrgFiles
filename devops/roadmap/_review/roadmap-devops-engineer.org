@@ -1,0 +1,140 @@
+#+title:    Roadmap for DevOps Engineer
+#+author:   h4ss4n
+#+date:     <2023-06-13 mar.>
+
+* Design by Anonymous
+
+** Index
+- [[Simbology][Simbology]]
+- [[Learn for DevOps][Learn for DevOps]]
+- [[Keep Learning][Keep Learning]]
+
+
+** Simbology
+
+[1] Alternatives
+[2] Essential
+[3] Not essential but good to learn
+
+
+** Learn for DevOps
+
+*** Languages
+
+- Python [2]
+- Ruby [1]
+- JS / Node.js [1]
+- Go [2]
+- Rust [1]
+
+*** Understand different OS Concepts
+
+- Networking [2]
+- Sockets [2]
+- POSIX [2]
+- Processes [2]
+
+- I/O Management [2]
+- Virtualization [2]
+- Memory/Storage [2]
+- File Systems [2]
+
+- Startup Management (initd) [2]
+- Service Mgmt. (systemd) [2]
+- Threads and Concurrency [2]
+
+*** Managing Servers
+
+- Operating System [2]
+- Learn to live in Terminal [2]
+
+*** Networking, Security and Protocols
+
+- HTTP [2]
+- HTTPS [2]
+- FTP / SFTP [2]
+- SSL / TLS [2]
+- SSH [2]
+- Port Forwarding [2]
+
+*** What is and how to setup a _____ ?
+
+- Reverse Proxy [2]
+- Forward Proxy [2]
+- Firewall [2]
+- Caching Server [2]
+- Load Balancer [2]
+- Web Server [2]
+
+*** Infrastructure as Code
+
+**** Infrastructure Provisioning
+
+- Docker [2]
+- LXC [1]
+
+**** Containers
+
+- Terraform [2]
+- AWS CDK [1]
+- CloudFormation [1]
+- Pulumi [1]
+
+*** Learn some CI/CD Tool
+
+- Circle CI [2]
+- Drone [1]
+- Azure DevOps Services [1]
+
+- Gitlab CI [2]
+- Jenkins [2]
+- GitHub Actions [2]
+- Travis CI [1]
+- TeamCity [1]
+
+*** Learn how to monitor software and infrastructure
+
+**** Application Monitoring
+
+- Jaeger [2]
+- New Relic [2]
+- AppDynamics [1]
+- Instana [1]
+- OpenTelemetry [1]
+
+**** Logs Management
+
+- Elastic Stack [2]
+- Splunk [1]
+- Graylog [1]
+- Papertrail [1]
+- Loki [2]
+
+**** Infrastructure Monitoring
+
+- Prometheus [2]
+- Nagios [1]
+- Grafana [2]
+- Zabbix [1]
+- Monit [1]
+- Datadog [2]
+
+*** Cloud Providers
+
+- AWS [2]
+- Alibaba Cloud [1]
+- Google Cloud [2]
+- Digital Ocean [2]
+- Azure [1]
+- Linode [1]
+- Heroku [1]
+- Vultr [1]
+
+*** Cloud Design Patterns
+
+- Availability [3]
+- Data Management [3]
+- Design and Implementation [3]
+- Management and Monitoring [3]
+
+** Keep Learning

@@ -1,0 +1,36 @@
+#+title:    Introduction to DevOps
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 1 (Essentials)
+
+** Week 01
+
+  - *What is DevOps?*
+    It's a software development process that helps to improve the collaboration between ‘Development’ (developers) and IT ‘Operations’ (operators), to automate software production and deployment, helping to increase the organization’s speed.
+
+
+  - *Roles and Responsibilities of a DevOps Engineer*
+    They are responsible for the production, maintenance and management of a software application’s platform, by:
+
+    + perform system troubleshooting and problem-solving across platform and application domains
+    + manage project effectively through open, standards-based platforms
+    + increase project visibility thought traceability
+    + improve quality and reduce development cost with collaboration
+    + analyse, design and evaluate automation scripts & systems
+    + ensure critical resolution of system issues by cloud security solutions services
+    + soft skill of problem-solver and quick-learner
+
+
+  - *How DevOps fits in the whole Software Development lifecycle*
+
+    ··· >> [Code] >> [Build] >> [Test] >> [Release] >> [Deploy] >> [Operate] >> [Monitor] >> [Plan] >> ···
+
+    There are three phases of software products:
+
+    + The Development Phase:
+      Developers create the code for the application. They work with operators to test and deploy the application to a staging or production environment.
+    + The Deployment Phase:
+      Operators deploy the application to a production environment. They may also perform maintenance tasks on the application.
+    + The Operations Phase:
+      Operators monitor and manage the application in production.

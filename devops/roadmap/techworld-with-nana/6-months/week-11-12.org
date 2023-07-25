@@ -1,0 +1,69 @@
+#+title:    AWS Services
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 3
+
+** Week 11-12
+
+  - *Introduction to Amazon Web Services*
+
+
+  - *Identity & Access Management (IAM) - User, Groups and Permissions*
+
+
+  - *Regions and Availability Zones*
+
+
+  - *Virtual Private Cloud (VPC) - Your Private Network*
+    + /Subnets/
+
+
+    + /Security Groups/
+
+
+    + /Internet Gateway/
+
+
+    + /Route Table/
+
+
+    + /CIDR Blocks/
+
+
+  - *Introduction to Elastic Compute Cloud (EC2)*
+    + /Create an EC2 Instance/
+
+
+    + /Run Webapplication on EC2 using Docker/
+
+
+  - *AWS Command Line Tool*
+    + /Install and configure AWS CLI/
+
+
+    + /Create EC2/
+
+
+    + /Create Security Group/
+
+
+    + /Create key-pair/
+
+
+    + /Create IAM user with permissions/
+
+
+
+  - *AWS & Jenkins - Continuous Deployment with Jenkins to AWS EC2*
+    + /Automate deploying from Jenkins Pipeline to EC2 Intance/
+      - =using docker run=
+
+
+      - =using docker-compose=
+
+
+    + /Real-life example of dynamically setting new image version in docker-compose/
+
+
+    + /SSH agent plugin and SSH credential type in Jenkins/

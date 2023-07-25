@@ -1,0 +1,27 @@
+#+title:    Lista Peliculas
+#+author:   h4ss4n
+#+date:     <2022-08-15 lun.>
+
+* To watch
+
+** Classic
+- Breakfast at Tiffany's [1961]
+- Casablanca [1942]
+- Charade [1963]
+- Dr. Strangelove [1964]
+- Gaslight [1944]
+- Gone With The Wind [1939]
+- My Fair Lady [1964]
+- Rope [1948]
+- The Hustler [1961]
+- The Seventh Seal [1957]
+- To Kill A Mockingbird [1962]
+- Twelve O´Clock High [1949]
+- Spellbound [1945]
+
+** Current
+- Lost in Translation [2003]
+- Solitary Man [2009]
+- The Wizard Of Lies [2017]
+- Up in the Air [2009]
+- When The Wind Blows [1986]

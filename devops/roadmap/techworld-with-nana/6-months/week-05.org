@@ -1,0 +1,22 @@
+#+title:    Cloud & Infrastructure as a Service Basics
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 2
+
+** Week 05
+
+  - *Cloud & Infrastructure as a Service Concepts*
+
+
+  - *Working with a cloud server:*
+    + /Setup Server on DigitalOcean (Droplet)/
+
+
+    + /Install Java on Cloud Server/
+
+
+    + /Deploy and run an application on Cloud Server/
+
+
+    + /Create a Linux User to login to Server (instead of using Root User)/

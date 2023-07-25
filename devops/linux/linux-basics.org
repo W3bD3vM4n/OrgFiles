@@ -1,0 +1,15 @@
+#+title:    Linux Basics
+#+author:   h4ss4n
+#+date:     <2023-07-20 jue.>
+
+* Linux OS (Distribution Agnostic)
+
+** Index
+
+- Terminal
+  + Basic Commands
+
+
+** Terminal
+
+*** Basic Commands

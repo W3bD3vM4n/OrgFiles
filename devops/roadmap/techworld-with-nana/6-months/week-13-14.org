@@ -1,0 +1,93 @@
+#+title:    Container Orchestration with Kubernetes
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 4
+
+** Week 13-14
+
+  - *Introduction to Kubernetes*
+
+
+  - *Understand the main Kubernetes Components*
+    + /Node, Pod, Service, Ingress, ConfigMap, Secret, Volume, Deployment, StatefulSet/
+
+
+  - *Kubernetes Architecture*
+
+
+  - *Minikube and kubectl - Local Setup*
+
+
+  - *Main Kubectl Commands - K8s CLI*
+    + /Create and debug Pod in a Minicluster/
+
+
+  - *Kubernetes YAML Configuration File*
+    + /Create and Configure Deployment and Service Component/
+
+
+  - *Demo Project: MongoDB and MongoExpress*
+
+
+  - *Organizing your components with K8s Namespaces*
+
+
+  - *Kubernetes Service Types*
+
+
+  - *Making your App accessible from outside with Kubernetes Ingress*
+
+
+  - *Persisting Data in Kubernetes with Volumes*
+    + /Persistent Volume/
+
+
+    + /Persistent Volume Claim/
+
+
+    + /Storage Class/
+
+
+  - *ConfigMap and Secret Kubernetes Volume Types*
+
+
+  - *Deploying Stateful Apps with StatefulSet*
+
+
+  - *Deploying Kubernetes cluster on a Managed Kubernetes Service (K8s on Cloud)*
+
+
+  - *Helm - Package Manager of Kubernetes*
+
+
+  - *Helm Demo: Install a Stateful Application on Kubernetes using Helm*
+
+
+  - *Demo: Deploy App from Private Docker Registry*
+
+
+  - *Extending the Kubernetes API with Operator*
+
+
+  - *Prometheus Operator Demo with Helm: Setup Prometheus Monitoring in K8s*
+
+
+  - *Secure your cluster - Authorization with Role Based Access Control (RBAC)*
+
+
+
+  - *Microservices in Kubernetes*
+    + /Introduction to Microservices/
+
+
+    + /Demo project: Deploy Microservices Application/
+
+
+    + /Demo project: Create common Helm Chart for Microservices/
+
+
+    + /Demo project: Deploy Microservices with helmfile/
+
+
+    + /Production & Security Best Practices/

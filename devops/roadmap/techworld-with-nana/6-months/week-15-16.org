@@ -1,0 +1,55 @@
+#+title:    Kubernetes on AWS - EKS
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 4
+
+** Week 15-16
+
+  - *AWS & Kubernetes*
+    + /AWS Container Services: Overview (ECR, ECS, EKS, Fargate)/
+
+
+    + /Create an EKS cluster with AWS Management Console (UI)/
+      - =Create cluster VPC=
+
+
+      - =Create cluster Roles=
+
+
+      - =Use Cloudformation Stack=
+
+
+      - =EC2 Worker Nodes=
+
+
+      - =Fargate Profile=
+
+
+      - =Configure Austoscaler=
+
+
+      - =Configure kube context to connect to the cluster=
+
+
+    + /Create an EKS cluster with eksctl (the easy way)/
+
+
+
+  - *AWS & Kubernetes & Jenkins & Docker - CI/CD*
+    + /Configure kubectl inside Jenkins/
+
+
+    + /Configure kube context in Jenkins/
+
+
+    + /Install aws-iam-authenticator in Jenkins/
+
+
+    + /Complete Jenkins Pipeline - Deploy to EKS - using kubectl/
+
+
+    + /Complete Jenkins Pipeline - Build and push docker image to ECR and deploy to EKS/
+
+
+    + /Complete Jenkins Pipeline - Deploy to LKE using Kubernetes CLI plugin and kubeconfig file/

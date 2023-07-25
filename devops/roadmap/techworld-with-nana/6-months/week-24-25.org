@@ -1,0 +1,48 @@
+#+title:    Monitoring with Prometheus
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 6
+
+** Week 24-25
+
+  - *Introduction to Monitoring with Prometheus*
+
+
+  - *Install Prometheus Stack in Kubernetes*
+
+
+  - *Data Visualization with Prometheus UI*
+
+
+  - *Introduction to Grafana*
+
+
+  - *Alert Rules in Prometheus*
+
+
+  - *Create own Alert Rules*
+
+
+  - *Introduction to Alertmanager*
+
+
+  - *Configure Alertmanager with Email Receiver*
+
+
+  - *Trigger Alerts for Email Receiver*
+
+
+  - *Monitor Third-Party Applications*
+
+
+  - *Deploy Redis Exporter*
+
+
+  - *Alert Rules & Grafana Dashboard for Redis*
+
+
+  - *Collect & Expose Metrics with Prometheus Client Library*
+
+
+  - *Scrape Own Application Metrics & Configure Own Grafana Dashboard*

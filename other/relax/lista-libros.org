@@ -1,0 +1,192 @@
+#+title:    Lista Libros
+#+author:   h4ss4n
+#+date:     <2022-11-22 mar.>
+
+* Filosofía
+- Complete Works of Diogenes Laertius
+- Complete Works of Seneca
+- Critique of Cynical Reason
+- Cynicism
+- Cynics (Ancient Philosophies)
+- Diogenes
+- Temperamentos filosoficos
+- The Cynic Philosophers From Diogenes to Julian
+- Diccionario Espasa Filosofia
+- El hombre en busca de sentido
+- En los oscuros lugares del saber
+
+** Sabiduria y virtud
+- Carmides
+- Etica a Nicomaco
+- Hipias menor
+- Menon
+- Protagoras
+- Teeteto
+
+** Autosuficiencia
+- Indoor Edible Garden
+- Small Space Garden Ideas
+- The New Complete Book of Self-Sufficiency
+
+** Silencio
+- History of silence
+- Returning to Silence
+- Silence
+
+
+* Relaciones
+
+** Amistad
+- Como ser un epicureo
+- Aristoteles II
+- De la amistad
+- Ensayos
+- Lisis
+- The journals of Henry David Thoreau (1837-1861)
+
+** Citas
+- The Body Language Project
+- Love_ The Psychology of Attraction
+
+** Amor
+- Amores
+- Being in love
+- El arte de amar [x]
+- Las obras del amor
+- Works of Love
+
+*** Belleza y placer
+- Filebo
+- Hipias mayor
+
+** Matrimonio
+- 01.The Seven Principles for Making Marriage Work
+- 02.The Man’s Guide to Women
+- Essential Manners for Men
+- King, Warrior, Magician, Lover
+- True Ladies and Proper Gentlemen
+
+** Sexo
+- Becoming Cliterate
+- El pene
+- Mr Dick's
+
+** Vejez
+- Calidad de vida y bienestar en la vejez
+- Trastornos neurocognitivos en el adulto mayor
+
+
+* Poesía
+- Ion
+- The Art of Poetry
+
+
+* Teología
+- Tu Eres Eso
+
+** about Buddha
+- An illustrated outline of Buddhism
+- Buda - Para Principiantes
+- Buddha (Amar Chitra Katha)
+- Buddhist Philosophy
+- Camino viejo, nubes blancas
+- Cita con la vida
+- El BudhaDharma
+- The Heart of Buddhas Teaching
+
+** about Christianity
+- Biblia Reina-Valera 1960
+- Buscando a Alá, encontrando a Jesús [x]
+- La nube del no-saber
+- La Sagrada Biblia (comentada Straubinger)
+
+** about Hindu
+- El diamante
+- Karika y comentarios a la Mandukyopanishada
+- La meditacion segun los Yoga Sutras de Patanjali
+- Yoga Sutras de Patanjali
+- Yogasutras
+- Yoga Vasishtha
+- Yogasutras
+
+** about Islam
+- El Coran (traduccion comentada)
+
+** about Jews
+- La Torá el libro de la vida
+- La Torah (español-hebreo)
+- Torah - Versión castellana
+- Torah The Five Books of Moses
+
+
+* Literatura
+- La peste
+- Los miserables (5 libros)
+
+
+* Aprendizaje
+- How to Fail at Almost Everything and Still Win Big
+- Learning How to Learn
+
+** Mente
+- How to Be a Genius
+- Ultimate IQ Tests
+
+** Matemáticas
+- Paradojas y fundamentos de las matematicas
+- The Universal Book of Mathematics
+- TTSB01 _ Euler’s Formula and Special Relativity
+- TTSB17 _ What Is Mathematics
+- Zeno and the Tortoise
+
+** Auto-diciplina
+- Meditations on Self-Discipline and Failure
+
+** Yoga
+- Mindfulness in Plain English
+- Yoga fitness for men
+
+** Medicina
+- The Medical Checkup Book
+
+*** Cancer de prostata
+- Prostate & Cancer
+
+*** Cuidado a mayores
+- Caregivers Handbook
+- Strength Training Past 50
+- The Caregivers Essential Handbook
+
+** Idioma
+- Diccionario de la Lengua Española
+
+*** Gramática
+- Gramática española_ variación social
+- Gramática Fundamental del Español
+- Saber hablar (Spanish Edition)
+
+*** Semántica
+- An Introduction to English Semantics and Pragmatics
+- Semantics A Coursebook
+- Understanding Semantics
+
+** Cocina
+- The cook's book
+
+
+* Gym
+- Bodyweight Workouts for Men
+- Core Strength Training
+- Essential Strength Training Skills
+
+** Buff Dudes
+- 12 Week Dumbbell Only Plan
+- 12 Week Program 1st Ed
+- 12 Week Program 3rd Ed
+- 12 Week Program Vol 2
+- Body Part Split Weeks 5-8
+- Bodyweight Book
+- Bulking Book
+- Cutting Book
+- Mobility Band Workout Plan
+- SuperHero Plan

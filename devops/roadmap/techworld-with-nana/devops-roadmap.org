@@ -2,9 +2,10 @@
 #+author:   h4ss4n
 #+date:     <2023-05-18 jue.>
 
-* New Path
+* Design by TechWorld with Nana
 
 ** Index
+
 - [[Bootcamp Curriculum][Bootcamp Curriculum]]
   + [[MONTH 1 (Essentials)][MONTH 1]]
     - [[Week 01: Introduction to DevOps][Week 01: Introduction to DevOps]]
@@ -45,7 +46,6 @@ Schedule:
 *** Week 01: Introduction to DevOps
 [[file:roadmap/week-01.org][journal]]
 
-  - DevOps Bootcamp Overview
   - What is DevOps?
   - Roles and Responsibilities of a DevOps Engineer
   - How DevOps fits in the whole Software Development lifecycle

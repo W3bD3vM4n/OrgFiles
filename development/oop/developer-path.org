@@ -65,8 +65,8 @@ The schedule's fulfillment is the corner stone of your path, plus:
 
 **** Documentation Order:
 
-- [[file:~/org/data-base/1-entity-relationship-diagram.org][Entity Relationship Diagram]]
-- [[file:~/org/data-base/entity-framework-core.org][Entity Framework Core]]
+- [[file:~/org/development/data-base/1-entity-relationship-diagram.org][Entity Relationship Diagram]]
+- [[file:~/org/development/data-base/entity-framework-core.org][Entity Framework Core]]
 
 *** Version Control
 
@@ -75,9 +75,9 @@ The schedule's fulfillment is the corner stone of your path, plus:
 
 **** Documentation Order:
 
-- [[file:~/org/git-github/1-connect-ssh-keys.org][Connect SSH keys]]
-- [[file:~/org/git-github/2-create-new-repository.org][Create new repository]]
-- [[file:~/org/git-github/3-git-workflow.org][Git workflow]]
+- [[file:~/org/devops/git-github/1-connect-ssh-keys.org][Connect SSH keys]]
+- [[file:~/org/devops/git-github/2-create-new-repository.org][Create new repository]]
+- [[file:~/org/devops/git-github/3-git-workflow.org][Git workflow]]
 
 
 ** Future Path

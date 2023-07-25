@@ -1,0 +1,33 @@
+#+title:    Build & Package Manager Tools
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 1 (Essentials)
+
+** Week 04
+
+  - *What are Build Tools and Package Managers?*
+
+
+  - *How to build an artifact?*
+
+
+  - *How to run the application artifact?*
+
+
+  - *How to publish the application artifact to artifact repository?*
+
+
+  - *Build Tools for Java (gradle and maven examples)*
+
+
+  - *Dependency Management in Software Development*
+
+
+  - *Package Manager in JavaScript applications - Build and run applications in JS*
+
+
+  - *Build Tools & Docker*
+
+
+  - *Why Build Tools are relevant for DevOps Engineers?*
