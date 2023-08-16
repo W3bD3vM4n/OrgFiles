@@ -66,6 +66,7 @@ The schedule's fulfillment is the corner stone of your path, plus:
 **** Documentation Order:
 
 - [[file:~/org/development/data-base/1-entity-relationship-diagram.org][Entity Relationship Diagram]]
+- [[file:~/org/development/data-base/entity-framework.org][Entity Framework]]
 - [[file:~/org/development/data-base/entity-framework-core.org][Entity Framework Core]]
 
 *** Version Control
