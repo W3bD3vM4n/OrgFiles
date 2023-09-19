@@ -1,11 +1,26 @@
 #+title:    Islam Polemics
 #+author:   h4ss4n
-#+date:     <2023-11-09 jue.>
+#+date:     <2023-09-11 lun.>
 
 * Index
+- [[Recommendations][Recommendations]]
+- Refutal
 - [[Allah][Allah]]
 - [[Muhammad][Muhammad]]
 - [[Islam Faith][Islam Faith]]
+
+
+* Recommendations
+
+- The best way to get someone busted is to let him talk directly, so he cannot retrieve later (with the excuse 'he not say that').
+- Talk to someone who behave like an adult not a kid.
+- If you mention a topic you stay with it (same for the opponent).
+- Don't waste your time with people who ask the same question always, their purpose is to distract you from exposing Islam.
+
+* Refutal
+
+- *In response of:* Christians using the Quran to criticize and make claims
+  + *The answer:* Muslims believe the Bible & Torah are corrupted, so if I make a point you wouldn't believe that
 
 * Allah
 
@@ -34,11 +49,13 @@
 - Adam
 - Hawwa (Eve)
 
+
 * Muhammad
 
 ** Biography
 
-- Before-Islam
+*** Before-Islam
+*** After-Islam
 
 ** Wives
 
@@ -58,9 +75,12 @@
 
 ** Umah (Gang)
 
+** Madness/Unholiness
+
 ** Crimes
 
 ** War
+
 
 * Islam Faith
 
@@ -68,12 +88,13 @@
 
 ** Quran
 
-- Rules
-- Trinity
+*** Rules
+
+*** Trinity
 
 ** Hadith
 
-- Scholars
+*** Scholars
 
 ** Sects
 
@@ -83,5 +104,6 @@
 
 ** Culture
 
-- Past
-- Today
+*** Past
+
+*** Today
