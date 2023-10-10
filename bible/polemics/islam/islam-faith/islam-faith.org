@@ -8,12 +8,26 @@
   + [[Rules][Rules]]
   + [[Trinity][Trinity]]
 - [[Hadith][Hadith]]
+- [[After life][After life]]
+  + [[Good & Bad deeds][Good & Bad deeds]]
 - [[Sects][Sects]]
 - [[Culture][Culture]]
 
 * Content
 
 ** Pillars
+
+1. Shahada (Declaration of faith)
+
+2. Salah (Prayer -5 times a day-):
+  - Fajr (pre-dawn), Dhuhr (midday), Asr (afternoon), Maghrib (sunset), and Isha (night).
+
+3. Zakat (Charity -2.5% of savings-):
+
+4. Sawm (Fasting during Ramadan):
+
+5. Hajj (Pilgrimage to Mecca):
+  - It occurs annually during the Islamic month of Dhu al-Hijjah.
 
 
 ** Quran
@@ -23,22 +37,23 @@
 
 *** Rules
 
+
 *** Preservation
 
 - *In response of:* Enemies of Islam corrupting the Quran
   + *The problem:* The claim contradicts the Quran
 
-    Allah promise to protect his holy books (Bible and Torah included) >> (Tafsir al-Jalalayn, Quran, Chapter 15, Verse 9)
+    Allah promise to protect his holy books (Bible and Torah included) >> (Tafsir al-Jalalayn, Quran 15:9)
 
 
 - *In response of:* Quran perfect preservation until today
   + *The problem:* Their own sources debunk that claim
 
-    Muhammad didn't perfectly memorise the Quran >> (Sahih al-Bukhari 5037; Book 66, Hadith 60)
+    Muhammad didn't perfectly memorise the Quran >> (Sahih al-Bukhari 5037)
 
-    The collections that were made by the companions of Muhammad were not identical >> Quran, Chapter 92, Verse 3) vs (Sahih al-Bukhari 4944; Book 65, Hadith 465)
+    The collections that were made by the companions of Muhammad were not identical >> Quran 92:3) vs (Sahih al-Bukhari 4944)
 
-    All this Qurans with different meanings (not just grammatical errors) led to almost a civil war forcing the third caliph Uthman, to choose one of these collections and burn the others >> (Sahih al-Bukhari 4987; Book 66, Hadith 9)
+    All this Qurans with different meanings (not just grammatical errors) led to almost a civil war forcing the third caliph Uthman, to choose one of these collections and burn the others >> (Sahih al-Bukhari 4987)
 
     Although a large number of pre-1924 Qurans were destroyed again by dumping them in the river Nile because still didn't match the meaning, leaving us with the 1924 Egyptian Standard Edition of the Quran as we known today >> (Reynolds, Gabriel Said (2008). "Introduction: Qur'anic Studies and its Controversies")
 
@@ -53,12 +68,14 @@
   + ¿How much to pay for charity?
   + ¿Where it's say Jibril is an angel?
 
-*** Trinity
+*** Alleged Bible corruption
+
+**** Trinity
 
 - *In response of:* 1 + 1 + 1 = ?
   + *The problem:* The claim contradicts the Quran
 
-    In the same verse that says 'no trinity,' it confirms the opposite >> (John, Chapter 1, Verses 1-14) vs (Quran, Chapter 4, Verse 171)
+    In the same verse that says 'no trinity,' it confirms the opposite >> (John 1:1-14) vs (Quran 4:171)
     Jesus is portrayed as:
     1. a messenger (man)
     2. His Word
@@ -68,21 +85,49 @@
 - *In response of:* Christians worship 3 gods (as [[file:~/org/bible/polemics/islam/muhammad/muhammad.org::Polytheism nº1][pagans]])
   + *The problem:* The claim contradicts the Quran
 
-    The Quran says Christian believe that Allah & Jesus are one, which means there is not 2nd god, or 3rd god >> (Quran, Chapter 5, Verse 17) (Quran, Chapter 5, Verse 72)
+    The Quran says Christian believe that Allah & Jesus are one, which means there is not 2nd god, or 3rd god >> (Quran 5:17) (Quran 5:72)
 
   + *The problem:* The Quran contradicts the Quran
 
-    Also the Quran in other verse claims that the trinity consists in three gods Allah, Mary and Jesus>> (Quran, Chapter 5, Verse 116)
-    ¿So Allah didn't know what Christian worship (Father, Son & Holy Ghost)? but supposedly he is all-knowing.
+    Also the Quran in other verse claims that the trinity consists in three gods Allah, Mary and Jesus>> (Quran 5:116)
+    ¿Why Allah didn't know what Christian worship (Father, Son & Holy Ghost) if he is supposedly all-knowing?
 
-*** Isa (Jesus)
+    ¿If Allah can see the future, in any Bible we have today (our believe) why he didn't get it right?
+    It seems like the scoop of knowledge only reach a 7th century man.
+
+  + *The problem:* The Quran also use "We" when refer to Allah
+
+    Found in various verses >> (Quran 49:13) (Quran 15:9) (Quran 12:2)
+
+    Ask for any linguistic, historical, textual or archeological evidence for the assertion that the Arabic have the "Royal Plural" at that time (the Plural of Majesty isn't a feature of Quran).
+
+    Although the language evolve over time (something can have a different meaning later), you have to go back to the time of Muhammad (the Quran was situated in an historical context) to prove the Royal Plural (you won't find it).
+
+    The old scholars try to argue that refers to Allah and the angels, but not even Muhammad correct it (only Allah knows)
+
+    _Sources:_
+    https://www.answering-islam.org/authors/rogers/pronouns1.html
+
+**** Isa (Jesus)
 
 - *In response of:* How to worship a God who came from a female private part?
-  + But at the same time their book says Jesus is Holy >> (Quran, Chapter 19, Verse 19)
+  + But at the same time their book says Jesus is Holy >> (Quran 19:19)
   + The irony that Muhammad maked wudu in [[file:~/org/bible/polemics/islam/muhammad/muhammad.org::Unholiness][filth]]
 
 - *In response of:* Christians are sons of God like Jesus?
-  + *The answer:* We're not the same as Jesus, but spiritual sons >> (Matthew, Chapter 6, Verses 9-13)
+  + *The answer:* We're not the same as Jesus, but spiritual sons >> (Matthew 6:9-13)
+
+**** Bulus (Paul)
+
+- *In response of:* Paul corrupted the Bible (is a liar)
+  + *The problem:* Their own sources debunk that claim
+
+    Paul it's describes as a good disciple of Jesus and even Allah granted him powers >> (Quran 3:55) (Quran 61:14) plus more details about those verses in Tafsir ibn Ashur & Tafsir ibn Kathir.
+
+    _Sources:_
+    https://www.answering-islam.org/Index/P/paul.html
+    https://www.answering-islam.org/Shamoun/christs_apostles.htm
+    https://www.answering-islam.org/Shamoun/quran_affirms_paul.htm
 
 ** Hadith
 
@@ -100,6 +145,17 @@ Question to make:
 
 _NOTE:_ Shias don't go with Hadith al-Bukhari or Muslim
 
+
+** After life
+
+*** Good & Bad deeds
+
+- *In response of:* If you do good deeds you go to heaven else you go to hell
+  + *The problem:* Muhammad contradicts Himself
+
+    The good deeds work vs it doesn't work even for Muhammad >> (Quran 11:11) vs (Sahih Muslim 2816e)
+
+
 ** Sects
 
 *** Sunni
@@ -109,6 +165,59 @@ _NOTE:_ Shias don't go with Hadith al-Bukhari or Muslim
 
 ** Culture
 
-*** Past
+*** Behavior
 
-*** Today
+- *In response of:* Islam improve society (it makes you more cultured)
+  + *The problem:* Their own sources debunk that claim
+
+    Muslims are discorage to ask questions >> (Quran 5:101)
+
+
+- *In response of:* No real Muslim insult prophets
+  + *The problem:* Muhammad himseld did it
+
+    Muhammad makes fun of Moses running naked because a stone stole his clothes >> (Sahih al-Bukhari 3404)
+
+    Also prophets were Jews, and Islam literally stole their identities (children of Israel) turn them all in muslims, and disregard their origins and how well Jews are threated by Muslims in their own land?
+
+
+- *In response of:* Muslims treat non believers with respect
+  + *The problem:* Their own sources debunk that claim
+
+    The non believers are the worst of creatures >> (Quran 98:6) (Quran 8:55)
+
+    Jews as 'Descendants of apes and pigs' >> (Quran 5:60) (Quran 2:65) (Quran 7:166)
+
+    Christian & Muslim sinners also 'Transformed into apes and pigs' >> (Tafsir Quran 3:61) (Tafsir Quran 5:112-115)
+
+    Records from public discourse in the Arab and Islamic worlds:
+    - In 1998 speech by Hizbullah Secretary-General Hassan Nasrallah on the occasion of the Shi'ite 'Ashoura holiday
+    - August 2001 sermon, Sheikh Ibrahim Madhi, Palestinian Authority official and imam of the Sheikh Ijlin mosque, Gaza City's main mosque
+    - April 2002 sermon, Al-Azhar Sheikh Muhammad Sayyid Tantawi, a highest-ranking cleric in the Sunni Muslim world
+    - Saudi sheikh Abd Al-Rahman Al-Sudayyis, imam and preacher at the Al-Haraam mosque
+    - Saudi sheikh Ba'd bin Abdallah Al-Ajameh Al-Ghamidi, Said Al-Jandoul mosque in Al-Taif
+    - In May 2002, Iqraa, the Saudi-Egyptian satellite television station
+    - In April 2002, a weekly talk show on the Al-Jazeera satellite television station
+    - Salim 'Azzouz, columnist for the Al-Ahrar Egyptian opposition daily
+
+    _Sources:_
+    https://monasabahbooks.com/2017/08/16/quran-jews-christians-are-apes-pigs/
+    https://www.jewishvirtuallibrary.org/muslim-clerics-jews-are-the-descendants-of-apes-pigs-and-other-animals
+
+
+- *In response of:* Muslims can be friends with non believers
+  + *The problem:* Muhammad/Allah command the opposite
+
+    Muslims aren't allowed to take non believers as friends >> (Tafsir Ibn Kathir, Quran 3:28)
+
+    Muslims are command to don't greet non believers and make them walk on the sewer >> (Sahih Muslim 2167a)
+
+    Muslims have to bring non believers with chains on their necks till they embrace Islam >> (Sahih al-Bukhari 4557)
+
+
+- *In response of:* Islam is a peaceful religion
+  + *The problem:* The apostasy law (ex-muslims)
+
+    Muhammad said "whoever changes his religion kill him" >> (Sunan an-Nasa'i 4059)
+
+    The last hour would not come unless Muslims fight and kill Jews >> (Sahih Muslim 2922)
