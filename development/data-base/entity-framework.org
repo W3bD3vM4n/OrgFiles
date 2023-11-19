@@ -1,0 +1,80 @@
+#+TITLE:    Entity Framework
+#+author:   h4ss4n
+#+date:     <2023-07-25 mar.>
+
+* Using Visual Studio 2019
+
+** Index
+
+- [[Bind the database]]
+
+
+** Bind the database
+
+To bind the database to the application (Web Forms, MVC, etc) with the Code-First approach:
+
+1. Create a ERD and the database in SQL Server (or other).
+2. With your .NET solution created, add a new folder in your designated project file named ~Data~.
+3. On the folder Right Click > Add > New Item...
+
+   - A new window appear *Add New Item*, on the left column select Visual C# > Data > ADO.NET Entity Data Model
+     + This will create a file, write 'Model' presiding over the name ~ModelNameDbContext~ and click 'Next'
+
+   - In the next window *Entity Data Model Wizard*, select "Code First from database" and click 'Next'
+
+   - In the new window *Entity Data Model Wizard*, click the button "New Connection..."
+
+     + In the new window *Connection Properties*
+       - In the "Data source" click the button "Change..."
+         + In the new window *Change Data Source* select "Microsoft SQL Server" and "OK"
+       - In the "Server name" write the database server name, like =localhost=
+       - In the "Log on to the server" in Authentication choose "Windows Authentication"
+       - In the "Connect to a database" select in the dropdownlist the database name
+       - Push the button "Test Connection" to check if everything is right, the press the button "Ok"
+
+   - In the final window *Entity Data Model Wizard*, select the Tables or Views and press the button "Finish"
+     + Keep unchecked the table "sysdiagrams"
+     + Keep unchecked the "Pluralize or singularize generated object names"
+
+4. Inside the folder, the tables files representation will be generated
+
+5. Configure the previous database connection in the _page you want to load the controls_ like ~Default.aspx.cs~
+
+   - We use a function to deal with the database binding (like Entity Framework Core)
+
+   #+begin_src csharp
+
+     namespace ProjectNameFile
+     {
+         public partial class _Default : Page
+         {
+              ModelNameDbContext modelNameDbContext = new ModelNameDbContext();
+
+              protected void Page_Load (object sender, EventArgs e)
+              {
+                  var contacts = modelNameDbContext.TableName.ToList();
+                  ControlNameId.DataSource = contacts;  // A Grid, ListView, etc
+                  ControlNameId.DataBind();             // Bind of Control <-> Database
+              }
+          }
+      }
+
+   #+end_src
+
+6. In the Frontend of the page put the controls you're gonna use:
+
+   #+begin_src html
+
+    <%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PhoneList.Pages._Default" %>
+
+    <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+      <asp:ListView ID="ControlNameId" runat="server">
+        <ItemTemplate>
+            <asp:Label ID="Label1" runat="server" Text='<%# Eval("ColumnToDisplay")%>'></asp:Label><br />
+        </ItemTemplate>
+      </asp:ListView>
+
+    </asp:Content>
+
+   #+end_src

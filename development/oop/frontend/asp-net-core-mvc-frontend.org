@@ -13,7 +13,7 @@
 
 - The *View* depends of the *Controller*, so the first thing to do is create the Controller.
   + Right click on *Index* from the default method ~public IActionResult Index()~ and chose =Add view...=
-  + Automatically generates a folder with the a view file.
+  + Automatically generates a folder with the view file.
 - *WARNING*: If a method from the respective View is not put in the Controller file, an empty page is display.
   + Basic method for visualization.
 

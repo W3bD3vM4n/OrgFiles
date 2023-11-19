@@ -185,6 +185,7 @@ Use numbers or the alphabet follow by a point.
     =text= = ‘=verbatim=’
     ~text~ = ‘~code~’
     +text+ = ‘+strike-through+’
+    : text = ‘: short example’
 
 #+end_quote
 

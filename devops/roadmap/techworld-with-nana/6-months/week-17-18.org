@@ -1,0 +1,87 @@
+#+title:    Infrastructure as Code with Terraform
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 5
+
+** Week 17-18
+
+  - *What is Terraform? How it works*
+
+
+  - *Architecture*
+
+
+  - *Providers*
+
+
+  - *Resources & Data Sources*
+
+
+  - *Variables & Output Values*
+
+
+  - *Environment variables in Terraform*
+
+
+  - *Terraform commands*
+
+
+  - *Terraform State*
+
+
+  - *Provisioners*
+
+
+  - *Modules*
+
+
+  - *Remote State*
+
+
+
+  - *Terraform & AWS*
+    + /Create Security Group/
+
+
+    + /Create VPC/
+
+
+    + /Create Subnet/
+
+
+    + /Create Route Table/
+
+
+    + /Create Internet Gateway/
+
+
+    + /Create key-pair/
+
+
+    + /Provision EC2 server/
+
+
+    + /Modularize the demo project/
+
+
+
+  - *Terraform & AWS & Kubernetes*
+    + /Use existing modules from Terraform Registry/
+
+
+    + /Create VPC/
+
+
+    + /Provision EKS cluster/
+
+
+
+  - *Terraform & AWS & Jenkins - complete CI/CD*
+    + /Configure Terraform in Jenkins/
+
+
+    + /Automate provisioning EC2 instance from Jenkins pipeline and deploy the application with docker-compose/
+
+
+    + /Terraform Best Practices/

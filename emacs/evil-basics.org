@@ -20,6 +20,9 @@
 
 Evil is an extensible vi layer for Emacs, it provides Vim features.
 
+- The basics to achieve more complex actions is:
+  *Command Count Motion*
+
 
 ** Evil commands
 
@@ -43,7 +46,8 @@ Evil is an extensible vi layer for Emacs, it provides Vim features.
     ge = go to previous word's end
     [number] + [h/l] = go to letter/word number column
 
-    0 = go to line's beginning
+    0 = go to line's beginning (with space)
+    _ = go to line's beginning (without space)
     $ = go to line's end
     % = jump to matching brackets {} [] ()
 
@@ -77,8 +81,15 @@ Evil is an extensible vi layer for Emacs, it provides Vim features.
 
 #+begin_quote
 
-    i = enter insert mode (before letter down cursor)
-    v = enter visual mode (to select text)
+    : = enter in command mode
+    i = enter in insert mode (before letter down cursor)
+    I = enter in insert mode (before first word of the line)
+    v = enter in visual mode (to select text)
+    V = enter in visual line mode (to select a text line)
+
+    C-v = enter in visual block mode (to select columns of text)
+          commands available: I, A, d, c, r
+
     a = append after letter (down cursor)
     A = apprend last word of the line
 
@@ -140,6 +151,9 @@ Evil is an extensible vi layer for Emacs, it provides Vim features.
     F + [letter] = find previous
     t + [operator/text object] = until next
     T + [operator/text object] = until previous
+    ; = go to next similar element
+    , = go to previous similar element
+
     / = search word
     n = go to next find
     N = go to previous find

@@ -6,33 +6,43 @@
 
 ** Index
 
-- [[Entity Framework]]
-- [[Database Project]]
+- [[Bind the database]]
+- [[Back-up the database]]
 
-** Entity Framework
 
-To *bind the database* to the application (MVC, Blazor, etc) with the Database-First approach:
+** Bind the database
+
+To bind the database to the application (MVC, Blazor, etc) with the Database-First approach:
 
 1. Create a ERD and the database in SQL Server (or other).
 2. With your .NET solution created, add a new project file (type Class Library) named ~Project.Data~ and delete the ~Class1.cs~.
-3. There are two alternatives in this point, by Package Manager Console using the *command-line scaffolding*:
+3. There are two alternatives in this point.
+   The _First Option_ by *Package Manager Console* using the command-line scaffolding.
    a. Right click in the project and choose "Manage NuGet Packages", install the following:
       - Microsoft.EntityFrameworkCore
       - Microsoft.EntityFrameworkCore.Proxies
       - Microsoft.EntityFrameworkCore.SqlServer
       - Microsoft.EntityFrameworkCore.Tools
 
-      *IMPORTANT:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
+      *IMPORTANT 1:* Before installing check that the NuGet Packages has the same version in both ~Project.AppMain~ and ~Project.Data~ or may cause errors and the Build don't will work.
+
+      *IMPORTANT 2:* Ensure that ~Project.AppMain~ has a reference for ~Project.Data~ by Right Click > Add > Project Reference
 
    b. Open the Package Manager Console, select in the top right for "Default project" the ~Project.Data~, then input the *Scaffold-DbContext* command:
 
         #+begin_quote
 
-            PM> Scaffold-DbContext "Server=localhost;Database=DatabaseName;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+            PM> Scaffold-DbContext "Server=localhost;Database=DatabaseName;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
         #+end_quote
 
-      - In ~Project.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
+      *IMPORTANT 3:* Since 2022 by the new features in 5.1 in [[https://learn.microsoft.com/en-us/sql/connect/ado-net/introduction-microsoft-data-sqlclient-namespace?view=sql-server-ver15#new-features-in-51][Microsoft.Data.SqlClient]] the ServerCertificate is mandatory, so for local use add the "TrustServerCertificate=True" a practice not recommended for production a remote servers.
+      In the latest cases you need to use [[https://letsencrypt.org][Let’s Encrypt]] and [[https://certbot.eff.org][Certbot]] to get a free certificate to enable HTTPS on your project (a detail [[https://stackoverflow.com/a/17658821/12044740][explanation]]).
+
+      *IMPORTANT 4:* Only use it for connection with a Database First approach, for test or a big data base with a lot of tables (more than 2 or 3).
+      ELSE to update and add just a few tables, is better to manually create the table class files and add the new propiertes inside.
+
+      - Otherwise in ~Project.Data~ the Models files are updated using an existing database, through the *Entity Framework Core*
         + In the OutputDir it's useful to change the name of the *Models* folder, to avoid affecting the existing files.
         + For cleaning and organization purpose the obsolete files are deleted and all it's saved in the original Model folder.
       - The ~DatabaseNameContext.cs~ file inside models it's used to configure the tables like Objects for later use.
@@ -67,7 +77,20 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
         #+end_src
 
-4. Install the Visual Studio extension *EF Core Power Tools*:
+        c. *IMPORTANT:* After generating the Models files, review the "ConnectionStrings" in the ~MainProjectName~, inside the ~appsettings~ file.
+           - The first line show us the connection with other servers and the last with the one in our computer.
+           - It's important to have this configuration right to avoid "Unhandled Exceptions" with new columns added.
+
+           #+begin_src csharp
+
+             "ConnectionStrings": {
+                 //"ConsultorioConnection": "Data Source=ServerName;Initial Catalog=TableName;User Id=UserName;Password=Example1234"
+                 "ConsultorioConnection": "Server=localhost;Database=ConsultorioDb;Integrated Security=true;MultipleActiveResultSets=true"
+             }
+
+           #+end_src
+
+4. The _Second Option_ is the Visual Studio extension *EF Core Power Tools*:
    a. Right click on the project, a EF Core Power Tools option appear then choose *Reverse Engineer*.
       - It generates POCO classes, derived DbContext and mappings for an existing database.
    b. A window appear then choose the button "Add".
@@ -112,7 +135,12 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
         #+end_src
 
-** Database Project
+
+** Back-up the database
+
+To back-up the database with all the tables for team work, use the Database Project.
+
+*** Compare
 
 1. With your .NET solution created, add a new project file (type SQL Server Database Project) named ~Project.Database~.
 2. Then create a ~SqlSchemaCompare.scmp~ for version control and database generation.
@@ -122,3 +150,15 @@ To *bind the database* to the application (MVC, Blazor, etc) with the Database-F
 
 *NOTE*: It allow to share the database inside the solution to be used for other developers.
         - It's a good profesional practice.
+
+*** Update
+
+When you update by "pulling changes" from the remote repository, it can bring changes from the database project too and it's need to be reflected on your application.
+1. Look in the Solution Explorer for the ~Project.Database~ then right click and chose "Publish".
+2. A new window is displayed, select the *Edit* button and in the new window in the Browse Tab look for "Local" to chose a database.
+   - Select the Server Name, Authentication, User Name, Password and Database Name to finally click the "Test Connection" and "OK"
+3. When you're back to the first window, select the *Advanced...* button.
+   - Uncheck the "Block incremental deployment if data loss might occur" then "OK"
+   - The final step is to select the "Publish" button
+4. If everything is ok, it will be presented in a "Data Tools Operations" window.
+   - We use this way to update data when we want to ignore any warning from the *Compare* way above.

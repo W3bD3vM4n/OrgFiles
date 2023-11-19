@@ -5,13 +5,17 @@
 * Development
 
 ** Index
+- [[Self Evaluation]]
 - [[Actual Path]]
   + [[OOP]]
   + [[Database]]
 - [[Future Path]]
   + [[Functional]]
 
+
 ** Self Evaluation
+
+The schedule's fulfillment is the corner stone of your path, plus:
 
 - [[file:self-evaluation.org][Evaluation]]
 - [[file:study-goals.org][Goals]]
@@ -61,8 +65,9 @@
 
 **** Documentation Order:
 
-- [[file:~/org/data-base/1-entity-relationship-diagram.org][Entity Relationship Diagram]]
-- [[file:~/org/data-base/entity-framework-core.org][Entity Framework Core]]
+- [[file:~/org/development/data-base/1-entity-relationship-diagram.org][Entity Relationship Diagram]]
+- [[file:~/org/development/data-base/entity-framework.org][Entity Framework]]
+- [[file:~/org/development/data-base/entity-framework-core.org][Entity Framework Core]]
 
 *** Version Control
 
@@ -71,9 +76,9 @@
 
 **** Documentation Order:
 
-- [[file:~/org/git-github/1-connect-ssh-keys.org][Connect SSH keys]]
-- [[file:~/org/git-github/2-create-new-repository.org][Create new repository]]
-- [[file:~/org/git-github/3-git-workflow.org][Git workflow]]
+- [[file:~/org/devops/git-github/1-connect-ssh-keys.org][Connect SSH keys]]
+- [[file:~/org/devops/git-github/2-create-new-repository.org][Create new repository]]
+- [[file:~/org/devops/git-github/3-git-workflow.org][Git workflow]]
 
 
 ** Future Path
@@ -89,4 +94,3 @@
 **** Documentation Order:
 
 - [[file:~/org/emacs/elisp-basics.org][Elisp basics]]
-- [[file:~/org/functional/common-lisp.org][Common Lisp]]

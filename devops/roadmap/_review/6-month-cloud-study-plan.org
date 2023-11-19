@@ -1,0 +1,172 @@
+#+title:    6 Month Cloud Study Plan
+#+author:   h4ss4n
+#+date:     <2023-06-12 lun.>
+
+* Design by Gwyneth Peña-Siguenza
+
+** Index
+
+- [[Video][Video]]
+- [[Protocol][Protocol]]
+- [[Instructions][Instructions]]
+- [[Study Plan][Study Plan]]
+- [[Source][Source]]
+
+
+** Video
+
+https://www.youtube.com/watch?v=8K_GZYaWG3w
+
+
+** Protocol
+
+*** As many hours as you can a day, a minimum of 2 hours a day of deep non distracted work
+- Pomodoro technique
+
+*** Keep a study journal
+- Org mode, with a space for notes and a summary in the end
+  + what you learned, struggled with, resources you used, and what you will do the next day
+
+*** End each section with a project
+- Difficulty does not matter. Clarity and understanding does. A project is meant to prove your skills and to be references on your online portfolio and resume.
+- Put it on GitHub or better yet make it live.
+- All Cloud Platforms have free credits when you sign up and plenty of services have free tiers. Use them. Setup budgets. Don’t be afraid to spend $20 or so a month learning.
+
+*** End each project with documentation.
+I've factored in 3 days for each phase for documentation purposes, use them.
+- Create a blog post, LinkedIn Post, or YouTube video synthesizing what you’ve built with your news skills, challenges, resources you used, etc.
+- Don’t try to come off as anything you aren’t. You are not an expert.
+- Use your own style and voice. Authenticity and realness help land jobs too.
+- This is why you keep a daily study journal. So, you can reference things to later write/talk about. Our minds are RAM, not storage.
+
+** Instructions
+
+  - Create a free account in any cloud platform.
+  - Setup a learning budget in your cloud account ($20 a month is more than enough).
+  - Set up alerts at 50%, 75% consumption.
+  - Create a blog or YouTube channel to document your learning.
+  - Create a GitHub Account. I also recommend checking out GitHub Copilot and learning how to use ChatGPT to make you more productive:
+    https://youtu.be/vLO1kAN3BEU?ref=madebygps.com
+
+
+** Study Plan
+
+*** 1.Bash
+
+  How you will interact with servers.
+
+  In your Cloud account, deploy the cheapest Ubuntu VM possible. Use this for your studies. Turn it off after you’re done but also configure it to turn off at a the end of the day in case you forget.
+
+  Here is a free 2-hour course covering the basics of Bash:
+  https://aka.ms/bashforbeginners?ref=madebygps.com
+
+**** 2 weeks
+
+- 10 Days studying and working in that Ubuntu VM.
+- 4 Days writing scripts.
+
+**** Script ideas
+
+- A script that uses the CLI of your cloud to create an Ubuntu VM and setup a LAMP server.
+- A script that asks a user for a folder and spell checks every file in that folder.
+
+*** 2.Networking
+
+  How all machines talk to each other in the cloud.
+
+  Resources here:
+  https://learntocloud.guide/docs/phase1/?ref=madebygps.com#how-does-this-phase-apply-to-cloud
+
+**** 2 weeks
+
+- 10 Days networking concepts.
+- 4 Days building a project.
+
+**** Project ideas
+
+- Create a well-documented network architecture diagram and become familiar with diagraming tools.
+  + 2 tier and 3 tier architectures.
+
+- Become familiar with the architecture center of your cloud platform.
+  + Browse and find an example that interests you. Read it in and out. Look up any concepts you don't understand. Create a blog post/video explaining.
+
+*** 3.Programming, Git, and Prompt Engineering
+
+  The best programming language for Cloud Beginners.
+
+  You should’ve learned about variables, loops, and more programming concepts in the Bash section, build on that here.
+
+  Resources here:
+  https://learntocloud.guide/docs/phase2/?ref=madebygps.com
+
+**** 5 weeks
+
+1) 1 Week Studying Python: https://7daysofpython.com/?ref=madebygps.com
+2) 1 Week Git and GitHub: https://www.youtube.com/watch?v=apGV9Kg7ics&ref=madebygps.com
+3) 1 Week Prompt Engineer: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/?ref=madebygps.com and GitHub Copilot: https://dev.to/github/a-beginners-guide-to-prompt-engineering-with-github-copilot-3ibp?ref=madebygps.com
+4) 2 Weeks building a project.
+
+**** Project ideas
+
+Make sure to leverage prompt engineering as you work on your projects.
+
+- Build a serverless API that displays your resume in JSON format and deploy it to your cloud environment. Here is an example with Azure
+- Create a 2-tier or 3-tier application with Python.
+  + API + data tier.
+  + API + data tier + frontend.
+  + API + frontend.
+
+*** 4.AWS/Azure/GCP
+
+**** The Cloud Platform
+
+You should’ve picked up some cloud knowledge already but time to dive in deeper.
+
+Resources here:
+https://learntocloud.guide/docs/phase3/?ref=madebygps.com
+
+**** 6 weeks
+
+- 4 Weeks Studying for associate level certification.
+- 2 Weeks building Cloud Resume Challenge: https://cloudresumechallenge.dev/docs/the-challenge/?ref=madebygps.com (or any cloud project: https://learntocloud.guide/?ref=madebygps.com#/projects/README).
+
+*** 5.Terraform
+
+  The tool you will use to automate your infrastructure provisioning.
+
+  Resources here:
+  https://learntocloud.guide/docs/phase4/?ref=madebygps.com
+
+**** 2 weeks
+
+- 1 Week Studying
+- 1 Week building Infrastructure as Code files for any of your previous projects.
+
+*** 6.Docker
+
+  The tool you will use to make your applications portable.
+
+  Resources here:
+  https://learntocloud.guide/docs/phase4/?ref=madebygps.com
+
+**** 2 weeks
+
+- 1 Week Studying
+- 1 Week containerizing any of your previous projects.
+
+*** 7.GitHub Actions
+
+  The tool you will use to automate deployments of your applications.
+
+  Resources here:
+  https://learntocloud.guide/docs/phase4/?ref=madebygps.com
+
+**** 2 weeks
+
+- 1 Week Studying
+- 1 Week building CI/CD for any of your previous projects.
+
+
+** Source
+
++ https://www.madebygps.com/cloudcamp

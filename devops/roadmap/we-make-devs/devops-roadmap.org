@@ -1,0 +1,183 @@
+#+title:    DevOps Roadmap
+#+author:   h4ss4n
+#+date:     <2023-07-14 vie.>
+
+* Design by Shashwat Shivhare
+
+** Index
+
+- [[Roadmap][Roadmap]]
+- [[Source][Source]]
+
+
+** Roadmap
+
+*** GoLang
+
++ [[https://www.codecademy.com/learn/learn-go][Learn Go - Codecademy]]
++ [[https://go.dev/learn/][Getting started - Go]]
++ [[https://www.tutorialspoint.com/go/index.htm][Go tutorial - Tutorials point]]
++ [[https://www.w3schools.com/go/][Go tutorial - W3schools]]
++ [[https://www.youtube.com/watch?v=YS4e4q9oBaU][Learn Go Programming - FreeCodeCamp(Youtube)]]
++ [[https://www.youtube.com/watch?v=yyUHQIec83I][Golang tutorial - TechWorld With Nana(Youtube)]]
++ [[https://www.youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa][Complete Golang tutorial - Hitesh Choudhary(Youtube)]]
++ [[https://youtu.be/un6ZyFkqFKo][Go programming - GoLang Course with Bonus Project)]]
+
+*** Linux Terminal Basics
+
++ [[https://www.youtube.com/watch?v=iwolPf6kN-k&feature=youtu.be][Complete Linux Course]]
++ [[https://youtu.be/sWbUDq4S6Y8][Introduction to Linux – Full Course for Beginners By FreeCodeCamp]]
++ [[https://www.youtube.com/watch?v=J2zquYPJbWY][Basic Linux Commands]]
++ [[https://www.youtube.com/watch?v=cBokz0LTizk][Linux Tutorial]]
++ [[https://www.guru99.com/linux-commands-cheat-sheet.html][Linux Command Cheatsheet]]
++ [[https://www.youtube.com/playlist?list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i][Linux Masterclass Course - Apoorv Goyal(YouTube)]]
++ [[https://www.youtube.com/playlist?list=PLWkguCWKqN9OrwsklvLC8FB87TbaOQGqY][Bogdan Stashchuk - Linux for beginners playlist]]
++ [[https://ubuntu.com/tutorials/command-line-for-beginners][Linux Command Line for Beginners]]
++ [[https://linuxjourney.com/][Linux Compelete Hands-On Tutorial]]
+
+*** Operating System Basics
+
++ [[https://www.youtube.com/watch?v=RozoeWzT7IM][Introduction to operating systems - Jenny's Lectures(Youtube)]]
++ [[https://www.youtube.com/watch?v=6-mdtMKfEYM][Operating system basics - Geek's Lesson(Youtube)]]
++ [[https://www.youtube.com/watch?v=GjNp0bBrjmU][How do operating systems work? - ClickView(Youtube)]]
++ [[https://www.youtube.com/watch?v=pVzRTmdd9j0][What is an operating system - Techquickie(Youtube)]]
++ [[https://www.tutorialspoint.com/operating_system/index.htm#:~:text=An%20Operating%20System%20(OS)%20is%20an%20interface%20between%20a%20computer,as%20disk%20drives%20and%20printers.][Operating system tutorial - Tutorialspoint]]
++ [[https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O][Operating System - Neso Academy()]]
++ [[https://github.com/Aniruddha-Tapas/Operating-Systems-Notes][Operating System Notes]]
+
+*** Other Pre-requisites
+
++ [[https://www.youtube.com/watch?v=IPvYjXCsTg8&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=4][Complete Computer Networks Course]]
++ [[https://www.youtube.com/watch?v=IA90BTozdow][Complete YAML Course]]
++ [[https://yaml.org/spec/1.2.2/][YAML Docs]]
++ [[https://www.youtube.com/watch?v=Wvf0mBNGjXY&t=237s][DevOps Prerequisites Course - Getting started with DevOps]]
+
+*** Server Management
+
++ [[https://www.youtube.com/watch?v=HsDIz0zKwjs][Linux For Server Management]]
++ [[https://ubuntu.com/server/docs][Ubuntu Server Guide]]
++ [[https://www.linode.com/docs/guides/linux-system-administration-basics/][Linux System Administration Basics]]
+
+*** Shell Scripting
+
++ [[https://www.youtube.com/watch?v=zsajhz2_50g&list=PLdpzxOOAlwvIZ7u-gtpX_bozrspUbTQ1S][Shell Scripting for DevOps + Hands on projects]]
++ [[https://www.youtube.com/watch?v=cQepf9fY6cE&list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_][Shell Scripting Tutorial for Beginners]]
++ [[https://www.youtube.com/watch?v=GtovwKDemnI&t=1658s][Shell Scripting Tutorial | Shell Scripting Crash Course]]
+
+*** Containers
+
++ [[https://www.youtube.com/watch?v=0qotVMX-J5s][Containers Explained]]
++ Docker
+  * [[https://www.youtube.com/watch?v=17Bl31rlnRM][Docker Tutorial - Kunal Khushwaha(Youtube)]]
+  * [[https://www.youtube.com/watch?v=3c-iBn73dDE][Docker Tutorial - TechWorld with Nana(Youtube)]]
+  * [[https://www.youtube.com/watch?v=9zUHg7xjIqQ][Learn Docker - freecodecamp(Youtube)]]
+  * [[https://docs.docker.com/][Docs]]
+  * [[https://www.youtube.com/watch?v=RqTEHSBrYFw&t=3615s][Complete Docker Course - From BEGINNER to PRO! (Learn Containers) - by DevOps Directive]]
++ [[https://www.youtube.com/watch?v=PsWeSg38XFY&feature=youtu.be][Build a NodeJS Application With Docker]]
+
+*** Configuration Management
+
++ [[https://www.youtube.com/watch?v=_TVNCTK808I][Chef Vs Puppet Vs Ansible]]
++ [[https://www.youtube.com/watch?v=wgQ3rHFTM4E][What Is Ansible]]
++ [[https://www.youtube.com/watch?v=O1s16cYzC10][Chef,Puppet,Ansible Course]]
++ [[https://docs.ansible.com/ansible/latest/index.html][Ansible Docs]]
++ [[https://www.youtube.com/playlist?list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70][Getting started with Ansible(Youtube)]]
++ [[https://spacelift.io/blog/ansible-tutorial][Ansible Tutorial for Beginners: Ultimate Playbook & Examples - Spacelift]]
+
+*** Container Orchestration
+
++ Kubernetes
+  * [[https://www.youtube.com/watch?v=KVBON1lA9N8][Kubernetes Tutorial - Kunal Khushwaha(Youtube)]]
+  * [[http://civo.io/kunal][Learn Kubernetes - Civo Academy]]
+  * [[https://www.youtube.com/watch?v=PN3VqbZqmD8&t=7206s][Kubernetes 101 for beginners by Saiyam Pathak]]
+  * [[https://www.tutorialspoint.com/kubernetes/index.htm][Kubernetes - Tutorialspoint]]
+  * [[https://www.freecodecamp.org/news/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882/][Learn Kubernetes in Under 3 Hours - FreeCodeCamp]]
+  * [[https://www.youtube.com/watch?v=X48VuDVv0do][Kubernetes Tutorial - TechWorld with Nana(Youtube)]]
+  * [[https://www.youtube.com/watch?v=7XDeI5fyj3w][Complete Kubernetes Course - Hitesh Choudhary(Youtube)]]
+  * [[https://www.youtube.com/watch?v=PH-2FfFD2PU][Kubernetes in 5 minutes - VMware(Youtube)]]
+  * [[https://kubecampus.io/][Learn Kubernetes with hands-on labs - KubeCampus]]
+
+*** Infrastructure Provisioning
+
++ [[https://learn.hashicorp.com/terraform][Terraform Tutorials - Hashicorp]]
++ [[https://www.youtube.com/watch?v=l5k1ai_GBDE][Terraform Tutorial - TechWorld with Nana(Youtube)]]
++ [[https://www.youtube.com/watch?v=SLB_c_ayRMo][Terraform Course - FreeCodeCamp(Youtube)]]
++ [[https://www.youtube.com/watch?v=7xngnjfIlK4][Complete Terraform Course - DevOps Directive(Youtube)]]
++ [[https://www.terraform.io/intro][What is Terraform - Hashicorp]]
+
+*** Service Mesh
+
++ [[https://www.youtube.com/watch?v=vh1YtWjfcyk][What Is A Service Mesh]]
++ Istio
+  * [[https://www.youtube.com/watch?v=6zDrLvpfCK4][Istio Service Mesh Explained - IBM Technology]]
+  * [[https://www.youtube.com/watch?v=16fgzklcF7Y][Istio & Service Mesh - TechWorld with Nana(Youtube)]]
+  * [[https://istio.io/latest/docs/setup/getting-started/][Docs]]
++ Consul
+  * [[https://www.youtube.com/watch?v=UHLr8UsHuDA][Introduction]]
+  * [[https://www.consul.io/docs][Docs]]
+
+*** CI/CD
+
++ [[https://www.youtube.com/watch?v=62N8UiWUdQo&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=21][What Is CI/CD]]
++ [[https://www.youtube.com/watch?v=R8_veQiYBjI][Github Actions]]
++ Jenkins
+  * [[https://www.youtube.com/watch?v=7KCS70sCoK0][Jenkins Tutorial - TechWorld with Nana(Youtube)]]
+  * [[https://www.tutorialspoint.com/jenkins/index.htm][Jenkins Tutorial - Tutorialspoint]]
+  * [[https://www.jenkins.io/doc/tutorials/][Docs]]
+
+*** Infrastructure Monitoring
+
++ [[https://www.youtube.com/watch?v=9TJx7QTrTyo][Prometheus and Grafana Tutorial - The Digital Life(Youtube)]]
++ [[https://www.youtube.com/watch?v=h4Sl21AKiDg][How Prometheus Monitoring works - TechWorld with Nana(Youtube)]]
++ [[https://prometheus.io/docs/introduction/overview/][Prometheus Docs]]
++ [[https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-prometheus/][Grafana Docs]]
+
+*** Application Monitoring
+
++ New Relic
+  * [[https://www.youtube.com/watch?v=aU6A-45c7Vs][New Relic - Amazon Web Services(Youtube)]]
+  * [[https://www.youtube.com/c/NewRelicInc][New Relic(Youtube)]]
+  * [[https://www.youtube.com/watch?v=YHyopdCfxsQ][Ingesting OpenTelemetry data with New Relic One - New Relic(Youtube)]]
++ Jaegar
+  * [[https://www.youtube.com/watch?v=aMZoUIG-mgY][Getting Started with Jaeger - CNCF(Youtube)]]
+  * [[https://www.youtube.com/watch?v=UNqilb9_zwY][Jaeger Intro -CNCF(Youtube)]]
+  * [[https://www.jaegertracing.io/docs/1.36/getting-started/][Docs]]
+
+*** Logs Management
+
++ Elastic
+  * [[https://www.youtube.com/watch?v=ZP0NmfyfsoM][What is Elasticsearch? - IBM Technology(Youtube)]]
+  * [[https://www.elastic.co/observability/log-monitoring][Elastic.co Webinar]]
+  * [[https://www.youtube.com/watch?v=tOqWX9JWEYc][OpenDev 10.2017 - Microsoft Azure(Youtube)]]
++ ELK
+  * [[https://www.cprime.com/resources/blog/log-management-elk-and-why-you-should-care/][Log Management With ELK - cprime]]
+  * [[https://sematext.com/guides/elk-stack/][What is ELK stack - sematext]]
+  * [[https://www.youtube.com/watch?v=4X0WLg05ASw][What is ELk? - Tech Primer(Youtube)]]
+  * [[https://www.youtube.com/watch?v=MuPhf6uL-kE][Log Management at Scale with ELK - Logz.io(Youtube)]]
+
+*** Cloud Providers
+
++ [[https://www.civo.com/docs][Civo]]
++ [[https://docs.aws.amazon.com/][AWS]]
++ [[https://cloud.google.com/docs][Google Cloud Provider]]
++ [[https://docs.microsoft.com/en-us/azure/?product=popular][Azure]]
++ [[https://www.youtube.com/watch?v=mHtCkmshfks][Getting started with Civo - Youtube]]
++ [[https://www.youtube.com/watch?v=SOTamWNgDKc][AWS Certified Cloud Practitioner Certification Course - Youtube]]
++ [[https://www.youtube.com/watch?v=pTm0iI3_pIQ][Google Cloud Platform Full Course - Youtube]]
++ [[https://www.youtube.com/watch?v=jpno8FSqpc8][Google Cloud Certified Cloud Associate Cloud Engineer Course - Youtube]]
++ [[https://www.youtube.com/watch?v=NKEFWyqJ5XA][Microsoft Certified Azure Fundamentals Certification Course - Youtube]]
+
+*** Sample Project Ideas
+
++ [[https://www.youtube.com/watch?v=jFfo23yIWac][11 Projects With Go]]
++ [[https://www.youtube.com/playlist?list=PLxzKY3wu0_FJdJd3IKdiM4Om1hGo2Hsdt][DevOps Project]]
++ [[https://youtube.com/playlist?list=PLkWRCY_kK0Gh1NTvgHUE0naF4-mOURp7e][20 Real Time DevOps Projects]]
+
+*** Devops Books
+
++ [[https://github.com/rohitg00/DevOps_Books][Collection of some DevOps books]]
+
+
+** Source
+
++ https://github.com/WeMakeDevs/roadmaps/tree/main/DevOps

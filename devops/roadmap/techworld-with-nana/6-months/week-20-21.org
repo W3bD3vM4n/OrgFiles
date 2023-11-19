@@ -1,0 +1,58 @@
+#+title:    Automation with Python
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 5
+
+** Week 20-21
+
+  After having learnt the programming basics and now being able to write programs, you will learn how to use this Python knowledge for DevOps use cases.
+
+  - *Cloud Automation - AWS & Python*
+    + /Introduction to Boto (AWS Library for Python)/
+
+
+    + /Install Boto3 and connect to AWS/
+
+
+    + /Getting familiar with Boto Library/
+      - =Automate creating VPC and Subnets=
+
+
+    + /Terraform vs Python - understand the differences and when to use which tool/
+
+
+
+  - *Automation Tasks around EC2 Instance:*
+    + /Health Check: Automatically check the status of EC2 Instances/
+
+
+    + /Scheduler: Write a scheduled task that executes the status check in a specified interval automatically/
+
+
+    + /Configure Server: Automate adding tags to EC2 Instances with the environment label/
+
+
+    + /Automate getting cluster information from all EKS clusters in your AWS account/
+
+
+
+  - *Automation Tasks around Data Backup & Restore*
+    + /Backup EC2 Instances: Automate creating snapshots of EC2 Volumes/
+
+
+    + /Cleanup Task: Write a cleanup script to automate cleanup of old EC2 snapshots/
+
+
+    + /Restore EC2 Volume: Write a program to restore an EC2 volume with the backup snapshot and attach it to the EC2 Instance/
+
+
+
+  - *Automation Tasks around Website Monitoring (without AWS)*
+    + /Monitoring: Write a scheduled automation program that monitors the website's health/
+
+
+    + /E-Mail Notification: Configure python program to automatically send an email every time the website or server is down/
+
+
+    + /Recover: Restart the application and reboot the underlying remote server/

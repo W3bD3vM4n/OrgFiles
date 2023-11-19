@@ -1,0 +1,85 @@
+#+title:    Build Automation - CI/CD with Jenkins
+#+author:   h4ss4n
+#+date:     <2023-06-02 vie.>
+
+* MONTH 3
+
+** Week 09-10
+
+  - *What is Build Automation? What is Jenkins?*
+
+
+  - *Install Jenkins on cloud server (Docker vs Server install)*
+
+
+  - *Jenkins plugins*
+
+
+  - *Installing build tools in Jenkins*
+
+
+  - *Jenkins Basics Demo*
+    + /Create Freestyle Job/
+
+
+    + /Configure Git Repository/
+
+
+    + /Run Tests and Build Java Application/
+
+
+  - *Docker in Jenkins*
+    + /Make Docker commands available in Jenkins/
+
+
+    + /Build Docker Image/
+
+
+    + /Push to DockerHub Repo/
+
+
+    + /Push to Nexus Repo/
+
+
+  - *Jenkins Pipeline (Use Cases)*
+
+
+  - *Create a simple Pipeline Job*
+
+
+  - *Full Jenkinsfile Syntax Demo*
+
+
+  - *Create a full Pipeline Job*
+    + /Build Java App/
+
+
+    + /Build Docker Image/
+
+
+    + /Push to private DockerHub/
+
+
+  - *Create a Multi-Branch Pipeline Job*
+
+
+  - *Credentials in Jenkins*
+
+
+  - *Jenkins Shared Library*
+
+
+  - *WebHooks - Trigger Jenkins Jobs automatically*
+
+
+  - *Versioning Application in Continuous Deployment*
+    + /Concepts of Versioning in Software Development/
+
+
+    + /Increment Application version from Jenkins Pipeline/
+
+
+    + /Set new Docker Image version from Jenkins Pipeline/
+
+
+    + /Commit Version Bump from Jenkins Pipeline/
