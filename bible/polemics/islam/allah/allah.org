@@ -4,6 +4,8 @@
 
 * Index
 - [[Characteristics][Characteristics]]
+  + [[Only one][Only one]]
+  + [[Self-sufficiency][Self-sufficiency]]
   + [[99 names][99 names]]
 - [[Attributes][Attributes]]
   + [[Body][Body]]
@@ -30,15 +32,18 @@
 
     Allah hate to have [[file:~/org/bible/polemics/islam/muhammad/muhammad.org::Polytheism nº1][daugthers]] but no sons.
 
+
   + *The problem:* The Quran contradicts the Quran
 
     If Allah want to have a son he'll find a woman of his kind >> (Tafsir Tafsir al-Jalalayn, Quran 21:17)
     - ¿Why Allah mention IF HE WISH, he can sleep with women?
       A claim from the truth God cannot be in vein (if a consort doesn't even exist)
 
+
   + *The problem:* Allah isn't "All-powerful" anymore
 
     Allah can't have a son without a girlfriend >> (Quran 6:101)
+
 
   + *The problem:* Allah have sex with himself
 
@@ -52,7 +57,15 @@
 
     In Christianity is [[file:~/org/bible/apologetics/christian-faith/christian-faith.org::God (The Father)][different]].
 
+*** Self-sufficiency
+
+- *In response of:* Allah is self-sufficient and doesn't need anybody
+  + *The problem:* Their own sources debunk that claim
+
+  Allah need humans to sin to forgive them, and if they don't sin he erase them to create sinners >> (Sahih Muslim, Book 037, Number 6621)
+
 *** 99 names
+
 
 ** Attributes
 
@@ -67,8 +80,8 @@
 
 ** Jannah (Paradise)
 
-** Jahannam (Hell)
 
+** Jahannam (Hell)
 
 - *In response of:* Muslims don't go to hell (only non believers)
   + *The problem:* Their own sources debunk that claim
@@ -84,6 +97,7 @@
 
    https://www.answering-islam.org/Shamoun/muslims_in_hell.htm
 
+
 ** Creation
 
 *** Mala'ikah (Angels)
@@ -95,6 +109,7 @@
     - separates Jibril from Allah, Angels, Humans... so it left the genie >> (Quran 2:98)
     - angels have 2 to 4 wings in Quran (Quran 35:1)
     - in Hadith Jibril has 600 wings, contrdicts the Quran (Sahih al-Bukhari 4856)
+
 
   + *The problem:* Jibril comes also as a man
     - and angel as the same time)" >> (Quran 19:17)

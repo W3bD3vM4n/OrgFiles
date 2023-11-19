@@ -49,17 +49,53 @@
 - *In response of:* Quran perfect preservation until today
   + *The problem:* Their own sources debunk that claim
 
-    Muhammad didn't perfectly memorise the Quran >> (Sahih al-Bukhari 5037)
+    There are 14 evidences about this lie:
 
-    The collections that were made by the companions of Muhammad were not identical >> Quran 92:3) vs (Sahih al-Bukhari 4944)
+    1. Muhammad didn't perfectly memorise the Quran >> (Sahih al-Bukhari 5037)
 
-    All this Qurans with different meanings (not just grammatical errors) led to almost a civil war forcing the third caliph Uthman, to choose one of these collections and burn the others >> (Sahih al-Bukhari 4987)
+    2. Muhammad edit his own recitation of the Quran >> (Quran 4:95) vs (Sahih al-Bukhari 4990)
 
-    Although a large number of pre-1924 Qurans were destroyed again by dumping them in the river Nile because still didn't match the meaning, leaving us with the 1924 Egyptian Standard Edition of the Quran as we known today >> (Reynolds, Gabriel Said (2008). "Introduction: Qur'anic Studies and its Controversies")
+    3. Muhammad taught different versions of the Quran >> (Sahih al-Bukhari 4992)
 
-    Finally the problem with 'Hafs Ibn Abi Dawud Al Kufi' as the transmitter of that Quran, being accused by muslims scholars to be a fraud, thief and liar >> (Ibn Hijr, Tahtheeb-Al-Tahtheeb, Volume 2, p. 245)
+    4. Muhammad "preserve" the Quran by teaching it himself >> (Sahih al-Bukhari 4999)
+
+    5. Muhammad not collect the words of the Quran into one authorised book >> (Sahih al-Bukhari 4679) (Sahih Muslim 1049)
+
+    6. The collections that were made by the companions of Muhammad were not identical >> (Quran 92:3) vs (Sahih al-Bukhari 4944)
+      + There is a famous catalogue of 7 books composed about discrepancies of the Quranic Manuscripts made by the Arabic librarian, Ibn Abi Ya'qub al-Nadim
+
+    7. This led to arguments within the early Muslim community >> (Labib as-Said, The Recited Koran: A History of the First Recorded Version, tr. B. Weis, et al., Princeton, New Jersey: The Darwin Press, 1975, p. 23)
+      + The third caliph Uthman, solved this problem by choosing one of these collections and burn the others >> (Sahih al-Bukhari 4987)
+
+    8. Not all of the companions of the Muhammad agree with Uthman’s actions >> (Sahih Muslim 2462) (Sunan Al-Tirmithi, Dar Al-Kotob Al-ilmiyah, 2008, vol. 4, no. 3105, p. 134)
+
+    9. The Uthmanic Quran isn't complete >> (Sahih Muslim 1050) (Sahih al-Bukhari 6830)
+
+    10. The ancient Uthmanic Quran manuscripts aren't identical to the modern Quran
+      + Google for Samarqand MSS VS 1924 Egyptian Edition for a comprehensive comparison
+
+    11. Qurans used today aren't identical to Uthman version because it didn't include the vowel markings or the dots used to distinguish between certain letters >> (Sobhul-A’sha, vol. 1, p. 420)
+      + There are ten such different Qur’ans accepted today, the two main versions are the Quran according to Hafs and Warsh
+      + Hafs described by Muslim scholars as a liar who was an untrustworthy thief >> (Ibn Hijr, Tahtheeb-Al-Tahtheeb, Volume 2, p. 245)
+
+    12. Not all the variants of the Quran are authentic
+      + A six volume encyclopedia set which records all known variants, it's entitled: Mu'jam al-qiraa'aat al-Quraaneeyah, ma'a maqaddimah fee qiraa'aat wa ashhar al-qurraa
+
+    13. The chain of narration for the modern Quran not guarantee it's authenticity >> (Sahih al-Bukhari 4986)
+
+    14. The 1924 Egyptian Standard Edition of the Quran it's what is used today
+      + To standardize it, a large number of pre-1924 Qurans were destroyed by dumping them in the river Nile >> (Reynolds, Gabriel Said, 2008. "Introduction: Qur'anic Studies and its Controversies")
 
     _NOTE:_ In the web page of 'easyquranstore', they have 13 versions of the Quran in Arabic or in the web page 'daralfiker' in Jordan has over 20 Arabic versions of the Quran for sale, so we can see why the ancient Uthmanic Quran manuscripts aren't identical to the modern Quran (Samarqand MSS VS 1924 Egyptian Edition).
+
+
+- *In response of:* Quran remain the same not even a dot has change
+  + *The problem:* It was invented a millenia after Muhammad's death
+
+The propaganda about the Quran which says, it: "exists exactly as it had been revealed to the Prophet; not a word - nay, not a dot of it - has been changed"
+
+Appeared in India in the year 1903 (20th century) from a islamic scholar called Abul A'la Maududi.
+Nothing comes from Allah/Muhammad.
 
 *** Quran Only Muslims
 
@@ -69,6 +105,7 @@
   + ¿Where it's say Jibril is an angel?
 
 *** Alleged Bible corruption
+
 
 **** Trinity
 
@@ -87,6 +124,11 @@
 
     The Quran says Christian believe that Allah & Jesus are one, which means there is not 2nd god, or 3rd god >> (Quran 5:17) (Quran 5:72)
 
+    Nowhere in the Bible says that a man became God, but the [[file:~/org/bible/apologetics/christian-faith/christian-faith.org::Jesus (The Son)][other way around]].
+
+    Muhammad doesn't know anything about the [[~/org/bible/apologetics/christian-faith/christian-faith.org::The Holy Ghost][spirit subject]] (only Allah knows) >> (Quran 17:85)
+
+
   + *The problem:* The Quran contradicts the Quran
 
     Also the Quran in other verse claims that the trinity consists in three gods Allah, Mary and Jesus>> (Quran 5:116)
@@ -94,6 +136,7 @@
 
     ¿If Allah can see the future, in any Bible we have today (our believe) why he didn't get it right?
     It seems like the scoop of knowledge only reach a 7th century man.
+
 
   + *The problem:* The Quran also use "We" when refer to Allah
 
@@ -110,24 +153,84 @@
 
 **** Isa (Jesus)
 
+- *In response of:* Jesus affirm that he isn't God >> (Quran 5:116)
+  + *The answer:* The verse itself leads to a bigger problem
+
+    - Nowhere in the Bible says we worship Mary as a goddess (it's The Father, The Son, and The Holy Ghost). How can Allah be all-knowing and made that mistake?
+      + Seems like Allah is attached to the knowledge of a 7th century Muhammad and the information he had at his disposal.
+
+
+- *In response of:* Where Allah tricked people
+  + *The answer:* He tricked the Jews, the Romans, Jesus's mother, the Apostles, etc >> (Quran 4:157)
+
+    - Allah trick people for 600 years (almost a millenium) making everybody believe that Jesus (with virgin birth, miracles, death and resurrection) is the Son of God and doing Christianity flourish (until now) condemning everyone of them to hell >> (Quran 5:72)
+
+    - Allah is the best of deceivers (liars), just like Satan >> (Quran 3:54)
+
+
 - *In response of:* How to worship a God who came from a female private part?
   + But at the same time their book says Jesus is Holy >> (Quran 19:19)
   + The irony that Muhammad maked wudu in [[file:~/org/bible/polemics/islam/muhammad/muhammad.org::Unholiness][filth]]
 
+
+- *In response of:* How can God get beaten up and killed?
+  + *The answer:* It's all about fulfilling a prophecy
+
+    Jesus gave his life WILLINGLY to fulfill a prophecy >> (John 10:17)
+
+    The Prophecy it's called the "Suffering Servant", which details the death of Messiah for the sins of His people (700 years before Jesus come down  "oficially" to this world) >> (Isaiah 53)
+    - His resurrection from the dead is also foretold by Israel’s King David >> (Psalm 16:10) (Psalm 22:19-24)
+
+
+- *In response of:* How can God needed food, sleep, and to relieve himself?
+  + *The answer:* Jesus emptied himself, by taking the form of a servant, being born in the likeness of men
+
+    The word translated "emptied" is a form of kenoó, from which we get the word kenosis.
+
+    Kenosis is the act of Jesus taking on a human nature with all of its limitations, except with no sin >> (Philippians 2:7)
+    - As one Bible scholar wrote, "At His incarnation He remained 'in the form of God' and as such He is Lord and Ruler over all, but He also accepted the nature of a servant as part of His humanity" >> (J. J. Müller, The Epistles of Paul to the Philippians and to Philemon, p. 82).
+
+
 - *In response of:* Christians are sons of God like Jesus?
-  + *The answer:* We're not the same as Jesus, but spiritual sons >> (Matthew 6:9-13)
+  + *The answer:* We're not the same as Jesus, but adoptives "spiritual sons"... not in the human way >> (Matthew 6:9-13) (Isaiah 64:7) (1 John 3:1)
 
 **** Bulus (Paul)
 
 - *In response of:* Paul corrupted the Bible (is a liar)
   + *The problem:* Their own sources debunk that claim
 
-    Paul it's describes as a good disciple of Jesus and even Allah granted him powers >> (Quran 3:55) (Quran 61:14) plus more details about those verses in Tafsir ibn Ashur & Tafsir ibn Kathir.
+    Paul it's described as a good disciple of Jesus and even Allah granted him powers >> (Quran 3:55) (Tafsir Al-Qurtubi, Quran 61:14) plus more details about those verses in Tafsir ibn Ashur & Tafsir ibn Kathir.
+
+    The claim of "Bible Corruption" or "Pauline Christianity" appear in Spain in the year 1056 (11th century) when a muslim called Ibn Hazm read the Bible for the first time and realize the contradictions with the Quran, coming with the escape goat to deal with the problem.
 
     _Sources:_
     https://www.answering-islam.org/Index/P/paul.html
     https://www.answering-islam.org/Shamoun/christs_apostles.htm
     https://www.answering-islam.org/Shamoun/quran_affirms_paul.htm
+
+
+- *In response of:* Christians perverted the scriptures
+  + *The answer:* We have proof and evidence that the Bible is the same today as it was in the past
+
+    There's a whole science behind this called textual criticism. Of all the discrepancies between the approximately 20.000 copies of ancient texts of the New Testament in various languages (Syriac, Aramaic, Egyptian Optic, Latin, Greek, etc) the more they are the more it confirm the authority and preservation of the scriptures because they happen to match.
+
+    The discrepancies consist basically overall in minor misspellings. There's about 8,000 discrepancies over 20,000 manuscripts. Not one single discrepancy -not even one- affects any doctrine of Christianity whatsoever, not one! So there's nothing in the Bible that has been changed by Christians in such a way as to change anything that Jesus said fundamentally.
+
+    There is a Bible that is 300 years older than Muhammad in the museum at the University of Oxford and anyone can go there and see that this Bible matches the Bible we have today. Christians did not change the scriptures, therefore Muhammad is condemned as a false prophet.
+
+
+  + *The problem:* Their own sources confirm that the Torah (OT) and the Gospel (NT) are true
+
+    This is actually the root of "the Geat Islamic Dilemma", because the entire Bible contradicts and condemns Muhammad. Because this reason muslims must directly contradict Muhammad saying the scriptures are corrupt.
+
+    So the Axiom says: Muhammad affirmed the scriptures, the scriptures condemn him soundly, therefore if Muhammad was right about the Bible "he is a false prophet and islam is wrong". If Muhammad was wrong about the Bible, "he's still a false prophet and Islam is wrong".
+
+    So either way, Muhammad is a false prophet, and Islam is still wrong. There's no way out of this. It's inescapable!
+
+  _Sources:_
+  https://www.answering-islam.org/Silas/bible.htm
+  https://www.answering-islam.org/authors/shamoun/recite_scripture.html
+
 
 ** Hadith
 
