@@ -111,7 +111,7 @@ To bind the database to the application (MVC, Blazor, etc) with the Database-Fir
 
        #+begin_src csharp
 
-        builder.Services.AddSqlServer<CrudMvcContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+        builder.Services.AddSqlServer<TableNameContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
 
        #+end_src
 
@@ -129,7 +129,7 @@ To bind the database to the application (MVC, Blazor, etc) with the Database-Fir
             "AllowedHosts": "*",
 
             "ConnectionStrings": {
-                "DefaultConnection": "Data Source=localhost;Initial Catalog=CrudMvc;Integrated Security=True"
+                "DefaultConnection": "Data Source=localhost;Initial Catalog=TableName;Integrated Security=True"
             }
         }
 
